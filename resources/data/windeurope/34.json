@@ -1,0 +1,2552 @@
+{
+  "log": {
+    "version": "1.2",
+    "creator": {
+      "name": "WebInspector",
+      "version": "537.36"
+    },
+    "pages": [
+      {
+        "startedDateTime": "2026-02-27T02:24:19.676Z",
+        "id": "page_26",
+        "title": "https://windeurope.org/data/interactive-data-and-maps/wind-farms/?anchorage=Offshore&pg=34",
+        "pageTimings": {
+          "onContentLoad": 840.578999981517,
+          "onLoad": 1613.3609999960754
+        }
+      }
+    ],
+    "entries": [
+      {
+        "_connectionId": "202683",
+        "_initiator": {
+          "type": "script",
+          "stack": {
+            "callFrames": [
+              {
+                "functionName": "authorizedFetch",
+                "scriptId": "16682",
+                "url": "https://plankton.windeurope.org/assets/dataviz-8cd744b569c5c413de3617f92b66078b0df35f6f4c481b8ceb4dfa7907e9283b.js",
+                "lineNumber": 87444,
+                "columnNumber": 25
+              },
+              {
+                "functionName": "execute",
+                "scriptId": "16682",
+                "url": "https://plankton.windeurope.org/assets/dataviz-8cd744b569c5c413de3617f92b66078b0df35f6f4c481b8ceb4dfa7907e9283b.js",
+                "lineNumber": 92350,
+                "columnNumber": 25
+              },
+              {
+                "functionName": "fetch2",
+                "scriptId": "16682",
+                "url": "https://plankton.windeurope.org/assets/dataviz-8cd744b569c5c413de3617f92b66078b0df35f6f4c481b8ceb4dfa7907e9283b.js",
+                "lineNumber": 110716,
+                "columnNumber": 38
+              },
+              {
+                "functionName": "",
+                "scriptId": "16682",
+                "url": "https://plankton.windeurope.org/assets/dataviz-8cd744b569c5c413de3617f92b66078b0df35f6f4c481b8ceb4dfa7907e9283b.js",
+                "lineNumber": 110719,
+                "columnNumber": 2
+              },
+              {
+                "functionName": "run",
+                "scriptId": "16682",
+                "url": "https://plankton.windeurope.org/assets/dataviz-8cd744b569c5c413de3617f92b66078b0df35f6f4c481b8ceb4dfa7907e9283b.js",
+                "lineNumber": 2709,
+                "columnNumber": 15
+              },
+              {
+                "functionName": "",
+                "scriptId": "16682",
+                "url": "https://plankton.windeurope.org/assets/dataviz-8cd744b569c5c413de3617f92b66078b0df35f6f4c481b8ceb4dfa7907e9283b.js",
+                "lineNumber": 20589,
+                "columnNumber": 85
+              },
+              {
+                "functionName": "run",
+                "scriptId": "16682",
+                "url": "https://plankton.windeurope.org/assets/dataviz-8cd744b569c5c413de3617f92b66078b0df35f6f4c481b8ceb4dfa7907e9283b.js",
+                "lineNumber": 2709,
+                "columnNumber": 15
+              },
+              {
+                "functionName": "",
+                "scriptId": "16682",
+                "url": "https://plankton.windeurope.org/assets/dataviz-8cd744b569c5c413de3617f92b66078b0df35f6f4c481b8ceb4dfa7907e9283b.js",
+                "lineNumber": 20589,
+                "columnNumber": 51
+              },
+              {
+                "functionName": "runWithContext",
+                "scriptId": "16682",
+                "url": "https://plankton.windeurope.org/assets/dataviz-8cd744b569c5c413de3617f92b66078b0df35f6f4c481b8ceb4dfa7907e9283b.js",
+                "lineNumber": 7816,
+                "columnNumber": 17
+              },
+              {
+                "functionName": "createSetupStore",
+                "scriptId": "16682",
+                "url": "https://plankton.windeurope.org/assets/dataviz-8cd744b569c5c413de3617f92b66078b0df35f6f4c481b8ceb4dfa7907e9283b.js",
+                "lineNumber": 20589,
+                "columnNumber": 21
+              },
+              {
+                "functionName": "useStore",
+                "scriptId": "16682",
+                "url": "https://plankton.windeurope.org/assets/dataviz-8cd744b569c5c413de3617f92b66078b0df35f6f4c481b8ceb4dfa7907e9283b.js",
+                "lineNumber": 20787,
+                "columnNumber": 8
+              },
+              {
+                "functionName": "setup",
+                "scriptId": "16682",
+                "url": "https://plankton.windeurope.org/assets/dataviz-8cd744b569c5c413de3617f92b66078b0df35f6f4c481b8ceb4dfa7907e9283b.js",
+                "lineNumber": 110838,
+                "columnNumber": 33
+              },
+              {
+                "functionName": "callWithErrorHandling",
+                "scriptId": "16682",
+                "url": "https://plankton.windeurope.org/assets/dataviz-8cd744b569c5c413de3617f92b66078b0df35f6f4c481b8ceb4dfa7907e9283b.js",
+                "lineNumber": 4051,
+                "columnNumber": 18
+              },
+              {
+                "functionName": "setupStatefulComponent",
+                "scriptId": "16682",
+                "url": "https://plankton.windeurope.org/assets/dataviz-8cd744b569c5c413de3617f92b66078b0df35f6f4c481b8ceb4dfa7907e9283b.js",
+                "lineNumber": 11468,
+                "columnNumber": 24
+              },
+              {
+                "functionName": "setupComponent",
+                "scriptId": "16682",
+                "url": "https://plankton.windeurope.org/assets/dataviz-8cd744b569c5c413de3617f92b66078b0df35f6f4c481b8ceb4dfa7907e9283b.js",
+                "lineNumber": 11429,
+                "columnNumber": 35
+              },
+              {
+                "functionName": "mountComponent",
+                "scriptId": "16682",
+                "url": "https://plankton.windeurope.org/assets/dataviz-8cd744b569c5c413de3617f92b66078b0df35f6f4c481b8ceb4dfa7907e9283b.js",
+                "lineNumber": 9758,
+                "columnNumber": 6
+              },
+              {
+                "functionName": "processComponent",
+                "scriptId": "16682",
+                "url": "https://plankton.windeurope.org/assets/dataviz-8cd744b569c5c413de3617f92b66078b0df35f6f4c481b8ceb4dfa7907e9283b.js",
+                "lineNumber": 9724,
+                "columnNumber": 8
+              },
+              {
+                "functionName": "patch",
+                "scriptId": "16682",
+                "url": "https://plankton.windeurope.org/assets/dataviz-8cd744b569c5c413de3617f92b66078b0df35f6f4c481b8ceb4dfa7907e9283b.js",
+                "lineNumber": 9190,
+                "columnNumber": 10
+              },
+              {
+                "functionName": "render2",
+                "scriptId": "16682",
+                "url": "https://plankton.windeurope.org/assets/dataviz-8cd744b569c5c413de3617f92b66078b0df35f6f4c481b8ceb4dfa7907e9283b.js",
+                "lineNumber": 10513,
+                "columnNumber": 6
+              },
+              {
+                "functionName": "mount",
+                "scriptId": "16682",
+                "url": "https://plankton.windeurope.org/assets/dataviz-8cd744b569c5c413de3617f92b66078b0df35f6f4c481b8ceb4dfa7907e9283b.js",
+                "lineNumber": 7774,
+                "columnNumber": 12
+              },
+              {
+                "functionName": "app2.mount",
+                "scriptId": "16682",
+                "url": "https://plankton.windeurope.org/assets/dataviz-8cd744b569c5c413de3617f92b66078b0df35f6f4c481b8ceb4dfa7907e9283b.js",
+                "lineNumber": 13519,
+                "columnNumber": 18
+              },
+              {
+                "functionName": "",
+                "scriptId": "16666",
+                "url": "https://windeurope.org/data/interactive-data-and-maps/wind-farms/?anchorage=Offshore&pg=34",
+                "lineNumber": 1543,
+                "columnNumber": 65
+              }
+            ],
+            "parent": {
+              "description": "await",
+              "callFrames": [
+                {
+                  "functionName": "",
+                  "scriptId": "16666",
+                  "url": "https://windeurope.org/data/interactive-data-and-maps/wind-farms/?anchorage=Offshore&pg=34",
+                  "lineNumber": 1544,
+                  "columnNumber": 14
+                }
+              ]
+            }
+          }
+        },
+        "_priority": "High",
+        "_resourceType": "fetch",
+        "cache": {},
+        "connection": "443",
+        "pageref": "page_26",
+        "request": {
+          "method": "POST",
+          "url": "https://plankton.windeurope.org/graphql?ref=yesterday-generations",
+          "httpVersion": "h3",
+          "headers": [
+            {
+              "name": ":authority",
+              "value": "plankton.windeurope.org"
+            },
+            {
+              "name": ":method",
+              "value": "POST"
+            },
+            {
+              "name": ":path",
+              "value": "/graphql?ref=yesterday-generations"
+            },
+            {
+              "name": ":scheme",
+              "value": "https"
+            },
+            {
+              "name": "accept",
+              "value": "*/*"
+            },
+            {
+              "name": "accept-encoding",
+              "value": "gzip, deflate, br, zstd"
+            },
+            {
+              "name": "accept-language",
+              "value": "it-IT,it;q=0.9,en-US;q=0.8,en;q=0.7,es;q=0.6,fr;q=0.5,nl;q=0.4"
+            },
+            {
+              "name": "content-length",
+              "value": "511"
+            },
+            {
+              "name": "content-type",
+              "value": "application/json"
+            },
+            {
+              "name": "origin",
+              "value": "https://windeurope.org"
+            },
+            {
+              "name": "priority",
+              "value": "u=1, i"
+            },
+            {
+              "name": "referer",
+              "value": "https://windeurope.org/"
+            },
+            {
+              "name": "sec-ch-ua",
+              "value": "\"Not:A-Brand\";v=\"99\", \"Google Chrome\";v=\"145\", \"Chromium\";v=\"145\""
+            },
+            {
+              "name": "sec-ch-ua-mobile",
+              "value": "?0"
+            },
+            {
+              "name": "sec-ch-ua-platform",
+              "value": "\"Windows\""
+            },
+            {
+              "name": "sec-fetch-dest",
+              "value": "empty"
+            },
+            {
+              "name": "sec-fetch-mode",
+              "value": "cors"
+            },
+            {
+              "name": "sec-fetch-site",
+              "value": "same-site"
+            },
+            {
+              "name": "user-agent",
+              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36"
+            },
+            {
+              "name": "x-requested-with",
+              "value": "XMLHttpRequest"
+            }
+          ],
+          "queryString": [
+            {
+              "name": "ref",
+              "value": "yesterday-generations"
+            }
+          ],
+          "cookies": [],
+          "headersSize": -1,
+          "bodySize": 511,
+          "postData": {
+            "mimeType": "application/json",
+            "text": "{\"query\":\"query($windPowerTypes: [EntsoePowerTypeEnum!]){\\n  areas:entsoeAreas { name ...areaData }\\n}\\n\\nfragment areaData on AreaData {\\n  ...powerTypeSpecificData\\n  loadYesterday\\n  powerTypes(name: $windPowerTypes) { name ...powerTypeSpecificData }\\n}\\n\\nfragment powerTypeSpecificData on EntsoePowerTypeSpecificData {\\n  generation(powerTypes: { name: $windPowerTypes })\\n  generationHoursReported(powerTypes: { name: $windPowerTypes })\\n}\",\"variables\":{\"windPowerTypes\":[\"WIND_OFFSHORE\",\"WIND_ONSHORE\"]}}"
+          }
+        },
+        "response": {
+          "status": 200,
+          "statusText": "",
+          "httpVersion": "h3",
+          "headers": [
+            {
+              "name": "access-control-allow-methods",
+              "value": "GET, POST, DELETE, PUT, OPTIONS"
+            },
+            {
+              "name": "access-control-allow-origin",
+              "value": "https://windeurope.org"
+            },
+            {
+              "name": "access-control-expose-headers",
+              "value": ""
+            },
+            {
+              "name": "access-control-max-age",
+              "value": "7200"
+            },
+            {
+              "name": "cache-control",
+              "value": "max-age=0, private, must-revalidate"
+            },
+            {
+              "name": "cf-cache-status",
+              "value": "DYNAMIC"
+            },
+            {
+              "name": "cf-ray",
+              "value": "9d4439b4bd5aae32-AMS"
+            },
+            {
+              "name": "content-encoding",
+              "value": "br"
+            },
+            {
+              "name": "content-type",
+              "value": "application/json; charset=utf-8"
+            },
+            {
+              "name": "date",
+              "value": "Fri, 27 Feb 2026 02:24:22 GMT"
+            },
+            {
+              "name": "etag",
+              "value": "W/\"dc0cd4ee3080b4b8c5561abd855993a9\""
+            },
+            {
+              "name": "nel",
+              "value": "{\"report_to\":\"cf-nel\",\"success_fraction\":0.0,\"max_age\":604800}"
+            },
+            {
+              "name": "priority",
+              "value": "u=1,i"
+            },
+            {
+              "name": "referrer-policy",
+              "value": "strict-origin-when-cross-origin"
+            },
+            {
+              "name": "report-to",
+              "value": "{\"group\":\"cf-nel\",\"max_age\":604800,\"endpoints\":[{\"url\":\"https://a.nel.cloudflare.com/report/v4?s=7M9Uez3OK4fiFSSOnGSAqd3VOsg2nwB2uaGGH%2B3qBW9b86yiXmUmMK5v9v9qz%2FTgOEAZa%2Bt30ZJQIgjUNUi4PWfRenryc3POTKNnv3FYGXT7kZJa3cmBLY1TBc4fkEdGFmU%3D\"}]}"
+            },
+            {
+              "name": "server",
+              "value": "cloudflare"
+            },
+            {
+              "name": "server-timing",
+              "value": "cfExtPri"
+            },
+            {
+              "name": "strict-transport-security",
+              "value": "max-age=63072000; includeSubDomains"
+            },
+            {
+              "name": "vary",
+              "value": "Accept, Origin"
+            },
+            {
+              "name": "vary",
+              "value": "accept-encoding"
+            },
+            {
+              "name": "x-content-type-options",
+              "value": "nosniff"
+            },
+            {
+              "name": "x-do-app-origin",
+              "value": "3078a1ce-2bfd-48a0-928b-478b2ab30ff3"
+            },
+            {
+              "name": "x-do-orig-status",
+              "value": "200"
+            },
+            {
+              "name": "x-frame-options",
+              "value": "SAMEORIGIN"
+            },
+            {
+              "name": "x-permitted-cross-domain-policies",
+              "value": "none"
+            },
+            {
+              "name": "x-request-id",
+              "value": "265f1ce7-4ed2-4b04-b5ae-8bfb15b8124e"
+            },
+            {
+              "name": "x-runtime",
+              "value": "1.114934"
+            },
+            {
+              "name": "x-xss-protection",
+              "value": "0"
+            }
+          ],
+          "cookies": [],
+          "content": {
+            "size": 9398,
+            "mimeType": "application/json",
+            "text": "{\"data\":{\"areas\":[{\"name\":\"Albania\",\"loadYesterday\":0.0,\"generation\":0.0,\"generationHoursReported\":0,\"powerTypes\":[{\"name\":\"Wind Offshore\",\"generation\":0.0,\"generationHoursReported\":0},{\"name\":\"Wind Onshore\",\"generation\":0.0,\"generationHoursReported\":0}]},{\"name\":\"Austria\",\"loadYesterday\":189817000000.0,\"generation\":14987000000.0,\"generationHoursReported\":23,\"powerTypes\":[{\"name\":\"Wind Offshore\",\"generation\":0.0,\"generationHoursReported\":0},{\"name\":\"Wind Onshore\",\"generation\":14987000000.0,\"generationHoursReported\":23}]},{\"name\":\"Belgium\",\"loadYesterday\":250996000000.0,\"generation\":62807000000.0,\"generationHoursReported\":48,\"powerTypes\":[{\"name\":\"Wind Offshore\",\"generation\":33136000000.0,\"generationHoursReported\":24},{\"name\":\"Wind Onshore\",\"generation\":29671000000.0,\"generationHoursReported\":24}]},{\"name\":\"Bosnia and Herzegovina\",\"loadYesterday\":34081000000.0,\"generation\":196000000.0,\"generationHoursReported\":21,\"powerTypes\":[{\"name\":\"Wind Offshore\",\"generation\":0.0,\"generationHoursReported\":0},{\"name\":\"Wind Onshore\",\"generation\":196000000.0,\"generationHoursReported\":21}]},{\"name\":\"Bulgaria\",\"loadYesterday\":107323000000.0,\"generation\":2289000000.0,\"generationHoursReported\":21,\"powerTypes\":[{\"name\":\"Wind Offshore\",\"generation\":0.0,\"generationHoursReported\":0},{\"name\":\"Wind Onshore\",\"generation\":2289000000.0,\"generationHoursReported\":21}]},{\"name\":\"Croatia\",\"loadYesterday\":48394000000.0,\"generation\":2190000000.0,\"generationHoursReported\":23,\"powerTypes\":[{\"name\":\"Wind Offshore\",\"generation\":0.0,\"generationHoursReported\":0},{\"name\":\"Wind Onshore\",\"generation\":2190000000.0,\"generationHoursReported\":23}]},{\"name\":\"Cyprus\",\"loadYesterday\":16108000000.0,\"generation\":1878000000.0,\"generationHoursReported\":24,\"powerTypes\":[{\"name\":\"Wind Offshore\",\"generation\":0.0,\"generationHoursReported\":0},{\"name\":\"Wind Onshore\",\"generation\":1878000000.0,\"generationHoursReported\":24}]},{\"name\":\"Czech Republic\",\"loadYesterday\":197755000000.0,\"generation\":2838000000.0,\"generationHoursReported\":24,\"powerTypes\":[{\"name\":\"Wind Offshore\",\"generation\":0.0,\"generationHoursReported\":0},{\"name\":\"Wind Onshore\",\"generation\":2838000000.0,\"generationHoursReported\":24}]},{\"name\":\"Denmark\",\"loadYesterday\":127429000000.0,\"generation\":27198000000.0,\"generationHoursReported\":48,\"powerTypes\":[{\"name\":\"Wind Offshore\",\"generation\":12808000000.0,\"generationHoursReported\":24},{\"name\":\"Wind Onshore\",\"generation\":14390000000.0,\"generationHoursReported\":24}]},{\"name\":\"Estonia\",\"loadYesterday\":11769000000.0,\"generation\":4114000000.0,\"generationHoursReported\":10,\"powerTypes\":[{\"name\":\"Wind Offshore\",\"generation\":0.0,\"generationHoursReported\":0},{\"name\":\"Wind Onshore\",\"generation\":4114000000.0,\"generationHoursReported\":10}]},{\"name\":\"Finland\",\"loadYesterday\":297505000000.0,\"generation\":98036000000.0,\"generationHoursReported\":24,\"powerTypes\":[{\"name\":\"Wind Offshore\",\"generation\":0.0,\"generationHoursReported\":0},{\"name\":\"Wind Onshore\",\"generation\":98036000000.0,\"generationHoursReported\":24}]},{\"name\":\"France\",\"loadYesterday\":1238821000000.0,\"generation\":144824000000.0,\"generationHoursReported\":48,\"powerTypes\":[{\"name\":\"Wind Offshore\",\"generation\":18425000000.0,\"generationHoursReported\":24},{\"name\":\"Wind Onshore\",\"generation\":126399000000.0,\"generationHoursReported\":24}]},{\"name\":\"FYR Macedonia\",\"loadYesterday\":0.0,\"generation\":0.0,\"generationHoursReported\":0,\"powerTypes\":[{\"name\":\"Wind Offshore\",\"generation\":0.0,\"generationHoursReported\":0},{\"name\":\"Wind Onshore\",\"generation\":0.0,\"generationHoursReported\":0}]},{\"name\":\"Germany\",\"loadYesterday\":1419374000000.0,\"generation\":604489000000.0,\"generationHoursReported\":48,\"powerTypes\":[{\"name\":\"Wind Offshore\",\"generation\":155615000000.0,\"generationHoursReported\":24},{\"name\":\"Wind Onshore\",\"generation\":448874000000.0,\"generationHoursReported\":24}]},{\"name\":\"Greece\",\"loadYesterday\":142186000000.0,\"generation\":30711000000.0,\"generationHoursReported\":24,\"powerTypes\":[{\"name\":\"Wind Offshore\",\"generation\":0.0,\"generationHoursReported\":0},{\"name\":\"Wind Onshore\",\"generation\":30711000000.0,\"generationHoursReported\":24}]},{\"name\":\"Hungary\",\"loadYesterday\":130075000000.0,\"generation\":1445000000.0,\"generationHoursReported\":24,\"powerTypes\":[{\"name\":\"Wind Offshore\",\"generation\":0.0,\"generationHoursReported\":0},{\"name\":\"Wind Onshore\",\"generation\":1445000000.0,\"generationHoursReported\":24}]},{\"name\":\"Ireland\",\"loadYesterday\":0.0,\"generation\":0.0,\"generationHoursReported\":0,\"powerTypes\":[{\"name\":\"Wind Offshore\",\"generation\":0.0,\"generationHoursReported\":0},{\"name\":\"Wind Onshore\",\"generation\":0.0,\"generationHoursReported\":0}]},{\"name\":\"Italy\",\"loadYesterday\":804359000000.0,\"generation\":18457000000.0,\"generationHoursReported\":40,\"powerTypes\":[{\"name\":\"Wind Offshore\",\"generation\":92000000.0,\"generationHoursReported\":16},{\"name\":\"Wind Onshore\",\"generation\":18365000000.0,\"generationHoursReported\":24}]},{\"name\":\"Latvia\",\"loadYesterday\":23352000000.0,\"generation\":1619000000.0,\"generationHoursReported\":24,\"powerTypes\":[{\"name\":\"Wind Offshore\",\"generation\":0.0,\"generationHoursReported\":0},{\"name\":\"Wind Onshore\",\"generation\":1619000000.0,\"generationHoursReported\":24}]},{\"name\":\"Lithuania\",\"loadYesterday\":41312000000.0,\"generation\":29467000000.0,\"generationHoursReported\":24,\"powerTypes\":[{\"name\":\"Wind Offshore\",\"generation\":0.0,\"generationHoursReported\":0},{\"name\":\"Wind Onshore\",\"generation\":29467000000.0,\"generationHoursReported\":24}]},{\"name\":\"Luxembourg\",\"loadYesterday\":14962000000.0,\"generation\":1848000000.0,\"generationHoursReported\":24,\"powerTypes\":[{\"name\":\"Wind Offshore\",\"generation\":0.0,\"generationHoursReported\":0},{\"name\":\"Wind Onshore\",\"generation\":1848000000.0,\"generationHoursReported\":24}]},{\"name\":\"Montenegro\",\"loadYesterday\":8804000000.0,\"generation\":1168000000.0,\"generationHoursReported\":24,\"powerTypes\":[{\"name\":\"Wind Offshore\",\"generation\":0.0,\"generationHoursReported\":0},{\"name\":\"Wind Onshore\",\"generation\":1168000000.0,\"generationHoursReported\":24}]},{\"name\":\"Netherlands\",\"loadYesterday\":232164000000.0,\"generation\":103045000000.0,\"generationHoursReported\":48,\"powerTypes\":[{\"name\":\"Wind Offshore\",\"generation\":86030000000.0,\"generationHoursReported\":24},{\"name\":\"Wind Onshore\",\"generation\":17015000000.0,\"generationHoursReported\":24}]},{\"name\":\"Norway\",\"loadYesterday\":462035000000.0,\"generation\":46345000000.0,\"generationHoursReported\":35,\"powerTypes\":[{\"name\":\"Wind Offshore\",\"generation\":0.0,\"generationHoursReported\":11},{\"name\":\"Wind Onshore\",\"generation\":46345000000.0,\"generationHoursReported\":24}]},{\"name\":\"Poland\",\"loadYesterday\":481780000000.0,\"generation\":98596000000.0,\"generationHoursReported\":24,\"powerTypes\":[{\"name\":\"Wind Offshore\",\"generation\":0.0,\"generationHoursReported\":0},{\"name\":\"Wind Onshore\",\"generation\":98596000000.0,\"generationHoursReported\":24}]},{\"name\":\"Portugal\",\"loadYesterday\":157444000000.0,\"generation\":11053000000.0,\"generationHoursReported\":45,\"powerTypes\":[{\"name\":\"Wind Offshore\",\"generation\":15000000.0,\"generationHoursReported\":21},{\"name\":\"Wind Onshore\",\"generation\":11038000000.0,\"generationHoursReported\":24}]},{\"name\":\"Romania\",\"loadYesterday\":163731000000.0,\"generation\":24817000000.0,\"generationHoursReported\":24,\"powerTypes\":[{\"name\":\"Wind Offshore\",\"generation\":0.0,\"generationHoursReported\":0},{\"name\":\"Wind Onshore\",\"generation\":24817000000.0,\"generationHoursReported\":24}]},{\"name\":\"Serbia\",\"loadYesterday\":101763000000.0,\"generation\":1058000000.0,\"generationHoursReported\":22,\"powerTypes\":[{\"name\":\"Wind Offshore\",\"generation\":0.0,\"generationHoursReported\":0},{\"name\":\"Wind Onshore\",\"generation\":1058000000.0,\"generationHoursReported\":22}]},{\"name\":\"Slovakia\",\"loadYesterday\":19748000000.0,\"generation\":8000000.0,\"generationHoursReported\":19,\"powerTypes\":[{\"name\":\"Wind Offshore\",\"generation\":0.0,\"generationHoursReported\":0},{\"name\":\"Wind Onshore\",\"generation\":8000000.0,\"generationHoursReported\":19}]},{\"name\":\"Slovenia\",\"loadYesterday\":38622000000.0,\"generation\":0.0,\"generationHoursReported\":22,\"powerTypes\":[{\"name\":\"Wind Offshore\",\"generation\":0.0,\"generationHoursReported\":0},{\"name\":\"Wind Onshore\",\"generation\":0.0,\"generationHoursReported\":22}]},{\"name\":\"Spain\",\"loadYesterday\":592922000000.0,\"generation\":70044000000.0,\"generationHoursReported\":32,\"powerTypes\":[{\"name\":\"Wind Offshore\",\"generation\":0.0,\"generationHoursReported\":8},{\"name\":\"Wind Onshore\",\"generation\":70044000000.0,\"generationHoursReported\":24}]},{\"name\":\"Sweden\",\"loadYesterday\":448649000000.0,\"generation\":130280000000.0,\"generationHoursReported\":24,\"powerTypes\":[{\"name\":\"Wind Offshore\",\"generation\":0.0,\"generationHoursReported\":0},{\"name\":\"Wind Onshore\",\"generation\":130280000000.0,\"generationHoursReported\":24}]},{\"name\":\"Switzerland\",\"loadYesterday\":184818000000.0,\"generation\":193000000.0,\"generationHoursReported\":22,\"powerTypes\":[{\"name\":\"Wind Offshore\",\"generation\":0.0,\"generationHoursReported\":0},{\"name\":\"Wind Onshore\",\"generation\":193000000.0,\"generationHoursReported\":22}]},{\"name\":\"Ukraine\",\"loadYesterday\":0.0,\"generation\":0.0,\"generationHoursReported\":0,\"powerTypes\":[{\"name\":\"Wind Offshore\",\"generation\":0.0,\"generationHoursReported\":0},{\"name\":\"Wind Onshore\",\"generation\":0.0,\"generationHoursReported\":0}]},{\"name\":\"United Kingdom\",\"loadYesterday\":0.0,\"generation\":0.0,\"generationHoursReported\":0,\"powerTypes\":[{\"name\":\"Wind Offshore\",\"generation\":0.0,\"generationHoursReported\":0},{\"name\":\"Wind Onshore\",\"generation\":0.0,\"generationHoursReported\":0}]}]}}"
+          },
+          "redirectURL": "",
+          "headersSize": -1,
+          "bodySize": -1,
+          "_transferSize": 2000,
+          "_error": null,
+          "_fetchedViaServiceWorker": false
+        },
+        "serverIPAddress": "[2606:4700:20::681a:e10]",
+        "startedDateTime": "2026-02-27T02:24:20.734Z",
+        "time": 1155.189999990398,
+        "timings": {
+          "blocked": 2.235000003028661,
+          "dns": -1,
+          "ssl": -1,
+          "connect": -1,
+          "send": 0.353,
+          "wait": 1146.152000001153,
+          "receive": 6.449999986216426,
+          "_blocked_queueing": 1.277000003028661,
+          "_workerStart": -1,
+          "_workerReady": -1,
+          "_workerFetchStart": -1,
+          "_workerRespondWithSettled": -1
+        }
+      },
+      {
+        "_connectionId": "202683",
+        "_initiator": {
+          "type": "script",
+          "stack": {
+            "callFrames": [
+              {
+                "functionName": "authorizedFetch",
+                "scriptId": "16682",
+                "url": "https://plankton.windeurope.org/assets/dataviz-8cd744b569c5c413de3617f92b66078b0df35f6f4c481b8ceb4dfa7907e9283b.js",
+                "lineNumber": 87444,
+                "columnNumber": 25
+              },
+              {
+                "functionName": "updateFilteredFarms",
+                "scriptId": "16682",
+                "url": "https://plankton.windeurope.org/assets/dataviz-8cd744b569c5c413de3617f92b66078b0df35f6f4c481b8ceb4dfa7907e9283b.js",
+                "lineNumber": 109211,
+                "columnNumber": 25
+              },
+              {
+                "functionName": "asyncRef",
+                "scriptId": "16682",
+                "url": "https://plankton.windeurope.org/assets/dataviz-8cd744b569c5c413de3617f92b66078b0df35f6f4c481b8ceb4dfa7907e9283b.js",
+                "lineNumber": 109156,
+                "columnNumber": 2
+              },
+              {
+                "functionName": "",
+                "scriptId": "16682",
+                "url": "https://plankton.windeurope.org/assets/dataviz-8cd744b569c5c413de3617f92b66078b0df35f6f4c481b8ceb4dfa7907e9283b.js",
+                "lineNumber": 109230,
+                "columnNumber": 75
+              },
+              {
+                "functionName": "fetch",
+                "scriptId": "16682",
+                "url": "https://plankton.windeurope.org/assets/dataviz-8cd744b569c5c413de3617f92b66078b0df35f6f4c481b8ceb4dfa7907e9283b.js",
+                "lineNumber": 109148,
+                "columnNumber": 36
+              },
+              {
+                "functionName": "filterBy",
+                "scriptId": "16682",
+                "url": "https://plankton.windeurope.org/assets/dataviz-8cd744b569c5c413de3617f92b66078b0df35f6f4c481b8ceb4dfa7907e9283b.js",
+                "lineNumber": 109230,
+                "columnNumber": 36
+              },
+              {
+                "functionName": "",
+                "scriptId": "16682",
+                "url": "https://plankton.windeurope.org/assets/dataviz-8cd744b569c5c413de3617f92b66078b0df35f6f4c481b8ceb4dfa7907e9283b.js",
+                "lineNumber": 20528,
+                "columnNumber": 21
+              },
+              {
+                "functionName": "store.<computed>",
+                "scriptId": "16682",
+                "url": "https://plankton.windeurope.org/assets/dataviz-8cd744b569c5c413de3617f92b66078b0df35f6f4c481b8ceb4dfa7907e9283b.js",
+                "lineNumber": 20248,
+                "columnNumber": 43
+              },
+              {
+                "functionName": "eval",
+                "scriptId": "17081",
+                "url": "",
+                "lineNumber": 511,
+                "columnNumber": 52
+              },
+              {
+                "functionName": "renderFnWithContext",
+                "scriptId": "16682",
+                "url": "https://plankton.windeurope.org/assets/dataviz-8cd744b569c5c413de3617f92b66078b0df35f6f4c481b8ceb4dfa7907e9283b.js",
+                "lineNumber": 4684,
+                "columnNumber": 12
+              },
+              {
+                "functionName": "",
+                "scriptId": "16682",
+                "url": "https://plankton.windeurope.org/assets/dataviz-8cd744b569c5c413de3617f92b66078b0df35f6f4c481b8ceb4dfa7907e9283b.js",
+                "lineNumber": 108832,
+                "columnNumber": 52
+              },
+              {
+                "functionName": "renderComponentRoot",
+                "scriptId": "16682",
+                "url": "https://plankton.windeurope.org/assets/dataviz-8cd744b569c5c413de3617f92b66078b0df35f6f4c481b8ceb4dfa7907e9283b.js",
+                "lineNumber": 4743,
+                "columnNumber": 16
+              },
+              {
+                "functionName": "componentUpdateFn",
+                "scriptId": "16682",
+                "url": "https://plankton.windeurope.org/assets/dataviz-8cd744b569c5c413de3617f92b66078b0df35f6f4c481b8ceb4dfa7907e9283b.js",
+                "lineNumber": 9861,
+                "columnNumber": 45
+              },
+              {
+                "functionName": "run",
+                "scriptId": "16682",
+                "url": "https://plankton.windeurope.org/assets/dataviz-8cd744b569c5c413de3617f92b66078b0df35f6f4c481b8ceb4dfa7907e9283b.js",
+                "lineNumber": 2827,
+                "columnNumber": 18
+              },
+              {
+                "functionName": "instance.update",
+                "scriptId": "16682",
+                "url": "https://plankton.windeurope.org/assets/dataviz-8cd744b569c5c413de3617f92b66078b0df35f6f4c481b8ceb4dfa7907e9283b.js",
+                "lineNumber": 9992,
+                "columnNumber": 16
+              },
+              {
+                "functionName": "setupRenderEffect",
+                "scriptId": "16682",
+                "url": "https://plankton.windeurope.org/assets/dataviz-8cd744b569c5c413de3617f92b66078b0df35f6f4c481b8ceb4dfa7907e9283b.js",
+                "lineNumber": 10002,
+                "columnNumber": 4
+              },
+              {
+                "functionName": "mountComponent",
+                "scriptId": "16682",
+                "url": "https://plankton.windeurope.org/assets/dataviz-8cd744b569c5c413de3617f92b66078b0df35f6f4c481b8ceb4dfa7907e9283b.js",
+                "lineNumber": 9770,
+                "columnNumber": 6
+              },
+              {
+                "functionName": "processComponent",
+                "scriptId": "16682",
+                "url": "https://plankton.windeurope.org/assets/dataviz-8cd744b569c5c413de3617f92b66078b0df35f6f4c481b8ceb4dfa7907e9283b.js",
+                "lineNumber": 9724,
+                "columnNumber": 8
+              },
+              {
+                "functionName": "patch",
+                "scriptId": "16682",
+                "url": "https://plankton.windeurope.org/assets/dataviz-8cd744b569c5c413de3617f92b66078b0df35f6f4c481b8ceb4dfa7907e9283b.js",
+                "lineNumber": 9190,
+                "columnNumber": 10
+              },
+              {
+                "functionName": "mountChildren",
+                "scriptId": "16682",
+                "url": "https://plankton.windeurope.org/assets/dataviz-8cd744b569c5c413de3617f92b66078b0df35f6f4c481b8ceb4dfa7907e9283b.js",
+                "lineNumber": 9438,
+                "columnNumber": 6
+              },
+              {
+                "functionName": "processFragment",
+                "scriptId": "16682",
+                "url": "https://plankton.windeurope.org/assets/dataviz-8cd744b569c5c413de3617f92b66078b0df35f6f4c481b8ceb4dfa7907e9283b.js",
+                "lineNumber": 9654,
+                "columnNumber": 6
+              },
+              {
+                "functionName": "patch",
+                "scriptId": "16682",
+                "url": "https://plankton.windeurope.org/assets/dataviz-8cd744b569c5c413de3617f92b66078b0df35f6f4c481b8ceb4dfa7907e9283b.js",
+                "lineNumber": 9164,
+                "columnNumber": 8
+              },
+              {
+                "functionName": "componentUpdateFn",
+                "scriptId": "16682",
+                "url": "https://plankton.windeurope.org/assets/dataviz-8cd744b569c5c413de3617f92b66078b0df35f6f4c481b8ceb4dfa7907e9283b.js",
+                "lineNumber": 9868,
+                "columnNumber": 10
+              },
+              {
+                "functionName": "run",
+                "scriptId": "16682",
+                "url": "https://plankton.windeurope.org/assets/dataviz-8cd744b569c5c413de3617f92b66078b0df35f6f4c481b8ceb4dfa7907e9283b.js",
+                "lineNumber": 2827,
+                "columnNumber": 18
+              },
+              {
+                "functionName": "instance.update",
+                "scriptId": "16682",
+                "url": "https://plankton.windeurope.org/assets/dataviz-8cd744b569c5c413de3617f92b66078b0df35f6f4c481b8ceb4dfa7907e9283b.js",
+                "lineNumber": 9992,
+                "columnNumber": 16
+              },
+              {
+                "functionName": "setupRenderEffect",
+                "scriptId": "16682",
+                "url": "https://plankton.windeurope.org/assets/dataviz-8cd744b569c5c413de3617f92b66078b0df35f6f4c481b8ceb4dfa7907e9283b.js",
+                "lineNumber": 10002,
+                "columnNumber": 4
+              },
+              {
+                "functionName": "mountComponent",
+                "scriptId": "16682",
+                "url": "https://plankton.windeurope.org/assets/dataviz-8cd744b569c5c413de3617f92b66078b0df35f6f4c481b8ceb4dfa7907e9283b.js",
+                "lineNumber": 9770,
+                "columnNumber": 6
+              },
+              {
+                "functionName": "processComponent",
+                "scriptId": "16682",
+                "url": "https://plankton.windeurope.org/assets/dataviz-8cd744b569c5c413de3617f92b66078b0df35f6f4c481b8ceb4dfa7907e9283b.js",
+                "lineNumber": 9724,
+                "columnNumber": 8
+              },
+              {
+                "functionName": "patch",
+                "scriptId": "16682",
+                "url": "https://plankton.windeurope.org/assets/dataviz-8cd744b569c5c413de3617f92b66078b0df35f6f4c481b8ceb4dfa7907e9283b.js",
+                "lineNumber": 9190,
+                "columnNumber": 10
+              },
+              {
+                "functionName": "render2",
+                "scriptId": "16682",
+                "url": "https://plankton.windeurope.org/assets/dataviz-8cd744b569c5c413de3617f92b66078b0df35f6f4c481b8ceb4dfa7907e9283b.js",
+                "lineNumber": 10513,
+                "columnNumber": 6
+              },
+              {
+                "functionName": "mount",
+                "scriptId": "16682",
+                "url": "https://plankton.windeurope.org/assets/dataviz-8cd744b569c5c413de3617f92b66078b0df35f6f4c481b8ceb4dfa7907e9283b.js",
+                "lineNumber": 7774,
+                "columnNumber": 12
+              },
+              {
+                "functionName": "app2.mount",
+                "scriptId": "16682",
+                "url": "https://plankton.windeurope.org/assets/dataviz-8cd744b569c5c413de3617f92b66078b0df35f6f4c481b8ceb4dfa7907e9283b.js",
+                "lineNumber": 13519,
+                "columnNumber": 18
+              },
+              {
+                "functionName": "",
+                "scriptId": "16666",
+                "url": "https://windeurope.org/data/interactive-data-and-maps/wind-farms/?anchorage=Offshore&pg=34",
+                "lineNumber": 1543,
+                "columnNumber": 65
+              }
+            ],
+            "parent": {
+              "description": "await",
+              "callFrames": [
+                {
+                  "functionName": "",
+                  "scriptId": "16666",
+                  "url": "https://windeurope.org/data/interactive-data-and-maps/wind-farms/?anchorage=Offshore&pg=34",
+                  "lineNumber": 1544,
+                  "columnNumber": 14
+                }
+              ]
+            }
+          }
+        },
+        "_priority": "High",
+        "_resourceType": "fetch",
+        "cache": {},
+        "connection": "443",
+        "pageref": "page_26",
+        "request": {
+          "method": "GET",
+          "url": "https://plankton.windeurope.org/admin/wind_farms.json?per_page=10&advanced_sort[]=status_info_display_order_index&advanced_sort[]=total_capacity%20desc%20nulls%20last&q[anchorage_eq]=Offshore&page=34",
+          "httpVersion": "http/2.0",
+          "headers": [
+            {
+              "name": ":authority",
+              "value": "plankton.windeurope.org"
+            },
+            {
+              "name": ":method",
+              "value": "GET"
+            },
+            {
+              "name": ":path",
+              "value": "/admin/wind_farms.json?per_page=10&advanced_sort[]=status_info_display_order_index&advanced_sort[]=total_capacity%20desc%20nulls%20last&q[anchorage_eq]=Offshore&page=34"
+            },
+            {
+              "name": ":scheme",
+              "value": "https"
+            },
+            {
+              "name": "accept",
+              "value": "application/json"
+            },
+            {
+              "name": "accept-encoding",
+              "value": "gzip, deflate, br, zstd"
+            },
+            {
+              "name": "accept-language",
+              "value": "it-IT,it;q=0.9,en-US;q=0.8,en;q=0.7,es;q=0.6,fr;q=0.5,nl;q=0.4"
+            },
+            {
+              "name": "content-type",
+              "value": "application/json"
+            },
+            {
+              "name": "if-none-match",
+              "value": "W/\"6866e74170eec690dfdebdfc49f48e93\""
+            },
+            {
+              "name": "key-inflection",
+              "value": "camel"
+            },
+            {
+              "name": "origin",
+              "value": "https://windeurope.org"
+            },
+            {
+              "name": "priority",
+              "value": "u=1, i"
+            },
+            {
+              "name": "referer",
+              "value": "https://windeurope.org/"
+            },
+            {
+              "name": "sec-ch-ua",
+              "value": "\"Not:A-Brand\";v=\"99\", \"Google Chrome\";v=\"145\", \"Chromium\";v=\"145\""
+            },
+            {
+              "name": "sec-ch-ua-mobile",
+              "value": "?0"
+            },
+            {
+              "name": "sec-ch-ua-platform",
+              "value": "\"Windows\""
+            },
+            {
+              "name": "sec-fetch-dest",
+              "value": "empty"
+            },
+            {
+              "name": "sec-fetch-mode",
+              "value": "cors"
+            },
+            {
+              "name": "sec-fetch-site",
+              "value": "same-site"
+            },
+            {
+              "name": "user-agent",
+              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36"
+            },
+            {
+              "name": "x-forwarded-host",
+              "value": "windeurope.org"
+            },
+            {
+              "name": "x-requested-with",
+              "value": "XMLHttpRequest"
+            }
+          ],
+          "queryString": [
+            {
+              "name": "per_page",
+              "value": "10"
+            },
+            {
+              "name": "advanced_sort[]",
+              "value": "status_info_display_order_index"
+            },
+            {
+              "name": "advanced_sort[]",
+              "value": "total_capacity%20desc%20nulls%20last"
+            },
+            {
+              "name": "q[anchorage_eq]",
+              "value": "Offshore"
+            },
+            {
+              "name": "page",
+              "value": "34"
+            }
+          ],
+          "cookies": [],
+          "headersSize": -1,
+          "bodySize": 0
+        },
+        "response": {
+          "status": 304,
+          "statusText": "",
+          "httpVersion": "http/2.0",
+          "headers": [
+            {
+              "name": "access-control-allow-methods",
+              "value": "GET, POST, DELETE, PUT, OPTIONS"
+            },
+            {
+              "name": "access-control-allow-origin",
+              "value": "https://windeurope.org"
+            },
+            {
+              "name": "access-control-expose-headers",
+              "value": "X-Wip-Resource-Count"
+            },
+            {
+              "name": "access-control-max-age",
+              "value": "7200"
+            },
+            {
+              "name": "cache-control",
+              "value": "max-age=0, private, must-revalidate"
+            },
+            {
+              "name": "cf-cache-status",
+              "value": "DYNAMIC"
+            },
+            {
+              "name": "cf-ray",
+              "value": "9d4439b51d60ae32-AMS"
+            },
+            {
+              "name": "date",
+              "value": "Fri, 27 Feb 2026 02:24:21 GMT"
+            },
+            {
+              "name": "etag",
+              "value": "W/\"6866e74170eec690dfdebdfc49f48e93\""
+            },
+            {
+              "name": "nel",
+              "value": "{\"report_to\":\"cf-nel\",\"success_fraction\":0.0,\"max_age\":604800}"
+            },
+            {
+              "name": "priority",
+              "value": "u=1,i"
+            },
+            {
+              "name": "referrer-policy",
+              "value": "strict-origin-when-cross-origin"
+            },
+            {
+              "name": "report-to",
+              "value": "{\"group\":\"cf-nel\",\"max_age\":604800,\"endpoints\":[{\"url\":\"https://a.nel.cloudflare.com/report/v4?s=zLU3p4v%2B%2Fc%2BRSKVR4MJlQfirS5dwVR6XoKksvgBovfGfiUEUlVsHPgNR0te4kdoG4pJrsjirvf7yweOiDxc47co988m9YagPkDQgifGdTsgmAA09Bh0gSYoK9JakH256BOA%3D\"}]}"
+            },
+            {
+              "name": "server",
+              "value": "cloudflare"
+            },
+            {
+              "name": "server-timing",
+              "value": "cfExtPri"
+            },
+            {
+              "name": "strict-transport-security",
+              "value": "max-age=63072000; includeSubDomains"
+            },
+            {
+              "name": "vary",
+              "value": "Origin, Accept-Encoding"
+            },
+            {
+              "name": "x-content-type-options",
+              "value": "nosniff"
+            },
+            {
+              "name": "x-do-app-origin",
+              "value": "3078a1ce-2bfd-48a0-928b-478b2ab30ff3"
+            },
+            {
+              "name": "x-do-orig-status",
+              "value": "304"
+            },
+            {
+              "name": "x-frame-options",
+              "value": "SAMEORIGIN"
+            },
+            {
+              "name": "x-permitted-cross-domain-policies",
+              "value": "none"
+            },
+            {
+              "name": "x-request-id",
+              "value": "c9ab9be7-9ef3-4b9d-8eed-be8c46006f1c"
+            },
+            {
+              "name": "x-runtime",
+              "value": "0.030375"
+            },
+            {
+              "name": "x-wip-resource-count",
+              "value": "594"
+            },
+            {
+              "name": "x-xss-protection",
+              "value": "0"
+            }
+          ],
+          "cookies": [],
+          "content": {
+            "size": 12093,
+            "mimeType": "application/json",
+            "text": "[{\"anchorage\":\"Offshore\",\"anchorageNature\":\"Bottom-fixed\",\"auctionType\":null,\"altitudeDepthM\":null,\"capexEurBn\":8.0,\"commissioningYear\":2040,\"commissioningMonth\":null,\"countryName\":\"Portugal\",\"decommissionedYear\":null,\"decommissionedMonth\":null,\"developer\":null,\"expectedInvestmentDecisionDate\":null,\"exportCableSupplier\":null,\"exportCableVoltageKv\":null,\"finalInvestmentDecisionDate\":null,\"floaterType\":null,\"foundationType\":null,\"foundationSupplier\":null,\"hubHeight\":null,\"id\":363,\"interArraySupplier\":null,\"interArrayVoltageKv\":null,\"installationPorts\":null,\"isOnline\":false,\"latitude\":40.1457,\"localArea\":null,\"longitude\":-8.8715,\"manufacturingPorts\":null,\"marineContractors\":null,\"name\":\"Nortada\",\"networkTopology\":null,\"numTurbines\":null,\"oAndMPorts\":null,\"operator\":null,\"owner\":null,\"projectType\":\"Project\",\"seaBasin\":\"Atlantic Ocean\",\"shoreDistanceKm\":null,\"status\":\"Planned\",\"secondName\":null,\"totalCapacityConnectedMw\":null,\"tipHeightM\":null,\"totalFoundationsInstalled\":null,\"totalCapacity\":2000000000.0,\"totalTurbinesConnected\":null,\"totalTurbinesInstalled\":null,\"turbineManufacturer\":null,\"turbineModel\":null,\"turbineCapacityRatingMw\":null,\"awardedYear\":null,\"updatedAt\":\"2026-02-24T12:19:10.935Z\"},{\"anchorage\":\"Offshore\",\"anchorageNature\":\"Floating\",\"auctionType\":null,\"altitudeDepthM\":null,\"capexEurBn\":null,\"commissioningYear\":null,\"commissioningMonth\":null,\"countryName\":\"Ireland\",\"decommissionedYear\":null,\"decommissionedMonth\":null,\"developer\":null,\"expectedInvestmentDecisionDate\":null,\"exportCableSupplier\":null,\"exportCableVoltageKv\":null,\"finalInvestmentDecisionDate\":null,\"floaterType\":null,\"foundationType\":null,\"foundationSupplier\":null,\"hubHeight\":null,\"id\":284,\"interArraySupplier\":null,\"interArrayVoltageKv\":null,\"installationPorts\":null,\"isOnline\":false,\"latitude\":null,\"localArea\":null,\"longitude\":null,\"manufacturingPorts\":null,\"marineContractors\":null,\"name\":\"Lir Offshore Array\",\"networkTopology\":null,\"numTurbines\":null,\"oAndMPorts\":null,\"operator\":null,\"owner\":null,\"projectType\":\"Project\",\"seaBasin\":\"Irish Sea\",\"shoreDistanceKm\":null,\"status\":\"Planned\",\"secondName\":null,\"totalCapacityConnectedMw\":null,\"tipHeightM\":null,\"totalFoundationsInstalled\":null,\"totalCapacity\":2000000000.0,\"totalTurbinesConnected\":null,\"totalTurbinesInstalled\":null,\"turbineManufacturer\":null,\"turbineModel\":null,\"turbineCapacityRatingMw\":null,\"awardedYear\":null,\"updatedAt\":\"2026-02-24T12:19:10.935Z\"},{\"anchorage\":\"Offshore\",\"anchorageNature\":\"Bottom-fixed\",\"auctionType\":null,\"altitudeDepthM\":null,\"capexEurBn\":null,\"commissioningYear\":null,\"commissioningMonth\":null,\"countryName\":\"Finland\",\"decommissionedYear\":null,\"decommissionedMonth\":null,\"developer\":null,\"expectedInvestmentDecisionDate\":null,\"exportCableSupplier\":null,\"exportCableVoltageKv\":null,\"finalInvestmentDecisionDate\":null,\"floaterType\":null,\"foundationType\":null,\"foundationSupplier\":null,\"hubHeight\":null,\"id\":273,\"interArraySupplier\":null,\"interArrayVoltageKv\":null,\"installationPorts\":null,\"isOnline\":false,\"latitude\":null,\"localArea\":null,\"longitude\":null,\"manufacturingPorts\":null,\"marineContractors\":null,\"name\":\"Laine\",\"networkTopology\":null,\"numTurbines\":150,\"oAndMPorts\":null,\"operator\":null,\"owner\":null,\"projectType\":\"Project\",\"seaBasin\":\"Baltic Sea\",\"shoreDistanceKm\":null,\"status\":\"Planned\",\"secondName\":null,\"totalCapacityConnectedMw\":null,\"tipHeightM\":null,\"totalFoundationsInstalled\":null,\"totalCapacity\":1800000000.0,\"totalTurbinesConnected\":null,\"totalTurbinesInstalled\":null,\"turbineManufacturer\":null,\"turbineModel\":null,\"turbineCapacityRatingMw\":12.0,\"awardedYear\":null,\"updatedAt\":\"2026-02-24T12:19:10.935Z\"},{\"anchorage\":\"Offshore\",\"anchorageNature\":\"Floating\",\"auctionType\":null,\"altitudeDepthM\":null,\"capexEurBn\":null,\"commissioningYear\":null,\"commissioningMonth\":null,\"countryName\":\"United Kingdom\",\"decommissionedYear\":null,\"decommissionedMonth\":null,\"developer\":null,\"expectedInvestmentDecisionDate\":null,\"exportCableSupplier\":null,\"exportCableVoltageKv\":null,\"finalInvestmentDecisionDate\":null,\"floaterType\":null,\"foundationType\":null,\"foundationSupplier\":null,\"hubHeight\":null,\"id\":27,\"interArraySupplier\":null,\"interArrayVoltageKv\":null,\"installationPorts\":null,\"isOnline\":false,\"latitude\":null,\"localArea\":null,\"longitude\":null,\"manufacturingPorts\":null,\"marineContractors\":null,\"name\":\"Arven\",\"networkTopology\":null,\"numTurbines\":null,\"oAndMPorts\":null,\"operator\":null,\"owner\":null,\"projectType\":\"Project\",\"seaBasin\":\"North Sea\",\"shoreDistanceKm\":null,\"status\":\"Planned\",\"secondName\":null,\"totalCapacityConnectedMw\":null,\"tipHeightM\":null,\"totalFoundationsInstalled\":null,\"totalCapacity\":1800000000.0,\"totalTurbinesConnected\":null,\"totalTurbinesInstalled\":null,\"turbineManufacturer\":null,\"turbineModel\":null,\"turbineCapacityRatingMw\":null,\"awardedYear\":null,\"updatedAt\":\"2026-02-24T12:19:10.935Z\"},{\"anchorage\":\"Offshore\",\"anchorageNature\":\"Floating\",\"auctionType\":null,\"altitudeDepthM\":null,\"capexEurBn\":null,\"commissioningYear\":null,\"commissioningMonth\":null,\"countryName\":\"Italy\",\"decommissionedYear\":null,\"decommissionedMonth\":null,\"developer\":null,\"expectedInvestmentDecisionDate\":null,\"exportCableSupplier\":null,\"exportCableVoltageKv\":null,\"finalInvestmentDecisionDate\":null,\"floaterType\":null,\"foundationType\":null,\"foundationSupplier\":null,\"hubHeight\":null,\"id\":2,\"interArraySupplier\":null,\"interArrayVoltageKv\":null,\"installationPorts\":null,\"isOnline\":false,\"latitude\":null,\"localArea\":null,\"longitude\":null,\"manufacturingPorts\":null,\"marineContractors\":null,\"name\":\"Abruzzo 1\",\"networkTopology\":null,\"numTurbines\":160,\"oAndMPorts\":null,\"operator\":null,\"owner\":null,\"projectType\":\"Project\",\"seaBasin\":\"Mediterranean Sea\",\"shoreDistanceKm\":null,\"status\":\"Planned\",\"secondName\":null,\"totalCapacityConnectedMw\":null,\"tipHeightM\":null,\"totalFoundationsInstalled\":null,\"totalCapacity\":1760000000.0,\"totalTurbinesConnected\":null,\"totalTurbinesInstalled\":null,\"turbineManufacturer\":null,\"turbineModel\":null,\"turbineCapacityRatingMw\":11.0,\"awardedYear\":null,\"updatedAt\":\"2026-02-24T12:19:10.935Z\"},{\"anchorage\":\"Offshore\",\"anchorageNature\":\"Floating\",\"auctionType\":null,\"altitudeDepthM\":null,\"capexEurBn\":null,\"commissioningYear\":null,\"commissioningMonth\":null,\"countryName\":\"Sweden\",\"decommissionedYear\":null,\"decommissionedMonth\":null,\"developer\":null,\"expectedInvestmentDecisionDate\":null,\"exportCableSupplier\":null,\"exportCableVoltageKv\":null,\"finalInvestmentDecisionDate\":null,\"floaterType\":null,\"foundationType\":null,\"foundationSupplier\":null,\"hubHeight\":null,\"id\":227,\"interArraySupplier\":null,\"interArrayVoltageKv\":null,\"installationPorts\":null,\"isOnline\":false,\"latitude\":null,\"localArea\":null,\"longitude\":null,\"manufacturingPorts\":null,\"marineContractors\":null,\"name\":\"Herkules II\",\"networkTopology\":null,\"numTurbines\":null,\"oAndMPorts\":null,\"operator\":null,\"owner\":null,\"projectType\":\"Project\",\"seaBasin\":\"Baltic Sea\",\"shoreDistanceKm\":null,\"status\":\"Planned\",\"secondName\":null,\"totalCapacityConnectedMw\":null,\"tipHeightM\":null,\"totalFoundationsInstalled\":null,\"totalCapacity\":1750000000.0,\"totalTurbinesConnected\":null,\"totalTurbinesInstalled\":null,\"turbineManufacturer\":null,\"turbineModel\":null,\"turbineCapacityRatingMw\":null,\"awardedYear\":null,\"updatedAt\":\"2026-02-24T12:19:10.935Z\"},{\"anchorage\":\"Offshore\",\"anchorageNature\":\"Bottom-fixed/Floating\",\"auctionType\":null,\"altitudeDepthM\":null,\"capexEurBn\":null,\"commissioningYear\":null,\"commissioningMonth\":null,\"countryName\":\"Finland\",\"decommissionedYear\":null,\"decommissionedMonth\":null,\"developer\":null,\"expectedInvestmentDecisionDate\":null,\"exportCableSupplier\":null,\"exportCableVoltageKv\":null,\"finalInvestmentDecisionDate\":null,\"floaterType\":null,\"foundationType\":null,\"foundationSupplier\":null,\"hubHeight\":null,\"id\":479,\"interArraySupplier\":null,\"interArrayVoltageKv\":null,\"installationPorts\":null,\"isOnline\":false,\"latitude\":null,\"localArea\":null,\"longitude\":null,\"manufacturingPorts\":null,\"marineContractors\":null,\"name\":\"Stormskar\",\"networkTopology\":null,\"numTurbines\":115,\"oAndMPorts\":null,\"operator\":null,\"owner\":null,\"projectType\":\"Project\",\"seaBasin\":\"Baltic Sea\",\"shoreDistanceKm\":null,\"status\":\"Planned\",\"secondName\":null,\"totalCapacityConnectedMw\":null,\"tipHeightM\":null,\"totalFoundationsInstalled\":null,\"totalCapacity\":1725000000.0,\"totalTurbinesConnected\":null,\"totalTurbinesInstalled\":null,\"turbineManufacturer\":null,\"turbineModel\":null,\"turbineCapacityRatingMw\":15.0,\"awardedYear\":null,\"updatedAt\":\"2026-02-24T12:19:10.935Z\"},{\"anchorage\":\"Offshore\",\"anchorageNature\":\"Bottom-fixed/Floating\",\"auctionType\":null,\"altitudeDepthM\":null,\"capexEurBn\":null,\"commissioningYear\":null,\"commissioningMonth\":null,\"countryName\":\"Ireland\",\"decommissionedYear\":null,\"decommissionedMonth\":null,\"developer\":null,\"expectedInvestmentDecisionDate\":null,\"exportCableSupplier\":null,\"exportCableVoltageKv\":null,\"finalInvestmentDecisionDate\":null,\"floaterType\":null,\"foundationType\":null,\"foundationSupplier\":null,\"hubHeight\":null,\"id\":110,\"interArraySupplier\":null,\"interArrayVoltageKv\":null,\"installationPorts\":null,\"isOnline\":false,\"latitude\":null,\"localArea\":null,\"longitude\":null,\"manufacturingPorts\":null,\"marineContractors\":null,\"name\":\"Celtic Offshore Renewable Energy\",\"networkTopology\":null,\"numTurbines\":168,\"oAndMPorts\":null,\"operator\":null,\"owner\":null,\"projectType\":\"Project\",\"seaBasin\":\"Irish Sea\",\"shoreDistanceKm\":null,\"status\":\"Planned\",\"secondName\":null,\"totalCapacityConnectedMw\":null,\"tipHeightM\":null,\"totalFoundationsInstalled\":null,\"totalCapacity\":1680000000.0,\"totalTurbinesConnected\":null,\"totalTurbinesInstalled\":null,\"turbineManufacturer\":null,\"turbineModel\":null,\"turbineCapacityRatingMw\":10.0,\"awardedYear\":null,\"updatedAt\":\"2026-02-24T12:19:10.935Z\"},{\"anchorage\":\"Offshore\",\"anchorageNature\":\"Floating\",\"auctionType\":null,\"altitudeDepthM\":null,\"capexEurBn\":null,\"commissioningYear\":null,\"commissioningMonth\":null,\"countryName\":\"Ireland\",\"decommissionedYear\":null,\"decommissionedMonth\":null,\"developer\":null,\"expectedInvestmentDecisionDate\":null,\"exportCableSupplier\":null,\"exportCableVoltageKv\":null,\"finalInvestmentDecisionDate\":null,\"floaterType\":null,\"foundationType\":null,\"foundationSupplier\":null,\"hubHeight\":null,\"id\":544,\"interArraySupplier\":null,\"interArrayVoltageKv\":null,\"installationPorts\":null,\"isOnline\":false,\"latitude\":null,\"localArea\":null,\"longitude\":null,\"manufacturingPorts\":null,\"marineContractors\":null,\"name\":\"Tulca Offshore Array (Phase 1)\",\"networkTopology\":null,\"numTurbines\":null,\"oAndMPorts\":null,\"operator\":null,\"owner\":null,\"projectType\":\"Project\",\"seaBasin\":\"Celtic Sea\",\"shoreDistanceKm\":null,\"status\":\"Planned\",\"secondName\":null,\"totalCapacityConnectedMw\":null,\"tipHeightM\":null,\"totalFoundationsInstalled\":null,\"totalCapacity\":1650000000.0,\"totalTurbinesConnected\":null,\"totalTurbinesInstalled\":null,\"turbineManufacturer\":null,\"turbineModel\":null,\"turbineCapacityRatingMw\":null,\"awardedYear\":null,\"updatedAt\":\"2026-02-24T12:19:10.935Z\"},{\"anchorage\":\"Offshore\",\"anchorageNature\":\"Bottom-fixed\",\"auctionType\":null,\"altitudeDepthM\":null,\"capexEurBn\":null,\"commissioningYear\":null,\"commissioningMonth\":null,\"countryName\":\"Sweden\",\"decommissionedYear\":null,\"decommissionedMonth\":null,\"developer\":null,\"expectedInvestmentDecisionDate\":null,\"exportCableSupplier\":null,\"exportCableVoltageKv\":null,\"finalInvestmentDecisionDate\":null,\"floaterType\":null,\"foundationType\":null,\"foundationSupplier\":null,\"hubHeight\":null,\"id\":472,\"interArraySupplier\":null,\"interArrayVoltageKv\":null,\"installationPorts\":null,\"isOnline\":false,\"latitude\":null,\"localArea\":null,\"longitude\":null,\"manufacturingPorts\":null,\"marineContractors\":null,\"name\":\"Södra Klasgrunden\",\"networkTopology\":null,\"numTurbines\":null,\"oAndMPorts\":null,\"operator\":null,\"owner\":null,\"projectType\":\"Project\",\"seaBasin\":\"Baltic Sea\",\"shoreDistanceKm\":null,\"status\":\"Planned\",\"secondName\":null,\"totalCapacityConnectedMw\":null,\"tipHeightM\":null,\"totalFoundationsInstalled\":null,\"totalCapacity\":1600000000.0,\"totalTurbinesConnected\":null,\"totalTurbinesInstalled\":null,\"turbineManufacturer\":null,\"turbineModel\":null,\"turbineCapacityRatingMw\":null,\"awardedYear\":null,\"updatedAt\":\"2026-02-24T12:19:10.935Z\"}]"
+          },
+          "redirectURL": "",
+          "headersSize": -1,
+          "bodySize": 0,
+          "_transferSize": 1007,
+          "_error": null,
+          "_fetchedViaServiceWorker": false
+        },
+        "serverIPAddress": "[2606:4700:20::ac43:45ec]",
+        "startedDateTime": "2026-02-27T02:24:20.790Z",
+        "time": 74.7620000038296,
+        "timings": {
+          "blocked": 3.557999992903322,
+          "dns": -1,
+          "ssl": -1,
+          "connect": -1,
+          "send": 0.18800000000000017,
+          "wait": 69.68100000281446,
+          "receive": 1.3350000081118196,
+          "_blocked_queueing": 1.504999992903322,
+          "_workerStart": -1,
+          "_workerReady": -1,
+          "_workerFetchStart": -1,
+          "_workerRespondWithSettled": -1
+        }
+      },
+      {
+        "_connectionId": "202602",
+        "_initiator": {
+          "type": "script",
+          "stack": {
+            "callFrames": [
+              {
+                "functionName": "al",
+                "scriptId": "17085",
+                "url": "https://windeurope.org/cdn-cgi/challenge-platform/scripts/jsd/main.js",
+                "lineNumber": 0,
+                "columnNumber": 25131
+              },
+              {
+                "functionName": "LvPzn",
+                "scriptId": "17085",
+                "url": "https://windeurope.org/cdn-cgi/challenge-platform/scripts/jsd/main.js",
+                "lineNumber": 0,
+                "columnNumber": 20990
+              },
+              {
+                "functionName": "aR",
+                "scriptId": "17085",
+                "url": "https://windeurope.org/cdn-cgi/challenge-platform/scripts/jsd/main.js",
+                "lineNumber": 0,
+                "columnNumber": 21249
+              },
+              {
+                "functionName": "a7",
+                "scriptId": "17085",
+                "url": "https://windeurope.org/cdn-cgi/challenge-platform/scripts/jsd/main.js",
+                "lineNumber": 0,
+                "columnNumber": 13497
+              },
+              {
+                "functionName": "ZfdIF",
+                "scriptId": "17085",
+                "url": "https://windeurope.org/cdn-cgi/challenge-platform/scripts/jsd/main.js",
+                "lineNumber": 0,
+                "columnNumber": 12906
+              },
+              {
+                "functionName": "aP",
+                "scriptId": "17085",
+                "url": "https://windeurope.org/cdn-cgi/challenge-platform/scripts/jsd/main.js",
+                "lineNumber": 0,
+                "columnNumber": 14055
+              },
+              {
+                "functionName": "",
+                "scriptId": "17085",
+                "url": "https://windeurope.org/cdn-cgi/challenge-platform/scripts/jsd/main.js",
+                "lineNumber": 0,
+                "columnNumber": 11993
+              },
+              {
+                "functionName": "",
+                "scriptId": "17085",
+                "url": "https://windeurope.org/cdn-cgi/challenge-platform/scripts/jsd/main.js",
+                "lineNumber": 0,
+                "columnNumber": 33193
+              }
+            ],
+            "parent": {
+              "description": "PendingScript",
+              "callFrames": [
+                {
+                  "functionName": "",
+                  "scriptId": "16684",
+                  "url": "",
+                  "lineNumber": 0,
+                  "columnNumber": 202
+                },
+                {
+                  "functionName": "c",
+                  "scriptId": "16671",
+                  "url": "https://windeurope.org/data/interactive-data-and-maps/wind-farms/?anchorage=Offshore&pg=34",
+                  "lineNumber": 1582,
+                  "columnNumber": 397
+                }
+              ],
+              "parent": {
+                "description": "PendingScript",
+                "callFrames": [
+                  {
+                    "functionName": "c",
+                    "scriptId": "16671",
+                    "url": "https://windeurope.org/data/interactive-data-and-maps/wind-farms/?anchorage=Offshore&pg=34",
+                    "lineNumber": 1582,
+                    "columnNumber": 397
+                  }
+                ]
+              }
+            }
+          }
+        },
+        "_priority": "High",
+        "_resourceType": "xhr",
+        "cache": {},
+        "connection": "443",
+        "pageref": "page_26",
+        "request": {
+          "method": "POST",
+          "url": "https://windeurope.org/cdn-cgi/challenge-platform/h/b/jsd/oneshot/7f3d2ee44814/0.7267859671694515:1772148994:jm6s0hEUpqmzQyO-_Wf6meKLKJ8Riwxwrwmx0c4HAOk/9d4439ae28e79f60",
+          "httpVersion": "h3",
+          "headers": [
+            {
+              "name": ":authority",
+              "value": "windeurope.org"
+            },
+            {
+              "name": ":method",
+              "value": "POST"
+            },
+            {
+              "name": ":path",
+              "value": "/cdn-cgi/challenge-platform/h/b/jsd/oneshot/7f3d2ee44814/0.7267859671694515:1772148994:jm6s0hEUpqmzQyO-_Wf6meKLKJ8Riwxwrwmx0c4HAOk/9d4439ae28e79f60"
+            },
+            {
+              "name": ":scheme",
+              "value": "https"
+            },
+            {
+              "name": "accept",
+              "value": "*/*"
+            },
+            {
+              "name": "accept-encoding",
+              "value": "gzip, deflate, br, zstd"
+            },
+            {
+              "name": "accept-language",
+              "value": "it-IT,it;q=0.9,en-US;q=0.8,en;q=0.7,es;q=0.6,fr;q=0.5,nl;q=0.4"
+            },
+            {
+              "name": "content-length",
+              "value": "17189"
+            },
+            {
+              "name": "content-type",
+              "value": "text/plain;charset=UTF-8"
+            },
+            {
+              "name": "origin",
+              "value": "https://windeurope.org"
+            },
+            {
+              "name": "priority",
+              "value": "u=1, i"
+            },
+            {
+              "name": "sec-ch-ua",
+              "value": "\"Not:A-Brand\";v=\"99\", \"Google Chrome\";v=\"145\", \"Chromium\";v=\"145\""
+            },
+            {
+              "name": "sec-ch-ua-mobile",
+              "value": "?0"
+            },
+            {
+              "name": "sec-ch-ua-platform",
+              "value": "\"Windows\""
+            },
+            {
+              "name": "sec-fetch-dest",
+              "value": "empty"
+            },
+            {
+              "name": "sec-fetch-mode",
+              "value": "cors"
+            },
+            {
+              "name": "sec-fetch-site",
+              "value": "same-origin"
+            },
+            {
+              "name": "user-agent",
+              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36"
+            }
+          ],
+          "queryString": [],
+          "cookies": [],
+          "headersSize": -1,
+          "bodySize": 17189,
+          "postData": {
+            "mimeType": "text/plain;charset=UTF-8",
+            "text": "F1gP0GTnJUoNNJ4VS+JnD3D7QPFJDFPT+TQugDAPO+ocDwfHHKm-R+o9gz6DoPH4-DvnePoQDuv8Ty-nkS6m6DHb6t6DJ4l-hCD3sJ+dPRU8ABGS1N9+1PRZzMIc+iLGDJB35oAJRA3BGrky1DT$fJV4G8-oXDP0GkGTpDuODffRIOjIqn9gHj9g3V7bpTjq$qnjdDoHGDEIdTPDtrFqfy-JGD0gDJdODjPJJKzuP0DTsD07IDTbFiHCOaW-9+JgPD0$1s0VPazr5DUVDIPnWDRCF4f$yJbv1Mma1+AU3+DoJWJ8HrprZLzsLDoh4XGDTScdnqtJVfYDCtWD3F-35+hFg6lUhDsOEF1+NbiF1WuO7kDgR7LDMFl$5g1DgZAR9T+gAz3ms0AJCTCCQMgqX0hTkMc0QDROjjDDUvIN+W+HgIRPYuDSfd7rTdg3PgQTF6fgZ0HD7HAYUlXCGtklfgD+dOtduVy+yt0qnA$+GzjdD-CwKND95cIvS4N-HPalnk+3gnR+F0mEs+zsoNWl+JEMnpwoJ47gpCDT8bnMOnyOF-DWc0+Pp0OIi3gd9wGyU1vu+PD7wqH3HQN5tUl3hXqwyQ$v6nvgzXBZvvBvNbG0PUsp0uFC9F-91rSF8qQkyjQnYRVF$gRVylvB+suEi5riiNKoZoWhMw+UlLe5z0V3jb5n-+rCWEa8kuFe8KUY$8ikI6v2HsAuT9IsfoJueqkuoHXl7dWZBRV2ARKYp-Qk+aGQCsyyzo5sJ-E+hoDMqaOY78kr-TDyvsMywoNTqB3oMPWd0J8r3VuNvROKDTJmMPMqz01vTujlXoDLAtT+U8MqOUTtDfl6EdzF+YOgLPrFbKilEgWioRIqBd089j0CuXAGvUCBMRNsA63NO-dQOSvAkY-HYTnaBOyDzBMTO7XYRu8H8$DDlGRgS6Deur$6DwMjYSGpCqJstjOA+uvkRIaNvoOM+MQgk0YTYXVooUWNlSV+-DoZzoOuimSbTHHR8SteGQSPTSbC+SCu1j83u0NqouLAXTY8AHiVH6LHD0WGD31P$fw7ngmguCM0uonisJ2qFau$89T7M4HiT9I4gI1-oEumCgfON-lTOjXRibogi$DT+DAzSj1$O-PpyOWwGOhhAto+SwkNtSBXD9ZbqUIr6mPbUTMvOkwsnIBR1WYgiCyuQReitdtcVhfBXSVMiJDDlZVU-fzOwnqD9D6SJpQ7aNJ88ZRN2T3Es8CDJIoPqUqQEIs8YohNTCw8D4rgfoiDiTP-EyqdjdgY$1vozHUcfznRAoU38qOVD+amzHAyHS7$+Z$9A+fN9OloHeDRnv-HzqN+AzTVNqezdbAQyLRbe+QgN9cgTbk4D7a3AC23qRWAkqyYQMrD9GqoJ7U4-mND+YW1Zi7CNs+qPGLc6Q3Xeqd0jc+7D4QHdFeijzzeT3p78kmEnPXMCp0mKe37AYSV-80OJY4Z4zDbI4bf1dCNumlmLeyvNOtN83jO-Vd7Mqf3UYzDAVeRHV39P$VUBNJh+HEgNn4zmi17PM30olLpHr6$iODm7DqJCO2G9Dm3rewKXwGYCM6T-liPbOeCm1AGoiIbo+LN-JdwyR7ToTtpDDoj8o-S-U7m-gTZ-Hgn3LIL+PD8gAKSTkH3MX54HNSEfU-XBsqbZc10-DmCA$1Fv3T+MAsoHwBBzo8CPWqD1i-1jcFT+PdAtjqPLKj$oHPjkgDnZhbsF6Zq9twFhdIQRnOtQg01SnJ1Vk2PLuCdDJbB3848qharEMjJDMNjOFdhh-d1QaH1QZwOoPOty01cZLG-AV3V+Xr86wtRYZUJgPZwGcsftIN+OY$1vqYMgvHMsHG4CjQ27qVBMPsa83D4twZgjND90cBHkDHh63C76ggzWgd$LeDgU-gZCA03h$gQH+8Sge3hd+jOiqbyrIADgLPqDrHWkzk$z1kyXT0CJMYF1tXVRLOlP$gpXvgltL3iRDV4jzdCumWnoCAPntPP9zv-6krwyB0u3nJQTjSdtlcLnk4+qfJ2FczCCsQ8mwuROSDaX7sVPTXOunk9YdHtDsfE2+-B8aVSX7$-F-Dny1mH7Q+5fXCrT5S$PUF-r5r1NRMkrLNE+lDOg3CmSPGAZ4yuAFUJ+pT1bE9OO$Z6+8FOiIwinnNgARdpJ2GGPnq0hXqvv$JRS0WLocSSLUAMVP3AGw3Jt8QGCwlMVQotYus8tH7An3+L9KBGD03iLd7PKD9Tt-q7CIDWdMG5PYJh1C-lvOM91DIBXFDg+QNVShXVSPpRT$+T3iMvq60cw8HhAFhdooYqpE4jzjsdHXucVworr49DBXuDh2F$7SDfDJSk99lMSGN3be9V4+GYstROQ9yj3sVS6mmMYQteTCJX03yBWjwt06SGUSfhNK7jwiiy4g9W+DECWtpJEJqyraZ6t4PctWotrTUoK$12WBsBaKLQfzAA4Z0rkSUiQeS3ltDONeMhNFC7vVT3jI9EQnZhhbt7+C5mJIir9RQGTh8DlnasiuPh8$MAfOQmyK-lo0TXbWlbz8+TDdjXZXuIDvnSyD$1zD7-05jIZJHkKlldNMA1kT-WWlXM0qP$s4+u9hywb+sBoVSJ8jm39onM0tYM8owTUGBhuKuBk3zXjKK9HN-rO$FSXKjHmBsEjFCKOC9QM+AJrC-uOLTrdMyUEXZzpPFAAJUQi2zvjWD39D9FXF4rheDDTzshIAp-W46VgTPUkGTwDRUMbuAfCR7gOOHl7qTGJDK6PVUUyozWsYYbvCP8o2VYah$12EEgnmYhSjr33qEUc1RlhWh7UsQi7gO9P08UNQe0Rgq0bb5LTl+DOGmKf3i5vMqrpmPWwJlMutrrPKLBRTBKu9rwz59oeLwdrdwQf5F6ZVFUg5wMyouoDQrS+rP6HTwuZlXScadAwwiB8ZQlEBid982qE74amQXM0KWNt3EvkL7c2uaBZaWNT3Kz5abGfDWEzOrTdbqYHUzzjayByj9i42wN5Qs7-r006NbUi6RE90aeNq2rNt-cYwi4lbwJ7NM4NmwIu$RM2RXWvK3Y9UEnuCKvzqs9cEdkGsSeo43ItGvVzqegRuM86GZyn1Bj0b$t7e9scV8hVN8Fhiun7-rJgGmGsH-5e4yLasgFSLKW-9gOv$aI+NFQYg+PFSfppNo-jZamoymE4uDDZNYXXIhro4zYc1pviFaK4zWhbPqjI4ztD81VqTa32Reeo6cLNkZP$lp2-PckDWLPZXVRwzP4mkirEgC9uy49yk9203ldP6eCARvFmdQpREcfGOW9wa9WzlDFbNc4Vi6ILPCougmX8vX-QWbTmVCMKAZb5Ys-HB6wn1wRiJlH+0-wmL1o$+mtMvLbq0YMVkDq7vMvryDJMPQ-7glubh7OAaMe5dTTkcLEk7o05yRsaKtAmmdwLJd6ulWaDlIK24NAPnepJPMI-tjINuT-bfFpYtKfrPznop$p5uDUDT0titXM51jIDh-hau+snT2u9tp-WYGQFpDPzTQtwpXtk978zpw8lt--Ap$-qXD1w9FTctruiC9Xajbp0Dw9qT--pTWUyMgTLTk9kT0T$-4TD1D-9coTMTzuVMa8ypnMkQj3YAep-stTETYMatS9pNjTyY7pJAMQacjTSMHYFpHAjPrMWDLP4AATqA0M4AbMPAGhO8aM4AKML83T8hGPVhqcXCQTezFOnhqc7AMh$uChqAjh3hatDCchifDAFpThpDhcJl$hjTohoJUlRh6hrhMlBsihBcEThlCfpAjIhlNQml0-Jli+SnQTHN83flsTolW+zmUADsU3jTn3J3jTXAFpSPM35PFpp3icPq8JqC9CjTp37cUANmjTy3i3LlsqVzB3m-hPJqETR3$QFpYf8qjTYfVQ9qsfplPAYfycqqsf-QUAYfqlTqlnuqETYfcfT-AMETTfRMjTqfbq$fhp0qD-dfzGFpFfQTyfCAof0fOTjTkfvqJAIHJcUAD9i+Pnf1P-R++9GIvDGzETs9N9Fp9HbzfH2QQHM9QTwteffl5udDz9OHT9NHETq9TzXCFpcAPAr9IYW9iAUAy9JIaqJAgclQ9QfleH+cjIDcehdIFpP$qQetoQ1$k9bQ0QD$jcFpFUMc5AjTAP9c1Q6cTcTUGqMIf$pcdcbqQzQqUAf$$qITQzWqJAp$LcuHBpPQ2c$$QzSq0qQzpql$eclqQH2Q6lnH2QtQbHETmQtQi$j$KHY$+4-$b9pQ3HJA84HQs$jTn$dIrQyHBQWQJ4IciHh4RQFHJAX4zMV4mAkQvG1fcNOlap4A2p$$3X-nntQzdJEGsAiXHTwTv49j3U9UQUE4d-b45$4cnupz$9oHD1TX4n+PFj$+y-Q4N4BzX-5zkDqHvzwzyMzHypQ3rPVgOIi9ujnttu+DEX0+IgJPppb4qC19VuT8PhOXpnD1ZP$uZ6BDM6t10+yu8P0UD1Plb8bAOD8+aPccgPIDDD5OTZeJc09Js3gg2N-kERzRRIgmCQP3U0fCPCA9A7DHPJP0fFDOtOPQjUENVw8HWkPRs04QCk8Ez3c0mjD0BJckUd+TVU3HnRzD40VVS$9OmiMeJA+k-iN$kUD7fwOR8nbCbDRQemUgmioJrRjd-HbNeO$SuC7PLCZPgHQW+oHu8QhGc78BtA$LHKzO8McK-7gK$WnR8RyScj80yCER$Z$jgGgS93eRiQC3noNUgF+DIgZg1EPRV9+H-Q$3qV+KPJXd3ZMRSgP750MunTb$9TGe40k$SWtZdOKSYOW0zN-k0F+3AG$Qd+sDOP$i9lJfY75CD-NAUCGNGInUIfg0jgRSUSpwsmdE9elZDfsMS3+TOFpzaSEGB3FoVjDHr7VeofCLP3V+-Fc0DV6J$wjU4CnnsFM$MfOUWic35DET0PID3ITf+DDg6UqUXWDWyE87HGCZJawGoiD$9LCZoPqPoioFS0jZJb9elPDA9jdA94lfJkZUqtBlZkTjHToquEZPIrL3-9Hm4GovuZTz4-rTDvZZlpj-cHJ6J49VHZ6gciv6uL33lK$t-b-9LOqeDtJBH1Ji4jgSteuZveul9iMPqkZt-uarqus2jFu0TZog$0jouhw80TlaJTlkZ5GFEJT9yLCT-chdGkCKhkjCJ1q+0JjOJJllJ9$9AaJO9zCtMHoXcdPRTawCrkDXatssrGTsrPJhrGJnvDRduIs5MPqhqRXJa1Jfafss-BJ8A5TZTfoo1L9eJCLDS9tNP3-CTFZzaWCZJERTrPDpao83rvjZqlJuDmbdIPT3wZGH6EJr+l$0-EEGT9Pu+7LSyGoXqfJsA-XatZ8klG9aIPJn8BDsJS$UHrfbo2-3-2jPX3oioBTK$a9-4fosH2Rf-slWsiOLLJJor0jIZBtyrfDMv9DrhBr1Jnq90BTvsPJ0v0cmrRo0soJ6hCDG95H0j8PwJ6A7rqB3BXqRa7rfDRrKo-J+oRrd$XvLcasLr1TLrPTglacErKoeaksPJr93Jec+TCPKrSczoXXDkDUecRcOaql7AuV2s6ctTesgD-FHc6aPU2araIJBdj8YDPQ3JSavrQ4X8qIiO9vICAvfq5HNJhgHoWDToBo3BCsZlm+ZXiroq5GukIgMqLoN8lvwsYQw6$8sPKoiXJwWHaqYUsyS-vViywsGkijP+HJeBb+2jsvCUYD2liAVs3lUUo4QDGTEoIJmZ1JCcH6ZuHvLqB-Yl9cuDiXmamscUiq5JFTeDov9JQ9ThZXi+BLBBdr5C9sPD9XuDOCTXWosDZqqsVCQdTUAkeTHyjqbqOZfoToWDX8cs0-HD$UXviryRhCZq4UfoocBXSl0BTJWTZJhgTvJoPcdkdQmTPo7MsaKZPJ8PBXAbHFrUFknTFkkLAcFoSGWuWFZorQFF3aFFoF7EAgHopXTXXZfrbvpk8HJD4UvU63TFT4vFpkql0QZ0KdKovEtcwQ7U0kqBfX+CRkYjc61DcT07AcuQuDRDebBQ98GAZT71-8d-KrqsHakQuJeQ8yiMSCJcH6TQekBfvMSH9PSDRtgqGCPiZoHXdjRMTUeUZFnvjoLQVelvto9TskN83j9BJawBXBaQek+mqXINZU8Q0jumPqP+Zcb8$Xse-ROJuDmqbcumUv9o3B8iskuJ9MEQ+i2kcyqs$4JmeFUrNmG9umUmdlakGiZJbcRQVNd8eH5-ojuNgTsmC$3JXeBFaw+NwjRI2BFBrlF-u8aZfJfmo$zRq8oabk3BFl10JTOgPCtDdPGPC7U45PbgJRXNPJBEPeUh9j08sF9NuqTN4fZXTe6Z3bANiyuoWDEXDcUvZQn$1oF-HiUaqNC+KDtTq8Coa84eZFBlylcNfiuGuO2BmvSXdvdXHbcQh0SP0J$kA9TBcQ$UFk9JZvcQLs7cLZiDbBDRbj7yC0gEoH9PRH3jombjBj0XogVIveomRhdC5i1oBfvNIvpJdH0ibjmJFodQoNSDcoJJXawNvf9BpmlmSH7UBDbU4Qb8RF0BLmojamom8iLisJNroqiTKmOJKevTrwFD4$kTLe6Lys$03XdjiFd4LN$vPmzClr-KBh8iZigKwe8nv6NTZegngWGCgiPoWGHQjJT-OWOio-8Kg$8zdBInIN+WXNoeszauXk9TeiUnw1lvkN$v8CJFq8EUTUOnYznKgWioRZLf3DZjGnGTNTsQClTMCJpNBcUnwaR9kipBta5kjKCXHFNerq69tvw10cjojq6-lT0-RoQ-dg4rfD9nufTvpNklEgh+ls2evr5ZfaQncKmWYNwlyjAXPvtTlDNo1o3jQWhcKVz9CDuFmWK-lDQKz12-k-vcHmNDmo3izn9jjD-zHWsTcVrLNe9oVWZc6zWACefnqXJl5T-8HTo9zUcW2bXn0eo0F-l7r8QWrbhzh4CLva7iT$YmUVzBOo$n5zNS8wqhl4sOr-5K4X6X3Wg868sevcF-GGBEjORo0nriwn7Klf0XTBwnGPeewlSKbzRnTUEzTXPKNOrK0nOntgnhWHLncnan$XWe2mkW0nRn$q7zKzdjUNl0eWZsanRDCTNRMBW0bKZcraKnRTYlTsDY-2mK-pHF3oRK0zKBno-p6o-p5zaL85V20KKzPq1XO5GmDYGGI9801DGAqjav2WP2LnQXQMVHGo9q7A1XILolknQXToCJfbKzoCCotfPY6ln50DwJV2npG1KzWidBJ2uLbzeKKW$srcSzmWI2C29nKWOzwRTBKnHUTvf$M2RZh2SA+HhpC51peQfbSyu2toqbKzCZ9DQY3o3JODjYrT3DeqI2fFqz9pc2noh-IKKzcpsp12s5npzNMj6T5yT2KWONzDjKKkkHq5aTdlq2iJFJrANikJ7B$569LKAYKnpyD57MCZzTAYG5SpHANY0BSAd2zDkzS5IYpAG5KorYZ2X20npy4oqo$2AvODTppX3JCT529Dlo3myY8Z4j9YpPp2B5F2bnpPGPs8fCNJsP6w$2Hr4z7psXjDGPb2ZGsPRpjDoJ7YtTwy$pPGKwImJjL5oXNDmKd5aYGJdtWP6jAqapqTSvipFpZ2FYOyVSDPlYKLIlLBbXFguDcUD+3yO+VnLuz5CDKfqDS0s4pb-WKE6fphkTmV5mzKE2acbKW1OKPKD7uTOoKW8TGyM5i+Ja6iW0zAFWpT78Lb0naPJX0toPUb1GP3MdbjaPvBE7$IP9MeK7i8FhVZsmzPPVEPvsOS1NVf0kS2NYP6hC-lT14jMTwrZ6t-STK9H-zELZVJoSTMPoatb8dhJJ5TLe7-zV0uJ4uvQMPVMHFo$-bdljTGO8Z+0uoSrDPKjUmNisOON$CNRa7PMWcpbno81rDAPz8UuSpJyD2ZD-WgliVCFGtFin3$OXXtNW8Mu5+3eOQ4bODhuzY+X0OknX$oRjkBZ-LPSTPauY1m-59IughySr+IX-r+$$Ze7aNtIDLJdVu0kvRFCPcvJ$DpcmlkitAY39VKqaPAlTM-p-AggsFMRpUTA-8N23uHMS5JcADBu+4$lfVsl7cMELv3kLGCSJbzrD+rIZcnMOPNQ2wk+LMqOodoHNl8elH4DgO1YltgDg1Ly31Jli09A-dqEs3cXliQ816UzGYQcXhHh9u571Wsa4PzDYA0yFqN-DY+sVyPE+-1MJgCoPGqYIghOKWlA3mU1lOgqkRNCAO-rsXB8c1j1XqSIs$VAz41Kh3lRCn5AX5JIjqvuJ4NSUc7OIlqqVX9FSg5geO9tDZPGTRAZUOI4Psu69TdY6gdqtJDk49AfPZPlBESsSStPlle8$V9X0zDzZzDYXQmo5o673gqDVUR6$zcu6YN2G7sKrEXafj0W3hOIJ1u+ohG1r6PGzH+F8R0+3GnYTVXzOgA-4HNnIdnMX$4-53ZDbDcYgjRPJ5R+8wCk44Cil-RPT8r8R+O5I5yo3SgeNpEWeo3U3AK4CfTCzUzeIBROiFVCbgF3fUwV4GFVE+3cGZ8AVTgOqrP9U4iSj+wTnq4PKUZ5dCR$JR9lLQN4iD73ryXqj+vMg+vUPZ8Mq2VyN4fUboWGJVrVPn-9gfP7HI90+vNF03gTGH$q+PjAO+Os6NDpqm8UnZ5GL33DQTjIHffmgLS5Fjqh+yn7E8W7iyZVE+hOZWaaOEGGcm839DP3HopyumrP+7ezgGJlNQn2w-pRiAHqqlBno8zhf+JGTpDbPhHLN3pHb1hVXM6nO1jXvvAhiRq8OVjiTF+J8BIHfNuaUXQVThNUHlm7JKgXzTiWdQm-m4f+TcSt5y9l8OAIi3FMhsrf71N10IS0J+Hr9j+rQedRbt5A+-D8BTmlU1IdFpHk+eBAz8UBoyphdIFZS8AR6EGYD1IGmD-C6Cl46H5njPE9SzD4JK9GQKrG$UNGtNX1XIPjlqQOIAymIAy3TUMcG1PD8fJzjXOBrbT-g7HOBjPSgC9yA8G12wDhPeSR+VUeHOFuWd0osBK-dPIcSM$wdUIHD8$askIu+9NEMH7czR9IW-3Q3TB+OJuwoervs-iOK3QGKyEAs5+mTTHzDRCzdg27Cnj$zuwoiAHjESB1$ducStdFY7YWkHWum+WZQ0SeGC$7ufpg$OuI9DC1EurtK1sMIhHGqwPZPoSl3fkFM8W1ECK4H0otsn$L0D9IkTMf8Hd$GPgwydCcEMHdhQudKRcJoB9oX$mstbmrHfdGTT$NJClDVO8HXgIOJBnMEYDTbDN7A7Fl-Fl3yACGLtoBDQ0$vzdCTk$pIQV3+o4$B5KIk6RPd9QhjmNUV08WVCbOBtmNjO2wS3PSEwPFyFHE5UtQyUNAiGRhUMZ39LEVo8gdO7ON8RrTyjIvOOFsflSPLI-uvcDSUhtEq0dyZZMtXhRPFtqPChiQC7U5qRZZ84X8+tYJW-R3vdARDpP5OrYlRD$ELlafzBJulS0dfsAgc+6DqOn3myoJZ4GiD8Sw037kuW4Vwk3RoTpGMvM-ww70Gw0hPL-Z4Ibk3FQvdyLlU35I+tm70ufonbDHPFY$koFEL-k40lCjZ0BUTtVeDaunef8rqw3l-6ADnQ-qo8omDn9GXOQlNIgTCv29pbn$IdQIC4XtPD0FPCmT886XocznXQNLkC41WX6J0Jbt8Qhj6vQmZnPydeBhjFXB+hH9m-IRwf7Fk3ynm4dZr0J5vFCPYehVO3RfZAWUXpDRdaUsVaBDAK2LQ9S8bIAXj68kZPSLQfd6Wr6M9WzKvIfA2nQpWndzKvELI1Yt6yU07OegBIdvWlA3CmLGveETGb6q+zCO2CzAq-DpZntgk-OHdBXj6$yuqRfc3V3Hn62Y$jH2CoBuYhD3kLpzuXBbOY+S5VUm-PeoPkTISm-WjfPir6VC9DiDCmKiQ-LSPEtdYID0Eg21g0Rz7DCmBuDXHuCtDmfCAle--9uvhDZnmKt8t4$ZvhfkCBA9Kd2buZn6GnrTua8OuJPOSBF3AdLg1ZG0TVIG8MCNgnwtnMuXYY$N0B$bvXj6XiLBJBJq1g0cPCeglzVeC4ZvHfQ6-pzuszjiAySBXTcBR8-9kgTu7WQqjNZ6w30fOjJ1ljLU8730aSAGtVgDwt6LvXfUOy4SLQWPFU8SJJXVjksGu7HGSmnV+ZLQ8fHCcAGjmf0cOjZTT2SjGwcD$dYj9-bm7LgJBIiwPZ8JdF8XkEItuPKDRH2ufGgSDtZalOYX20eQVR3dTVQ8twTtg53oG4lmY2w4$ukGnRsTrgdnD4WaAhu9Daq6R0qn$cfu0SZSHil337ZXJuHrD2wT4K7HpyJrZghXd9VskZtfsGm$iU8SJahlyi-N4PWmw0vl$5UTfloODQR-aday8hR89fHnE5Myskdrg$CBNd$AGH3lZYRtBAUgT200dZaS3AZOJyjScP$7LJLPSTTnq1VMNzlVlPPfXv1ZBsKrG+$XG08vDcCr1HraSIPTYZL8WhenfVVItOPYJH1kaufA5lZq212DHgkW0OwWUjPFYuHa7GO+kV2RkSn8PVO4ZEMlLBTPCmVEkDpZ8uDZLGtGJWTfP-JSPUC$dLdsY1ZIhOHs3ZuVYrzMtN-+sCJ1AW$ZE-U-+tNF9IYrZt7CT3ti76PTWZ8L+XHMmm83w9cCJDruPHiLhw1ZUt$D-MttViHPIGzFZzauboiCoODMV$jDOVC3-HP67UFEPDyutq29nMyjUNIyf4Jo+Assh03NpTPDm9iDkQQL9lBoYo+PD2DDjyKRbvw9WsNMFKRuydis6XECNChARPWBsZ1M8FFXtuANW9rVyCFPftbBuul3aMTF+1lk4FZrMAFjSUwFyZ+Ju45MVfDnIag0SK9UpUtULZVVGTCQD59WjpF6-BqD14uUi4QE6RWP$p-aSiZgItTPDXdTG+HLTk$+gjdsjOcF9Agc-X5mcTN45jgTobq6art3o40kCqAWB23zRDcOfOoMGj9D6CKtV7R9bSA$VfdMze9ObDpXkX1M$UDJXvtBlIFksMo-JsoA+M-F$8WUmaggcKyOYs3sbeAiyZHABm4D2iufDN6QVQVH8AMFAeVamWCFt3$UQ6aQBa0VFGYXoMqt1ay-zQvDQ84Lo1cI1YrbEDB-lVQTDHj8g8kyKHtCJnM6FijCyufJ28MG9FNfmjSTtBDJMGms3fBl$tt1H6TFkEj0G4N1rLt9DR3ho74mECCTwFofGDjHUuTLJyYys-CD6enANYLIT3rHAOTnrHAdzUTj-k4iJccJQdk5MouqQR+G7E65nRvMSNXPeYddg9P1RFHssMMITi3b$FTNzflMNiUNJvPOsCsX8p9QnlQAZ$UTUBMZT3qh-WLOaqU4+sN-a$qNzd5-JuJ-9w9EQ+oiq3iDvJ8HdezfNWvFQuu7uV3NowYtOf9rrGqH0oS7+41ZZhkFmDl8viFpf11Cg8AG4M6pq9XTMlyvG4MSdtBgGBlJ8aU7ii3Xy0BdN1ceCvN23pbWTiayITBnqDB0Z9S04cjLij+RnjrmhDiWsjWIN3Tu0Lo3-r-3VFGVEG930GLzHPRFZH$NXStYDigDgC9T-B2wCPP3pCUTwlsTTrDnI+SFmt0VJq29NcbXw2Z1JbZrDsNs5uzBlsY1D9r3JEBvPiS4+rl-MJE7OVgdYvKhq+RvyajTu+g6qlOiYWZFOBIXd+-CIroFcXqk00$0MbJ4dHUl3T29Cm6plUJNfMb8t8mtqA0tT9lsoDhi7JLr0XyrqoWZyZfjDo6cAOOPcONwVwticC-XmkWLhBaLogAi+caL9aZbtuAHNdDPFoLKbi$BCnDWJUa$gE-TczbADGPSTT0$nIv4cz38caLgLOhjnd+nAZ+nMg+c6FwT+MtZQrD5A5J3$jNO-QGX0c-$yf4zrTVPqeVVUTP0Ifwolo36$6h1e887yauIoV6wDuKF4f7i14XGId0RHMFAFSrNDGHlWzj3ZJGhNTeVjsClOyRKZgql1TNMWzhXPjsJk1fpNZzZtAP8qC8cIpi-KiAG7VGrudz4ihAU10hsrKj3GQR3ygiOaPeY01R+dy9ehSgNPFbl5wBuEltDwwkS-l-JRMGCZ8Tw7CDMpDdqz5+fVDsVADFP00t4frAGQZ4ZCgc5ZG+GWljAMqqju0piS32wlwzqP1yNjdTWEZwz8XolsyCejAgFQqpglcw5FbStwEl3obsG1N8+C60le+FhmS+EOWPotH$7mwcDgMb-BjDZaTs-paomDZq$W2TEcFg4TrC-V$BMRP13GvX$F5lVpmP2g8ske8mmqFz-5B0eRzqyoG11bRgz5y0swo$u7iNgDgbgie+OCIzf3m5AKX8DU-7NFqAyhmRR+hU0nO7fNFpR5olmWP5995P7j+rYAEF4ROWynvGDvNnhkr95yqROyUZJ-a-KGQM3jTcAI-hbl47p3ooNlcOFwuJ-uRR+60M8JPemrlqjUFrjMCniByrCCyWlytHFOuVn$fyogSQg1nWPQRCPcokg8J8FH+qDHI3K$+bT5EcDC1rAmCQco0+3Dm5LNl-DOSRq7PC4gN5TB+m4Elj0NX0QKIHvdSv5YWgD+1rAXCbgvF54Pj1r2oJQOnA4gDlawMfPkH+qFEzbC4wCQDeRqGrIv1pGUPQlBkyvJ8O5G3TF9BQPEqd-6Qipk+AaoUMC9HY7AksT8BEqIC4SQslf36oQuN81STXfmNVBMshMChrs-fgoOzH1TRMrJyPEiOqHpknb9pQ1fMB8J-C0$gocEZ-YFpG8LHCUf5AQBZsT+APWNIWwSy0l7g1iwuo1RluLp8iRX8eAblflFz4gjotkGJfC1bqYvdv9nLhZHm0D7fm5VDjOULu0lWu6Ymu1$yOOOph8JfiPUqWmOKHYvN6DZGZAsrryDFe+DuXRRrMcnagchzWMOHGOZqh6GCDQTcAdnaslVryOJATUmlIcMUvGgtRcTwS5nzh0XtS+qf8DfoDZEzrgqkT$PEMmUbFAmw0sH5upeDUOohTttKqqDOpQ9cj4mr$i$BkVkJq+Fw6ChrMfQP$owG5Aw+CJzmSOHiBJhBDKY0Na-Gb7y$-W02Dnv0tRFehlv246Dw9QnAoHL9I$5Sg9EL6kqtmWMonbIJaF0w6rDnFjTcONs-834MQacn2OgTf3XWf6w7JoTbDslcTd7QW4KOkQWf7vm6mYhoOyqGDEvy-BvMuAMgbE0va6GpLp4BRtrP096sJ1pn$JFTvBW1bRlqLc7tWS53pwpR9ebZDqbvFrkPc+4uj3dGZEP94ePSLQO3hhc6RCD3Qb01sKVb-l-3gJe1iDZVHXagCvL4w$UtIHXd9Ib9zDjrEIlInMuIMcuY9hBv8ucIHnfd1TRM+dG+HHKhVX90MlvBjVbZBFHrl0SiK3uE9m-chXZoXHUpQlofMXy0VgK11PK19MvwvJnv1YBQiZPhg+tUtu1GBgejfFyKYUMJ6K2y0rVtbdh9E5EWQsjzBqDjADAB8TNsyDCmlGrNzhZA9tOVUtAkMKthVg0B6vnvddljivya3rXWbLblDTB17MfhUdRsPYGhfiB0Hw7DZzGgTnjwPuCggs3hJz9sMtBWdCYO$l1$2Gv1dtrY3rfWLHiTNijTmmAkF9pwI6AnbrWzJHLqwL8gye0-dkRb-qyfBDvnQ4Z09dgD8nmognwL3-Zw-$dP34KW30LWwpr5M2t7f+3yowSnKMpQeQVhG0wtIAOKL37SaL-WR8qsyiW+75LM3A303S$nIRrlCPYstTHuaKrZs+J8PFOv4XHGBl0B6EFfDNRNIjnQna-OP0OtYhqWYmMi3wPd8YlzHHwZW9wSUDoym4Ecl3VtjDTCUa-LhT89IDUJtlc3MgCFg-Rzg$iZA6IAPMVPcc$ebL29SFtXpBz$isVrD0cjpiB7hPJwQ0J-Jf1vM9uGaM-GCJjJ-JuPY+q7eDaSwJamZjckgKsH9hSTZN-NwBwsoHw0KdeMaZ8VuW88CijM+ay79iq9c7+kysTq7AiwGrBW$D9aZ7Ec6c2t8VlqLwf6Jn861dpSnd+$64ddDsI7FAa6Mnnz6z9WLZP+Gwz53eCe0eRdEL3NgzTO3IgTNBG9GzZQ6doGArfUbHP7Q6CBwQNyXvIdmNctd7ykuH7ZW8QUEouGChhv8H6mc94$JcLSWConNhaz0RpNzbEW1N-6LfeWHXvVNMbJVApAyawNXWtzcbLVGauyvZPmNpav6+lVhvI5mNhl9UydfOFjW8iEk7ai4Gob2WeVkOWwkicpPqS2M08U3ArfjBzBzpqnkUmyaoPT5ppbH7wQKyLP8Hhm1a7Ner-L7gDnN52WhGc92bvrFmYDbhJoRVRMd+PHeK7mBdnl64pSILMvesVnbF8rThGv3cFfCrLAM9FHs8eWHM-N0jvHYouT-NftzFNA61PVzsZtRYFaAfDylaIQMs6sHA2zzEG1rgNuSmYbJSAo39FF3Xp2ZyJmcE7Wp5nl09H$jsRDtTd86ld6NM-OMSRjISvu93VUdagN0pdVksXE6uwC0MU+UBl4Ntv0SBsdfeS-59cNakDXGtVSJscy9kUVZnA$LLO1SF5v4PFqfBlONXgdPWRrfhdO$YnvsdIXEFfwes9TMbDVOBmfoO43EM59Uus6p6LS4F9ZkYLM-QoEeZ$B1dlR+j03FrJeeGFlZSOzytQpP8YzDTVcYj9gUh3T7RVtQY93UuABlHDlEk3c3QUl6FCBPuB$84oXM5k-V1rzKZXWcTok7QHj+Fzhk3z9WwAjIuTjhyUoEvWzMcMSPLmbVYyfOUu8iRNFz3cGnz$a4gBpnosPHM5TZPQojEszoF6huFatmynANZPbEaJON2nmq7Oql1D8HrR6AfiwPREbvA0VBZi-2QP7ivszFje-LDm2EIsuzJPwXWZRnPNrtSsY1tz6TgLY5lrD6vAmOT7z0ATXkkjqn1eJ7qa0S8yzygaoPzT-4A1mIlmS0qy4$Idb8q$nDf7Q90AzIQW6PNeCLADFdvvDUGfE6zw0wfQXb6KsmmLk0dvQmtb4U1bqS0cvQC56GFldPW16T5XHl+kUEfq4XcgYsqe6E0f$+zlZ9WU0LU5LTwPdJKOybzNSQg5vHG3KtNTDTm0lZw0C19JOmYLgDHr8j2J$OmrzRwwdhj16qfTKLifKrbjYWn54EL56hdcj6Km6lt1m-U4zVD1lQ6Bg6D9X$VINlQJpIezDmQcOVDc+J1hPMdkWWOMCUQOrQjdO96mOjZ9DtXtdSjGi3ONwRwghiX8oznYHP+S+DmJ8Q0JKkmD4oi-OcE3JWuXRuwspR36M+Vgn$Tn0hN5-Ak+P3BsbvhpjnuJY9HPJb6zkOSbK5eTaztRwHh8EK8eHtwYWCVu1NoycDHdCS3N5u+UngjPXCjis$Opj7-J1BmubHz6Tqtl3oDGjRQpbCyLmMsLhn+kjlVG2e-E+D358LJHjK6jul-6PHcohGmry3ZnCoXjycGgKfPMbCmHr-6rmVGwbntdOhP1B+zka1RPoq917WC-7W18jVo8bCGXfHgP-zjpwjDpPdMkm0npDq28TUK5JhPSVDzl7LbgeEwQF6RNWbCLZUInIJ574wJVM-wZuXJNFMVOgXzHPnEPnFc2sHSuAuWbIob5URl41$I7-EBv$XvqEDoPTEp249RZT2P+WF8i6g411VmStCWEGv6jwsiQz7P5E5Ni$1bffKvkZR4BN6hV1Wrcrmt7vh4h0OdwrMPLfGSlHVdpzMgtm5hQMF5l1r+XaEtc9$2NYOnaqsLbOnzrk4lzqPX9RCU$5u2aAGeQIuw8hVRTMFGfoWFHHWOIJJRAklLh+gR3+HYSg-HuKmJ+ho3s9me7LX5-cZ5eaAQtDQvHHr99-vZVtIgj7rWqODvZV37snXuCyf2sYSeGPS7bF6sLwz4t2B-8Si1RTwznV3a27Xi5Y5RKnPiL7HKzRdv70ctD1zLTY6bsWL7e3XWo-vdvgjEB50kSbvYzmDTg7tQLX+FFl68E6StntMhEfL6VCnqo6sFF6JTA2FzvT+3UtDOcmTgp1KeZZDqyh4PpNNKzziV8JIqp1evVR3aR5XcmYqLb8UktE5cze8jSINNjYQ$Ifm$8zy52X94gvpFwkzTmIg3Wsa+j1UfG9HXuE3Tif8Te3JST9sN8lrkIS735E-7qr5FjUOPN-tuN3w28JhVYaPIH01+3MofZUIYm9Be98Aw-8$m7amJjcJD8e9RHWjC$wI1ODyHfIKfk63Nyu5OsdWyQpYU1lkCU9yRL89vZUfXm6H0erthwNo2dqmpkILXKqUP-AGsP8KD1DXkugkH$7abXKIP7Be8oD29Cfu+RpKv+JI+Zeh9vNk88RJS2jUz0z4TrmmJwAG9aunOezSoVt4V22kN3Qvb7pydMU1W+a7dzmDy6DhJ8KrinT75RH0tKK8w1Y9uyTAit0O9alK9ootN0DGHR+UepyCFAP8AyZXEz3a2GPl-uUBFDDDgpVIPU+D9o3D$uTg$D+UQRSnqPj4VW1n+UsPpDiPie92r$JV8e2FHa2zD4D3UR-Dy2DDDVKl7oTODy2J1Jk5o8DDgDTmg2q5SD3QDQfTD3DDOVy2LiXzD+f-QJD$IDJuSPDqPJuO8TPDPASvInDg2chPPOg2s54kOMPo-JWIKhoODPCRJE2YICZPCk5iMg-DoPnDeDggoPgk-3KYEuT9BSHP8RsuVPE20HRlHJIKKa4PcDRGROJDsMwZ2HG$MPReYPPnPT8JDD1DFDoWKJDUMDVDrP0PJOD$uJ-ouD5DCWlUDXcSG4mD2DUgoGDsPkgozDjPQVo4DmPUZNLPHPCZD9DPDUsJQDco9NozDG2rVlzCMj3oTD1DDSVz-J2c+DgwUfSJJ8DJgUMDnD-QT8DoDUgHCUuPdPTjJlDRDSGPnD+0GGJ8vjofoDtDMGO+TVPyPTDAUkDK8oY9fClI4Y5hjVTeYcRBqRI+j9OJS556gST9aTP8TIJiD8P2URMJLvUtJGUaIgfRGD12-flI+du+UJ2gPC78T6l$-DgPHuD$+UoD$f+J0fP$+CSJDOP$PJ8RSDrPWVHp5OCTDJDVOD9DSQosDTDJgJCgjDD-Dd-91FeDuggSOg1gqz4Tll-PNboRHHUOJoMS+I9Nc1A+PMuT7TaVJBGhoq-oDErP-gB8G8gZanvLdY91DAqAo2PeD3dTzkghZhVEQJ6o9TP8DD3g8Iuq-PD-gSYImIktkYGh4DCOJy9JgC0nOcJPCZyJD$KN010OD8PryoJJH$UgktVlDuJE1P8PvPCC-PCDDR6hICQcpPDDLAb1VbU-DDDX7POUTl-GuTZD-gZcjO+yPo+DDTKFuCDD"
+          }
+        },
+        "response": {
+          "status": 200,
+          "statusText": "",
+          "httpVersion": "h3",
+          "headers": [
+            {
+              "name": "alt-svc",
+              "value": "h3=\":443\"; ma=86400"
+            },
+            {
+              "name": "cf-chl-out-s",
+              "value": "QABN55Xx9ududjGxsrzlqg==$h+W+JA/tAN1XRiZDmRBK+w=="
+            },
+            {
+              "name": "cf-ray",
+              "value": "9d4439b74a339f60-AMS"
+            },
+            {
+              "name": "content-length",
+              "value": "0"
+            },
+            {
+              "name": "content-type",
+              "value": "text/plain; charset=UTF-8"
+            },
+            {
+              "name": "date",
+              "value": "Fri, 27 Feb 2026 02:24:21 GMT"
+            },
+            {
+              "name": "priority",
+              "value": "u=1,i"
+            },
+            {
+              "name": "server",
+              "value": "cloudflare"
+            },
+            {
+              "name": "server-timing",
+              "value": "cfExtPri"
+            },
+            {
+              "name": "timing-allow-origin",
+              "value": "https://windeurope.org"
+            }
+          ],
+          "cookies": [],
+          "content": {
+            "size": 0,
+            "mimeType": "text/plain",
+            "text": ""
+          },
+          "redirectURL": "",
+          "headersSize": -1,
+          "bodySize": -1,
+          "_transferSize": 545,
+          "_error": null,
+          "_fetchedViaServiceWorker": false
+        },
+        "serverIPAddress": "[2606:4700:20::ac43:45ec]",
+        "startedDateTime": "2026-02-27T02:24:21.140Z",
+        "time": 31.71099998871796,
+        "timings": {
+          "blocked": 2.929000008329749,
+          "dns": -1,
+          "ssl": -1,
+          "connect": -1,
+          "send": 0.768,
+          "wait": 26.93099999937974,
+          "receive": 1.08299998100847,
+          "_blocked_queueing": 1.744000008329749,
+          "_workerStart": -1,
+          "_workerReady": -1,
+          "_workerFetchStart": -1,
+          "_workerRespondWithSettled": -1
+        }
+      },
+      {
+        "_connectionId": "199499",
+        "_initiator": {
+          "type": "script",
+          "stack": {
+            "callFrames": [
+              {
+                "functionName": "send",
+                "scriptId": "17102",
+                "url": "https://cdn.voiceflow.com/widget-next/bundle.mjs",
+                "lineNumber": 186,
+                "columnNumber": 94551
+              },
+              {
+                "functionName": "getPublishing",
+                "scriptId": "17102",
+                "url": "https://cdn.voiceflow.com/widget-next/bundle.mjs",
+                "lineNumber": 186,
+                "columnNumber": 96449
+              },
+              {
+                "functionName": "getPublishing",
+                "scriptId": "17102",
+                "url": "https://cdn.voiceflow.com/widget-next/bundle.mjs",
+                "lineNumber": 186,
+                "columnNumber": 97123
+              },
+              {
+                "functionName": "LJ",
+                "scriptId": "17102",
+                "url": "https://cdn.voiceflow.com/widget-next/bundle.mjs",
+                "lineNumber": 265,
+                "columnNumber": 85930
+              },
+              {
+                "functionName": "load",
+                "scriptId": "17102",
+                "url": "https://cdn.voiceflow.com/widget-next/bundle.mjs",
+                "lineNumber": 364,
+                "columnNumber": 418
+              },
+              {
+                "functionName": "v.onload",
+                "scriptId": "16670",
+                "url": "https://windeurope.org/data/interactive-data-and-maps/wind-farms/?anchorage=Offshore&pg=34",
+                "lineNumber": 1570,
+                "columnNumber": 28
+              }
+            ],
+            "parent": {
+              "description": "script",
+              "callFrames": [
+                {
+                  "functionName": "",
+                  "scriptId": "16670",
+                  "url": "https://windeurope.org/data/interactive-data-and-maps/wind-farms/?anchorage=Offshore&pg=34",
+                  "lineNumber": 1568,
+                  "columnNumber": 14
+                },
+                {
+                  "functionName": "",
+                  "scriptId": "16670",
+                  "url": "https://windeurope.org/data/interactive-data-and-maps/wind-farms/?anchorage=Offshore&pg=34",
+                  "lineNumber": 1580,
+                  "columnNumber": 2
+                }
+              ]
+            }
+          }
+        },
+        "_priority": "High",
+        "_resourceType": "fetch",
+        "cache": {},
+        "connection": "443",
+        "pageref": "page_26",
+        "request": {
+          "method": "GET",
+          "url": "https://general-runtime.voiceflow.com/v2/public/68b306c9cb2e1a8825cba215/settings/widget",
+          "httpVersion": "http/2.0",
+          "headers": [
+            {
+              "name": ":authority",
+              "value": "general-runtime.voiceflow.com"
+            },
+            {
+              "name": ":method",
+              "value": "GET"
+            },
+            {
+              "name": ":path",
+              "value": "/v2/public/68b306c9cb2e1a8825cba215/settings/widget"
+            },
+            {
+              "name": ":scheme",
+              "value": "https"
+            },
+            {
+              "name": "accept",
+              "value": "*/*"
+            },
+            {
+              "name": "accept-encoding",
+              "value": "gzip, deflate, br, zstd"
+            },
+            {
+              "name": "accept-language",
+              "value": "it-IT,it;q=0.9,en-US;q=0.8,en;q=0.7,es;q=0.6,fr;q=0.5,nl;q=0.4"
+            },
+            {
+              "name": "content-type",
+              "value": "application/json"
+            },
+            {
+              "name": "if-none-match",
+              "value": "W/\"76f-rMGP50pFfwret7x21Nn9djaUM6g\""
+            },
+            {
+              "name": "origin",
+              "value": "https://windeurope.org"
+            },
+            {
+              "name": "priority",
+              "value": "u=1, i"
+            },
+            {
+              "name": "referer",
+              "value": "https://windeurope.org/"
+            },
+            {
+              "name": "sec-ch-ua",
+              "value": "\"Not:A-Brand\";v=\"99\", \"Google Chrome\";v=\"145\", \"Chromium\";v=\"145\""
+            },
+            {
+              "name": "sec-ch-ua-mobile",
+              "value": "?0"
+            },
+            {
+              "name": "sec-ch-ua-platform",
+              "value": "\"Windows\""
+            },
+            {
+              "name": "sec-fetch-dest",
+              "value": "empty"
+            },
+            {
+              "name": "sec-fetch-mode",
+              "value": "cors"
+            },
+            {
+              "name": "sec-fetch-site",
+              "value": "cross-site"
+            },
+            {
+              "name": "user-agent",
+              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36"
+            },
+            {
+              "name": "versionid",
+              "value": "production"
+            }
+          ],
+          "queryString": [],
+          "cookies": [],
+          "headersSize": -1,
+          "bodySize": 0
+        },
+        "response": {
+          "status": 304,
+          "statusText": "",
+          "httpVersion": "http/2.0",
+          "headers": [
+            {
+              "name": "access-control-allow-credentials",
+              "value": "true"
+            },
+            {
+              "name": "access-control-allow-origin",
+              "value": "https://windeurope.org"
+            },
+            {
+              "name": "cf-cache-status",
+              "value": "REVALIDATED"
+            },
+            {
+              "name": "cf-ray",
+              "value": "9d4439b8d977796d-AMS"
+            },
+            {
+              "name": "content-security-policy",
+              "value": "default-src 'self';base-uri 'self';block-all-mixed-content;font-src 'self' https: data:;frame-ancestors 'self';img-src 'self' data:;object-src 'none';script-src 'self';script-src-attr 'none';style-src 'self' https: 'unsafe-inline';upgrade-insecure-requests"
+            },
+            {
+              "name": "date",
+              "value": "Fri, 27 Feb 2026 02:24:22 GMT"
+            },
+            {
+              "name": "etag",
+              "value": "W/\"76f-rMGP50pFfwret7x21Nn9djaUM6g\""
+            },
+            {
+              "name": "expect-ct",
+              "value": "max-age=0"
+            },
+            {
+              "name": "referrer-policy",
+              "value": "no-referrer"
+            },
+            {
+              "name": "server",
+              "value": "cloudflare"
+            },
+            {
+              "name": "strict-transport-security",
+              "value": "max-age=31536000; includeSubDomains; preload"
+            },
+            {
+              "name": "vary",
+              "value": "Origin, Accept-Encoding"
+            },
+            {
+              "name": "x-content-type-options",
+              "value": "nosniff"
+            },
+            {
+              "name": "x-dns-prefetch-control",
+              "value": "off"
+            },
+            {
+              "name": "x-download-options",
+              "value": "noopen"
+            },
+            {
+              "name": "x-frame-options",
+              "value": "SAMEORIGIN"
+            },
+            {
+              "name": "x-permitted-cross-domain-policies",
+              "value": "none"
+            },
+            {
+              "name": "x-xss-protection",
+              "value": "0"
+            }
+          ],
+          "cookies": [],
+          "content": {
+            "size": 1903,
+            "mimeType": "application/json",
+            "text": "{\"type\":\"chat\",\"chat\":{\"voiceInput\":false,\"voiceOutput\":false,\"renderMode\":\"widget\",\"headerImage\":{\"enabled\":true,\"url\":\"https://cm4-production-assets.s3.amazonaws.com/1741721322674-windeurope-logo_square.png\"},\"agentImage\":{\"enabled\":true,\"url\":\"https://cm4-production-assets.s3.amazonaws.com/1743670766859-graident-ai-robot.jpg\"},\"banner\":{\"enabled\":true,\"title\":\"Wendy\",\"description\":\"\",\"imageURL\":\"https://cm4-production-assets.s3.amazonaws.com/1743670787591-graident-ai-robot.jpg\"},\"placeholderText\":\"This chat is anonymous. No personal data is collected.\",\"aiDisclaimer\":{\"enabled\":false,\"text\":\"Generated by AI, double-check for accuracy.\"},\"handoffToAgentImageURL\":\"\",\"voiceMode\":true,\"disclaimer\":{\"enabled\":false,\"title\":\"Privacy notice\",\"description\":\"Before we can proceed with your conversation, we kindly ask you to review and accept our privacy policy, outlining how we handle and protect your personal information throughout our services.\",\"primaryButtonText\":\"Submit\",\"secondaryButtonText\":\"Privacy policy\",\"secondaryButtonURL\":\"\"}},\"voice\":{\"renderMode\":\"full\",\"content\":{\"callToActionText\":\"How can I help you?\",\"startButtonText\":\"Start a call\",\"listeningText\":\"Listening...\",\"talkingText\":\"Talk to interrupt\",\"endButtonText\":\"End\"}},\"common\":{\"fontFamily\":\"Montserrat\",\"launcher\":{\"text\":\"Can I help you?\",\"type\":\"both\",\"imageURL\":\"https://cm4-production-assets.s3.amazonaws.com/1743671088422-windeurope-logo_circle.png\"},\"poweredBy\":false,\"footerLink\":{\"enabled\":true,\"text\":\"Privacy Policy\",\"url\":\"https://windeurope.org/privacy-policy/#chatbot\"},\"position\":\"right\",\"sideSpacing\":\"24\",\"bottomSpacing\":\"24\",\"primaryColor\":{\"color\":\"#005596\",\"palette\":{\"50\":\"#E5F4FF\",\"100\":\"#CCE9FF\",\"200\":\"#99D3FF\",\"300\":\"#66BDFF\",\"400\":\"#33A7FF\",\"500\":\"#005596\",\"600\":\"#0074CC\",\"700\":\"#005799\",\"800\":\"#003A66\",\"900\":\"#001D33\"}},\"persistence\":\"memory\",\"featureFlags\":{\"enableRuntimeSession\":true}}}"
+          },
+          "redirectURL": "",
+          "headersSize": -1,
+          "bodySize": 0,
+          "_transferSize": 302,
+          "_error": null,
+          "_fetchedViaServiceWorker": false
+        },
+        "serverIPAddress": "[2606:4700::6812:c0d]",
+        "startedDateTime": "2026-02-27T02:24:21.280Z",
+        "time": 279.7110000101384,
+        "timings": {
+          "blocked": 117.52200001008063,
+          "dns": -1,
+          "ssl": -1,
+          "connect": -1,
+          "send": 0.256,
+          "wait": 160.80200000279956,
+          "receive": 1.1309999972581863,
+          "_blocked_queueing": 115.87400001008064,
+          "_workerStart": -1,
+          "_workerReady": -1,
+          "_workerFetchStart": -1,
+          "_workerRespondWithSettled": -1
+        }
+      },
+      {
+        "_connectionId": "202683",
+        "_initiator": {
+          "type": "script",
+          "stack": {
+            "callFrames": [
+              {
+                "functionName": "authorizedFetch",
+                "scriptId": "16682",
+                "url": "https://plankton.windeurope.org/assets/dataviz-8cd744b569c5c413de3617f92b66078b0df35f6f4c481b8ceb4dfa7907e9283b.js",
+                "lineNumber": 87444,
+                "columnNumber": 25
+              },
+              {
+                "functionName": "execute",
+                "scriptId": "16682",
+                "url": "https://plankton.windeurope.org/assets/dataviz-8cd744b569c5c413de3617f92b66078b0df35f6f4c481b8ceb4dfa7907e9283b.js",
+                "lineNumber": 92350,
+                "columnNumber": 25
+              },
+              {
+                "functionName": "",
+                "scriptId": "16682",
+                "url": "https://plankton.windeurope.org/assets/dataviz-8cd744b569c5c413de3617f92b66078b0df35f6f4c481b8ceb4dfa7907e9283b.js",
+                "lineNumber": 92368,
+                "columnNumber": 54
+              }
+            ],
+            "parent": {
+              "description": "await",
+              "callFrames": [
+                {
+                  "functionName": "",
+                  "scriptId": "16682",
+                  "url": "https://plankton.windeurope.org/assets/dataviz-8cd744b569c5c413de3617f92b66078b0df35f6f4c481b8ceb4dfa7907e9283b.js",
+                  "lineNumber": 92374,
+                  "columnNumber": 4
+                },
+                {
+                  "functionName": "run",
+                  "scriptId": "16682",
+                  "url": "https://plankton.windeurope.org/assets/dataviz-8cd744b569c5c413de3617f92b66078b0df35f6f4c481b8ceb4dfa7907e9283b.js",
+                  "lineNumber": 2709,
+                  "columnNumber": 15
+                },
+                {
+                  "functionName": "",
+                  "scriptId": "16682",
+                  "url": "https://plankton.windeurope.org/assets/dataviz-8cd744b569c5c413de3617f92b66078b0df35f6f4c481b8ceb4dfa7907e9283b.js",
+                  "lineNumber": 20589,
+                  "columnNumber": 85
+                },
+                {
+                  "functionName": "run",
+                  "scriptId": "16682",
+                  "url": "https://plankton.windeurope.org/assets/dataviz-8cd744b569c5c413de3617f92b66078b0df35f6f4c481b8ceb4dfa7907e9283b.js",
+                  "lineNumber": 2709,
+                  "columnNumber": 15
+                },
+                {
+                  "functionName": "",
+                  "scriptId": "16682",
+                  "url": "https://plankton.windeurope.org/assets/dataviz-8cd744b569c5c413de3617f92b66078b0df35f6f4c481b8ceb4dfa7907e9283b.js",
+                  "lineNumber": 20589,
+                  "columnNumber": 51
+                },
+                {
+                  "functionName": "runWithContext",
+                  "scriptId": "16682",
+                  "url": "https://plankton.windeurope.org/assets/dataviz-8cd744b569c5c413de3617f92b66078b0df35f6f4c481b8ceb4dfa7907e9283b.js",
+                  "lineNumber": 7816,
+                  "columnNumber": 17
+                },
+                {
+                  "functionName": "createSetupStore",
+                  "scriptId": "16682",
+                  "url": "https://plankton.windeurope.org/assets/dataviz-8cd744b569c5c413de3617f92b66078b0df35f6f4c481b8ceb4dfa7907e9283b.js",
+                  "lineNumber": 20589,
+                  "columnNumber": 21
+                },
+                {
+                  "functionName": "useStore",
+                  "scriptId": "16682",
+                  "url": "https://plankton.windeurope.org/assets/dataviz-8cd744b569c5c413de3617f92b66078b0df35f6f4c481b8ceb4dfa7907e9283b.js",
+                  "lineNumber": 20787,
+                  "columnNumber": 8
+                },
+                {
+                  "functionName": "",
+                  "scriptId": "16682",
+                  "url": "https://plankton.windeurope.org/assets/dataviz-8cd744b569c5c413de3617f92b66078b0df35f6f4c481b8ceb4dfa7907e9283b.js",
+                  "lineNumber": 92762,
+                  "columnNumber": 29
+                },
+                {
+                  "functionName": "run",
+                  "scriptId": "16682",
+                  "url": "https://plankton.windeurope.org/assets/dataviz-8cd744b569c5c413de3617f92b66078b0df35f6f4c481b8ceb4dfa7907e9283b.js",
+                  "lineNumber": 2709,
+                  "columnNumber": 15
+                },
+                {
+                  "functionName": "",
+                  "scriptId": "16682",
+                  "url": "https://plankton.windeurope.org/assets/dataviz-8cd744b569c5c413de3617f92b66078b0df35f6f4c481b8ceb4dfa7907e9283b.js",
+                  "lineNumber": 20589,
+                  "columnNumber": 85
+                },
+                {
+                  "functionName": "run",
+                  "scriptId": "16682",
+                  "url": "https://plankton.windeurope.org/assets/dataviz-8cd744b569c5c413de3617f92b66078b0df35f6f4c481b8ceb4dfa7907e9283b.js",
+                  "lineNumber": 2709,
+                  "columnNumber": 15
+                },
+                {
+                  "functionName": "",
+                  "scriptId": "16682",
+                  "url": "https://plankton.windeurope.org/assets/dataviz-8cd744b569c5c413de3617f92b66078b0df35f6f4c481b8ceb4dfa7907e9283b.js",
+                  "lineNumber": 20589,
+                  "columnNumber": 51
+                },
+                {
+                  "functionName": "runWithContext",
+                  "scriptId": "16682",
+                  "url": "https://plankton.windeurope.org/assets/dataviz-8cd744b569c5c413de3617f92b66078b0df35f6f4c481b8ceb4dfa7907e9283b.js",
+                  "lineNumber": 7816,
+                  "columnNumber": 17
+                },
+                {
+                  "functionName": "createSetupStore",
+                  "scriptId": "16682",
+                  "url": "https://plankton.windeurope.org/assets/dataviz-8cd744b569c5c413de3617f92b66078b0df35f6f4c481b8ceb4dfa7907e9283b.js",
+                  "lineNumber": 20589,
+                  "columnNumber": 21
+                },
+                {
+                  "functionName": "useStore",
+                  "scriptId": "16682",
+                  "url": "https://plankton.windeurope.org/assets/dataviz-8cd744b569c5c413de3617f92b66078b0df35f6f4c481b8ceb4dfa7907e9283b.js",
+                  "lineNumber": 20787,
+                  "columnNumber": 8
+                },
+                {
+                  "functionName": "",
+                  "scriptId": "16682",
+                  "url": "https://plankton.windeurope.org/assets/dataviz-8cd744b569c5c413de3617f92b66078b0df35f6f4c481b8ceb4dfa7907e9283b.js",
+                  "lineNumber": 109612,
+                  "columnNumber": 20
+                },
+                {
+                  "functionName": "run",
+                  "scriptId": "16682",
+                  "url": "https://plankton.windeurope.org/assets/dataviz-8cd744b569c5c413de3617f92b66078b0df35f6f4c481b8ceb4dfa7907e9283b.js",
+                  "lineNumber": 2709,
+                  "columnNumber": 15
+                },
+                {
+                  "functionName": "",
+                  "scriptId": "16682",
+                  "url": "https://plankton.windeurope.org/assets/dataviz-8cd744b569c5c413de3617f92b66078b0df35f6f4c481b8ceb4dfa7907e9283b.js",
+                  "lineNumber": 20589,
+                  "columnNumber": 85
+                },
+                {
+                  "functionName": "run",
+                  "scriptId": "16682",
+                  "url": "https://plankton.windeurope.org/assets/dataviz-8cd744b569c5c413de3617f92b66078b0df35f6f4c481b8ceb4dfa7907e9283b.js",
+                  "lineNumber": 2709,
+                  "columnNumber": 15
+                },
+                {
+                  "functionName": "",
+                  "scriptId": "16682",
+                  "url": "https://plankton.windeurope.org/assets/dataviz-8cd744b569c5c413de3617f92b66078b0df35f6f4c481b8ceb4dfa7907e9283b.js",
+                  "lineNumber": 20589,
+                  "columnNumber": 51
+                },
+                {
+                  "functionName": "runWithContext",
+                  "scriptId": "16682",
+                  "url": "https://plankton.windeurope.org/assets/dataviz-8cd744b569c5c413de3617f92b66078b0df35f6f4c481b8ceb4dfa7907e9283b.js",
+                  "lineNumber": 7816,
+                  "columnNumber": 17
+                },
+                {
+                  "functionName": "createSetupStore",
+                  "scriptId": "16682",
+                  "url": "https://plankton.windeurope.org/assets/dataviz-8cd744b569c5c413de3617f92b66078b0df35f6f4c481b8ceb4dfa7907e9283b.js",
+                  "lineNumber": 20589,
+                  "columnNumber": 21
+                },
+                {
+                  "functionName": "useStore",
+                  "scriptId": "16682",
+                  "url": "https://plankton.windeurope.org/assets/dataviz-8cd744b569c5c413de3617f92b66078b0df35f6f4c481b8ceb4dfa7907e9283b.js",
+                  "lineNumber": 20787,
+                  "columnNumber": 8
+                },
+                {
+                  "functionName": "setup",
+                  "scriptId": "16682",
+                  "url": "https://plankton.windeurope.org/assets/dataviz-8cd744b569c5c413de3617f92b66078b0df35f6f4c481b8ceb4dfa7907e9283b.js",
+                  "lineNumber": 110830,
+                  "columnNumber": 23
+                },
+                {
+                  "functionName": "callWithErrorHandling",
+                  "scriptId": "16682",
+                  "url": "https://plankton.windeurope.org/assets/dataviz-8cd744b569c5c413de3617f92b66078b0df35f6f4c481b8ceb4dfa7907e9283b.js",
+                  "lineNumber": 4051,
+                  "columnNumber": 18
+                },
+                {
+                  "functionName": "setupStatefulComponent",
+                  "scriptId": "16682",
+                  "url": "https://plankton.windeurope.org/assets/dataviz-8cd744b569c5c413de3617f92b66078b0df35f6f4c481b8ceb4dfa7907e9283b.js",
+                  "lineNumber": 11468,
+                  "columnNumber": 24
+                },
+                {
+                  "functionName": "setupComponent",
+                  "scriptId": "16682",
+                  "url": "https://plankton.windeurope.org/assets/dataviz-8cd744b569c5c413de3617f92b66078b0df35f6f4c481b8ceb4dfa7907e9283b.js",
+                  "lineNumber": 11429,
+                  "columnNumber": 35
+                },
+                {
+                  "functionName": "mountComponent",
+                  "scriptId": "16682",
+                  "url": "https://plankton.windeurope.org/assets/dataviz-8cd744b569c5c413de3617f92b66078b0df35f6f4c481b8ceb4dfa7907e9283b.js",
+                  "lineNumber": 9758,
+                  "columnNumber": 6
+                },
+                {
+                  "functionName": "processComponent",
+                  "scriptId": "16682",
+                  "url": "https://plankton.windeurope.org/assets/dataviz-8cd744b569c5c413de3617f92b66078b0df35f6f4c481b8ceb4dfa7907e9283b.js",
+                  "lineNumber": 9724,
+                  "columnNumber": 8
+                },
+                {
+                  "functionName": "patch",
+                  "scriptId": "16682",
+                  "url": "https://plankton.windeurope.org/assets/dataviz-8cd744b569c5c413de3617f92b66078b0df35f6f4c481b8ceb4dfa7907e9283b.js",
+                  "lineNumber": 9190,
+                  "columnNumber": 10
+                },
+                {
+                  "functionName": "render2",
+                  "scriptId": "16682",
+                  "url": "https://plankton.windeurope.org/assets/dataviz-8cd744b569c5c413de3617f92b66078b0df35f6f4c481b8ceb4dfa7907e9283b.js",
+                  "lineNumber": 10513,
+                  "columnNumber": 6
+                },
+                {
+                  "functionName": "mount",
+                  "scriptId": "16682",
+                  "url": "https://plankton.windeurope.org/assets/dataviz-8cd744b569c5c413de3617f92b66078b0df35f6f4c481b8ceb4dfa7907e9283b.js",
+                  "lineNumber": 7774,
+                  "columnNumber": 12
+                },
+                {
+                  "functionName": "app2.mount",
+                  "scriptId": "16682",
+                  "url": "https://plankton.windeurope.org/assets/dataviz-8cd744b569c5c413de3617f92b66078b0df35f6f4c481b8ceb4dfa7907e9283b.js",
+                  "lineNumber": 13519,
+                  "columnNumber": 18
+                },
+                {
+                  "functionName": "",
+                  "scriptId": "16666",
+                  "url": "https://windeurope.org/data/interactive-data-and-maps/wind-farms/?anchorage=Offshore&pg=34",
+                  "lineNumber": 1543,
+                  "columnNumber": 65
+                }
+              ],
+              "parent": {
+                "description": "await",
+                "callFrames": [
+                  {
+                    "functionName": "",
+                    "scriptId": "16666",
+                    "url": "https://windeurope.org/data/interactive-data-and-maps/wind-farms/?anchorage=Offshore&pg=34",
+                    "lineNumber": 1544,
+                    "columnNumber": 14
+                  }
+                ]
+              }
+            }
+          }
+        },
+        "_priority": "High",
+        "_resourceType": "fetch",
+        "cache": {},
+        "connection": "443",
+        "pageref": "page_26",
+        "request": {
+          "method": "POST",
+          "url": "https://plankton.windeurope.org/graphql?ref=country",
+          "httpVersion": "h3",
+          "headers": [
+            {
+              "name": ":authority",
+              "value": "plankton.windeurope.org"
+            },
+            {
+              "name": ":method",
+              "value": "POST"
+            },
+            {
+              "name": ":path",
+              "value": "/graphql?ref=country"
+            },
+            {
+              "name": ":scheme",
+              "value": "https"
+            },
+            {
+              "name": "accept",
+              "value": "*/*"
+            },
+            {
+              "name": "accept-encoding",
+              "value": "gzip, deflate, br, zstd"
+            },
+            {
+              "name": "accept-language",
+              "value": "it-IT,it;q=0.9,en-US;q=0.8,en;q=0.7,es;q=0.6,fr;q=0.5,nl;q=0.4"
+            },
+            {
+              "name": "content-length",
+              "value": "67"
+            },
+            {
+              "name": "content-type",
+              "value": "application/json"
+            },
+            {
+              "name": "origin",
+              "value": "https://windeurope.org"
+            },
+            {
+              "name": "priority",
+              "value": "u=1, i"
+            },
+            {
+              "name": "referer",
+              "value": "https://windeurope.org/"
+            },
+            {
+              "name": "sec-ch-ua",
+              "value": "\"Not:A-Brand\";v=\"99\", \"Google Chrome\";v=\"145\", \"Chromium\";v=\"145\""
+            },
+            {
+              "name": "sec-ch-ua-mobile",
+              "value": "?0"
+            },
+            {
+              "name": "sec-ch-ua-platform",
+              "value": "\"Windows\""
+            },
+            {
+              "name": "sec-fetch-dest",
+              "value": "empty"
+            },
+            {
+              "name": "sec-fetch-mode",
+              "value": "cors"
+            },
+            {
+              "name": "sec-fetch-site",
+              "value": "same-site"
+            },
+            {
+              "name": "user-agent",
+              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36"
+            },
+            {
+              "name": "x-requested-with",
+              "value": "XMLHttpRequest"
+            }
+          ],
+          "queryString": [
+            {
+              "name": "ref",
+              "value": "country"
+            }
+          ],
+          "cookies": [],
+          "headersSize": -1,
+          "bodySize": 67,
+          "postData": {
+            "mimeType": "application/json",
+            "text": "{\"query\":\"{ countries { fullName isoCode groupNames updatedAt } }\"}"
+          }
+        },
+        "response": {
+          "status": 200,
+          "statusText": "",
+          "httpVersion": "h3",
+          "headers": [
+            {
+              "name": "access-control-allow-methods",
+              "value": "GET, POST, DELETE, PUT, OPTIONS"
+            },
+            {
+              "name": "access-control-allow-origin",
+              "value": "https://windeurope.org"
+            },
+            {
+              "name": "access-control-expose-headers",
+              "value": ""
+            },
+            {
+              "name": "access-control-max-age",
+              "value": "7200"
+            },
+            {
+              "name": "cache-control",
+              "value": "max-age=0, private, must-revalidate"
+            },
+            {
+              "name": "cf-cache-status",
+              "value": "DYNAMIC"
+            },
+            {
+              "name": "cf-ray",
+              "value": "9d4439b83e1fae32-AMS"
+            },
+            {
+              "name": "content-encoding",
+              "value": "br"
+            },
+            {
+              "name": "content-type",
+              "value": "application/json; charset=utf-8"
+            },
+            {
+              "name": "date",
+              "value": "Fri, 27 Feb 2026 02:24:22 GMT"
+            },
+            {
+              "name": "etag",
+              "value": "W/\"b8c99a4e47c46614a60f388a2fc612f9\""
+            },
+            {
+              "name": "nel",
+              "value": "{\"report_to\":\"cf-nel\",\"success_fraction\":0.0,\"max_age\":604800}"
+            },
+            {
+              "name": "priority",
+              "value": "u=1,i"
+            },
+            {
+              "name": "referrer-policy",
+              "value": "strict-origin-when-cross-origin"
+            },
+            {
+              "name": "report-to",
+              "value": "{\"group\":\"cf-nel\",\"max_age\":604800,\"endpoints\":[{\"url\":\"https://a.nel.cloudflare.com/report/v4?s=%2FRe0XJrcNFcV3oQtA8byEwwqyvR1KGCk08qxOQuTS%2Fg6fR7iDLQPeAbkHi5wFgq9KY6yKvRo34j7yqD5nMAkAgEaEbB4H2gd92nTrQz%2FYbyjPh%2FT2VkQgSti9n%2Ft37Bo9WQ%3D\"}]}"
+            },
+            {
+              "name": "server",
+              "value": "cloudflare"
+            },
+            {
+              "name": "server-timing",
+              "value": "cfExtPri"
+            },
+            {
+              "name": "strict-transport-security",
+              "value": "max-age=63072000; includeSubDomains"
+            },
+            {
+              "name": "vary",
+              "value": "Accept, Origin"
+            },
+            {
+              "name": "vary",
+              "value": "accept-encoding"
+            },
+            {
+              "name": "x-content-type-options",
+              "value": "nosniff"
+            },
+            {
+              "name": "x-do-app-origin",
+              "value": "3078a1ce-2bfd-48a0-928b-478b2ab30ff3"
+            },
+            {
+              "name": "x-do-orig-status",
+              "value": "200"
+            },
+            {
+              "name": "x-frame-options",
+              "value": "SAMEORIGIN"
+            },
+            {
+              "name": "x-permitted-cross-domain-policies",
+              "value": "none"
+            },
+            {
+              "name": "x-request-id",
+              "value": "47b06fbf-51e2-48f4-ab58-25320b5b2cb3"
+            },
+            {
+              "name": "x-runtime",
+              "value": "0.240704"
+            },
+            {
+              "name": "x-xss-protection",
+              "value": "0"
+            }
+          ],
+          "cookies": [],
+          "content": {
+            "size": 4428,
+            "mimeType": "application/json",
+            "text": "{\"data\":{\"countries\":[{\"fullName\":\"Albania\",\"isoCode\":\"AL\",\"groupNames\":[],\"updatedAt\":\"2023-11-28T16:54:51Z\"},{\"fullName\":\"Belarus\",\"isoCode\":\"BY\",\"groupNames\":[],\"updatedAt\":\"2023-11-28T16:54:51Z\"},{\"fullName\":\"Bosnia and Herzegovina\",\"isoCode\":\"BA\",\"groupNames\":[],\"updatedAt\":\"2023-11-28T16:54:51Z\"},{\"fullName\":\"Faroe Islands\",\"isoCode\":\"FO\",\"groupNames\":[],\"updatedAt\":\"2023-11-28T16:54:51Z\"},{\"fullName\":\"Kosovo\",\"isoCode\":\"XK\",\"groupNames\":[],\"updatedAt\":\"2023-11-28T16:54:51Z\"},{\"fullName\":\"Montenegro\",\"isoCode\":\"ME\",\"groupNames\":[],\"updatedAt\":\"2023-11-28T16:54:51Z\"},{\"fullName\":\"North Macedonia\",\"isoCode\":\"MK\",\"groupNames\":[],\"updatedAt\":\"2023-11-28T16:54:51Z\"},{\"fullName\":\"Norway\",\"isoCode\":\"NO\",\"groupNames\":[],\"updatedAt\":\"2023-11-28T16:54:51Z\"},{\"fullName\":\"Serbia\",\"isoCode\":\"RS\",\"groupNames\":[],\"updatedAt\":\"2023-11-28T16:54:51Z\"},{\"fullName\":\"Switzerland\",\"isoCode\":\"CH\",\"groupNames\":[],\"updatedAt\":\"2023-11-28T16:54:51Z\"},{\"fullName\":\"Ukraine\",\"isoCode\":\"UA\",\"groupNames\":[],\"updatedAt\":\"2023-11-28T16:54:51Z\"},{\"fullName\":\"Malta\",\"isoCode\":\"MT\",\"groupNames\":[\"EU27\"],\"updatedAt\":\"2023-11-28T16:54:51Z\"},{\"fullName\":\"Iceland\",\"isoCode\":\"IS\",\"groupNames\":[],\"updatedAt\":\"2023-11-28T16:54:51Z\"},{\"fullName\":\"Turkey\",\"isoCode\":\"TR\",\"groupNames\":[],\"updatedAt\":\"2023-11-28T16:54:51Z\"},{\"fullName\":\"Russia\",\"isoCode\":\"RU\",\"groupNames\":[],\"updatedAt\":\"2023-11-28T16:54:51Z\"},{\"fullName\":\"Austria\",\"isoCode\":\"AT\",\"groupNames\":[\"EU27\"],\"updatedAt\":\"2023-11-28T16:54:51Z\"},{\"fullName\":\"Belgium\",\"isoCode\":\"BE\",\"groupNames\":[\"EU27\"],\"updatedAt\":\"2023-11-28T16:54:51Z\"},{\"fullName\":\"Bulgaria\",\"isoCode\":\"BG\",\"groupNames\":[\"EU27\"],\"updatedAt\":\"2023-11-28T16:54:51Z\"},{\"fullName\":\"Croatia\",\"isoCode\":\"HR\",\"groupNames\":[\"EU27\"],\"updatedAt\":\"2023-11-28T16:54:51Z\"},{\"fullName\":\"Cyprus\",\"isoCode\":\"CY\",\"groupNames\":[\"EU27\"],\"updatedAt\":\"2023-11-28T16:54:51Z\"},{\"fullName\":\"Czech Republic\",\"isoCode\":\"CZ\",\"groupNames\":[\"EU27\"],\"updatedAt\":\"2023-11-28T16:54:51Z\"},{\"fullName\":\"Denmark\",\"isoCode\":\"DK\",\"groupNames\":[\"EU27\"],\"updatedAt\":\"2023-11-28T16:54:51Z\"},{\"fullName\":\"Estonia\",\"isoCode\":\"EE\",\"groupNames\":[\"EU27\"],\"updatedAt\":\"2023-11-28T16:54:51Z\"},{\"fullName\":\"Finland\",\"isoCode\":\"FI\",\"groupNames\":[\"EU27\"],\"updatedAt\":\"2023-11-28T16:54:51Z\"},{\"fullName\":\"France\",\"isoCode\":\"FR\",\"groupNames\":[\"EU27\"],\"updatedAt\":\"2023-11-28T16:54:51Z\"},{\"fullName\":\"Germany\",\"isoCode\":\"DE\",\"groupNames\":[\"EU27\"],\"updatedAt\":\"2023-11-28T16:54:51Z\"},{\"fullName\":\"Greece\",\"isoCode\":\"GR\",\"groupNames\":[\"EU27\"],\"updatedAt\":\"2023-11-28T16:54:51Z\"},{\"fullName\":\"Hungary\",\"isoCode\":\"HU\",\"groupNames\":[\"EU27\"],\"updatedAt\":\"2023-11-28T16:54:51Z\"},{\"fullName\":\"Ireland\",\"isoCode\":\"IE\",\"groupNames\":[\"EU27\"],\"updatedAt\":\"2023-11-28T16:54:51Z\"},{\"fullName\":\"Italy\",\"isoCode\":\"IT\",\"groupNames\":[\"EU27\"],\"updatedAt\":\"2023-11-28T16:54:51Z\"},{\"fullName\":\"Latvia\",\"isoCode\":\"LV\",\"groupNames\":[\"EU27\"],\"updatedAt\":\"2023-11-28T16:54:51Z\"},{\"fullName\":\"Lithuania\",\"isoCode\":\"LT\",\"groupNames\":[\"EU27\"],\"updatedAt\":\"2023-11-28T16:54:51Z\"},{\"fullName\":\"Luxembourg\",\"isoCode\":\"LU\",\"groupNames\":[\"EU27\"],\"updatedAt\":\"2023-11-28T16:54:51Z\"},{\"fullName\":\"Netherlands\",\"isoCode\":\"NL\",\"groupNames\":[\"EU27\"],\"updatedAt\":\"2023-11-28T16:54:51Z\"},{\"fullName\":\"Poland\",\"isoCode\":\"PL\",\"groupNames\":[\"EU27\"],\"updatedAt\":\"2023-11-28T16:54:51Z\"},{\"fullName\":\"Portugal\",\"isoCode\":\"PT\",\"groupNames\":[\"EU27\"],\"updatedAt\":\"2023-11-28T16:54:51Z\"},{\"fullName\":\"Romania\",\"isoCode\":\"RO\",\"groupNames\":[\"EU27\"],\"updatedAt\":\"2023-11-28T16:54:51Z\"},{\"fullName\":\"Slovakia\",\"isoCode\":\"SK\",\"groupNames\":[\"EU27\"],\"updatedAt\":\"2023-11-28T16:54:51Z\"},{\"fullName\":\"Slovenia\",\"isoCode\":\"SI\",\"groupNames\":[\"EU27\"],\"updatedAt\":\"2023-11-28T16:54:51Z\"},{\"fullName\":\"Spain\",\"isoCode\":\"ES\",\"groupNames\":[\"EU27\"],\"updatedAt\":\"2023-11-28T16:54:51Z\"},{\"fullName\":\"Sweden\",\"isoCode\":\"SE\",\"groupNames\":[\"EU27\"],\"updatedAt\":\"2023-11-28T16:54:51Z\"},{\"fullName\":\"United Kingdom\",\"isoCode\":\"GB\",\"groupNames\":[],\"updatedAt\":\"2023-11-28T16:54:51Z\"},{\"fullName\":\"Liechtenstein\",\"isoCode\":\"LI\",\"groupNames\":[],\"updatedAt\":\"2023-11-28T16:54:51Z\"},{\"fullName\":\"Isle Of Man\",\"isoCode\":\"IM\",\"groupNames\":[],\"updatedAt\":\"2024-11-25T17:02:06Z\"},{\"fullName\":\"Georgia\",\"isoCode\":\"GE\",\"groupNames\":[],\"updatedAt\":\"2024-11-28T13:40:54Z\"},{\"fullName\":\"Azerbaijan\",\"isoCode\":\"AZ\",\"groupNames\":[],\"updatedAt\":\"2024-11-29T16:07:02Z\"},{\"fullName\":\"Moldova\",\"isoCode\":\"MD\",\"groupNames\":[],\"updatedAt\":\"2024-11-28T13:40:54Z\"}]}}"
+          },
+          "redirectURL": "",
+          "headersSize": -1,
+          "bodySize": -1,
+          "_transferSize": 1617,
+          "_error": null,
+          "_fetchedViaServiceWorker": false
+        },
+        "serverIPAddress": "[2606:4700:20::681a:e10]",
+        "startedDateTime": "2026-02-27T02:24:21.293Z",
+        "time": 281.0829999798443,
+        "timings": {
+          "blocked": 3.195999990943819,
+          "dns": -1,
+          "ssl": -1,
+          "connect": -1,
+          "send": 0.248,
+          "wait": 270.804000010591,
+          "receive": 6.834999978309497,
+          "_blocked_queueing": 2.1009999909438193,
+          "_workerStart": -1,
+          "_workerReady": -1,
+          "_workerFetchStart": -1,
+          "_workerRespondWithSettled": -1
+        }
+      },
+      {
+        "_connectionId": "202683",
+        "_initiator": {
+          "type": "script",
+          "stack": {
+            "callFrames": [
+              {
+                "functionName": "authorizedFetch",
+                "scriptId": "16682",
+                "url": "https://plankton.windeurope.org/assets/dataviz-8cd744b569c5c413de3617f92b66078b0df35f6f4c481b8ceb4dfa7907e9283b.js",
+                "lineNumber": 87444,
+                "columnNumber": 25
+              },
+              {
+                "functionName": "execute",
+                "scriptId": "16682",
+                "url": "https://plankton.windeurope.org/assets/dataviz-8cd744b569c5c413de3617f92b66078b0df35f6f4c481b8ceb4dfa7907e9283b.js",
+                "lineNumber": 92350,
+                "columnNumber": 25
+              },
+              {
+                "functionName": "fetchData",
+                "scriptId": "16682",
+                "url": "https://plankton.windeurope.org/assets/dataviz-8cd744b569c5c413de3617f92b66078b0df35f6f4c481b8ceb4dfa7907e9283b.js",
+                "lineNumber": 92357,
+                "columnNumber": 23
+              },
+              {
+                "functionName": "fetch2",
+                "scriptId": "16682",
+                "url": "https://plankton.windeurope.org/assets/dataviz-8cd744b569c5c413de3617f92b66078b0df35f6f4c481b8ceb4dfa7907e9283b.js",
+                "lineNumber": 110370,
+                "columnNumber": 37
+              }
+            ],
+            "parent": {
+              "description": "await",
+              "callFrames": [
+                {
+                  "functionName": "",
+                  "scriptId": "16682",
+                  "url": "https://plankton.windeurope.org/assets/dataviz-8cd744b569c5c413de3617f92b66078b0df35f6f4c481b8ceb4dfa7907e9283b.js",
+                  "lineNumber": 110376,
+                  "columnNumber": 2
+                },
+                {
+                  "functionName": "run",
+                  "scriptId": "16682",
+                  "url": "https://plankton.windeurope.org/assets/dataviz-8cd744b569c5c413de3617f92b66078b0df35f6f4c481b8ceb4dfa7907e9283b.js",
+                  "lineNumber": 2709,
+                  "columnNumber": 15
+                },
+                {
+                  "functionName": "",
+                  "scriptId": "16682",
+                  "url": "https://plankton.windeurope.org/assets/dataviz-8cd744b569c5c413de3617f92b66078b0df35f6f4c481b8ceb4dfa7907e9283b.js",
+                  "lineNumber": 20589,
+                  "columnNumber": 85
+                },
+                {
+                  "functionName": "run",
+                  "scriptId": "16682",
+                  "url": "https://plankton.windeurope.org/assets/dataviz-8cd744b569c5c413de3617f92b66078b0df35f6f4c481b8ceb4dfa7907e9283b.js",
+                  "lineNumber": 2709,
+                  "columnNumber": 15
+                },
+                {
+                  "functionName": "",
+                  "scriptId": "16682",
+                  "url": "https://plankton.windeurope.org/assets/dataviz-8cd744b569c5c413de3617f92b66078b0df35f6f4c481b8ceb4dfa7907e9283b.js",
+                  "lineNumber": 20589,
+                  "columnNumber": 51
+                },
+                {
+                  "functionName": "runWithContext",
+                  "scriptId": "16682",
+                  "url": "https://plankton.windeurope.org/assets/dataviz-8cd744b569c5c413de3617f92b66078b0df35f6f4c481b8ceb4dfa7907e9283b.js",
+                  "lineNumber": 7816,
+                  "columnNumber": 17
+                },
+                {
+                  "functionName": "createSetupStore",
+                  "scriptId": "16682",
+                  "url": "https://plankton.windeurope.org/assets/dataviz-8cd744b569c5c413de3617f92b66078b0df35f6f4c481b8ceb4dfa7907e9283b.js",
+                  "lineNumber": 20589,
+                  "columnNumber": 21
+                },
+                {
+                  "functionName": "useStore",
+                  "scriptId": "16682",
+                  "url": "https://plankton.windeurope.org/assets/dataviz-8cd744b569c5c413de3617f92b66078b0df35f6f4c481b8ceb4dfa7907e9283b.js",
+                  "lineNumber": 20787,
+                  "columnNumber": 8
+                },
+                {
+                  "functionName": "",
+                  "scriptId": "16682",
+                  "url": "https://plankton.windeurope.org/assets/dataviz-8cd744b569c5c413de3617f92b66078b0df35f6f4c481b8ceb4dfa7907e9283b.js",
+                  "lineNumber": 110610,
+                  "columnNumber": 30
+                },
+                {
+                  "functionName": "run",
+                  "scriptId": "16682",
+                  "url": "https://plankton.windeurope.org/assets/dataviz-8cd744b569c5c413de3617f92b66078b0df35f6f4c481b8ceb4dfa7907e9283b.js",
+                  "lineNumber": 2709,
+                  "columnNumber": 15
+                },
+                {
+                  "functionName": "",
+                  "scriptId": "16682",
+                  "url": "https://plankton.windeurope.org/assets/dataviz-8cd744b569c5c413de3617f92b66078b0df35f6f4c481b8ceb4dfa7907e9283b.js",
+                  "lineNumber": 20589,
+                  "columnNumber": 85
+                },
+                {
+                  "functionName": "run",
+                  "scriptId": "16682",
+                  "url": "https://plankton.windeurope.org/assets/dataviz-8cd744b569c5c413de3617f92b66078b0df35f6f4c481b8ceb4dfa7907e9283b.js",
+                  "lineNumber": 2709,
+                  "columnNumber": 15
+                },
+                {
+                  "functionName": "",
+                  "scriptId": "16682",
+                  "url": "https://plankton.windeurope.org/assets/dataviz-8cd744b569c5c413de3617f92b66078b0df35f6f4c481b8ceb4dfa7907e9283b.js",
+                  "lineNumber": 20589,
+                  "columnNumber": 51
+                },
+                {
+                  "functionName": "runWithContext",
+                  "scriptId": "16682",
+                  "url": "https://plankton.windeurope.org/assets/dataviz-8cd744b569c5c413de3617f92b66078b0df35f6f4c481b8ceb4dfa7907e9283b.js",
+                  "lineNumber": 7816,
+                  "columnNumber": 17
+                },
+                {
+                  "functionName": "createSetupStore",
+                  "scriptId": "16682",
+                  "url": "https://plankton.windeurope.org/assets/dataviz-8cd744b569c5c413de3617f92b66078b0df35f6f4c481b8ceb4dfa7907e9283b.js",
+                  "lineNumber": 20589,
+                  "columnNumber": 21
+                },
+                {
+                  "functionName": "useStore",
+                  "scriptId": "16682",
+                  "url": "https://plankton.windeurope.org/assets/dataviz-8cd744b569c5c413de3617f92b66078b0df35f6f4c481b8ceb4dfa7907e9283b.js",
+                  "lineNumber": 20787,
+                  "columnNumber": 8
+                },
+                {
+                  "functionName": "setup",
+                  "scriptId": "16682",
+                  "url": "https://plankton.windeurope.org/assets/dataviz-8cd744b569c5c413de3617f92b66078b0df35f6f4c481b8ceb4dfa7907e9283b.js",
+                  "lineNumber": 110832,
+                  "columnNumber": 21
+                },
+                {
+                  "functionName": "callWithErrorHandling",
+                  "scriptId": "16682",
+                  "url": "https://plankton.windeurope.org/assets/dataviz-8cd744b569c5c413de3617f92b66078b0df35f6f4c481b8ceb4dfa7907e9283b.js",
+                  "lineNumber": 4051,
+                  "columnNumber": 18
+                },
+                {
+                  "functionName": "setupStatefulComponent",
+                  "scriptId": "16682",
+                  "url": "https://plankton.windeurope.org/assets/dataviz-8cd744b569c5c413de3617f92b66078b0df35f6f4c481b8ceb4dfa7907e9283b.js",
+                  "lineNumber": 11468,
+                  "columnNumber": 24
+                },
+                {
+                  "functionName": "setupComponent",
+                  "scriptId": "16682",
+                  "url": "https://plankton.windeurope.org/assets/dataviz-8cd744b569c5c413de3617f92b66078b0df35f6f4c481b8ceb4dfa7907e9283b.js",
+                  "lineNumber": 11429,
+                  "columnNumber": 35
+                },
+                {
+                  "functionName": "mountComponent",
+                  "scriptId": "16682",
+                  "url": "https://plankton.windeurope.org/assets/dataviz-8cd744b569c5c413de3617f92b66078b0df35f6f4c481b8ceb4dfa7907e9283b.js",
+                  "lineNumber": 9758,
+                  "columnNumber": 6
+                },
+                {
+                  "functionName": "processComponent",
+                  "scriptId": "16682",
+                  "url": "https://plankton.windeurope.org/assets/dataviz-8cd744b569c5c413de3617f92b66078b0df35f6f4c481b8ceb4dfa7907e9283b.js",
+                  "lineNumber": 9724,
+                  "columnNumber": 8
+                },
+                {
+                  "functionName": "patch",
+                  "scriptId": "16682",
+                  "url": "https://plankton.windeurope.org/assets/dataviz-8cd744b569c5c413de3617f92b66078b0df35f6f4c481b8ceb4dfa7907e9283b.js",
+                  "lineNumber": 9190,
+                  "columnNumber": 10
+                },
+                {
+                  "functionName": "render2",
+                  "scriptId": "16682",
+                  "url": "https://plankton.windeurope.org/assets/dataviz-8cd744b569c5c413de3617f92b66078b0df35f6f4c481b8ceb4dfa7907e9283b.js",
+                  "lineNumber": 10513,
+                  "columnNumber": 6
+                },
+                {
+                  "functionName": "mount",
+                  "scriptId": "16682",
+                  "url": "https://plankton.windeurope.org/assets/dataviz-8cd744b569c5c413de3617f92b66078b0df35f6f4c481b8ceb4dfa7907e9283b.js",
+                  "lineNumber": 7774,
+                  "columnNumber": 12
+                },
+                {
+                  "functionName": "app2.mount",
+                  "scriptId": "16682",
+                  "url": "https://plankton.windeurope.org/assets/dataviz-8cd744b569c5c413de3617f92b66078b0df35f6f4c481b8ceb4dfa7907e9283b.js",
+                  "lineNumber": 13519,
+                  "columnNumber": 18
+                },
+                {
+                  "functionName": "",
+                  "scriptId": "16666",
+                  "url": "https://windeurope.org/data/interactive-data-and-maps/wind-farms/?anchorage=Offshore&pg=34",
+                  "lineNumber": 1543,
+                  "columnNumber": 65
+                }
+              ],
+              "parent": {
+                "description": "await",
+                "callFrames": [
+                  {
+                    "functionName": "",
+                    "scriptId": "16666",
+                    "url": "https://windeurope.org/data/interactive-data-and-maps/wind-farms/?anchorage=Offshore&pg=34",
+                    "lineNumber": 1544,
+                    "columnNumber": 14
+                  }
+                ]
+              }
+            }
+          }
+        },
+        "_priority": "High",
+        "_resourceType": "fetch",
+        "cache": {},
+        "connection": "443",
+        "pageref": "page_26",
+        "request": {
+          "method": "POST",
+          "url": "https://plankton.windeurope.org/graphql?ref=wip-app-settings",
+          "httpVersion": "h3",
+          "headers": [
+            {
+              "name": ":authority",
+              "value": "plankton.windeurope.org"
+            },
+            {
+              "name": ":method",
+              "value": "POST"
+            },
+            {
+              "name": ":path",
+              "value": "/graphql?ref=wip-app-settings"
+            },
+            {
+              "name": ":scheme",
+              "value": "https"
+            },
+            {
+              "name": "accept",
+              "value": "*/*"
+            },
+            {
+              "name": "accept-encoding",
+              "value": "gzip, deflate, br, zstd"
+            },
+            {
+              "name": "accept-language",
+              "value": "it-IT,it;q=0.9,en-US;q=0.8,en;q=0.7,es;q=0.6,fr;q=0.5,nl;q=0.4"
+            },
+            {
+              "name": "content-length",
+              "value": "88"
+            },
+            {
+              "name": "content-type",
+              "value": "application/json"
+            },
+            {
+              "name": "origin",
+              "value": "https://windeurope.org"
+            },
+            {
+              "name": "priority",
+              "value": "u=1, i"
+            },
+            {
+              "name": "referer",
+              "value": "https://windeurope.org/"
+            },
+            {
+              "name": "sec-ch-ua",
+              "value": "\"Not:A-Brand\";v=\"99\", \"Google Chrome\";v=\"145\", \"Chromium\";v=\"145\""
+            },
+            {
+              "name": "sec-ch-ua-mobile",
+              "value": "?0"
+            },
+            {
+              "name": "sec-ch-ua-platform",
+              "value": "\"Windows\""
+            },
+            {
+              "name": "sec-fetch-dest",
+              "value": "empty"
+            },
+            {
+              "name": "sec-fetch-mode",
+              "value": "cors"
+            },
+            {
+              "name": "sec-fetch-site",
+              "value": "same-site"
+            },
+            {
+              "name": "user-agent",
+              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36"
+            },
+            {
+              "name": "x-requested-with",
+              "value": "XMLHttpRequest"
+            }
+          ],
+          "queryString": [
+            {
+              "name": "ref",
+              "value": "wip-app-settings"
+            }
+          ],
+          "cookies": [],
+          "headersSize": -1,
+          "bodySize": 88,
+          "postData": {
+            "mimeType": "application/json",
+            "text": "{\"query\":\"query { wipAppSettings (filter: {  }) { id key value updatedAt createdAt } }\"}"
+          }
+        },
+        "response": {
+          "status": 200,
+          "statusText": "",
+          "httpVersion": "h3",
+          "headers": [
+            {
+              "name": "access-control-allow-methods",
+              "value": "GET, POST, DELETE, PUT, OPTIONS"
+            },
+            {
+              "name": "access-control-allow-origin",
+              "value": "https://windeurope.org"
+            },
+            {
+              "name": "access-control-expose-headers",
+              "value": ""
+            },
+            {
+              "name": "access-control-max-age",
+              "value": "7200"
+            },
+            {
+              "name": "cache-control",
+              "value": "max-age=0, private, must-revalidate"
+            },
+            {
+              "name": "cf-cache-status",
+              "value": "DYNAMIC"
+            },
+            {
+              "name": "cf-ray",
+              "value": "9d4439b85e26ae32-AMS"
+            },
+            {
+              "name": "content-encoding",
+              "value": "br"
+            },
+            {
+              "name": "content-type",
+              "value": "application/json; charset=utf-8"
+            },
+            {
+              "name": "date",
+              "value": "Fri, 27 Feb 2026 02:24:21 GMT"
+            },
+            {
+              "name": "etag",
+              "value": "W/\"1b67bad68a1fcd636ee161a85e9f493d\""
+            },
+            {
+              "name": "nel",
+              "value": "{\"report_to\":\"cf-nel\",\"success_fraction\":0.0,\"max_age\":604800}"
+            },
+            {
+              "name": "priority",
+              "value": "u=1,i"
+            },
+            {
+              "name": "referrer-policy",
+              "value": "strict-origin-when-cross-origin"
+            },
+            {
+              "name": "report-to",
+              "value": "{\"group\":\"cf-nel\",\"max_age\":604800,\"endpoints\":[{\"url\":\"https://a.nel.cloudflare.com/report/v4?s=AxlGqhjj%2FhTmHhKluPEnd2yHfytAgx8fDtDnyrFPWyeo%2FG%2Fekrxsg7sJopPZudwY6gxyTkdaCwYat2x9nhmhAYW1RregTH1qef%2Bb0Oq1hQYYJDq6VjrFbiBG%2ByCfM84qpa8%3D\"}]}"
+            },
+            {
+              "name": "server",
+              "value": "cloudflare"
+            },
+            {
+              "name": "server-timing",
+              "value": "cfExtPri"
+            },
+            {
+              "name": "strict-transport-security",
+              "value": "max-age=63072000; includeSubDomains"
+            },
+            {
+              "name": "vary",
+              "value": "Accept, Origin"
+            },
+            {
+              "name": "vary",
+              "value": "accept-encoding"
+            },
+            {
+              "name": "x-content-type-options",
+              "value": "nosniff"
+            },
+            {
+              "name": "x-do-app-origin",
+              "value": "3078a1ce-2bfd-48a0-928b-478b2ab30ff3"
+            },
+            {
+              "name": "x-do-orig-status",
+              "value": "200"
+            },
+            {
+              "name": "x-frame-options",
+              "value": "SAMEORIGIN"
+            },
+            {
+              "name": "x-permitted-cross-domain-policies",
+              "value": "none"
+            },
+            {
+              "name": "x-request-id",
+              "value": "e1d3b3bf-3f53-45f4-873f-fd1af44d1bd9"
+            },
+            {
+              "name": "x-runtime",
+              "value": "0.009370"
+            },
+            {
+              "name": "x-xss-protection",
+              "value": "0"
+            }
+          ],
+          "cookies": [],
+          "content": {
+            "size": 339,
+            "mimeType": "application/json",
+            "text": "{\"data\":{\"wipAppSettings\":[{\"id\":2,\"key\":\"decommissioningChoropleth.excludedCountries\",\"value\":\"[\\\"Slovakia\\\"]\",\"updatedAt\":\"2024-03-19T09:44:23Z\",\"createdAt\":\"2024-03-19T09:44:23Z\"},{\"id\":3,\"key\":\"repoweringChoropleth.excludedCountries\",\"value\":\"[\\\"Switzerland\\\"]\",\"updatedAt\":\"2024-03-19T09:44:23Z\",\"createdAt\":\"2024-03-19T09:44:23Z\"}]}}"
+          },
+          "redirectURL": "",
+          "headersSize": -1,
+          "bodySize": -1,
+          "_transferSize": 1161,
+          "_error": null,
+          "_fetchedViaServiceWorker": false
+        },
+        "serverIPAddress": "[2606:4700:20::681a:e10]",
+        "startedDateTime": "2026-02-27T02:24:21.302Z",
+        "time": 60.19299998297356,
+        "timings": {
+          "blocked": 9.238000003995374,
+          "dns": -1,
+          "ssl": -1,
+          "connect": -1,
+          "send": 0.548,
+          "wait": 45.43699999902956,
+          "receive": 4.969999979948625,
+          "_blocked_queueing": 2.290000003995374,
+          "_workerStart": -1,
+          "_workerReady": -1,
+          "_workerFetchStart": -1,
+          "_workerRespondWithSettled": -1
+        }
+      }
+    ]
+  }
+}
