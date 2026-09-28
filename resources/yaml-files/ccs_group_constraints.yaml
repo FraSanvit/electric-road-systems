@@ -1,0 +1,500 @@
+overrides:
+    allow_ccs_techs:
+        locations:
+            ALB.techs:
+                demand_co2:
+                ccgt_ccs:
+                coal_power_plant_ccs:
+                chp_wte_back_pressure_ccs:
+                chp_biofuel_extraction_ccs:
+                chp_methane_extraction_ccs:
+                biogas_upgrading_ccs:
+
+            AUT.techs:
+                demand_co2:
+                ccgt_ccs:
+                coal_power_plant_ccs:
+                chp_wte_back_pressure_ccs:
+                chp_biofuel_extraction_ccs:
+                chp_methane_extraction_ccs:
+                biogas_upgrading_ccs:
+
+            BEL.techs:
+                demand_co2:
+                ccgt_ccs:
+                coal_power_plant_ccs:
+                chp_wte_back_pressure_ccs:
+                chp_biofuel_extraction_ccs:
+                chp_methane_extraction_ccs:
+                biogas_upgrading_ccs:
+
+            BGR.techs:
+                demand_co2:
+                ccgt_ccs:
+                coal_power_plant_ccs:
+                chp_wte_back_pressure_ccs:
+                chp_biofuel_extraction_ccs:
+                chp_methane_extraction_ccs:
+                biogas_upgrading_ccs:
+
+            BIH.techs:
+                demand_co2:
+                ccgt_ccs:
+                coal_power_plant_ccs:
+                chp_wte_back_pressure_ccs:
+                chp_biofuel_extraction_ccs:
+                chp_methane_extraction_ccs:
+                biogas_upgrading_ccs:
+
+            CHE.techs:
+                demand_co2:
+                ccgt_ccs:
+                coal_power_plant_ccs:
+                chp_wte_back_pressure_ccs:
+                chp_biofuel_extraction_ccs:  
+                chp_methane_extraction_ccs:
+                biogas_upgrading_ccs:
+
+            CYP.techs:                  
+                demand_co2:
+                ccgt_ccs:
+                coal_power_plant_ccs:
+                chp_wte_back_pressure_ccs:
+                chp_biofuel_extraction_ccs:     
+                chp_methane_extraction_ccs:
+                biogas_upgrading_ccs:
+
+            CZE.techs:
+                demand_co2:
+                ccgt_ccs:
+                coal_power_plant_ccs:
+                chp_wte_back_pressure_ccs:
+                chp_biofuel_extraction_ccs:
+                chp_methane_extraction_ccs:
+                biogas_upgrading_ccs:
+
+            DEU.techs:
+                demand_co2:
+                ccgt_ccs:
+                coal_power_plant_ccs:
+                chp_wte_back_pressure_ccs:
+                chp_biofuel_extraction_ccs:
+                chp_methane_extraction_ccs:
+                biogas_upgrading_ccs:
+
+            DNK.techs:
+                demand_co2:
+                ccgt_ccs:
+                coal_power_plant_ccs:
+                chp_wte_back_pressure_ccs:
+                chp_biofuel_extraction_ccs:
+                chp_methane_extraction_ccs:
+                biogas_upgrading_ccs:
+
+            ESP.techs:
+                demand_co2:
+                ccgt_ccs:
+                coal_power_plant_ccs:
+                chp_wte_back_pressure_ccs:
+                chp_biofuel_extraction_ccs:
+                chp_methane_extraction_ccs:
+                biogas_upgrading_ccs:
+
+            EST.techs:
+                demand_co2:
+                ccgt_ccs:
+                coal_power_plant_ccs:
+                chp_wte_back_pressure_ccs:
+                chp_biofuel_extraction_ccs:
+                chp_methane_extraction_ccs:
+                biogas_upgrading_ccs:
+
+            FIN.techs:
+                demand_co2:
+                ccgt_ccs:
+                coal_power_plant_ccs:
+                chp_wte_back_pressure_ccs:
+                chp_biofuel_extraction_ccs:
+                chp_methane_extraction_ccs:
+                biogas_upgrading_ccs:
+
+            FRA.techs:
+                demand_co2:
+                ccgt_ccs:
+                coal_power_plant_ccs:
+                chp_wte_back_pressure_ccs:
+                chp_biofuel_extraction_ccs:
+                chp_methane_extraction_ccs:
+                biogas_upgrading_ccs:
+
+            GBR.techs:
+                demand_co2:
+                ccgt_ccs:
+                coal_power_plant_ccs:
+                chp_wte_back_pressure_ccs:
+                chp_biofuel_extraction_ccs:
+                chp_methane_extraction_ccs:
+                biogas_upgrading_ccs:
+
+            GRC.techs:
+                demand_co2:
+                ccgt_ccs:
+                coal_power_plant_ccs:
+                chp_wte_back_pressure_ccs:
+                chp_biofuel_extraction_ccs:
+                chp_methane_extraction_ccs:
+                biogas_upgrading_ccs:
+
+            HRV.techs:
+                demand_co2:
+                ccgt_ccs:
+                coal_power_plant_ccs:
+                chp_wte_back_pressure_ccs:
+                chp_biofuel_extraction_ccs:
+                chp_methane_extraction_ccs:
+                biogas_upgrading_ccs:
+
+            HUN.techs:
+                demand_co2:
+                ccgt_ccs:
+                coal_power_plant_ccs:
+                chp_wte_back_pressure_ccs:
+                chp_biofuel_extraction_ccs:
+                chp_methane_extraction_ccs:
+                biogas_upgrading_ccs:
+
+            IRL.techs:
+                demand_co2:
+                ccgt_ccs:
+                coal_power_plant_ccs:
+                chp_wte_back_pressure_ccs:
+                chp_biofuel_extraction_ccs:
+                chp_methane_extraction_ccs:
+                biogas_upgrading_ccs:
+
+            ISL.techs:
+                demand_co2:
+                ccgt_ccs:
+                coal_power_plant_ccs:
+                chp_wte_back_pressure_ccs:
+                chp_biofuel_extraction_ccs:
+                chp_methane_extraction_ccs:
+                biogas_upgrading_ccs:
+
+            ITA.techs:
+                demand_co2:
+                ccgt_ccs:
+                coal_power_plant_ccs:
+                chp_wte_back_pressure_ccs:
+                chp_biofuel_extraction_ccs:
+                chp_methane_extraction_ccs:
+                biogas_upgrading_ccs:
+
+            LTU.techs:
+                demand_co2:
+                ccgt_ccs:
+                coal_power_plant_ccs:
+                chp_wte_back_pressure_ccs:
+                chp_biofuel_extraction_ccs:
+                chp_methane_extraction_ccs:
+                biogas_upgrading_ccs:
+
+            LUX.techs:
+                demand_co2:
+                ccgt_ccs:
+                coal_power_plant_ccs:
+                chp_wte_back_pressure_ccs:
+                chp_biofuel_extraction_ccs:
+                chp_methane_extraction_ccs:
+                biogas_upgrading_ccs:
+
+            LVA.techs:
+                demand_co2:
+                ccgt_ccs:
+                coal_power_plant_ccs:
+                chp_wte_back_pressure_ccs:
+                chp_biofuel_extraction_ccs:
+                chp_methane_extraction_ccs:
+                biogas_upgrading_ccs:
+
+            MKD.techs:
+                demand_co2:
+                ccgt_ccs:
+                coal_power_plant_ccs:
+                chp_wte_back_pressure_ccs:
+                chp_biofuel_extraction_ccs:
+                chp_methane_extraction_ccs:
+                biogas_upgrading_ccs:
+
+            MNE.techs:
+                demand_co2:
+                ccgt_ccs:
+                coal_power_plant_ccs:
+                chp_wte_back_pressure_ccs:
+                chp_biofuel_extraction_ccs:
+                chp_methane_extraction_ccs:
+                biogas_upgrading_ccs:
+
+            NLD.techs:
+                demand_co2:
+                ccgt_ccs:
+                coal_power_plant_ccs:
+                chp_wte_back_pressure_ccs:
+                chp_biofuel_extraction_ccs:
+                chp_methane_extraction_ccs:
+                biogas_upgrading_ccs:
+
+            NOR.techs:
+                demand_co2:
+                ccgt_ccs:
+                coal_power_plant_ccs:
+                chp_wte_back_pressure_ccs:
+                chp_biofuel_extraction_ccs:
+                chp_methane_extraction_ccs:
+                biogas_upgrading_ccs:
+
+            POL.techs:
+                demand_co2:
+                ccgt_ccs:
+                coal_power_plant_ccs:
+                chp_wte_back_pressure_ccs:
+                chp_biofuel_extraction_ccs:
+                chp_methane_extraction_ccs:
+                biogas_upgrading_ccs:
+
+            PRT.techs:
+                demand_co2:
+                ccgt_ccs:
+                coal_power_plant_ccs:
+                chp_wte_back_pressure_ccs:
+                chp_biofuel_extraction_ccs:
+                chp_methane_extraction_ccs:
+                biogas_upgrading_ccs:
+
+            ROU.techs:
+                demand_co2:
+                ccgt_ccs:
+                coal_power_plant_ccs:
+                chp_wte_back_pressure_ccs:
+                chp_biofuel_extraction_ccs:
+                chp_methane_extraction_ccs:
+                biogas_upgrading_ccs:
+
+            SRB.techs:
+                demand_co2:
+                ccgt_ccs:
+                coal_power_plant_ccs:
+                chp_wte_back_pressure_ccs:
+                chp_biofuel_extraction_ccs:
+                chp_methane_extraction_ccs:
+                biogas_upgrading_ccs:
+
+            SVK.techs:
+                demand_co2:
+                ccgt_ccs:
+                coal_power_plant_ccs:
+                chp_wte_back_pressure_ccs:
+                chp_biofuel_extraction_ccs:
+                chp_methane_extraction_ccs:
+                biogas_upgrading_ccs:
+
+            SVN.techs:
+                demand_co2:
+                ccgt_ccs:
+                coal_power_plant_ccs:
+                chp_wte_back_pressure_ccs:
+                chp_biofuel_extraction_ccs:
+                chp_methane_extraction_ccs:
+                biogas_upgrading_ccs:
+
+            SWE.techs:
+                demand_co2:
+                ccgt_ccs:
+                coal_power_plant_ccs:
+                chp_wte_back_pressure_ccs:
+                chp_biofuel_extraction_ccs:
+                chp_methane_extraction_ccs:
+                biogas_upgrading_ccs:
+
+    
+    co2_storage_maximum:
+        group_constraints: # CO2StoP
+            co2_storage_max_ALB:
+                locs: [ALB]
+                techs: [demand_co2]
+                carrier_con_equals.co2: 0.0  # (10 kton)
+            co2_storage_max_AUT:
+                locs: [AUT]
+                techs: [demand_co2]
+                carrier_con_max.co2: -33677.71  # (10 kton)
+            co2_storage_max_BEL:
+                locs: [BEL]
+                techs: [demand_co2]
+                carrier_con_max.co2: -62.86  # (10 kton)
+            co2_storage_max_BGR:
+                locs: [BGR]
+                techs: [demand_co2]
+                carrier_con_max.co2: -673.65  # (10 kton)
+            co2_storage_max_BIH:
+                locs: [BIH]
+                techs: [demand_co2]
+                carrier_con_equals.co2: 0.0  # (10 kton) [not included]
+            co2_storage_max_CHE:
+                locs: [CHE]
+                techs: [demand_co2]
+                carrier_con_max.co2: -695.58  # (10 kton)
+            co2_storage_max_CYP:
+                locs: [CYP]
+                techs: [demand_co2]
+                carrier_con_equals.co2: 0.0  # (10 kton) [not included]
+            co2_storage_max_CZE:
+                locs: [CZE]
+                techs: [demand_co2]
+                carrier_con_max.co2: -135.06  # (10 kton)
+            co2_storage_max_DEU:
+                locs: [DEU]
+                techs: [demand_co2]
+                carrier_con_max.co2: -3056.36  # (10 kton)
+            co2_storage_max_DNK:
+                locs: [DNK]
+                techs: [demand_co2]
+                carrier_con_max.co2: -120623.38  # (10 kton)
+            co2_storage_max_ESP:
+                locs: [ESP]
+                techs: [demand_co2]
+                carrier_con_max.co2: -1541.45  # (10 kton)
+            co2_storage_max_EST:
+                locs: [EST]
+                techs: [demand_co2]
+                carrier_con_equals.co2: 0.0  # (10 kton) [not included]
+            co2_storage_max_FIN:
+                locs: [FIN]
+                techs: [demand_co2]
+                carrier_con_equals.co2: 0.0  # (10 kton) [not included]
+            co2_storage_max_FRA:
+                locs: [FRA]
+                techs: [demand_co2]
+                carrier_con_max.co2: -7608.41  # (10 kton)
+            co2_storage_max_GBR:
+                locs: [GBR]
+                techs: [demand_co2]
+                carrier_con_max.co2: -59229.57  # (10 kton)
+            co2_storage_max_GRC:
+                locs: [GRC]
+                techs: [demand_co2]
+                carrier_con_max.co2: -559.74  # (10 kton)
+            co2_storage_max_HRV:
+                locs: [HRV]
+                techs: [demand_co2]
+                carrier_con_max.co2: -1284.01  # (10 kton)
+            co2_storage_max_HUN:
+                locs: [HUN]
+                techs: [demand_co2]
+                carrier_con_max.co2: -208.0  # (10 kton)
+            co2_storage_max_IRL:
+                locs: [IRL]
+                techs: [demand_co2]
+                carrier_con_max.co2: -561.01  # (10 kton)
+            co2_storage_max_ISL:
+                locs: [ISL]
+                techs: [demand_co2]
+                carrier_con_max.co2: -10000.0  # (10 kton) assumed [not included]
+            co2_storage_max_ITA:
+                locs: [ITA]
+                techs: [demand_co2]
+                carrier_con_max.co2: -1364.59  # (10 kton)
+            co2_storage_max_LTU:
+                locs: [LTU]
+                techs: [demand_co2]
+                carrier_con_max.co2: -29.45  # (10 kton)
+            co2_storage_max_LUX:
+                locs: [LUX]
+                techs: [demand_co2]
+                carrier_con_equals.co2: 0.0  # (10 kton) [not included]
+            co2_storage_max_LVA:
+                locs: [LVA]
+                techs: [demand_co2]
+                carrier_con_max.co2: -3520.0  # (10 kton)
+            co2_storage_max_MKD:
+                locs: [MKD]
+                techs: [demand_co2]
+                carrier_con_max.co2: -5.43  # (10 kton)
+            co2_storage_max_MNE:
+                locs: [MNE]
+                techs: [demand_co2]
+                carrier_con_equals.co2: 0.0  # (10 kton) [not included]
+            co2_storage_max_NLD:
+                locs: [NLD]
+                techs: [demand_co2]
+                carrier_con_max.co2: -12935.10  # (10 kton)
+            co2_storage_max_NOR:
+                locs: [NOR]
+                techs: [demand_co2]
+                carrier_con_max.co2: -11696.10  # (10 kton)
+            co2_storage_max_POL:
+                locs: [POL]
+                techs: [demand_co2]
+                carrier_con_max.co2: -51596.78  # (10 kton)
+            co2_storage_max_PRT:
+                locs: [PRT]
+                techs: [demand_co2]
+                carrier_con_max.co2: -219.48  # (10 kton)
+            co2_storage_max_ROU:
+                locs: [ROU]
+                techs: [demand_co2]
+                carrier_con_max.co2: -5343.30  # (10 kton)
+            co2_storage_max_SRB:
+                locs: [SRB]
+                techs: [demand_co2]
+                carrier_con_equals.co2: 0.0  # (10 kton)
+            co2_storage_max_SVK:
+                locs: [SVK]
+                techs: [demand_co2]
+                carrier_con_max.co2: -1922.65  # (10 kton)
+            co2_storage_max_SVN:
+                locs: [SVN]
+                techs: [demand_co2]
+                carrier_con_max.co2: -40.11  # (10 kton)
+            co2_storage_max_SWE:
+                locs: [SWE]
+                techs: [demand_co2]
+                carrier_con_equals.co2: 0.0  # (10 kton) [not included]
+
+    ccs_limit_2030:
+        group_constraints:
+            co2_sequestration_max_all:
+                locs: [ALB, AUT, BEL, BGR, BIH, CHE, HRV, CYP, CZE, DNK, EST, FIN, FRA, DEU, GRC, HUN, IRL, ISL, ITA, LVA, MKD, LTU, LUX, MNE, NLD, NOR, POL, PRT, ROU, SRB, SVK, SVN, ESP, SWE, GBR]
+                techs: [demand_co2]
+                # techs: [ccgt_ccs,coal_power_plant_ccs,chp_wte_back_pressure_ccs,chp_biofuel_extraction_ccs,chp_biogas_ccs,biogas_upgrading_ccs,dac,chp_methane_extraction_ccs,chp_methane_back_pressure_simple_ccs,chp_methane_back_pressure_combined_ccs]
+                carrier_con_max:
+                    co2: -12000.000  # (10 kton) - 120 Mton                
+            
+    ccs_limit_2050:
+        group_constraints:
+            co2_sequestration_max_all:
+                locs: [ALB, AUT, BEL, BGR, BIH, CHE, HRV, CYP, CZE, DNK, EST, FIN, FRA, DEU, GRC, HUN, IRL, ISL, ITA, LVA, MKD, LTU, LUX, MNE, NLD, NOR, POL, PRT, ROU, SRB, SVK, SVN, ESP, SWE, GBR]
+                techs: [demand_co2]
+                # techs: [ccgt_ccs,coal_power_plant_ccs,chp_wte_back_pressure_ccs,chp_biofuel_extraction_ccs,chp_biogas_ccs,biogas_upgrading_ccs,dac,chp_methane_extraction_ccs,chp_methane_back_pressure_simple_ccs,chp_methane_back_pressure_combined_ccs]
+                carrier_con_max:
+                    co2: -25000.000  # (10 kton) - 250 Mton              
+
+    ccs_no_limit_2030:
+        group_constraints:
+            co2_sequestration_max_all:
+                locs: [ALB, AUT, BEL, BGR, BIH, CHE, HRV, CYP, CZE, DNK, EST, FIN, FRA, DEU, GRC, HUN, IRL, ISL, ITA, LVA, MKD, LTU, LUX, MNE, NLD, NOR, POL, PRT, ROU, SRB, SVK, SVN, ESP, SWE, GBR]
+                techs: [demand_co2]
+                # techs: [ccgt_ccs,coal_power_plant_ccs,chp_wte_back_pressure_ccs,chp_biofuel_extraction_ccs,chp_biogas_ccs,biogas_upgrading_ccs,dac,chp_methane_extraction_ccs,chp_methane_back_pressure_simple_ccs,chp_methane_back_pressure_combined_ccs]
+                carrier_con_max:
+                    co2: -40000.000  # (10 kton) - 120 Mton                
+            
+    ccs_no_limit_2050:
+        group_constraints:
+            co2_sequestration_max_all:
+                locs: [ALB, AUT, BEL, BGR, BIH, CHE, HRV, CYP, CZE, DNK, EST, FIN, FRA, DEU, GRC, HUN, IRL, ISL, ITA, LVA, MKD, LTU, LUX, MNE, NLD, NOR, POL, PRT, ROU, SRB, SVK, SVN, ESP, SWE, GBR]
+                techs: [demand_co2]
+                # techs: [ccgt_ccs,coal_power_plant_ccs,chp_wte_back_pressure_ccs,chp_biofuel_extraction_ccs,chp_biogas_ccs,biogas_upgrading_ccs,dac,chp_methane_extraction_ccs,chp_methane_back_pressure_simple_ccs,chp_methane_back_pressure_combined_ccs]
+                carrier_con_max:
+                    co2: -40000.000  # (10 kton) - 250 Mton 
+
+scenarios:
+    ccs: [allow_ccs_techs, co2_storage_maximum]

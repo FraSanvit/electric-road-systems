@@ -1,0 +1,2618 @@
+locations:
+    ALB.techs:
+        passenger_car_transport_fcev:
+            costs:
+                monetary:
+                    energy_cap: 402.6729  # (10 EUR2015/km_per_hour)
+                    om_prod: 0.0021 # (10 EUR2015/km)
+        passenger_car_transport_ev:
+            costs:
+                monetary:
+                    energy_cap: 395.1415  # (10 EUR2015/km_per_hour)
+                    om_prod: 0.0008 # (10 EUR2015/km)
+        passenger_car_transport_ice:
+            costs:
+                monetary:
+                    energy_cap: 363.2624  # (10 EUR2015/km_per_hour)
+                    om_prod: 0.0027 # (10 EUR2015/km)
+        light_duty_transport_fcev:
+            costs:
+                monetary:
+                    energy_cap: 282.622  # (10 EUR2015/km_per_hour)
+                    om_prod: 0.0021 # (10 EUR2015/km)
+        light_duty_transport_ev:
+            costs:
+                monetary:
+                    energy_cap: 250.4861  # (10 EUR2015/km_per_hour)
+                    om_prod: 0.0001 # (10 EUR2015/km)
+        light_duty_transport_ice:
+            costs:
+                monetary:
+                    energy_cap: 252.2939  # (10 EUR2015/km_per_hour)
+                    om_prod: 0.0027 # (10 EUR2015/km)
+        bus_transport_fcev:
+            costs:
+                monetary:
+                    energy_cap: 1368.6607  # (10 EUR2015/km_per_hour)
+                    om_annual: 40.9076 # (10 EUR2015/km)
+                    om_prod: 0.0093 # (10 EUR2015/km)
+        bus_transport_ev:
+            costs:
+                monetary:
+                    energy_cap: 1368.6607  # (10 EUR2015/km_per_hour)
+                    om_annual: 40.9076 # (10 EUR2015/km)
+                    om_prod: 0.0093 # (10 EUR2015/km)
+        bus_transport_ice:
+            costs:
+                monetary:
+                    energy_cap: 1082.7152  # (10 EUR2015/km_per_hour)
+                    om_annual: 46.021 # (10 EUR2015/km)
+                    om_prod: 0.0102 # (10 EUR2015/km)
+        motorcycle_transport_ev:
+            costs:
+                monetary:
+                    energy_cap: 273.7696  # (10 EUR2015/km_per_hour)
+        motorcycle_transport_ice:
+            costs:
+                monetary:
+                    energy_cap: 273.7696  # (10 EUR2015/km_per_hour)
+        heavy_duty_transport_fcev:
+            costs:
+                monetary:
+                    energy_cap: 821.0704  # (10 EUR2015/km_per_hour)
+                    om_annual: 28.3481 # (10 EUR2015/km)
+                    om_prod: 0.0093 # (10 EUR2015/km)
+        heavy_duty_transport_ev:
+            costs:
+                monetary:
+                    energy_cap: 888.0417  # (10 EUR2015/km_per_hour)
+                    om_annual: 28.3481 # (10 EUR2015/km)
+                    om_prod: 0.0093 # (10 EUR2015/km)
+        heavy_duty_transport_ice:
+            costs:
+                monetary:
+                    energy_cap: 834.0006  # (10 EUR2015/km_per_hour)
+                    om_annual: 31.8916 # (10 EUR2015/km)
+                    om_prod: 0.0102 # (10 EUR2015/km)
+    AUT.techs:
+        passenger_car_transport_fcev:
+            costs:
+                monetary:
+                    energy_cap: 338.9321  # (10 EUR2015/km_per_hour)
+                    om_prod: 0.0021 # (10 EUR2015/km)
+        passenger_car_transport_ev:
+            costs:
+                monetary:
+                    energy_cap: 332.5929  # (10 EUR2015/km_per_hour)
+                    om_prod: 0.0008 # (10 EUR2015/km)
+        passenger_car_transport_ice:
+            costs:
+                monetary:
+                    energy_cap: 305.7601  # (10 EUR2015/km_per_hour)
+                    om_prod: 0.0027 # (10 EUR2015/km)
+        light_duty_transport_fcev:
+            costs:
+                monetary:
+                    energy_cap: 420.8431  # (10 EUR2015/km_per_hour)
+                    om_prod: 0.0021 # (10 EUR2015/km)
+        light_duty_transport_ev:
+            costs:
+                monetary:
+                    energy_cap: 372.9906  # (10 EUR2015/km_per_hour)
+                    om_prod: 0.0001 # (10 EUR2015/km)
+        light_duty_transport_ice:
+            costs:
+                monetary:
+                    energy_cap: 375.6824  # (10 EUR2015/km_per_hour)
+                    om_prod: 0.0027 # (10 EUR2015/km)
+        bus_transport_fcev:
+            costs:
+                monetary:
+                    energy_cap: 774.236  # (10 EUR2015/km_per_hour)
+                    om_annual: 23.1409 # (10 EUR2015/km)
+                    om_prod: 0.0093 # (10 EUR2015/km)
+        bus_transport_ev:
+            costs:
+                monetary:
+                    energy_cap: 774.236  # (10 EUR2015/km_per_hour)
+                    om_annual: 23.1409 # (10 EUR2015/km)
+                    om_prod: 0.0093 # (10 EUR2015/km)
+        bus_transport_ice:
+            costs:
+                monetary:
+                    energy_cap: 612.4798  # (10 EUR2015/km_per_hour)
+                    om_annual: 26.0336 # (10 EUR2015/km)
+                    om_prod: 0.0102 # (10 EUR2015/km)
+        motorcycle_transport_ev:
+            costs:
+                monetary:
+                    energy_cap: 430.6392  # (10 EUR2015/km_per_hour)
+        motorcycle_transport_ice:
+            costs:
+                monetary:
+                    energy_cap: 430.6392  # (10 EUR2015/km_per_hour)
+        heavy_duty_transport_fcev:
+            costs:
+                monetary:
+                    energy_cap: 504.1467  # (10 EUR2015/km_per_hour)
+                    om_annual: 17.4061 # (10 EUR2015/km)
+                    om_prod: 0.0093 # (10 EUR2015/km)
+        heavy_duty_transport_ev:
+            costs:
+                monetary:
+                    energy_cap: 545.2679  # (10 EUR2015/km_per_hour)
+                    om_annual: 17.4061 # (10 EUR2015/km)
+                    om_prod: 0.0093 # (10 EUR2015/km)
+        heavy_duty_transport_ice:
+            costs:
+                monetary:
+                    energy_cap: 512.086  # (10 EUR2015/km_per_hour)
+                    om_annual: 19.5818 # (10 EUR2015/km)
+                    om_prod: 0.0102 # (10 EUR2015/km)
+    BEL.techs:
+        passenger_car_transport_fcev:
+            costs:
+                monetary:
+                    energy_cap: 312.7464  # (10 EUR2015/km_per_hour)
+                    om_prod: 0.0021 # (10 EUR2015/km)
+        passenger_car_transport_ev:
+            costs:
+                monetary:
+                    energy_cap: 306.8969  # (10 EUR2015/km_per_hour)
+                    om_prod: 0.0008 # (10 EUR2015/km)
+        passenger_car_transport_ice:
+            costs:
+                monetary:
+                    energy_cap: 282.1372  # (10 EUR2015/km_per_hour)
+                    om_prod: 0.0027 # (10 EUR2015/km)
+        light_duty_transport_fcev:
+            costs:
+                monetary:
+                    energy_cap: 404.4977  # (10 EUR2015/km_per_hour)
+                    om_prod: 0.0021 # (10 EUR2015/km)
+        light_duty_transport_ev:
+            costs:
+                monetary:
+                    energy_cap: 358.5038  # (10 EUR2015/km_per_hour)
+                    om_prod: 0.0001 # (10 EUR2015/km)
+        light_duty_transport_ice:
+            costs:
+                monetary:
+                    energy_cap: 361.0911  # (10 EUR2015/km_per_hour)
+                    om_prod: 0.0027 # (10 EUR2015/km)
+        bus_transport_fcev:
+            costs:
+                monetary:
+                    energy_cap: 1099.5491  # (10 EUR2015/km_per_hour)
+                    om_annual: 32.8641 # (10 EUR2015/km)
+                    om_prod: 0.0093 # (10 EUR2015/km)
+        bus_transport_ev:
+            costs:
+                monetary:
+                    energy_cap: 1099.5491  # (10 EUR2015/km_per_hour)
+                    om_annual: 32.8641 # (10 EUR2015/km)
+                    om_prod: 0.0093 # (10 EUR2015/km)
+        bus_transport_ice:
+            costs:
+                monetary:
+                    energy_cap: 869.8273  # (10 EUR2015/km_per_hour)
+                    om_annual: 36.9722 # (10 EUR2015/km)
+                    om_prod: 0.0102 # (10 EUR2015/km)
+        motorcycle_transport_ev:
+            costs:
+                monetary:
+                    energy_cap: 334.8688  # (10 EUR2015/km_per_hour)
+        motorcycle_transport_ice:
+            costs:
+                monetary:
+                    energy_cap: 334.8688  # (10 EUR2015/km_per_hour)
+        heavy_duty_transport_fcev:
+            costs:
+                monetary:
+                    energy_cap: 975.772  # (10 EUR2015/km_per_hour)
+                    om_annual: 33.6893 # (10 EUR2015/km)
+                    om_prod: 0.0093 # (10 EUR2015/km)
+        heavy_duty_transport_ev:
+            costs:
+                monetary:
+                    energy_cap: 1055.3617  # (10 EUR2015/km_per_hour)
+                    om_annual: 33.6893 # (10 EUR2015/km)
+                    om_prod: 0.0093 # (10 EUR2015/km)
+        heavy_duty_transport_ice:
+            costs:
+                monetary:
+                    energy_cap: 991.1384  # (10 EUR2015/km_per_hour)
+                    om_annual: 37.9005 # (10 EUR2015/km)
+                    om_prod: 0.0102 # (10 EUR2015/km)
+    BGR.techs:
+        passenger_car_transport_fcev:
+            costs:
+                monetary:
+                    energy_cap: 334.3837  # (10 EUR2015/km_per_hour)
+                    om_prod: 0.0021 # (10 EUR2015/km)
+        passenger_car_transport_ev:
+            costs:
+                monetary:
+                    energy_cap: 328.1295  # (10 EUR2015/km_per_hour)
+                    om_prod: 0.0008 # (10 EUR2015/km)
+        passenger_car_transport_ice:
+            costs:
+                monetary:
+                    energy_cap: 301.6568  # (10 EUR2015/km_per_hour)
+                    om_prod: 0.0027 # (10 EUR2015/km)
+        light_duty_transport_fcev:
+            costs:
+                monetary:
+                    energy_cap: 545.9767  # (10 EUR2015/km_per_hour)
+                    om_prod: 0.0021 # (10 EUR2015/km)
+        light_duty_transport_ev:
+            costs:
+                monetary:
+                    energy_cap: 483.8958  # (10 EUR2015/km_per_hour)
+                    om_prod: 0.0001 # (10 EUR2015/km)
+        light_duty_transport_ice:
+            costs:
+                monetary:
+                    energy_cap: 487.388  # (10 EUR2015/km_per_hour)
+                    om_prod: 0.0027 # (10 EUR2015/km)
+        bus_transport_fcev:
+            costs:
+                monetary:
+                    energy_cap: 1381.1868  # (10 EUR2015/km_per_hour)
+                    om_annual: 41.2819 # (10 EUR2015/km)
+                    om_prod: 0.0093 # (10 EUR2015/km)
+        bus_transport_ev:
+            costs:
+                monetary:
+                    energy_cap: 1381.1868  # (10 EUR2015/km_per_hour)
+                    om_annual: 41.2819 # (10 EUR2015/km)
+                    om_prod: 0.0093 # (10 EUR2015/km)
+        bus_transport_ice:
+            costs:
+                monetary:
+                    energy_cap: 1092.6242  # (10 EUR2015/km_per_hour)
+                    om_annual: 46.4422 # (10 EUR2015/km)
+                    om_prod: 0.0102 # (10 EUR2015/km)
+        motorcycle_transport_ev:
+            costs:
+                monetary:
+                    energy_cap: 163.0314  # (10 EUR2015/km_per_hour)
+        motorcycle_transport_ice:
+            costs:
+                monetary:
+                    energy_cap: 163.0314  # (10 EUR2015/km_per_hour)
+        heavy_duty_transport_fcev:
+            costs:
+                monetary:
+                    energy_cap: 820.9185  # (10 EUR2015/km_per_hour)
+                    om_annual: 28.3429 # (10 EUR2015/km)
+                    om_prod: 0.0093 # (10 EUR2015/km)
+        heavy_duty_transport_ev:
+            costs:
+                monetary:
+                    energy_cap: 887.8774  # (10 EUR2015/km_per_hour)
+                    om_annual: 28.3429 # (10 EUR2015/km)
+                    om_prod: 0.0093 # (10 EUR2015/km)
+        heavy_duty_transport_ice:
+            costs:
+                monetary:
+                    energy_cap: 833.8462  # (10 EUR2015/km_per_hour)
+                    om_annual: 31.8857 # (10 EUR2015/km)
+                    om_prod: 0.0102 # (10 EUR2015/km)
+    BIH.techs:
+        passenger_car_transport_fcev:
+            costs:
+                monetary:
+                    energy_cap: 491.2918  # (10 EUR2015/km_per_hour)
+                    om_prod: 0.0021 # (10 EUR2015/km)
+        passenger_car_transport_ev:
+            costs:
+                monetary:
+                    energy_cap: 482.1029  # (10 EUR2015/km_per_hour)
+                    om_prod: 0.0008 # (10 EUR2015/km)
+        passenger_car_transport_ice:
+            costs:
+                monetary:
+                    energy_cap: 443.208  # (10 EUR2015/km_per_hour)
+                    om_prod: 0.0027 # (10 EUR2015/km)
+        light_duty_transport_fcev:
+            costs:
+                monetary:
+                    energy_cap: 188.1065  # (10 EUR2015/km_per_hour)
+                    om_prod: 0.0021 # (10 EUR2015/km)
+        light_duty_transport_ev:
+            costs:
+                monetary:
+                    energy_cap: 166.7176  # (10 EUR2015/km_per_hour)
+                    om_prod: 0.0001 # (10 EUR2015/km)
+        light_duty_transport_ice:
+            costs:
+                monetary:
+                    energy_cap: 167.9208  # (10 EUR2015/km_per_hour)
+                    om_prod: 0.0027 # (10 EUR2015/km)
+        bus_transport_fcev:
+            costs:
+                monetary:
+                    energy_cap: 720.1167  # (10 EUR2015/km_per_hour)
+                    om_annual: 21.5234 # (10 EUR2015/km)
+                    om_prod: 0.0093 # (10 EUR2015/km)
+        bus_transport_ev:
+            costs:
+                monetary:
+                    energy_cap: 720.1167  # (10 EUR2015/km_per_hour)
+                    om_annual: 21.5234 # (10 EUR2015/km)
+                    om_prod: 0.0093 # (10 EUR2015/km)
+        bus_transport_ice:
+            costs:
+                monetary:
+                    energy_cap: 569.6673  # (10 EUR2015/km_per_hour)
+                    om_annual: 24.2138 # (10 EUR2015/km)
+                    om_prod: 0.0102 # (10 EUR2015/km)
+        motorcycle_transport_ev:
+            costs:
+                monetary:
+                    energy_cap: 60.6827  # (10 EUR2015/km_per_hour)
+        motorcycle_transport_ice:
+            costs:
+                monetary:
+                    energy_cap: 60.6827  # (10 EUR2015/km_per_hour)
+        heavy_duty_transport_fcev:
+            costs:
+                monetary:
+                    energy_cap: 1213.844  # (10 EUR2015/km_per_hour)
+                    om_annual: 41.9089 # (10 EUR2015/km)
+                    om_prod: 0.0093 # (10 EUR2015/km)
+        heavy_duty_transport_ev:
+            costs:
+                monetary:
+                    energy_cap: 1312.8523  # (10 EUR2015/km_per_hour)
+                    om_annual: 41.9089 # (10 EUR2015/km)
+                    om_prod: 0.0093 # (10 EUR2015/km)
+        heavy_duty_transport_ice:
+            costs:
+                monetary:
+                    energy_cap: 1232.9596  # (10 EUR2015/km_per_hour)
+                    om_annual: 47.1475 # (10 EUR2015/km)
+                    om_prod: 0.0102 # (10 EUR2015/km)
+    CHE.techs:
+        passenger_car_transport_fcev:
+            costs:
+                monetary:
+                    energy_cap: 373.7652  # (10 EUR2015/km_per_hour)
+                    om_prod: 0.0021 # (10 EUR2015/km)
+        passenger_car_transport_ev:
+            costs:
+                monetary:
+                    energy_cap: 366.7744  # (10 EUR2015/km_per_hour)
+                    om_prod: 0.0008 # (10 EUR2015/km)
+        passenger_car_transport_ice:
+            costs:
+                monetary:
+                    energy_cap: 337.1839  # (10 EUR2015/km_per_hour)
+                    om_prod: 0.0027 # (10 EUR2015/km)
+        light_duty_transport_fcev:
+            costs:
+                monetary:
+                    energy_cap: 444.5772  # (10 EUR2015/km_per_hour)
+                    om_prod: 0.0021 # (10 EUR2015/km)
+        light_duty_transport_ev:
+            costs:
+                monetary:
+                    energy_cap: 394.026  # (10 EUR2015/km_per_hour)
+                    om_prod: 0.0001 # (10 EUR2015/km)
+        light_duty_transport_ice:
+            costs:
+                monetary:
+                    energy_cap: 396.8696  # (10 EUR2015/km_per_hour)
+                    om_prod: 0.0027 # (10 EUR2015/km)
+        bus_transport_fcev:
+            costs:
+                monetary:
+                    energy_cap: 1877.127  # (10 EUR2015/km_per_hour)
+                    om_annual: 56.105 # (10 EUR2015/km)
+                    om_prod: 0.0093 # (10 EUR2015/km)
+        bus_transport_ev:
+            costs:
+                monetary:
+                    energy_cap: 1877.127  # (10 EUR2015/km_per_hour)
+                    om_annual: 56.105 # (10 EUR2015/km)
+                    om_prod: 0.0093 # (10 EUR2015/km)
+        bus_transport_ice:
+            costs:
+                monetary:
+                    energy_cap: 1484.9508  # (10 EUR2015/km_per_hour)
+                    om_annual: 63.1181 # (10 EUR2015/km)
+                    om_prod: 0.0102 # (10 EUR2015/km)
+        motorcycle_transport_ev:
+            costs:
+                monetary:
+                    energy_cap: 176.2757  # (10 EUR2015/km_per_hour)
+        motorcycle_transport_ice:
+            costs:
+                monetary:
+                    energy_cap: 176.2757  # (10 EUR2015/km_per_hour)
+        heavy_duty_transport_fcev:
+            costs:
+                monetary:
+                    energy_cap: 793.2664  # (10 EUR2015/km_per_hour)
+                    om_annual: 27.3881 # (10 EUR2015/km)
+                    om_prod: 0.0093 # (10 EUR2015/km)
+        heavy_duty_transport_ev:
+            costs:
+                monetary:
+                    energy_cap: 857.9699  # (10 EUR2015/km_per_hour)
+                    om_annual: 27.3881 # (10 EUR2015/km)
+                    om_prod: 0.0093 # (10 EUR2015/km)
+        heavy_duty_transport_ice:
+            costs:
+                monetary:
+                    energy_cap: 805.7587  # (10 EUR2015/km_per_hour)
+                    om_annual: 30.8117 # (10 EUR2015/km)
+                    om_prod: 0.0102 # (10 EUR2015/km)
+    CYP.techs:
+        passenger_car_transport_fcev:
+            costs:
+                monetary:
+                    energy_cap: 530.2488  # (10 EUR2015/km_per_hour)
+                    om_prod: 0.0021 # (10 EUR2015/km)
+        passenger_car_transport_ev:
+            costs:
+                monetary:
+                    energy_cap: 520.3312  # (10 EUR2015/km_per_hour)
+                    om_prod: 0.0008 # (10 EUR2015/km)
+        passenger_car_transport_ice:
+            costs:
+                monetary:
+                    energy_cap: 478.3521  # (10 EUR2015/km_per_hour)
+                    om_prod: 0.0027 # (10 EUR2015/km)
+        light_duty_transport_fcev:
+            costs:
+                monetary:
+                    energy_cap: 415.6728  # (10 EUR2015/km_per_hour)
+                    om_prod: 0.0021 # (10 EUR2015/km)
+        light_duty_transport_ev:
+            costs:
+                monetary:
+                    energy_cap: 368.4083  # (10 EUR2015/km_per_hour)
+                    om_prod: 0.0001 # (10 EUR2015/km)
+        light_duty_transport_ice:
+            costs:
+                monetary:
+                    energy_cap: 371.067  # (10 EUR2015/km_per_hour)
+                    om_prod: 0.0027 # (10 EUR2015/km)
+        bus_transport_fcev:
+            costs:
+                monetary:
+                    energy_cap: 687.3268  # (10 EUR2015/km_per_hour)
+                    om_annual: 20.5433 # (10 EUR2015/km)
+                    om_prod: 0.0093 # (10 EUR2015/km)
+        bus_transport_ev:
+            costs:
+                monetary:
+                    energy_cap: 687.3268  # (10 EUR2015/km_per_hour)
+                    om_annual: 20.5433 # (10 EUR2015/km)
+                    om_prod: 0.0093 # (10 EUR2015/km)
+        bus_transport_ice:
+            costs:
+                monetary:
+                    energy_cap: 543.728  # (10 EUR2015/km_per_hour)
+                    om_annual: 23.1113 # (10 EUR2015/km)
+                    om_prod: 0.0102 # (10 EUR2015/km)
+        motorcycle_transport_ev:
+            costs:
+                monetary:
+                    energy_cap: 287.1655  # (10 EUR2015/km_per_hour)
+        motorcycle_transport_ice:
+            costs:
+                monetary:
+                    energy_cap: 287.1655  # (10 EUR2015/km_per_hour)
+        heavy_duty_transport_fcev:
+            costs:
+                monetary:
+                    energy_cap: 3214.542  # (10 EUR2015/km_per_hour)
+                    om_annual: 110.9846 # (10 EUR2015/km)
+                    om_prod: 0.0093 # (10 EUR2015/km)
+        heavy_duty_transport_ev:
+            costs:
+                monetary:
+                    energy_cap: 3476.739  # (10 EUR2015/km_per_hour)
+                    om_annual: 110.9846 # (10 EUR2015/km)
+                    om_prod: 0.0093 # (10 EUR2015/km)
+        heavy_duty_transport_ice:
+            costs:
+                monetary:
+                    energy_cap: 3265.1644  # (10 EUR2015/km_per_hour)
+                    om_annual: 124.8576 # (10 EUR2015/km)
+                    om_prod: 0.0102 # (10 EUR2015/km)
+    CZE.techs:
+        passenger_car_transport_fcev:
+            costs:
+                monetary:
+                    energy_cap: 489.5685  # (10 EUR2015/km_per_hour)
+                    om_prod: 0.0021 # (10 EUR2015/km)
+        passenger_car_transport_ev:
+            costs:
+                monetary:
+                    energy_cap: 480.4118  # (10 EUR2015/km_per_hour)
+                    om_prod: 0.0008 # (10 EUR2015/km)
+        passenger_car_transport_ice:
+            costs:
+                monetary:
+                    energy_cap: 441.6533  # (10 EUR2015/km_per_hour)
+                    om_prod: 0.0027 # (10 EUR2015/km)
+        light_duty_transport_fcev:
+            costs:
+                monetary:
+                    energy_cap: 294.0313  # (10 EUR2015/km_per_hour)
+                    om_prod: 0.0021 # (10 EUR2015/km)
+        light_duty_transport_ev:
+            costs:
+                monetary:
+                    energy_cap: 260.5981  # (10 EUR2015/km_per_hour)
+                    om_prod: 0.0001 # (10 EUR2015/km)
+        light_duty_transport_ice:
+            costs:
+                monetary:
+                    energy_cap: 262.4788  # (10 EUR2015/km_per_hour)
+                    om_prod: 0.0027 # (10 EUR2015/km)
+        bus_transport_fcev:
+            costs:
+                monetary:
+                    energy_cap: 1001.9516  # (10 EUR2015/km_per_hour)
+                    om_annual: 29.9471 # (10 EUR2015/km)
+                    om_prod: 0.0093 # (10 EUR2015/km)
+        bus_transport_ev:
+            costs:
+                monetary:
+                    energy_cap: 1001.9516  # (10 EUR2015/km_per_hour)
+                    om_annual: 29.9471 # (10 EUR2015/km)
+                    om_prod: 0.0093 # (10 EUR2015/km)
+        bus_transport_ice:
+            costs:
+                monetary:
+                    energy_cap: 792.6202  # (10 EUR2015/km_per_hour)
+                    om_annual: 33.6905 # (10 EUR2015/km)
+                    om_prod: 0.0102 # (10 EUR2015/km)
+        motorcycle_transport_ev:
+            costs:
+                monetary:
+                    energy_cap: 743.5219  # (10 EUR2015/km_per_hour)
+        motorcycle_transport_ice:
+            costs:
+                monetary:
+                    energy_cap: 743.5219  # (10 EUR2015/km_per_hour)
+        heavy_duty_transport_fcev:
+            costs:
+                monetary:
+                    energy_cap: 1718.2162  # (10 EUR2015/km_per_hour)
+                    om_annual: 59.3228 # (10 EUR2015/km)
+                    om_prod: 0.0093 # (10 EUR2015/km)
+        heavy_duty_transport_ev:
+            costs:
+                monetary:
+                    energy_cap: 1858.364  # (10 EUR2015/km_per_hour)
+                    om_annual: 59.3228 # (10 EUR2015/km)
+                    om_prod: 0.0093 # (10 EUR2015/km)
+        heavy_duty_transport_ice:
+            costs:
+                monetary:
+                    energy_cap: 1745.2745  # (10 EUR2015/km_per_hour)
+                    om_annual: 66.7381 # (10 EUR2015/km)
+                    om_prod: 0.0102 # (10 EUR2015/km)
+    DEU.techs:
+        passenger_car_transport_fcev:
+            costs:
+                monetary:
+                    energy_cap: 438.2482  # (10 EUR2015/km_per_hour)
+                    om_prod: 0.0021 # (10 EUR2015/km)
+        passenger_car_transport_ev:
+            costs:
+                monetary:
+                    energy_cap: 430.0513  # (10 EUR2015/km_per_hour)
+                    om_prod: 0.0008 # (10 EUR2015/km)
+        passenger_car_transport_ice:
+            costs:
+                monetary:
+                    energy_cap: 395.3558  # (10 EUR2015/km_per_hour)
+                    om_prod: 0.0027 # (10 EUR2015/km)
+        light_duty_transport_fcev:
+            costs:
+                monetary:
+                    energy_cap: 550.8081  # (10 EUR2015/km_per_hour)
+                    om_prod: 0.0021 # (10 EUR2015/km)
+        light_duty_transport_ev:
+            costs:
+                monetary:
+                    energy_cap: 488.1778  # (10 EUR2015/km_per_hour)
+                    om_prod: 0.0001 # (10 EUR2015/km)
+        light_duty_transport_ice:
+            costs:
+                monetary:
+                    energy_cap: 491.7009  # (10 EUR2015/km_per_hour)
+                    om_prod: 0.0027 # (10 EUR2015/km)
+        bus_transport_fcev:
+            costs:
+                monetary:
+                    energy_cap: 1024.2703  # (10 EUR2015/km_per_hour)
+                    om_annual: 30.6142 # (10 EUR2015/km)
+                    om_prod: 0.0093 # (10 EUR2015/km)
+        bus_transport_ev:
+            costs:
+                monetary:
+                    energy_cap: 1024.2703  # (10 EUR2015/km_per_hour)
+                    om_annual: 30.6142 # (10 EUR2015/km)
+                    om_prod: 0.0093 # (10 EUR2015/km)
+        bus_transport_ice:
+            costs:
+                monetary:
+                    energy_cap: 810.276  # (10 EUR2015/km_per_hour)
+                    om_annual: 34.4409 # (10 EUR2015/km)
+                    om_prod: 0.0102 # (10 EUR2015/km)
+        motorcycle_transport_ev:
+            costs:
+                monetary:
+                    energy_cap: 471.3148  # (10 EUR2015/km_per_hour)
+        motorcycle_transport_ice:
+            costs:
+                monetary:
+                    energy_cap: 471.3148  # (10 EUR2015/km_per_hour)
+        heavy_duty_transport_fcev:
+            costs:
+                monetary:
+                    energy_cap: 506.6602  # (10 EUR2015/km_per_hour)
+                    om_annual: 17.4928 # (10 EUR2015/km)
+                    om_prod: 0.0093 # (10 EUR2015/km)
+        heavy_duty_transport_ev:
+            costs:
+                monetary:
+                    energy_cap: 547.9864  # (10 EUR2015/km_per_hour)
+                    om_annual: 17.4928 # (10 EUR2015/km)
+                    om_prod: 0.0093 # (10 EUR2015/km)
+        heavy_duty_transport_ice:
+            costs:
+                monetary:
+                    energy_cap: 514.6391  # (10 EUR2015/km_per_hour)
+                    om_annual: 19.6794 # (10 EUR2015/km)
+                    om_prod: 0.0102 # (10 EUR2015/km)
+    DNK.techs:
+        passenger_car_transport_fcev:
+            costs:
+                monetary:
+                    energy_cap: 318.6753  # (10 EUR2015/km_per_hour)
+                    om_prod: 0.0021 # (10 EUR2015/km)
+        passenger_car_transport_ev:
+            costs:
+                monetary:
+                    energy_cap: 312.7149  # (10 EUR2015/km_per_hour)
+                    om_prod: 0.0008 # (10 EUR2015/km)
+        passenger_car_transport_ice:
+            costs:
+                monetary:
+                    energy_cap: 287.4858  # (10 EUR2015/km_per_hour)
+                    om_prod: 0.0027 # (10 EUR2015/km)
+        light_duty_transport_fcev:
+            costs:
+                monetary:
+                    energy_cap: 330.2165  # (10 EUR2015/km_per_hour)
+                    om_prod: 0.0021 # (10 EUR2015/km)
+        light_duty_transport_ev:
+            costs:
+                monetary:
+                    energy_cap: 292.6688  # (10 EUR2015/km_per_hour)
+                    om_prod: 0.0001 # (10 EUR2015/km)
+        light_duty_transport_ice:
+            costs:
+                monetary:
+                    energy_cap: 294.781  # (10 EUR2015/km_per_hour)
+                    om_prod: 0.0027 # (10 EUR2015/km)
+        bus_transport_fcev:
+            costs:
+                monetary:
+                    energy_cap: 737.3735  # (10 EUR2015/km_per_hour)
+                    om_annual: 22.0392 # (10 EUR2015/km)
+                    om_prod: 0.0093 # (10 EUR2015/km)
+        bus_transport_ev:
+            costs:
+                monetary:
+                    energy_cap: 737.3735  # (10 EUR2015/km_per_hour)
+                    om_annual: 22.0392 # (10 EUR2015/km)
+                    om_prod: 0.0093 # (10 EUR2015/km)
+        bus_transport_ice:
+            costs:
+                monetary:
+                    energy_cap: 583.3187  # (10 EUR2015/km_per_hour)
+                    om_annual: 24.7941 # (10 EUR2015/km)
+                    om_prod: 0.0102 # (10 EUR2015/km)
+        motorcycle_transport_ev:
+            costs:
+                monetary:
+                    energy_cap: 301.1103  # (10 EUR2015/km_per_hour)
+        motorcycle_transport_ice:
+            costs:
+                monetary:
+                    energy_cap: 301.1103  # (10 EUR2015/km_per_hour)
+        heavy_duty_transport_fcev:
+            costs:
+                monetary:
+                    energy_cap: 500.473  # (10 EUR2015/km_per_hour)
+                    om_annual: 17.2792 # (10 EUR2015/km)
+                    om_prod: 0.0093 # (10 EUR2015/km)
+        heavy_duty_transport_ev:
+            costs:
+                monetary:
+                    energy_cap: 541.2945  # (10 EUR2015/km_per_hour)
+                    om_annual: 17.2792 # (10 EUR2015/km)
+                    om_prod: 0.0093 # (10 EUR2015/km)
+        heavy_duty_transport_ice:
+            costs:
+                monetary:
+                    energy_cap: 508.3544  # (10 EUR2015/km_per_hour)
+                    om_annual: 19.4391 # (10 EUR2015/km)
+                    om_prod: 0.0102 # (10 EUR2015/km)
+    ESP.techs:
+        passenger_car_transport_fcev:
+            costs:
+                monetary:
+                    energy_cap: 523.8032  # (10 EUR2015/km_per_hour)
+                    om_prod: 0.0021 # (10 EUR2015/km)
+        passenger_car_transport_ev:
+            costs:
+                monetary:
+                    energy_cap: 514.0062  # (10 EUR2015/km_per_hour)
+                    om_prod: 0.0008 # (10 EUR2015/km)
+        passenger_car_transport_ice:
+            costs:
+                monetary:
+                    energy_cap: 472.5374  # (10 EUR2015/km_per_hour)
+                    om_prod: 0.0027 # (10 EUR2015/km)
+        light_duty_transport_fcev:
+            costs:
+                monetary:
+                    energy_cap: 834.3165  # (10 EUR2015/km_per_hour)
+                    om_prod: 0.0021 # (10 EUR2015/km)
+        light_duty_transport_ev:
+            costs:
+                monetary:
+                    energy_cap: 739.4496  # (10 EUR2015/km_per_hour)
+                    om_prod: 0.0001 # (10 EUR2015/km)
+        light_duty_transport_ice:
+            costs:
+                monetary:
+                    energy_cap: 744.7861  # (10 EUR2015/km_per_hour)
+                    om_prod: 0.0027 # (10 EUR2015/km)
+        bus_transport_fcev:
+            costs:
+                monetary:
+                    energy_cap: 1812.5582  # (10 EUR2015/km_per_hour)
+                    om_annual: 54.1751 # (10 EUR2015/km)
+                    om_prod: 0.0093 # (10 EUR2015/km)
+        bus_transport_ev:
+            costs:
+                monetary:
+                    energy_cap: 1812.5582  # (10 EUR2015/km_per_hour)
+                    om_annual: 54.1751 # (10 EUR2015/km)
+                    om_prod: 0.0093 # (10 EUR2015/km)
+        bus_transport_ice:
+            costs:
+                monetary:
+                    energy_cap: 1433.872  # (10 EUR2015/km_per_hour)
+                    om_annual: 60.947 # (10 EUR2015/km)
+                    om_prod: 0.0102 # (10 EUR2015/km)
+        motorcycle_transport_ev:
+            costs:
+                monetary:
+                    energy_cap: 321.0633  # (10 EUR2015/km_per_hour)
+        motorcycle_transport_ice:
+            costs:
+                monetary:
+                    energy_cap: 321.0633  # (10 EUR2015/km_per_hour)
+        heavy_duty_transport_fcev:
+            costs:
+                monetary:
+                    energy_cap: 921.1869  # (10 EUR2015/km_per_hour)
+                    om_annual: 31.8047 # (10 EUR2015/km)
+                    om_prod: 0.0093 # (10 EUR2015/km)
+        heavy_duty_transport_ev:
+            costs:
+                monetary:
+                    energy_cap: 996.3243  # (10 EUR2015/km_per_hour)
+                    om_annual: 31.8047 # (10 EUR2015/km)
+                    om_prod: 0.0093 # (10 EUR2015/km)
+        heavy_duty_transport_ice:
+            costs:
+                monetary:
+                    energy_cap: 935.6937  # (10 EUR2015/km_per_hour)
+                    om_annual: 35.7803 # (10 EUR2015/km)
+                    om_prod: 0.0102 # (10 EUR2015/km)
+    EST.techs:
+        passenger_car_transport_fcev:
+            costs:
+                monetary:
+                    energy_cap: 506.3183  # (10 EUR2015/km_per_hour)
+                    om_prod: 0.0021 # (10 EUR2015/km)
+        passenger_car_transport_ev:
+            costs:
+                monetary:
+                    energy_cap: 496.8483  # (10 EUR2015/km_per_hour)
+                    om_prod: 0.0008 # (10 EUR2015/km)
+        passenger_car_transport_ice:
+            costs:
+                monetary:
+                    energy_cap: 456.7637  # (10 EUR2015/km_per_hour)
+                    om_prod: 0.0027 # (10 EUR2015/km)
+        light_duty_transport_fcev:
+            costs:
+                monetary:
+                    energy_cap: 654.268  # (10 EUR2015/km_per_hour)
+                    om_prod: 0.0021 # (10 EUR2015/km)
+        light_duty_transport_ev:
+            costs:
+                monetary:
+                    energy_cap: 579.8737  # (10 EUR2015/km_per_hour)
+                    om_prod: 0.0001 # (10 EUR2015/km)
+        light_duty_transport_ice:
+            costs:
+                monetary:
+                    energy_cap: 584.0586  # (10 EUR2015/km_per_hour)
+                    om_prod: 0.0027 # (10 EUR2015/km)
+        bus_transport_fcev:
+            costs:
+                monetary:
+                    energy_cap: 1137.7433  # (10 EUR2015/km_per_hour)
+                    om_annual: 34.0057 # (10 EUR2015/km)
+                    om_prod: 0.0093 # (10 EUR2015/km)
+        bus_transport_ev:
+            costs:
+                monetary:
+                    energy_cap: 1137.7433  # (10 EUR2015/km_per_hour)
+                    om_annual: 34.0057 # (10 EUR2015/km)
+                    om_prod: 0.0093 # (10 EUR2015/km)
+        bus_transport_ice:
+            costs:
+                monetary:
+                    energy_cap: 900.0418  # (10 EUR2015/km_per_hour)
+                    om_annual: 38.2564 # (10 EUR2015/km)
+                    om_prod: 0.0102 # (10 EUR2015/km)
+        motorcycle_transport_ev:
+            costs:
+                monetary:
+                    energy_cap: 769.1915  # (10 EUR2015/km_per_hour)
+        motorcycle_transport_ice:
+            costs:
+                monetary:
+                    energy_cap: 769.1915  # (10 EUR2015/km_per_hour)
+        heavy_duty_transport_fcev:
+            costs:
+                monetary:
+                    energy_cap: 3681.3217  # (10 EUR2015/km_per_hour)
+                    om_annual: 127.1005 # (10 EUR2015/km)
+                    om_prod: 0.0093 # (10 EUR2015/km)
+        heavy_duty_transport_ev:
+            costs:
+                monetary:
+                    energy_cap: 3981.5919  # (10 EUR2015/km_per_hour)
+                    om_annual: 127.1005 # (10 EUR2015/km)
+                    om_prod: 0.0093 # (10 EUR2015/km)
+        heavy_duty_transport_ice:
+            costs:
+                monetary:
+                    energy_cap: 3739.2949  # (10 EUR2015/km_per_hour)
+                    om_annual: 142.9881 # (10 EUR2015/km)
+                    om_prod: 0.0102 # (10 EUR2015/km)
+    FIN.techs:
+        passenger_car_transport_fcev:
+            costs:
+                monetary:
+                    energy_cap: 539.3093  # (10 EUR2015/km_per_hour)
+                    om_prod: 0.0021 # (10 EUR2015/km)
+        passenger_car_transport_ev:
+            costs:
+                monetary:
+                    energy_cap: 529.2223  # (10 EUR2015/km_per_hour)
+                    om_prod: 0.0008 # (10 EUR2015/km)
+        passenger_car_transport_ice:
+            costs:
+                monetary:
+                    energy_cap: 486.5258  # (10 EUR2015/km_per_hour)
+                    om_prod: 0.0027 # (10 EUR2015/km)
+        light_duty_transport_fcev:
+            costs:
+                monetary:
+                    energy_cap: 544.3217  # (10 EUR2015/km_per_hour)
+                    om_prod: 0.0021 # (10 EUR2015/km)
+        light_duty_transport_ev:
+            costs:
+                monetary:
+                    energy_cap: 482.429  # (10 EUR2015/km_per_hour)
+                    om_prod: 0.0001 # (10 EUR2015/km)
+        light_duty_transport_ice:
+            costs:
+                monetary:
+                    energy_cap: 485.9106  # (10 EUR2015/km_per_hour)
+                    om_prod: 0.0027 # (10 EUR2015/km)
+        bus_transport_fcev:
+            costs:
+                monetary:
+                    energy_cap: 1528.6023  # (10 EUR2015/km_per_hour)
+                    om_annual: 45.688 # (10 EUR2015/km)
+                    om_prod: 0.0093 # (10 EUR2015/km)
+        bus_transport_ev:
+            costs:
+                monetary:
+                    energy_cap: 1528.6023  # (10 EUR2015/km_per_hour)
+                    om_annual: 45.688 # (10 EUR2015/km)
+                    om_prod: 0.0093 # (10 EUR2015/km)
+        bus_transport_ice:
+            costs:
+                monetary:
+                    energy_cap: 1209.2412  # (10 EUR2015/km_per_hour)
+                    om_annual: 51.399 # (10 EUR2015/km)
+                    om_prod: 0.0102 # (10 EUR2015/km)
+        motorcycle_transport_ev:
+            costs:
+                monetary:
+                    energy_cap: 399.8872  # (10 EUR2015/km_per_hour)
+        motorcycle_transport_ice:
+            costs:
+                monetary:
+                    energy_cap: 399.8872  # (10 EUR2015/km_per_hour)
+        heavy_duty_transport_fcev:
+            costs:
+                monetary:
+                    energy_cap: 3448.4702  # (10 EUR2015/km_per_hour)
+                    om_annual: 119.0611 # (10 EUR2015/km)
+                    om_prod: 0.0093 # (10 EUR2015/km)
+        heavy_duty_transport_ev:
+            costs:
+                monetary:
+                    energy_cap: 3729.7477  # (10 EUR2015/km_per_hour)
+                    om_annual: 119.0611 # (10 EUR2015/km)
+                    om_prod: 0.0093 # (10 EUR2015/km)
+        heavy_duty_transport_ice:
+            costs:
+                monetary:
+                    energy_cap: 3502.7765  # (10 EUR2015/km_per_hour)
+                    om_annual: 133.9438 # (10 EUR2015/km)
+                    om_prod: 0.0102 # (10 EUR2015/km)
+    FRA.techs:
+        passenger_car_transport_fcev:
+            costs:
+                monetary:
+                    energy_cap: 536.1573  # (10 EUR2015/km_per_hour)
+                    om_prod: 0.0021 # (10 EUR2015/km)
+        passenger_car_transport_ev:
+            costs:
+                monetary:
+                    energy_cap: 526.1292  # (10 EUR2015/km_per_hour)
+                    om_prod: 0.0008 # (10 EUR2015/km)
+        passenger_car_transport_ice:
+            costs:
+                monetary:
+                    energy_cap: 483.6823  # (10 EUR2015/km_per_hour)
+                    om_prod: 0.0027 # (10 EUR2015/km)
+        light_duty_transport_fcev:
+            costs:
+                monetary:
+                    energy_cap: 343.381  # (10 EUR2015/km_per_hour)
+                    om_prod: 0.0021 # (10 EUR2015/km)
+        light_duty_transport_ev:
+            costs:
+                monetary:
+                    energy_cap: 304.3364  # (10 EUR2015/km_per_hour)
+                    om_prod: 0.0001 # (10 EUR2015/km)
+        light_duty_transport_ice:
+            costs:
+                monetary:
+                    energy_cap: 306.5328  # (10 EUR2015/km_per_hour)
+                    om_prod: 0.0027 # (10 EUR2015/km)
+        bus_transport_fcev:
+            costs:
+                monetary:
+                    energy_cap: 1386.0098  # (10 EUR2015/km_per_hour)
+                    om_annual: 41.4261 # (10 EUR2015/km)
+                    om_prod: 0.0093 # (10 EUR2015/km)
+        bus_transport_ev:
+            costs:
+                monetary:
+                    energy_cap: 1386.0098  # (10 EUR2015/km_per_hour)
+                    om_annual: 41.4261 # (10 EUR2015/km)
+                    om_prod: 0.0093 # (10 EUR2015/km)
+        bus_transport_ice:
+            costs:
+                monetary:
+                    energy_cap: 1096.4396  # (10 EUR2015/km_per_hour)
+                    om_annual: 46.6044 # (10 EUR2015/km)
+                    om_prod: 0.0102 # (10 EUR2015/km)
+        motorcycle_transport_ev:
+            costs:
+                monetary:
+                    energy_cap: 200.6212  # (10 EUR2015/km_per_hour)
+        motorcycle_transport_ice:
+            costs:
+                monetary:
+                    energy_cap: 200.6212  # (10 EUR2015/km_per_hour)
+        heavy_duty_transport_fcev:
+            costs:
+                monetary:
+                    energy_cap: 725.6683  # (10 EUR2015/km_per_hour)
+                    om_annual: 25.0543 # (10 EUR2015/km)
+                    om_prod: 0.0093 # (10 EUR2015/km)
+        heavy_duty_transport_ev:
+            costs:
+                monetary:
+                    energy_cap: 784.8581  # (10 EUR2015/km_per_hour)
+                    om_annual: 25.0543 # (10 EUR2015/km)
+                    om_prod: 0.0093 # (10 EUR2015/km)
+        heavy_duty_transport_ice:
+            costs:
+                monetary:
+                    energy_cap: 737.0961  # (10 EUR2015/km_per_hour)
+                    om_annual: 28.186 # (10 EUR2015/km)
+                    om_prod: 0.0102 # (10 EUR2015/km)
+    GBR.techs:
+        passenger_car_transport_fcev:
+            costs:
+                monetary:
+                    energy_cap: 554.7297  # (10 EUR2015/km_per_hour)
+                    om_prod: 0.0021 # (10 EUR2015/km)
+        passenger_car_transport_ev:
+            costs:
+                monetary:
+                    energy_cap: 544.3542  # (10 EUR2015/km_per_hour)
+                    om_prod: 0.0008 # (10 EUR2015/km)
+        passenger_car_transport_ice:
+            costs:
+                monetary:
+                    energy_cap: 500.437  # (10 EUR2015/km_per_hour)
+                    om_prod: 0.0027 # (10 EUR2015/km)
+        light_duty_transport_fcev:
+            costs:
+                monetary:
+                    energy_cap: 465.451  # (10 EUR2015/km_per_hour)
+                    om_prod: 0.0021 # (10 EUR2015/km)
+        light_duty_transport_ev:
+            costs:
+                monetary:
+                    energy_cap: 412.5264  # (10 EUR2015/km_per_hour)
+                    om_prod: 0.0001 # (10 EUR2015/km)
+        light_duty_transport_ice:
+            costs:
+                monetary:
+                    energy_cap: 415.5035  # (10 EUR2015/km_per_hour)
+                    om_prod: 0.0027 # (10 EUR2015/km)
+        bus_transport_fcev:
+            costs:
+                monetary:
+                    energy_cap: 4008.8283  # (10 EUR2015/km_per_hour)
+                    om_annual: 119.8188 # (10 EUR2015/km)
+                    om_prod: 0.0093 # (10 EUR2015/km)
+        bus_transport_ev:
+            costs:
+                monetary:
+                    energy_cap: 4008.8283  # (10 EUR2015/km_per_hour)
+                    om_annual: 119.8188 # (10 EUR2015/km)
+                    om_prod: 0.0093 # (10 EUR2015/km)
+        bus_transport_ice:
+            costs:
+                monetary:
+                    energy_cap: 3171.2893  # (10 EUR2015/km_per_hour)
+                    om_annual: 134.7962 # (10 EUR2015/km)
+                    om_prod: 0.0102 # (10 EUR2015/km)
+        motorcycle_transport_ev:
+            costs:
+                monetary:
+                    energy_cap: 435.0831  # (10 EUR2015/km_per_hour)
+        motorcycle_transport_ice:
+            costs:
+                monetary:
+                    energy_cap: 435.0831  # (10 EUR2015/km_per_hour)
+        heavy_duty_transport_fcev:
+            costs:
+                monetary:
+                    energy_cap: 958.4499  # (10 EUR2015/km_per_hour)
+                    om_annual: 33.0912 # (10 EUR2015/km)
+                    om_prod: 0.0093 # (10 EUR2015/km)
+        heavy_duty_transport_ev:
+            costs:
+                monetary:
+                    energy_cap: 1036.6267  # (10 EUR2015/km_per_hour)
+                    om_annual: 33.0912 # (10 EUR2015/km)
+                    om_prod: 0.0093 # (10 EUR2015/km)
+        heavy_duty_transport_ice:
+            costs:
+                monetary:
+                    energy_cap: 973.5435  # (10 EUR2015/km_per_hour)
+                    om_annual: 37.2276 # (10 EUR2015/km)
+                    om_prod: 0.0102 # (10 EUR2015/km)
+    GRC.techs:
+        passenger_car_transport_fcev:
+            costs:
+                monetary:
+                    energy_cap: 562.4252  # (10 EUR2015/km_per_hour)
+                    om_prod: 0.0021 # (10 EUR2015/km)
+        passenger_car_transport_ev:
+            costs:
+                monetary:
+                    energy_cap: 551.9058  # (10 EUR2015/km_per_hour)
+                    om_prod: 0.0008 # (10 EUR2015/km)
+        passenger_car_transport_ice:
+            costs:
+                monetary:
+                    energy_cap: 507.3793  # (10 EUR2015/km_per_hour)
+                    om_prod: 0.0027 # (10 EUR2015/km)
+        light_duty_transport_fcev:
+            costs:
+                monetary:
+                    energy_cap: 817.4215  # (10 EUR2015/km_per_hour)
+                    om_prod: 0.0021 # (10 EUR2015/km)
+        light_duty_transport_ev:
+            costs:
+                monetary:
+                    energy_cap: 724.4757  # (10 EUR2015/km_per_hour)
+                    om_prod: 0.0001 # (10 EUR2015/km)
+        light_duty_transport_ice:
+            costs:
+                monetary:
+                    energy_cap: 729.704  # (10 EUR2015/km_per_hour)
+                    om_prod: 0.0027 # (10 EUR2015/km)
+        bus_transport_fcev:
+            costs:
+                monetary:
+                    energy_cap: 1438.3828  # (10 EUR2015/km_per_hour)
+                    om_annual: 42.9915 # (10 EUR2015/km)
+                    om_prod: 0.0093 # (10 EUR2015/km)
+        bus_transport_ev:
+            costs:
+                monetary:
+                    energy_cap: 1438.3828  # (10 EUR2015/km_per_hour)
+                    om_annual: 42.9915 # (10 EUR2015/km)
+                    om_prod: 0.0093 # (10 EUR2015/km)
+        bus_transport_ice:
+            costs:
+                monetary:
+                    energy_cap: 1137.8707  # (10 EUR2015/km_per_hour)
+                    om_annual: 48.3654 # (10 EUR2015/km)
+                    om_prod: 0.0102 # (10 EUR2015/km)
+        motorcycle_transport_ev:
+            costs:
+                monetary:
+                    energy_cap: 300.1165  # (10 EUR2015/km_per_hour)
+        motorcycle_transport_ice:
+            costs:
+                monetary:
+                    energy_cap: 300.1165  # (10 EUR2015/km_per_hour)
+        heavy_duty_transport_fcev:
+            costs:
+                monetary:
+                    energy_cap: 3024.0241  # (10 EUR2015/km_per_hour)
+                    om_annual: 104.4068 # (10 EUR2015/km)
+                    om_prod: 0.0093 # (10 EUR2015/km)
+        heavy_duty_transport_ev:
+            costs:
+                monetary:
+                    energy_cap: 3270.6813  # (10 EUR2015/km_per_hour)
+                    om_annual: 104.4068 # (10 EUR2015/km)
+                    om_prod: 0.0093 # (10 EUR2015/km)
+        heavy_duty_transport_ice:
+            costs:
+                monetary:
+                    energy_cap: 3071.6463  # (10 EUR2015/km_per_hour)
+                    om_annual: 117.4576 # (10 EUR2015/km)
+                    om_prod: 0.0102 # (10 EUR2015/km)
+    HRV.techs:
+        passenger_car_transport_fcev:
+            costs:
+                monetary:
+                    energy_cap: 381.0973  # (10 EUR2015/km_per_hour)
+                    om_prod: 0.0021 # (10 EUR2015/km)
+        passenger_car_transport_ev:
+            costs:
+                monetary:
+                    energy_cap: 373.9694  # (10 EUR2015/km_per_hour)
+                    om_prod: 0.0008 # (10 EUR2015/km)
+        passenger_car_transport_ice:
+            costs:
+                monetary:
+                    energy_cap: 343.7984  # (10 EUR2015/km_per_hour)
+                    om_prod: 0.0027 # (10 EUR2015/km)
+        light_duty_transport_fcev:
+            costs:
+                monetary:
+                    energy_cap: 506.3838  # (10 EUR2015/km_per_hour)
+                    om_prod: 0.0021 # (10 EUR2015/km)
+        light_duty_transport_ev:
+            costs:
+                monetary:
+                    energy_cap: 448.8049  # (10 EUR2015/km_per_hour)
+                    om_prod: 0.0001 # (10 EUR2015/km)
+        light_duty_transport_ice:
+            costs:
+                monetary:
+                    energy_cap: 452.0438  # (10 EUR2015/km_per_hour)
+                    om_prod: 0.0027 # (10 EUR2015/km)
+        bus_transport_fcev:
+            costs:
+                monetary:
+                    energy_cap: 720.2739  # (10 EUR2015/km_per_hour)
+                    om_annual: 21.5281 # (10 EUR2015/km)
+                    om_prod: 0.0093 # (10 EUR2015/km)
+        bus_transport_ev:
+            costs:
+                monetary:
+                    energy_cap: 720.2739  # (10 EUR2015/km_per_hour)
+                    om_annual: 21.5281 # (10 EUR2015/km)
+                    om_prod: 0.0093 # (10 EUR2015/km)
+        bus_transport_ice:
+            costs:
+                monetary:
+                    energy_cap: 569.7917  # (10 EUR2015/km_per_hour)
+                    om_annual: 24.2191 # (10 EUR2015/km)
+                    om_prod: 0.0102 # (10 EUR2015/km)
+        motorcycle_transport_ev:
+            costs:
+                monetary:
+                    energy_cap: 448.7604  # (10 EUR2015/km_per_hour)
+        motorcycle_transport_ice:
+            costs:
+                monetary:
+                    energy_cap: 448.7604  # (10 EUR2015/km_per_hour)
+        heavy_duty_transport_fcev:
+            costs:
+                monetary:
+                    energy_cap: 1278.7334  # (10 EUR2015/km_per_hour)
+                    om_annual: 44.1493 # (10 EUR2015/km)
+                    om_prod: 0.0093 # (10 EUR2015/km)
+        heavy_duty_transport_ev:
+            costs:
+                monetary:
+                    energy_cap: 1383.0344  # (10 EUR2015/km_per_hour)
+                    om_annual: 44.1493 # (10 EUR2015/km)
+                    om_prod: 0.0093 # (10 EUR2015/km)
+        heavy_duty_transport_ice:
+            costs:
+                monetary:
+                    energy_cap: 1298.8708  # (10 EUR2015/km_per_hour)
+                    om_annual: 49.6679 # (10 EUR2015/km)
+                    om_prod: 0.0102 # (10 EUR2015/km)
+    HUN.techs:
+        passenger_car_transport_fcev:
+            costs:
+                monetary:
+                    energy_cap: 518.9582  # (10 EUR2015/km_per_hour)
+                    om_prod: 0.0021 # (10 EUR2015/km)
+        passenger_car_transport_ev:
+            costs:
+                monetary:
+                    energy_cap: 509.2518  # (10 EUR2015/km_per_hour)
+                    om_prod: 0.0008 # (10 EUR2015/km)
+        passenger_car_transport_ice:
+            costs:
+                monetary:
+                    energy_cap: 468.1666  # (10 EUR2015/km_per_hour)
+                    om_prod: 0.0027 # (10 EUR2015/km)
+        light_duty_transport_fcev:
+            costs:
+                monetary:
+                    energy_cap: 404.752  # (10 EUR2015/km_per_hour)
+                    om_prod: 0.0021 # (10 EUR2015/km)
+        light_duty_transport_ev:
+            costs:
+                monetary:
+                    energy_cap: 358.7292  # (10 EUR2015/km_per_hour)
+                    om_prod: 0.0001 # (10 EUR2015/km)
+        light_duty_transport_ice:
+            costs:
+                monetary:
+                    energy_cap: 361.3181  # (10 EUR2015/km_per_hour)
+                    om_prod: 0.0027 # (10 EUR2015/km)
+        bus_transport_fcev:
+            costs:
+                monetary:
+                    energy_cap: 953.4923  # (10 EUR2015/km_per_hour)
+                    om_annual: 28.4987 # (10 EUR2015/km)
+                    om_prod: 0.0093 # (10 EUR2015/km)
+        bus_transport_ev:
+            costs:
+                monetary:
+                    energy_cap: 953.4923  # (10 EUR2015/km_per_hour)
+                    om_annual: 28.4987 # (10 EUR2015/km)
+                    om_prod: 0.0093 # (10 EUR2015/km)
+        bus_transport_ice:
+            costs:
+                monetary:
+                    energy_cap: 754.2852  # (10 EUR2015/km_per_hour)
+                    om_annual: 32.061 # (10 EUR2015/km)
+                    om_prod: 0.0102 # (10 EUR2015/km)
+        motorcycle_transport_ev:
+            costs:
+                monetary:
+                    energy_cap: 453.8588  # (10 EUR2015/km_per_hour)
+        motorcycle_transport_ice:
+            costs:
+                monetary:
+                    energy_cap: 453.8588  # (10 EUR2015/km_per_hour)
+        heavy_duty_transport_fcev:
+            costs:
+                monetary:
+                    energy_cap: 688.4779  # (10 EUR2015/km_per_hour)
+                    om_annual: 23.7702 # (10 EUR2015/km)
+                    om_prod: 0.0093 # (10 EUR2015/km)
+        heavy_duty_transport_ev:
+            costs:
+                monetary:
+                    energy_cap: 744.6343  # (10 EUR2015/km_per_hour)
+                    om_annual: 23.7702 # (10 EUR2015/km)
+                    om_prod: 0.0093 # (10 EUR2015/km)
+        heavy_duty_transport_ice:
+            costs:
+                monetary:
+                    energy_cap: 699.32  # (10 EUR2015/km_per_hour)
+                    om_annual: 26.7415 # (10 EUR2015/km)
+                    om_prod: 0.0102 # (10 EUR2015/km)
+    IRL.techs:
+        passenger_car_transport_fcev:
+            costs:
+                monetary:
+                    energy_cap: 401.8806  # (10 EUR2015/km_per_hour)
+                    om_prod: 0.0021 # (10 EUR2015/km)
+        passenger_car_transport_ev:
+            costs:
+                monetary:
+                    energy_cap: 394.364  # (10 EUR2015/km_per_hour)
+                    om_prod: 0.0008 # (10 EUR2015/km)
+        passenger_car_transport_ice:
+            costs:
+                monetary:
+                    energy_cap: 362.5476  # (10 EUR2015/km_per_hour)
+                    om_prod: 0.0027 # (10 EUR2015/km)
+        light_duty_transport_fcev:
+            costs:
+                monetary:
+                    energy_cap: 511.4164  # (10 EUR2015/km_per_hour)
+                    om_prod: 0.0021 # (10 EUR2015/km)
+        light_duty_transport_ev:
+            costs:
+                monetary:
+                    energy_cap: 453.2652  # (10 EUR2015/km_per_hour)
+                    om_prod: 0.0001 # (10 EUR2015/km)
+        light_duty_transport_ice:
+            costs:
+                monetary:
+                    energy_cap: 456.5363  # (10 EUR2015/km_per_hour)
+                    om_prod: 0.0027 # (10 EUR2015/km)
+        bus_transport_fcev:
+            costs:
+                monetary:
+                    energy_cap: 1581.3373  # (10 EUR2015/km_per_hour)
+                    om_annual: 47.2642 # (10 EUR2015/km)
+                    om_prod: 0.0093 # (10 EUR2015/km)
+        bus_transport_ev:
+            costs:
+                monetary:
+                    energy_cap: 1581.3373  # (10 EUR2015/km_per_hour)
+                    om_annual: 47.2642 # (10 EUR2015/km)
+                    om_prod: 0.0093 # (10 EUR2015/km)
+        bus_transport_ice:
+            costs:
+                monetary:
+                    energy_cap: 1250.9585  # (10 EUR2015/km_per_hour)
+                    om_annual: 53.1722 # (10 EUR2015/km)
+                    om_prod: 0.0102 # (10 EUR2015/km)
+        motorcycle_transport_ev:
+            costs:
+                monetary:
+                    energy_cap: 512.6625  # (10 EUR2015/km_per_hour)
+        motorcycle_transport_ice:
+            costs:
+                monetary:
+                    energy_cap: 512.6625  # (10 EUR2015/km_per_hour)
+        heavy_duty_transport_fcev:
+            costs:
+                monetary:
+                    energy_cap: 591.254  # (10 EUR2015/km_per_hour)
+                    om_annual: 20.4135 # (10 EUR2015/km)
+                    om_prod: 0.0093 # (10 EUR2015/km)
+        heavy_duty_transport_ev:
+            costs:
+                monetary:
+                    energy_cap: 639.4801  # (10 EUR2015/km_per_hour)
+                    om_annual: 20.4135 # (10 EUR2015/km)
+                    om_prod: 0.0093 # (10 EUR2015/km)
+        heavy_duty_transport_ice:
+            costs:
+                monetary:
+                    energy_cap: 600.565  # (10 EUR2015/km_per_hour)
+                    om_annual: 22.9652 # (10 EUR2015/km)
+                    om_prod: 0.0102 # (10 EUR2015/km)
+    ISL.techs:
+        passenger_car_transport_fcev:
+            costs:
+                monetary:
+                    energy_cap: 433.7735  # (10 EUR2015/km_per_hour)
+                    om_prod: 0.0021 # (10 EUR2015/km)
+        passenger_car_transport_ev:
+            costs:
+                monetary:
+                    energy_cap: 425.6604  # (10 EUR2015/km_per_hour)
+                    om_prod: 0.0008 # (10 EUR2015/km)
+        passenger_car_transport_ice:
+            costs:
+                monetary:
+                    energy_cap: 391.3191  # (10 EUR2015/km_per_hour)
+                    om_prod: 0.0027 # (10 EUR2015/km)
+        light_duty_transport_fcev:
+            costs:
+                monetary:
+                    energy_cap: 2805.9872  # (10 EUR2015/km_per_hour)
+                    om_prod: 0.0021 # (10 EUR2015/km)
+        light_duty_transport_ev:
+            costs:
+                monetary:
+                    energy_cap: 2486.9292  # (10 EUR2015/km_per_hour)
+                    om_prod: 0.0001 # (10 EUR2015/km)
+        light_duty_transport_ice:
+            costs:
+                monetary:
+                    energy_cap: 2504.8769  # (10 EUR2015/km_per_hour)
+                    om_prod: 0.0027 # (10 EUR2015/km)
+        bus_transport_fcev:
+            costs:
+                monetary:
+                    energy_cap: 3260.3167  # (10 EUR2015/km_per_hour)
+                    om_annual: 97.4468 # (10 EUR2015/km)
+                    om_prod: 0.0093 # (10 EUR2015/km)
+        bus_transport_ev:
+            costs:
+                monetary:
+                    energy_cap: 3260.3167  # (10 EUR2015/km_per_hour)
+                    om_annual: 97.4468 # (10 EUR2015/km)
+                    om_prod: 0.0093 # (10 EUR2015/km)
+        bus_transport_ice:
+            costs:
+                monetary:
+                    energy_cap: 2579.1595  # (10 EUR2015/km_per_hour)
+                    om_annual: 109.6276 # (10 EUR2015/km)
+                    om_prod: 0.0102 # (10 EUR2015/km)
+        heavy_duty_transport_fcev:
+            costs:
+                monetary:
+                    energy_cap: 19975.9259  # (10 EUR2015/km_per_hour)
+                    om_annual: 689.6844 # (10 EUR2015/km)
+                    om_prod: 0.0093 # (10 EUR2015/km)
+        heavy_duty_transport_ev:
+            costs:
+                monetary:
+                    energy_cap: 21605.2799  # (10 EUR2015/km_per_hour)
+                    om_annual: 689.6844 # (10 EUR2015/km)
+                    om_prod: 0.0093 # (10 EUR2015/km)
+        heavy_duty_transport_ice:
+            costs:
+                monetary:
+                    energy_cap: 20290.5054  # (10 EUR2015/km_per_hour)
+                    om_annual: 775.895 # (10 EUR2015/km)
+                    om_prod: 0.0102 # (10 EUR2015/km)
+    ITA.techs:
+        passenger_car_transport_fcev:
+            costs:
+                monetary:
+                    energy_cap: 494.3339  # (10 EUR2015/km_per_hour)
+                    om_prod: 0.0021 # (10 EUR2015/km)
+        passenger_car_transport_ev:
+            costs:
+                monetary:
+                    energy_cap: 485.088  # (10 EUR2015/km_per_hour)
+                    om_prod: 0.0008 # (10 EUR2015/km)
+        passenger_car_transport_ice:
+            costs:
+                monetary:
+                    energy_cap: 445.9523  # (10 EUR2015/km_per_hour)
+                    om_prod: 0.0027 # (10 EUR2015/km)
+        light_duty_transport_fcev:
+            costs:
+                monetary:
+                    energy_cap: 280.7909  # (10 EUR2015/km_per_hour)
+                    om_prod: 0.0021 # (10 EUR2015/km)
+        light_duty_transport_ev:
+            costs:
+                monetary:
+                    energy_cap: 248.8633  # (10 EUR2015/km_per_hour)
+                    om_prod: 0.0001 # (10 EUR2015/km)
+        light_duty_transport_ice:
+            costs:
+                monetary:
+                    energy_cap: 250.6593  # (10 EUR2015/km_per_hour)
+                    om_prod: 0.0027 # (10 EUR2015/km)
+        bus_transport_fcev:
+            costs:
+                monetary:
+                    energy_cap: 937.1312  # (10 EUR2015/km_per_hour)
+                    om_annual: 28.0097 # (10 EUR2015/km)
+                    om_prod: 0.0093 # (10 EUR2015/km)
+        bus_transport_ev:
+            costs:
+                monetary:
+                    energy_cap: 937.1312  # (10 EUR2015/km_per_hour)
+                    om_annual: 28.0097 # (10 EUR2015/km)
+                    om_prod: 0.0093 # (10 EUR2015/km)
+        bus_transport_ice:
+            costs:
+                monetary:
+                    energy_cap: 741.3424  # (10 EUR2015/km_per_hour)
+                    om_annual: 31.5109 # (10 EUR2015/km)
+                    om_prod: 0.0102 # (10 EUR2015/km)
+        motorcycle_transport_ev:
+            costs:
+                monetary:
+                    energy_cap: 236.825  # (10 EUR2015/km_per_hour)
+        motorcycle_transport_ice:
+            costs:
+                monetary:
+                    energy_cap: 236.825  # (10 EUR2015/km_per_hour)
+        heavy_duty_transport_fcev:
+            costs:
+                monetary:
+                    energy_cap: 1797.3625  # (10 EUR2015/km_per_hour)
+                    om_annual: 62.0553 # (10 EUR2015/km)
+                    om_prod: 0.0093 # (10 EUR2015/km)
+        heavy_duty_transport_ev:
+            costs:
+                monetary:
+                    energy_cap: 1943.966  # (10 EUR2015/km_per_hour)
+                    om_annual: 62.0553 # (10 EUR2015/km)
+                    om_prod: 0.0093 # (10 EUR2015/km)
+        heavy_duty_transport_ice:
+            costs:
+                monetary:
+                    energy_cap: 1825.6673  # (10 EUR2015/km_per_hour)
+                    om_annual: 69.8123 # (10 EUR2015/km)
+                    om_prod: 0.0102 # (10 EUR2015/km)
+    LTU.techs:
+        passenger_car_transport_fcev:
+            costs:
+                monetary:
+                    energy_cap: 294.7964  # (10 EUR2015/km_per_hour)
+                    om_prod: 0.0021 # (10 EUR2015/km)
+        passenger_car_transport_ev:
+            costs:
+                monetary:
+                    energy_cap: 289.2826  # (10 EUR2015/km_per_hour)
+                    om_prod: 0.0008 # (10 EUR2015/km)
+        passenger_car_transport_ice:
+            costs:
+                monetary:
+                    energy_cap: 265.944  # (10 EUR2015/km_per_hour)
+                    om_prod: 0.0027 # (10 EUR2015/km)
+        light_duty_transport_fcev:
+            costs:
+                monetary:
+                    energy_cap: 343.1881  # (10 EUR2015/km_per_hour)
+                    om_prod: 0.0021 # (10 EUR2015/km)
+        light_duty_transport_ev:
+            costs:
+                monetary:
+                    energy_cap: 304.1655  # (10 EUR2015/km_per_hour)
+                    om_prod: 0.0001 # (10 EUR2015/km)
+        light_duty_transport_ice:
+            costs:
+                monetary:
+                    energy_cap: 306.3606  # (10 EUR2015/km_per_hour)
+                    om_prod: 0.0027 # (10 EUR2015/km)
+        bus_transport_fcev:
+            costs:
+                monetary:
+                    energy_cap: 2849.8435  # (10 EUR2015/km_per_hour)
+                    om_annual: 85.1782 # (10 EUR2015/km)
+                    om_prod: 0.0093 # (10 EUR2015/km)
+        bus_transport_ev:
+            costs:
+                monetary:
+                    energy_cap: 2849.8435  # (10 EUR2015/km_per_hour)
+                    om_annual: 85.1782 # (10 EUR2015/km)
+                    om_prod: 0.0093 # (10 EUR2015/km)
+        bus_transport_ice:
+            costs:
+                monetary:
+                    energy_cap: 2254.4438  # (10 EUR2015/km_per_hour)
+                    om_annual: 95.8255 # (10 EUR2015/km)
+                    om_prod: 0.0102 # (10 EUR2015/km)
+        motorcycle_transport_ev:
+            costs:
+                monetary:
+                    energy_cap: 355.1041  # (10 EUR2015/km_per_hour)
+        motorcycle_transport_ice:
+            costs:
+                monetary:
+                    energy_cap: 355.1041  # (10 EUR2015/km_per_hour)
+        heavy_duty_transport_fcev:
+            costs:
+                monetary:
+                    energy_cap: 930.9128  # (10 EUR2015/km_per_hour)
+                    om_annual: 32.1405 # (10 EUR2015/km)
+                    om_prod: 0.0093 # (10 EUR2015/km)
+        heavy_duty_transport_ev:
+            costs:
+                monetary:
+                    energy_cap: 1006.8435  # (10 EUR2015/km_per_hour)
+                    om_annual: 32.1405 # (10 EUR2015/km)
+                    om_prod: 0.0093 # (10 EUR2015/km)
+        heavy_duty_transport_ice:
+            costs:
+                monetary:
+                    energy_cap: 945.5727  # (10 EUR2015/km_per_hour)
+                    om_annual: 36.158 # (10 EUR2015/km)
+                    om_prod: 0.0102 # (10 EUR2015/km)
+    LUX.techs:
+        passenger_car_transport_fcev:
+            costs:
+                monetary:
+                    energy_cap: 331.3575  # (10 EUR2015/km_per_hour)
+                    om_prod: 0.0021 # (10 EUR2015/km)
+        passenger_car_transport_ev:
+            costs:
+                monetary:
+                    energy_cap: 325.1599  # (10 EUR2015/km_per_hour)
+                    om_prod: 0.0008 # (10 EUR2015/km)
+        passenger_car_transport_ice:
+            costs:
+                monetary:
+                    energy_cap: 298.9267  # (10 EUR2015/km_per_hour)
+                    om_prod: 0.0027 # (10 EUR2015/km)
+        light_duty_transport_fcev:
+            costs:
+                monetary:
+                    energy_cap: 381.9824  # (10 EUR2015/km_per_hour)
+                    om_prod: 0.0021 # (10 EUR2015/km)
+        light_duty_transport_ev:
+            costs:
+                monetary:
+                    energy_cap: 338.5487  # (10 EUR2015/km_per_hour)
+                    om_prod: 0.0001 # (10 EUR2015/km)
+        light_duty_transport_ice:
+            costs:
+                monetary:
+                    energy_cap: 340.9919  # (10 EUR2015/km_per_hour)
+                    om_prod: 0.0027 # (10 EUR2015/km)
+        bus_transport_fcev:
+            costs:
+                monetary:
+                    energy_cap: 1425.2062  # (10 EUR2015/km_per_hour)
+                    om_annual: 42.5976 # (10 EUR2015/km)
+                    om_prod: 0.0093 # (10 EUR2015/km)
+        bus_transport_ev:
+            costs:
+                monetary:
+                    energy_cap: 1425.2062  # (10 EUR2015/km_per_hour)
+                    om_annual: 42.5976 # (10 EUR2015/km)
+                    om_prod: 0.0093 # (10 EUR2015/km)
+        bus_transport_ice:
+            costs:
+                monetary:
+                    energy_cap: 1127.4469  # (10 EUR2015/km_per_hour)
+                    om_annual: 47.9223 # (10 EUR2015/km)
+                    om_prod: 0.0102 # (10 EUR2015/km)
+        motorcycle_transport_ev:
+            costs:
+                monetary:
+                    energy_cap: 458.3635  # (10 EUR2015/km_per_hour)
+        motorcycle_transport_ice:
+            costs:
+                monetary:
+                    energy_cap: 458.3635  # (10 EUR2015/km_per_hour)
+        heavy_duty_transport_fcev:
+            costs:
+                monetary:
+                    energy_cap: 912.9414  # (10 EUR2015/km_per_hour)
+                    om_annual: 31.52 # (10 EUR2015/km)
+                    om_prod: 0.0093 # (10 EUR2015/km)
+        heavy_duty_transport_ev:
+            costs:
+                monetary:
+                    energy_cap: 987.4062  # (10 EUR2015/km_per_hour)
+                    om_annual: 31.52 # (10 EUR2015/km)
+                    om_prod: 0.0093 # (10 EUR2015/km)
+        heavy_duty_transport_ice:
+            costs:
+                monetary:
+                    energy_cap: 927.3183  # (10 EUR2015/km_per_hour)
+                    om_annual: 35.46 # (10 EUR2015/km)
+                    om_prod: 0.0102 # (10 EUR2015/km)
+    LVA.techs:
+        passenger_car_transport_fcev:
+            costs:
+                monetary:
+                    energy_cap: 354.9613  # (10 EUR2015/km_per_hour)
+                    om_prod: 0.0021 # (10 EUR2015/km)
+        passenger_car_transport_ev:
+            costs:
+                monetary:
+                    energy_cap: 348.3223  # (10 EUR2015/km_per_hour)
+                    om_prod: 0.0008 # (10 EUR2015/km)
+        passenger_car_transport_ice:
+            costs:
+                monetary:
+                    energy_cap: 320.2204  # (10 EUR2015/km_per_hour)
+                    om_prod: 0.0027 # (10 EUR2015/km)
+        light_duty_transport_fcev:
+            costs:
+                monetary:
+                    energy_cap: 320.2276  # (10 EUR2015/km_per_hour)
+                    om_prod: 0.0021 # (10 EUR2015/km)
+        light_duty_transport_ev:
+            costs:
+                monetary:
+                    energy_cap: 283.8158  # (10 EUR2015/km_per_hour)
+                    om_prod: 0.0001 # (10 EUR2015/km)
+        light_duty_transport_ice:
+            costs:
+                monetary:
+                    energy_cap: 285.864  # (10 EUR2015/km_per_hour)
+                    om_prod: 0.0027 # (10 EUR2015/km)
+        bus_transport_fcev:
+            costs:
+                monetary:
+                    energy_cap: 1250.5581  # (10 EUR2015/km_per_hour)
+                    om_annual: 37.3776 # (10 EUR2015/km)
+                    om_prod: 0.0093 # (10 EUR2015/km)
+        bus_transport_ev:
+            costs:
+                monetary:
+                    energy_cap: 1250.5581  # (10 EUR2015/km_per_hour)
+                    om_annual: 37.3776 # (10 EUR2015/km)
+                    om_prod: 0.0093 # (10 EUR2015/km)
+        bus_transport_ice:
+            costs:
+                monetary:
+                    energy_cap: 989.2869  # (10 EUR2015/km_per_hour)
+                    om_annual: 42.0498 # (10 EUR2015/km)
+                    om_prod: 0.0102 # (10 EUR2015/km)
+        motorcycle_transport_ev:
+            costs:
+                monetary:
+                    energy_cap: 362.0637  # (10 EUR2015/km_per_hour)
+        motorcycle_transport_ice:
+            costs:
+                monetary:
+                    energy_cap: 362.0637  # (10 EUR2015/km_per_hour)
+        heavy_duty_transport_fcev:
+            costs:
+                monetary:
+                    energy_cap: 1008.633  # (10 EUR2015/km_per_hour)
+                    om_annual: 34.8238 # (10 EUR2015/km)
+                    om_prod: 0.0093 # (10 EUR2015/km)
+        heavy_duty_transport_ev:
+            costs:
+                monetary:
+                    energy_cap: 1090.903  # (10 EUR2015/km_per_hour)
+                    om_annual: 34.8238 # (10 EUR2015/km)
+                    om_prod: 0.0093 # (10 EUR2015/km)
+        heavy_duty_transport_ice:
+            costs:
+                monetary:
+                    energy_cap: 1024.5169  # (10 EUR2015/km_per_hour)
+                    om_annual: 39.1768 # (10 EUR2015/km)
+                    om_prod: 0.0102 # (10 EUR2015/km)
+    MKD.techs:
+        passenger_car_transport_fcev:
+            costs:
+                monetary:
+                    energy_cap: 378.3134  # (10 EUR2015/km_per_hour)
+                    om_prod: 0.0021 # (10 EUR2015/km)
+        passenger_car_transport_ev:
+            costs:
+                monetary:
+                    energy_cap: 371.2375  # (10 EUR2015/km_per_hour)
+                    om_prod: 0.0008 # (10 EUR2015/km)
+        passenger_car_transport_ice:
+            costs:
+                monetary:
+                    energy_cap: 341.287  # (10 EUR2015/km_per_hour)
+                    om_prod: 0.0027 # (10 EUR2015/km)
+        light_duty_transport_fcev:
+            costs:
+                monetary:
+                    energy_cap: 187.856  # (10 EUR2015/km_per_hour)
+                    om_prod: 0.0021 # (10 EUR2015/km)
+        light_duty_transport_ev:
+            costs:
+                monetary:
+                    energy_cap: 166.4956  # (10 EUR2015/km_per_hour)
+                    om_prod: 0.0001 # (10 EUR2015/km)
+        light_duty_transport_ice:
+            costs:
+                monetary:
+                    energy_cap: 167.6972  # (10 EUR2015/km_per_hour)
+                    om_prod: 0.0027 # (10 EUR2015/km)
+        bus_transport_fcev:
+            costs:
+                monetary:
+                    energy_cap: 822.716  # (10 EUR2015/km_per_hour)
+                    om_annual: 24.5899 # (10 EUR2015/km)
+                    om_prod: 0.0093 # (10 EUR2015/km)
+        bus_transport_ev:
+            costs:
+                monetary:
+                    energy_cap: 822.716  # (10 EUR2015/km_per_hour)
+                    om_annual: 24.5899 # (10 EUR2015/km)
+                    om_prod: 0.0093 # (10 EUR2015/km)
+        bus_transport_ice:
+            costs:
+                monetary:
+                    energy_cap: 650.8312  # (10 EUR2015/km_per_hour)
+                    om_annual: 27.6637 # (10 EUR2015/km)
+                    om_prod: 0.0102 # (10 EUR2015/km)
+        motorcycle_transport_ev:
+            costs:
+                monetary:
+                    energy_cap: 147.04  # (10 EUR2015/km_per_hour)
+        motorcycle_transport_ice:
+            costs:
+                monetary:
+                    energy_cap: 147.04  # (10 EUR2015/km_per_hour)
+        heavy_duty_transport_fcev:
+            costs:
+                monetary:
+                    energy_cap: 598.3305  # (10 EUR2015/km_per_hour)
+                    om_annual: 20.6578 # (10 EUR2015/km)
+                    om_prod: 0.0093 # (10 EUR2015/km)
+        heavy_duty_transport_ev:
+            costs:
+                monetary:
+                    energy_cap: 647.1338  # (10 EUR2015/km_per_hour)
+                    om_annual: 20.6578 # (10 EUR2015/km)
+                    om_prod: 0.0093 # (10 EUR2015/km)
+        heavy_duty_transport_ice:
+            costs:
+                monetary:
+                    energy_cap: 607.753  # (10 EUR2015/km_per_hour)
+                    om_annual: 23.2401 # (10 EUR2015/km)
+                    om_prod: 0.0102 # (10 EUR2015/km)
+    MNE.techs:
+        passenger_car_transport_fcev:
+            costs:
+                monetary:
+                    energy_cap: 593.6466  # (10 EUR2015/km_per_hour)
+                    om_prod: 0.0021 # (10 EUR2015/km)
+        passenger_car_transport_ev:
+            costs:
+                monetary:
+                    energy_cap: 582.5432  # (10 EUR2015/km_per_hour)
+                    om_prod: 0.0008 # (10 EUR2015/km)
+        passenger_car_transport_ice:
+            costs:
+                monetary:
+                    energy_cap: 535.545  # (10 EUR2015/km_per_hour)
+                    om_prod: 0.0027 # (10 EUR2015/km)
+        light_duty_transport_fcev:
+            costs:
+                monetary:
+                    energy_cap: 225.0308  # (10 EUR2015/km_per_hour)
+                    om_prod: 0.0021 # (10 EUR2015/km)
+        light_duty_transport_ev:
+            costs:
+                monetary:
+                    energy_cap: 199.4435  # (10 EUR2015/km_per_hour)
+                    om_prod: 0.0001 # (10 EUR2015/km)
+        light_duty_transport_ice:
+            costs:
+                monetary:
+                    energy_cap: 200.8828  # (10 EUR2015/km_per_hour)
+                    om_prod: 0.0027 # (10 EUR2015/km)
+        bus_transport_fcev:
+            costs:
+                monetary:
+                    energy_cap: 1044.1657  # (10 EUR2015/km_per_hour)
+                    om_annual: 31.2088 # (10 EUR2015/km)
+                    om_prod: 0.0093 # (10 EUR2015/km)
+        bus_transport_ev:
+            costs:
+                monetary:
+                    energy_cap: 1044.1657  # (10 EUR2015/km_per_hour)
+                    om_annual: 31.2088 # (10 EUR2015/km)
+                    om_prod: 0.0093 # (10 EUR2015/km)
+        bus_transport_ice:
+            costs:
+                monetary:
+                    energy_cap: 826.0148  # (10 EUR2015/km_per_hour)
+                    om_annual: 35.1099 # (10 EUR2015/km)
+                    om_prod: 0.0102 # (10 EUR2015/km)
+        motorcycle_transport_ev:
+            costs:
+                monetary:
+                    energy_cap: 187.1649  # (10 EUR2015/km_per_hour)
+        motorcycle_transport_ice:
+            costs:
+                monetary:
+                    energy_cap: 187.1649  # (10 EUR2015/km_per_hour)
+        heavy_duty_transport_fcev:
+            costs:
+                monetary:
+                    energy_cap: 795.243  # (10 EUR2015/km_per_hour)
+                    om_annual: 27.4564 # (10 EUR2015/km)
+                    om_prod: 0.0093 # (10 EUR2015/km)
+        heavy_duty_transport_ev:
+            costs:
+                monetary:
+                    energy_cap: 860.1077  # (10 EUR2015/km_per_hour)
+                    om_annual: 27.4564 # (10 EUR2015/km)
+                    om_prod: 0.0093 # (10 EUR2015/km)
+        heavy_duty_transport_ice:
+            costs:
+                monetary:
+                    energy_cap: 807.7665  # (10 EUR2015/km_per_hour)
+                    om_annual: 30.8884 # (10 EUR2015/km)
+                    om_prod: 0.0102 # (10 EUR2015/km)
+    NLD.techs:
+        passenger_car_transport_fcev:
+            costs:
+                monetary:
+                    energy_cap: 496.4963  # (10 EUR2015/km_per_hour)
+                    om_prod: 0.0021 # (10 EUR2015/km)
+        passenger_car_transport_ev:
+            costs:
+                monetary:
+                    energy_cap: 487.21  # (10 EUR2015/km_per_hour)
+                    om_prod: 0.0008 # (10 EUR2015/km)
+        passenger_car_transport_ice:
+            costs:
+                monetary:
+                    energy_cap: 447.903  # (10 EUR2015/km_per_hour)
+                    om_prod: 0.0027 # (10 EUR2015/km)
+        light_duty_transport_fcev:
+            costs:
+                monetary:
+                    energy_cap: 378.8024  # (10 EUR2015/km_per_hour)
+                    om_prod: 0.0021 # (10 EUR2015/km)
+        light_duty_transport_ev:
+            costs:
+                monetary:
+                    energy_cap: 335.7302  # (10 EUR2015/km_per_hour)
+                    om_prod: 0.0001 # (10 EUR2015/km)
+        light_duty_transport_ice:
+            costs:
+                monetary:
+                    energy_cap: 338.1531  # (10 EUR2015/km_per_hour)
+                    om_prod: 0.0027 # (10 EUR2015/km)
+        bus_transport_fcev:
+            costs:
+                monetary:
+                    energy_cap: 759.7948  # (10 EUR2015/km_per_hour)
+                    om_annual: 22.7093 # (10 EUR2015/km)
+                    om_prod: 0.0093 # (10 EUR2015/km)
+        bus_transport_ev:
+            costs:
+                monetary:
+                    energy_cap: 759.7948  # (10 EUR2015/km_per_hour)
+                    om_annual: 22.7093 # (10 EUR2015/km)
+                    om_prod: 0.0093 # (10 EUR2015/km)
+        bus_transport_ice:
+            costs:
+                monetary:
+                    energy_cap: 601.0557  # (10 EUR2015/km_per_hour)
+                    om_annual: 25.548 # (10 EUR2015/km)
+                    om_prod: 0.0102 # (10 EUR2015/km)
+        motorcycle_transport_ev:
+            costs:
+                monetary:
+                    energy_cap: 217.9044  # (10 EUR2015/km_per_hour)
+        motorcycle_transport_ice:
+            costs:
+                monetary:
+                    energy_cap: 217.9044  # (10 EUR2015/km_per_hour)
+        heavy_duty_transport_fcev:
+            costs:
+                monetary:
+                    energy_cap: 481.9168  # (10 EUR2015/km_per_hour)
+                    om_annual: 16.6386 # (10 EUR2015/km)
+                    om_prod: 0.0093 # (10 EUR2015/km)
+        heavy_duty_transport_ev:
+            costs:
+                monetary:
+                    energy_cap: 521.2247  # (10 EUR2015/km_per_hour)
+                    om_annual: 16.6386 # (10 EUR2015/km)
+                    om_prod: 0.0093 # (10 EUR2015/km)
+        heavy_duty_transport_ice:
+            costs:
+                monetary:
+                    energy_cap: 489.5059  # (10 EUR2015/km_per_hour)
+                    om_annual: 18.7184 # (10 EUR2015/km)
+                    om_prod: 0.0102 # (10 EUR2015/km)
+    NOR.techs:
+        passenger_car_transport_fcev:
+            costs:
+                monetary:
+                    energy_cap: 418.2196  # (10 EUR2015/km_per_hour)
+                    om_prod: 0.0021 # (10 EUR2015/km)
+        passenger_car_transport_ev:
+            costs:
+                monetary:
+                    energy_cap: 410.3974  # (10 EUR2015/km_per_hour)
+                    om_prod: 0.0008 # (10 EUR2015/km)
+        passenger_car_transport_ice:
+            costs:
+                monetary:
+                    energy_cap: 377.2875  # (10 EUR2015/km_per_hour)
+                    om_prod: 0.0027 # (10 EUR2015/km)
+        light_duty_transport_fcev:
+            costs:
+                monetary:
+                    energy_cap: 532.3833  # (10 EUR2015/km_per_hour)
+                    om_prod: 0.0021 # (10 EUR2015/km)
+        light_duty_transport_ev:
+            costs:
+                monetary:
+                    energy_cap: 471.8481  # (10 EUR2015/km_per_hour)
+                    om_prod: 0.0001 # (10 EUR2015/km)
+        light_duty_transport_ice:
+            costs:
+                monetary:
+                    energy_cap: 475.2533  # (10 EUR2015/km_per_hour)
+                    om_prod: 0.0027 # (10 EUR2015/km)
+        bus_transport_fcev:
+            costs:
+                monetary:
+                    energy_cap: 1015.3526  # (10 EUR2015/km_per_hour)
+                    om_annual: 30.3476 # (10 EUR2015/km)
+                    om_prod: 0.0093 # (10 EUR2015/km)
+        bus_transport_ev:
+            costs:
+                monetary:
+                    energy_cap: 1015.3526  # (10 EUR2015/km_per_hour)
+                    om_annual: 30.3476 # (10 EUR2015/km)
+                    om_prod: 0.0093 # (10 EUR2015/km)
+        bus_transport_ice:
+            costs:
+                monetary:
+                    energy_cap: 803.2214  # (10 EUR2015/km_per_hour)
+                    om_annual: 34.1411 # (10 EUR2015/km)
+                    om_prod: 0.0102 # (10 EUR2015/km)
+        motorcycle_transport_ev:
+            costs:
+                monetary:
+                    energy_cap: 622.8238  # (10 EUR2015/km_per_hour)
+        motorcycle_transport_ice:
+            costs:
+                monetary:
+                    energy_cap: 622.8238  # (10 EUR2015/km_per_hour)
+        heavy_duty_transport_fcev:
+            costs:
+                monetary:
+                    energy_cap: 1051.9433  # (10 EUR2015/km_per_hour)
+                    om_annual: 36.3192 # (10 EUR2015/km)
+                    om_prod: 0.0093 # (10 EUR2015/km)
+        heavy_duty_transport_ev:
+            costs:
+                monetary:
+                    energy_cap: 1137.7459  # (10 EUR2015/km_per_hour)
+                    om_annual: 36.3192 # (10 EUR2015/km)
+                    om_prod: 0.0093 # (10 EUR2015/km)
+        heavy_duty_transport_ice:
+            costs:
+                monetary:
+                    energy_cap: 1068.5092  # (10 EUR2015/km_per_hour)
+                    om_annual: 40.8591 # (10 EUR2015/km)
+                    om_prod: 0.0102 # (10 EUR2015/km)
+    POL.techs:
+        passenger_car_transport_fcev:
+            costs:
+                monetary:
+                    energy_cap: 558.0987  # (10 EUR2015/km_per_hour)
+                    om_prod: 0.0021 # (10 EUR2015/km)
+        passenger_car_transport_ev:
+            costs:
+                monetary:
+                    energy_cap: 547.6603  # (10 EUR2015/km_per_hour)
+                    om_prod: 0.0008 # (10 EUR2015/km)
+        passenger_car_transport_ice:
+            costs:
+                monetary:
+                    energy_cap: 503.4763  # (10 EUR2015/km_per_hour)
+                    om_prod: 0.0027 # (10 EUR2015/km)
+        light_duty_transport_fcev:
+            costs:
+                monetary:
+                    energy_cap: 446.0903  # (10 EUR2015/km_per_hour)
+                    om_prod: 0.0021 # (10 EUR2015/km)
+        light_duty_transport_ev:
+            costs:
+                monetary:
+                    energy_cap: 395.3671  # (10 EUR2015/km_per_hour)
+                    om_prod: 0.0001 # (10 EUR2015/km)
+        light_duty_transport_ice:
+            costs:
+                monetary:
+                    energy_cap: 398.2204  # (10 EUR2015/km_per_hour)
+                    om_prod: 0.0027 # (10 EUR2015/km)
+        bus_transport_fcev:
+            costs:
+                monetary:
+                    energy_cap: 1389.2611  # (10 EUR2015/km_per_hour)
+                    om_annual: 41.5233 # (10 EUR2015/km)
+                    om_prod: 0.0093 # (10 EUR2015/km)
+        bus_transport_ev:
+            costs:
+                monetary:
+                    energy_cap: 1389.2611  # (10 EUR2015/km_per_hour)
+                    om_annual: 41.5233 # (10 EUR2015/km)
+                    om_prod: 0.0093 # (10 EUR2015/km)
+        bus_transport_ice:
+            costs:
+                monetary:
+                    energy_cap: 1099.0116  # (10 EUR2015/km_per_hour)
+                    om_annual: 46.7137 # (10 EUR2015/km)
+                    om_prod: 0.0102 # (10 EUR2015/km)
+        motorcycle_transport_ev:
+            costs:
+                monetary:
+                    energy_cap: 649.6379  # (10 EUR2015/km_per_hour)
+        motorcycle_transport_ice:
+            costs:
+                monetary:
+                    energy_cap: 649.6379  # (10 EUR2015/km_per_hour)
+        heavy_duty_transport_fcev:
+            costs:
+                monetary:
+                    energy_cap: 1126.7557  # (10 EUR2015/km_per_hour)
+                    om_annual: 38.9021 # (10 EUR2015/km)
+                    om_prod: 0.0093 # (10 EUR2015/km)
+        heavy_duty_transport_ev:
+            costs:
+                monetary:
+                    energy_cap: 1218.6605  # (10 EUR2015/km_per_hour)
+                    om_annual: 38.9021 # (10 EUR2015/km)
+                    om_prod: 0.0093 # (10 EUR2015/km)
+        heavy_duty_transport_ice:
+            costs:
+                monetary:
+                    energy_cap: 1144.4998  # (10 EUR2015/km_per_hour)
+                    om_annual: 43.7649 # (10 EUR2015/km)
+                    om_prod: 0.0102 # (10 EUR2015/km)
+    PRT.techs:
+        passenger_car_transport_fcev:
+            costs:
+                monetary:
+                    energy_cap: 488.4659  # (10 EUR2015/km_per_hour)
+                    om_prod: 0.0021 # (10 EUR2015/km)
+        passenger_car_transport_ev:
+            costs:
+                monetary:
+                    energy_cap: 479.3298  # (10 EUR2015/km_per_hour)
+                    om_prod: 0.0008 # (10 EUR2015/km)
+        passenger_car_transport_ice:
+            costs:
+                monetary:
+                    energy_cap: 440.6586  # (10 EUR2015/km_per_hour)
+                    om_prod: 0.0027 # (10 EUR2015/km)
+        light_duty_transport_fcev:
+            costs:
+                monetary:
+                    energy_cap: 724.7742  # (10 EUR2015/km_per_hour)
+                    om_prod: 0.0021 # (10 EUR2015/km)
+        light_duty_transport_ev:
+            costs:
+                monetary:
+                    energy_cap: 642.3629  # (10 EUR2015/km_per_hour)
+                    om_prod: 0.0001 # (10 EUR2015/km)
+        light_duty_transport_ice:
+            costs:
+                monetary:
+                    energy_cap: 646.9987  # (10 EUR2015/km_per_hour)
+                    om_prod: 0.0027 # (10 EUR2015/km)
+        bus_transport_fcev:
+            costs:
+                monetary:
+                    energy_cap: 2041.0459  # (10 EUR2015/km_per_hour)
+                    om_annual: 61.0043 # (10 EUR2015/km)
+                    om_prod: 0.0093 # (10 EUR2015/km)
+        bus_transport_ev:
+            costs:
+                monetary:
+                    energy_cap: 2041.0459  # (10 EUR2015/km_per_hour)
+                    om_annual: 61.0043 # (10 EUR2015/km)
+                    om_prod: 0.0093 # (10 EUR2015/km)
+        bus_transport_ice:
+            costs:
+                monetary:
+                    energy_cap: 1614.6232  # (10 EUR2015/km_per_hour)
+                    om_annual: 68.6298 # (10 EUR2015/km)
+                    om_prod: 0.0102 # (10 EUR2015/km)
+        motorcycle_transport_ev:
+            costs:
+                monetary:
+                    energy_cap: 403.4461  # (10 EUR2015/km_per_hour)
+        motorcycle_transport_ice:
+            costs:
+                monetary:
+                    energy_cap: 403.4461  # (10 EUR2015/km_per_hour)
+        heavy_duty_transport_fcev:
+            costs:
+                monetary:
+                    energy_cap: 1080.723  # (10 EUR2015/km_per_hour)
+                    om_annual: 37.3128 # (10 EUR2015/km)
+                    om_prod: 0.0093 # (10 EUR2015/km)
+        heavy_duty_transport_ev:
+            costs:
+                monetary:
+                    energy_cap: 1168.8731  # (10 EUR2015/km_per_hour)
+                    om_annual: 37.3128 # (10 EUR2015/km)
+                    om_prod: 0.0093 # (10 EUR2015/km)
+        heavy_duty_transport_ice:
+            costs:
+                monetary:
+                    energy_cap: 1097.7422  # (10 EUR2015/km_per_hour)
+                    om_annual: 41.9769 # (10 EUR2015/km)
+                    om_prod: 0.0102 # (10 EUR2015/km)
+    ROU.techs:
+        passenger_car_transport_fcev:
+            costs:
+                monetary:
+                    energy_cap: 530.2362  # (10 EUR2015/km_per_hour)
+                    om_prod: 0.0021 # (10 EUR2015/km)
+        passenger_car_transport_ev:
+            costs:
+                monetary:
+                    energy_cap: 520.3189  # (10 EUR2015/km_per_hour)
+                    om_prod: 0.0008 # (10 EUR2015/km)
+        passenger_car_transport_ice:
+            costs:
+                monetary:
+                    energy_cap: 478.3408  # (10 EUR2015/km_per_hour)
+                    om_prod: 0.0027 # (10 EUR2015/km)
+        light_duty_transport_fcev:
+            costs:
+                monetary:
+                    energy_cap: 419.7847  # (10 EUR2015/km_per_hour)
+                    om_prod: 0.0021 # (10 EUR2015/km)
+        light_duty_transport_ev:
+            costs:
+                monetary:
+                    energy_cap: 372.0526  # (10 EUR2015/km_per_hour)
+                    om_prod: 0.0001 # (10 EUR2015/km)
+        light_duty_transport_ice:
+            costs:
+                monetary:
+                    energy_cap: 374.7376  # (10 EUR2015/km_per_hour)
+                    om_prod: 0.0027 # (10 EUR2015/km)
+        bus_transport_fcev:
+            costs:
+                monetary:
+                    energy_cap: 772.5339  # (10 EUR2015/km_per_hour)
+                    om_annual: 23.0901 # (10 EUR2015/km)
+                    om_prod: 0.0093 # (10 EUR2015/km)
+        bus_transport_ev:
+            costs:
+                monetary:
+                    energy_cap: 772.5339  # (10 EUR2015/km_per_hour)
+                    om_annual: 23.0901 # (10 EUR2015/km)
+                    om_prod: 0.0093 # (10 EUR2015/km)
+        bus_transport_ice:
+            costs:
+                monetary:
+                    energy_cap: 611.1333  # (10 EUR2015/km_per_hour)
+                    om_annual: 25.9763 # (10 EUR2015/km)
+                    om_prod: 0.0102 # (10 EUR2015/km)
+        motorcycle_transport_ev:
+            costs:
+                monetary:
+                    energy_cap: 270.0951  # (10 EUR2015/km_per_hour)
+        motorcycle_transport_ice:
+            costs:
+                monetary:
+                    energy_cap: 270.0951  # (10 EUR2015/km_per_hour)
+        heavy_duty_transport_fcev:
+            costs:
+                monetary:
+                    energy_cap: 3228.2381  # (10 EUR2015/km_per_hour)
+                    om_annual: 111.4574 # (10 EUR2015/km)
+                    om_prod: 0.0093 # (10 EUR2015/km)
+        heavy_duty_transport_ev:
+            costs:
+                monetary:
+                    energy_cap: 3491.5522  # (10 EUR2015/km_per_hour)
+                    om_annual: 111.4574 # (10 EUR2015/km)
+                    om_prod: 0.0093 # (10 EUR2015/km)
+        heavy_duty_transport_ice:
+            costs:
+                monetary:
+                    energy_cap: 3279.0761  # (10 EUR2015/km_per_hour)
+                    om_annual: 125.3896 # (10 EUR2015/km)
+                    om_prod: 0.0102 # (10 EUR2015/km)
+    SRB.techs:
+        passenger_car_transport_fcev:
+            costs:
+                monetary:
+                    energy_cap: 593.3305  # (10 EUR2015/km_per_hour)
+                    om_prod: 0.0021 # (10 EUR2015/km)
+        passenger_car_transport_ev:
+            costs:
+                monetary:
+                    energy_cap: 582.2331  # (10 EUR2015/km_per_hour)
+                    om_prod: 0.0008 # (10 EUR2015/km)
+        passenger_car_transport_ice:
+            costs:
+                monetary:
+                    energy_cap: 535.2599  # (10 EUR2015/km_per_hour)
+                    om_prod: 0.0027 # (10 EUR2015/km)
+        light_duty_transport_fcev:
+            costs:
+                monetary:
+                    energy_cap: 405.1046  # (10 EUR2015/km_per_hour)
+                    om_prod: 0.0021 # (10 EUR2015/km)
+        light_duty_transport_ev:
+            costs:
+                monetary:
+                    energy_cap: 359.0417  # (10 EUR2015/km_per_hour)
+                    om_prod: 0.0001 # (10 EUR2015/km)
+        light_duty_transport_ice:
+            costs:
+                monetary:
+                    energy_cap: 361.6328  # (10 EUR2015/km_per_hour)
+                    om_prod: 0.0027 # (10 EUR2015/km)
+        bus_transport_fcev:
+            costs:
+                monetary:
+                    energy_cap: 881.4739  # (10 EUR2015/km_per_hour)
+                    om_annual: 26.3461 # (10 EUR2015/km)
+                    om_prod: 0.0093 # (10 EUR2015/km)
+        bus_transport_ev:
+            costs:
+                monetary:
+                    energy_cap: 881.4739  # (10 EUR2015/km_per_hour)
+                    om_annual: 26.3461 # (10 EUR2015/km)
+                    om_prod: 0.0093 # (10 EUR2015/km)
+        bus_transport_ice:
+            costs:
+                monetary:
+                    energy_cap: 697.3132  # (10 EUR2015/km_per_hour)
+                    om_annual: 29.6394 # (10 EUR2015/km)
+                    om_prod: 0.0102 # (10 EUR2015/km)
+        motorcycle_transport_ev:
+            costs:
+                monetary:
+                    energy_cap: 116.8121  # (10 EUR2015/km_per_hour)
+        motorcycle_transport_ice:
+            costs:
+                monetary:
+                    energy_cap: 116.8121  # (10 EUR2015/km_per_hour)
+        heavy_duty_transport_fcev:
+            costs:
+                monetary:
+                    energy_cap: 1313.8618  # (10 EUR2015/km_per_hour)
+                    om_annual: 45.3621 # (10 EUR2015/km)
+                    om_prod: 0.0093 # (10 EUR2015/km)
+        heavy_duty_transport_ev:
+            costs:
+                monetary:
+                    energy_cap: 1421.028  # (10 EUR2015/km_per_hour)
+                    om_annual: 45.3621 # (10 EUR2015/km)
+                    om_prod: 0.0093 # (10 EUR2015/km)
+        heavy_duty_transport_ice:
+            costs:
+                monetary:
+                    energy_cap: 1334.5524  # (10 EUR2015/km_per_hour)
+                    om_annual: 51.0324 # (10 EUR2015/km)
+                    om_prod: 0.0102 # (10 EUR2015/km)
+    SVK.techs:
+        passenger_car_transport_fcev:
+            costs:
+                monetary:
+                    energy_cap: 638.3586  # (10 EUR2015/km_per_hour)
+                    om_prod: 0.0021 # (10 EUR2015/km)
+        passenger_car_transport_ev:
+            costs:
+                monetary:
+                    energy_cap: 626.419  # (10 EUR2015/km_per_hour)
+                    om_prod: 0.0008 # (10 EUR2015/km)
+        passenger_car_transport_ice:
+            costs:
+                monetary:
+                    energy_cap: 575.881  # (10 EUR2015/km_per_hour)
+                    om_prod: 0.0027 # (10 EUR2015/km)
+        light_duty_transport_fcev:
+            costs:
+                monetary:
+                    energy_cap: 443.2433  # (10 EUR2015/km_per_hour)
+                    om_prod: 0.0021 # (10 EUR2015/km)
+        light_duty_transport_ev:
+            costs:
+                monetary:
+                    energy_cap: 392.8438  # (10 EUR2015/km_per_hour)
+                    om_prod: 0.0001 # (10 EUR2015/km)
+        light_duty_transport_ice:
+            costs:
+                monetary:
+                    energy_cap: 395.6789  # (10 EUR2015/km_per_hour)
+                    om_prod: 0.0027 # (10 EUR2015/km)
+        bus_transport_fcev:
+            costs:
+                monetary:
+                    energy_cap: 968.2876  # (10 EUR2015/km_per_hour)
+                    om_annual: 28.9409 # (10 EUR2015/km)
+                    om_prod: 0.0093 # (10 EUR2015/km)
+        bus_transport_ev:
+            costs:
+                monetary:
+                    energy_cap: 968.2876  # (10 EUR2015/km_per_hour)
+                    om_annual: 28.9409 # (10 EUR2015/km)
+                    om_prod: 0.0093 # (10 EUR2015/km)
+        bus_transport_ice:
+            costs:
+                monetary:
+                    energy_cap: 765.9894  # (10 EUR2015/km_per_hour)
+                    om_annual: 32.5585 # (10 EUR2015/km)
+                    om_prod: 0.0102 # (10 EUR2015/km)
+        motorcycle_transport_ev:
+            costs:
+                monetary:
+                    energy_cap: 1204.4903  # (10 EUR2015/km_per_hour)
+        motorcycle_transport_ice:
+            costs:
+                monetary:
+                    energy_cap: 1204.4903  # (10 EUR2015/km_per_hour)
+        heavy_duty_transport_fcev:
+            costs:
+                monetary:
+                    energy_cap: 609.9091  # (10 EUR2015/km_per_hour)
+                    om_annual: 21.0576 # (10 EUR2015/km)
+                    om_prod: 0.0093 # (10 EUR2015/km)
+        heavy_duty_transport_ev:
+            costs:
+                monetary:
+                    energy_cap: 659.6568  # (10 EUR2015/km_per_hour)
+                    om_annual: 21.0576 # (10 EUR2015/km)
+                    om_prod: 0.0093 # (10 EUR2015/km)
+        heavy_duty_transport_ice:
+            costs:
+                monetary:
+                    energy_cap: 619.5139  # (10 EUR2015/km_per_hour)
+                    om_annual: 23.6898 # (10 EUR2015/km)
+                    om_prod: 0.0102 # (10 EUR2015/km)
+    SVN.techs:
+        passenger_car_transport_fcev:
+            costs:
+                monetary:
+                    energy_cap: 312.8081  # (10 EUR2015/km_per_hour)
+                    om_prod: 0.0021 # (10 EUR2015/km)
+        passenger_car_transport_ev:
+            costs:
+                monetary:
+                    energy_cap: 306.9574  # (10 EUR2015/km_per_hour)
+                    om_prod: 0.0008 # (10 EUR2015/km)
+        passenger_car_transport_ice:
+            costs:
+                monetary:
+                    energy_cap: 282.1928  # (10 EUR2015/km_per_hour)
+                    om_prod: 0.0027 # (10 EUR2015/km)
+        light_duty_transport_fcev:
+            costs:
+                monetary:
+                    energy_cap: 406.5801  # (10 EUR2015/km_per_hour)
+                    om_prod: 0.0021 # (10 EUR2015/km)
+        light_duty_transport_ev:
+            costs:
+                monetary:
+                    energy_cap: 360.3494  # (10 EUR2015/km_per_hour)
+                    om_prod: 0.0001 # (10 EUR2015/km)
+        light_duty_transport_ice:
+            costs:
+                monetary:
+                    energy_cap: 362.95  # (10 EUR2015/km_per_hour)
+                    om_prod: 0.0027 # (10 EUR2015/km)
+        bus_transport_fcev:
+            costs:
+                monetary:
+                    energy_cap: 834.1759  # (10 EUR2015/km_per_hour)
+                    om_annual: 24.9325 # (10 EUR2015/km)
+                    om_prod: 0.0093 # (10 EUR2015/km)
+        bus_transport_ev:
+            costs:
+                monetary:
+                    energy_cap: 834.1759  # (10 EUR2015/km_per_hour)
+                    om_annual: 24.9325 # (10 EUR2015/km)
+                    om_prod: 0.0093 # (10 EUR2015/km)
+        bus_transport_ice:
+            costs:
+                monetary:
+                    energy_cap: 659.8969  # (10 EUR2015/km_per_hour)
+                    om_annual: 28.049 # (10 EUR2015/km)
+                    om_prod: 0.0102 # (10 EUR2015/km)
+        motorcycle_transport_ev:
+            costs:
+                monetary:
+                    energy_cap: 333.0374  # (10 EUR2015/km_per_hour)
+        motorcycle_transport_ice:
+            costs:
+                monetary:
+                    energy_cap: 333.0374  # (10 EUR2015/km_per_hour)
+        heavy_duty_transport_fcev:
+            costs:
+                monetary:
+                    energy_cap: 755.7412  # (10 EUR2015/km_per_hour)
+                    om_annual: 26.0926 # (10 EUR2015/km)
+                    om_prod: 0.0093 # (10 EUR2015/km)
+        heavy_duty_transport_ev:
+            costs:
+                monetary:
+                    energy_cap: 817.3839  # (10 EUR2015/km_per_hour)
+                    om_annual: 26.0926 # (10 EUR2015/km)
+                    om_prod: 0.0093 # (10 EUR2015/km)
+        heavy_duty_transport_ice:
+            costs:
+                monetary:
+                    energy_cap: 767.6426  # (10 EUR2015/km_per_hour)
+                    om_annual: 29.3541 # (10 EUR2015/km)
+                    om_prod: 0.0102 # (10 EUR2015/km)
+    SWE.techs:
+        passenger_car_transport_fcev:
+            costs:
+                monetary:
+                    energy_cap: 358.6568  # (10 EUR2015/km_per_hour)
+                    om_prod: 0.0021 # (10 EUR2015/km)
+        passenger_car_transport_ev:
+            costs:
+                monetary:
+                    energy_cap: 351.9487  # (10 EUR2015/km_per_hour)
+                    om_prod: 0.0008 # (10 EUR2015/km)
+        passenger_car_transport_ice:
+            costs:
+                monetary:
+                    energy_cap: 323.5543  # (10 EUR2015/km_per_hour)
+                    om_prod: 0.0027 # (10 EUR2015/km)
+        light_duty_transport_fcev:
+            costs:
+                monetary:
+                    energy_cap: 511.7261  # (10 EUR2015/km_per_hour)
+                    om_prod: 0.0021 # (10 EUR2015/km)
+        light_duty_transport_ev:
+            costs:
+                monetary:
+                    energy_cap: 453.5397  # (10 EUR2015/km_per_hour)
+                    om_prod: 0.0001 # (10 EUR2015/km)
+        light_duty_transport_ice:
+            costs:
+                monetary:
+                    energy_cap: 456.8128  # (10 EUR2015/km_per_hour)
+                    om_prod: 0.0027 # (10 EUR2015/km)
+        bus_transport_fcev:
+            costs:
+                monetary:
+                    energy_cap: 665.2602  # (10 EUR2015/km_per_hour)
+                    om_annual: 19.8838 # (10 EUR2015/km)
+                    om_prod: 0.0093 # (10 EUR2015/km)
+        bus_transport_ev:
+            costs:
+                monetary:
+                    energy_cap: 665.2602  # (10 EUR2015/km_per_hour)
+                    om_annual: 19.8838 # (10 EUR2015/km)
+                    om_prod: 0.0093 # (10 EUR2015/km)
+        bus_transport_ice:
+            costs:
+                monetary:
+                    energy_cap: 526.2716  # (10 EUR2015/km_per_hour)
+                    om_annual: 22.3693 # (10 EUR2015/km)
+                    om_prod: 0.0102 # (10 EUR2015/km)
+        motorcycle_transport_ev:
+            costs:
+                monetary:
+                    energy_cap: 512.5529  # (10 EUR2015/km_per_hour)
+        motorcycle_transport_ice:
+            costs:
+                monetary:
+                    energy_cap: 512.5529  # (10 EUR2015/km_per_hour)
+        heavy_duty_transport_fcev:
+            costs:
+                monetary:
+                    energy_cap: 769.8377  # (10 EUR2015/km_per_hour)
+                    om_annual: 26.5792 # (10 EUR2015/km)
+                    om_prod: 0.0093 # (10 EUR2015/km)
+        heavy_duty_transport_ev:
+            costs:
+                monetary:
+                    energy_cap: 832.6302  # (10 EUR2015/km_per_hour)
+                    om_annual: 26.5792 # (10 EUR2015/km)
+                    om_prod: 0.0093 # (10 EUR2015/km)
+        heavy_duty_transport_ice:
+            costs:
+                monetary:
+                    energy_cap: 781.961  # (10 EUR2015/km_per_hour)
+                    om_annual: 29.9017 # (10 EUR2015/km)
+                    om_prod: 0.0102 # (10 EUR2015/km)

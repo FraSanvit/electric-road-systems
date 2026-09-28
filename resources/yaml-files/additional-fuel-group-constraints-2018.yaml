@@ -1,0 +1,369 @@
+overrides:
+    annual_additional_fuel_demand: # 0.1 TWh (H2) or 10 kton (CO2)
+        group_constraints:
+            ALB_hydrogen:
+                techs: [demand_industry_hydrogen]
+                locs: [ALB]
+                carrier_con_equals:
+                    hydrogen: -1.3630853637670608
+            AUT_hydrogen:
+                techs: [demand_industry_hydrogen]
+                locs: [AUT]
+                carrier_con_equals:
+                    hydrogen: -83.01093991233157
+            BIH_hydrogen:
+                techs: [demand_industry_hydrogen]
+                locs: [BIH]
+                carrier_con_equals:
+                    hydrogen: -10.53555819362579
+            BEL_hydrogen:
+                techs: [demand_industry_hydrogen]
+                locs: [BEL]
+                carrier_con_equals:
+                    hydrogen: -134.01887849258807
+            BGR_hydrogen:
+                techs: [demand_industry_hydrogen]
+                locs: [BGR]
+                carrier_con_equals:
+                    hydrogen: -16.35101732593474
+            CHE_hydrogen:
+                techs: [demand_industry_hydrogen]
+                locs: [CHE]
+                carrier_con_equals:
+                    hydrogen: -13.938569429455171
+            CYP_hydrogen:
+                techs: [demand_industry_hydrogen]
+                locs: [CYP]
+                carrier_con_equals:
+                    hydrogen: -0.008490573223247
+            CZE_hydrogen:
+                techs: [demand_industry_hydrogen]
+                locs: [CZE]
+                carrier_con_equals:
+                    hydrogen: -58.84990789737665
+            DEU_hydrogen:
+                techs: [demand_industry_hydrogen]
+                locs: [DEU]
+                carrier_con_equals:
+                    hydrogen: -685.3491384820118
+            DNK_hydrogen:
+                techs: [demand_industry_hydrogen]
+                locs: [DNK]
+                carrier_con_equals:
+                    hydrogen: -0.0
+            EST_hydrogen:
+                techs: [demand_industry_hydrogen]
+                locs: [EST]
+                carrier_con_equals:
+                    hydrogen: -0.348217699696021
+            GRC_hydrogen:
+                techs: [demand_industry_hydrogen]
+                locs: [GRC]
+                carrier_con_equals:
+                    hydrogen: -4.913473164337941
+            ESP_hydrogen:
+                techs: [demand_industry_hydrogen]
+                locs: [ESP]
+                carrier_con_equals:
+                    hydrogen: -175.63354194769943
+            FIN_hydrogen:
+                techs: [demand_industry_hydrogen]
+                locs: [FIN]
+                carrier_con_equals:
+                    hydrogen: -60.10337158383889
+            FRA_hydrogen:
+                techs: [demand_industry_hydrogen]
+                locs: [FRA]
+                carrier_con_equals:
+                    hydrogen: -217.22240640418227
+            HRV_hydrogen:
+                techs: [demand_industry_hydrogen]
+                locs: [HRV]
+                carrier_con_equals:
+                    hydrogen: -1.015242834350983
+            HUN_hydrogen:
+                techs: [demand_industry_hydrogen]
+                locs: [HUN]
+                carrier_con_equals:
+                    hydrogen: -26.765972258346338
+            IRL_hydrogen:
+                techs: [demand_industry_hydrogen]
+                locs: [IRL]
+                carrier_con_equals:
+                    hydrogen: -0.0
+            ISL_hydrogen:
+                techs: [demand_industry_hydrogen]
+                locs: [ISL]
+                carrier_con_equals:
+                    hydrogen: -10.681327163113327
+            ITA_hydrogen:
+                techs: [demand_industry_hydrogen]
+                locs: [ITA]
+                carrier_con_equals:
+                    hydrogen: -245.91004979459186
+            LTU_hydrogen:
+                techs: [demand_industry_hydrogen]
+                locs: [LTU]
+                carrier_con_equals:
+                    hydrogen: -10.225305593710974
+            LUX_hydrogen:
+                techs: [demand_industry_hydrogen]
+                locs: [LUX]
+                carrier_con_equals:
+                    hydrogen: -0.0
+            LVA_hydrogen:
+                techs: [demand_industry_hydrogen]
+                locs: [LVA]
+                carrier_con_equals:
+                    hydrogen: -0.347201709461955
+            MNE_hydrogen:
+                techs: [demand_industry_hydrogen]
+                locs: [MNE]
+                carrier_con_equals:
+                    hydrogen: -0.63214660343893
+            MKD_hydrogen:
+                techs: [demand_industry_hydrogen]
+                locs: [MKD]
+                carrier_con_equals:
+                    hydrogen: -8.491324330040689
+            NLD_hydrogen:
+                techs: [demand_industry_hydrogen]
+                locs: [NLD]
+                carrier_con_equals:
+                    hydrogen: -279.99100662186726
+            NOR_hydrogen:
+                techs: [demand_industry_hydrogen]
+                locs: [NOR]
+                carrier_con_equals:
+                    hydrogen: -62.47445394986297
+            POL_hydrogen:
+                techs: [demand_industry_hydrogen]
+                locs: [POL]
+                carrier_con_equals:
+                    hydrogen: -138.29007648636164
+            PRT_hydrogen:
+                techs: [demand_industry_hydrogen]
+                locs: [PRT]
+                carrier_con_equals:
+                    hydrogen: -5.29493004808848
+            ROU_hydrogen:
+                techs: [demand_industry_hydrogen]
+                locs: [ROU]
+                carrier_con_equals:
+                    hydrogen: -50.86802814726242
+            SRB_hydrogen:
+                techs: [demand_industry_hydrogen]
+                locs: [SRB]
+                carrier_con_equals:
+                    hydrogen: -28.191873426837617
+            SWE_hydrogen:
+                techs: [demand_industry_hydrogen]
+                locs: [SWE]
+                carrier_con_equals:
+                    hydrogen: -60.95667409040735
+            SVN_hydrogen:
+                techs: [demand_industry_hydrogen]
+                locs: [SVN]
+                carrier_con_equals:
+                    hydrogen: -0.854572562049203
+            SVK_hydrogen:
+                techs: [demand_industry_hydrogen]
+                locs: [SVK]
+                carrier_con_equals:
+                    hydrogen: -47.88891529586178
+            GBR_hydrogen:
+                techs: [demand_industry_hydrogen]
+                locs: [GBR]
+                carrier_con_equals:
+                    hydrogen: -146.96432536116535
+            ALB_co2:
+                techs: [demand_industry_co2]
+                locs: [ALB]
+                carrier_con_equals:
+                    co2: -0.06545527107760785
+            AUT_co2:
+                techs: [demand_industry_co2]
+                locs: [AUT]
+                carrier_con_equals:
+                    co2: -8.305068710458643
+            BIH_co2:
+                techs: [demand_industry_co2]
+                locs: [BIH]
+                carrier_con_equals:
+                    co2: -0.3801364943482007
+            BEL_co2:
+                techs: [demand_industry_co2]
+                locs: [BEL]
+                carrier_con_equals:
+                    co2: -33.269744259134804
+            BGR_co2:
+                techs: [demand_industry_co2]
+                locs: [BGR]
+                carrier_con_equals:
+                    co2: -5.940639558529507
+            CHE_co2:
+                techs: [demand_industry_co2]
+                locs: [CHE]
+                carrier_con_equals:
+                    co2: -2.170966766439184
+            CYP_co2:
+                techs: [demand_industry_co2]
+                locs: [CYP]
+                carrier_con_equals:
+                    co2: -0.0
+            CZE_co2:
+                techs: [demand_industry_co2]
+                locs: [CZE]
+                carrier_con_equals:
+                    co2: -10.566941434615709
+            DEU_co2:
+                techs: [demand_industry_co2]
+                locs: [DEU]
+                carrier_con_equals:
+                    co2: -139.83035181979972
+            DNK_co2:
+                techs: [demand_industry_co2]
+                locs: [DNK]
+                carrier_con_equals:
+                    co2: -0.0
+            EST_co2:
+                techs: [demand_industry_co2]
+                locs: [EST]
+                carrier_con_equals:
+                    co2: -0.1324407517705795
+            GRC_co2:
+                techs: [demand_industry_co2]
+                locs: [GRC]
+                carrier_con_equals:
+                    co2: -2.015816181867219
+            ESP_co2:
+                techs: [demand_industry_co2]
+                locs: [ESP]
+                carrier_con_equals:
+                    co2: -25.748059911519703
+            FIN_co2:
+                techs: [demand_industry_co2]
+                locs: [FIN]
+                carrier_con_equals:
+                    co2: -9.179186148238815
+            FRA_co2:
+                techs: [demand_industry_co2]
+                locs: [FRA]
+                carrier_con_equals:
+                    co2: -33.98019852939225
+            HRV_co2:
+                techs: [demand_industry_co2]
+                locs: [HRV]
+                carrier_con_equals:
+                    co2: -0.4165165587681012
+            HUN_co2:
+                techs: [demand_industry_co2]
+                locs: [HUN]
+                carrier_con_equals:
+                    co2: -6.819643055415402
+            IRL_co2:
+                techs: [demand_industry_co2]
+                locs: [IRL]
+                carrier_con_equals:
+                    co2: -0.0
+            ISL_co2:
+                techs: [demand_industry_co2]
+                locs: [ISL]
+                carrier_con_equals:
+                    co2: -0.17009763906378223
+            ITA_co2:
+                techs: [demand_industry_co2]
+                locs: [ITA]
+                carrier_con_equals:
+                    co2: -21.85415595452452
+            LTU_co2:
+                techs: [demand_industry_co2]
+                locs: [LTU]
+                carrier_con_equals:
+                    co2: -4.16069393771078
+            LUX_co2:
+                techs: [demand_industry_co2]
+                locs: [LUX]
+                carrier_con_equals:
+                    co2: -0.0
+            LVA_co2:
+                techs: [demand_industry_co2]
+                locs: [LVA]
+                carrier_con_equals:
+                    co2: -0.14244401076314357
+            MNE_co2:
+                techs: [demand_industry_co2]
+                locs: [MNE]
+                carrier_con_equals:
+                    co2: -0.10373080558261936
+            MKD_co2:
+                techs: [demand_industry_co2]
+                locs: [MKD]
+                carrier_con_equals:
+                    co2: -0.16871311698300237
+            NLD_co2:
+                techs: [demand_industry_co2]
+                locs: [NLD]
+                carrier_con_equals:
+                    co2: -92.30561223882416
+            NOR_co2:
+                techs: [demand_industry_co2]
+                locs: [NOR]
+                carrier_con_equals:
+                    co2: -12.61245219711571
+            POL_co2:
+                techs: [demand_industry_co2]
+                locs: [POL]
+                carrier_con_equals:
+                    co2: -29.203083834366078
+            PRT_co2:
+                techs: [demand_industry_co2]
+                locs: [PRT]
+                carrier_con_equals:
+                    co2: -1.7236671320157784
+            ROU_co2:
+                techs: [demand_industry_co2]
+                locs: [ROU]
+                carrier_con_equals:
+                    co2: -11.659129622064148
+            SRB_co2:
+                techs: [demand_industry_co2]
+                locs: [SRB]
+                carrier_con_equals:
+                    co2: -3.702265076638333
+            SWE_co2:
+                techs: [demand_industry_co2]
+                locs: [SWE]
+                carrier_con_equals:
+                    co2: -9.13879040762175
+            SVN_co2:
+                techs: [demand_industry_co2]
+                locs: [SVN]
+                carrier_con_equals:
+                    co2: -0.35059949277053366
+            SVK_co2:
+                techs: [demand_industry_co2]
+                locs: [SVK]
+                carrier_con_equals:
+                    co2: -3.9388732313670255
+            GBR_co2:
+                techs: [demand_industry_co2]
+                locs: [GBR]
+                carrier_con_equals:
+                    co2: -39.15388547549277
+
+
+    additional_industry_techs:
+        techs:
+            demand_industry_hydrogen.exists: true
+            demand_industry_co2.exists: true 
+
+        locations:
+            ALB_1,AUT_1,AUT_2,AUT_3,BEL_1,BGR_1,BIH_1,CHE_1,CHE_2,CYP_1,CZE_1,CZE_2,DEU_1,DEU_2,DEU_3,DEU_4,DEU_5,DEU_6,DEU_7,DNK_1,DNK_2,ESP_1,ESP_10,ESP_11,ESP_2,ESP_3,ESP_4,ESP_5,ESP_6,ESP_7,ESP_8,ESP_9,EST_1,FIN_1,FIN_2,FRA_1,FRA_10,FRA_11,FRA_12,FRA_13,FRA_14,FRA_15,FRA_2,FRA_3,FRA_4,FRA_5,FRA_6,FRA_7,FRA_8,FRA_9,GBR_1,GBR_2,GBR_3,GBR_4,GBR_5,GBR_6,GRC_1,GRC_2,HRV_1,HUN_1,IRL_1,ISL_1,ITA_1,ITA_2,ITA_3,ITA_4,ITA_5,ITA_6,LTU_1,LUX_1,LVA_1,MKD_1,MNE_1,NLD_1,NOR_1,NOR_2,NOR_3,NOR_4,NOR_5,NOR_6,NOR_7,POL_1,POL_2,POL_3,POL_4,POL_5,PRT_1,PRT_2,ROU_1,ROU_2,ROU_3,SRB_1,SVK_1,SVN_1,SWE_1,SWE_2,SWE_3,SWE_4:
+                techs:
+                    demand_industry_hydrogen:
+                    demand_industry_co2:
+
+scenarios:
+    additional_industry_fuel: [annual_additional_fuel_demand, additional_industry_techs]
+    

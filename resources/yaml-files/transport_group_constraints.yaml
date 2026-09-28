@@ -1,0 +1,1992 @@
+overrides:       
+
+    transport_demand_exists:
+        techs:
+            demand_passenger_car_transport:
+                exists: true
+                constraints:
+                    resource: file=passenger-car-demand.csv # (100 Miokm)
+            demand_motorcycle_transport:
+                exists: true
+                constraints:
+                    resource: file=motorcycle-demand.csv # (100 Miokm)                
+            demand_light_duty_transport:
+                exists: true
+                constraints:
+                    resource: file=light-duty-transport-demand.csv # (100 Miokm)                
+            demand_heavy_duty_transport:
+                exists: true
+                constraints:
+                    resource: file=heavy-duty-transport-demand.csv # (100 Miokm)
+            demand_bus_transport:
+                exists: true
+                constraints:
+                    resource: file=bus-demand.csv # (100 Miokm)                    
+                    
+    passenger_car_techs:    
+        techs:
+            passenger_car_transport_ice:
+                constraints:
+                    energy_eff: 2.6666667 # (0.001 Mkm/MWh) -> 0.50 kWh/km
+            passenger_car_transport_ev:
+                constraints:
+                    energy_eff: 5.5555556 # (0.001 Mkm/MWh) -> 0.20 kWh/km
+            passenger_car_transport_fcev:
+                constraints:
+                    energy_eff: 3.9722222 # (0.001 Mkm/MWh) = 1 / 0.84 kg/100km / 33.3 kWh/kgH2  -> 0.27972 kWh/km
+
+            passenger_car_ev_battery:
+                constraints:
+                    storage_charge_depth: file=charge_depth.csv
+                    storage_discharge_depth: file=discharge_depth.csv
+
+        locations:
+            ALB.techs:
+                passenger_car_transport_ice:
+                passenger_car_transport_ev:
+                passenger_car_transport_fcev:
+                passenger_car_ev_battery:
+                demand_passenger_car_transport:
+            AUT.techs:
+                passenger_car_transport_ice:
+                passenger_car_transport_ev:
+                passenger_car_transport_fcev:
+                passenger_car_ev_battery:
+                demand_passenger_car_transport:
+            BEL.techs:
+                passenger_car_transport_ice:
+                passenger_car_transport_ev:
+                passenger_car_transport_fcev:
+                passenger_car_ev_battery:
+                demand_passenger_car_transport:
+            BGR.techs:
+                passenger_car_transport_ice:
+                passenger_car_transport_ev:
+                passenger_car_transport_fcev:
+                passenger_car_ev_battery:
+                demand_passenger_car_transport:
+            BIH.techs:
+                passenger_car_transport_ice:
+                passenger_car_transport_ev:
+                passenger_car_transport_fcev:
+                passenger_car_ev_battery:
+                demand_passenger_car_transport:
+            CHE.techs:
+                passenger_car_transport_ice:
+                passenger_car_transport_ev:
+                passenger_car_transport_fcev:
+                passenger_car_ev_battery:
+                demand_passenger_car_transport:
+            CYP.techs:
+                passenger_car_transport_ice:
+                passenger_car_transport_ev:
+                passenger_car_transport_fcev:
+                passenger_car_ev_battery:
+                demand_passenger_car_transport:
+            CZE.techs:
+                passenger_car_transport_ice:
+                passenger_car_transport_ev:
+                passenger_car_transport_fcev:
+                passenger_car_ev_battery:
+                demand_passenger_car_transport:
+            DEU.techs:
+                passenger_car_transport_ice:
+                passenger_car_transport_ev:
+                passenger_car_transport_fcev:
+                passenger_car_ev_battery:
+                demand_passenger_car_transport:
+            DNK.techs:
+                passenger_car_transport_ice:
+                passenger_car_transport_ev:
+                passenger_car_transport_fcev:
+                passenger_car_ev_battery:
+                demand_passenger_car_transport:
+            ESP.techs:
+                passenger_car_transport_ice:
+                passenger_car_transport_ev:
+                passenger_car_transport_fcev:
+                passenger_car_ev_battery:
+                demand_passenger_car_transport:
+            EST.techs:
+                passenger_car_transport_ice:
+                passenger_car_transport_ev:
+                passenger_car_transport_fcev:
+                passenger_car_ev_battery:
+                demand_passenger_car_transport:
+            FIN.techs:
+                passenger_car_transport_ice:
+                passenger_car_transport_ev:
+                passenger_car_transport_fcev:
+                passenger_car_ev_battery:
+                demand_passenger_car_transport:
+            FRA.techs:
+                passenger_car_transport_ice:
+                passenger_car_transport_ev:
+                passenger_car_transport_fcev:
+                passenger_car_ev_battery:
+                demand_passenger_car_transport:
+            GBR.techs:
+                passenger_car_transport_ice:
+                passenger_car_transport_ev:
+                passenger_car_transport_fcev:
+                passenger_car_ev_battery:
+                demand_passenger_car_transport:
+            GRC.techs:
+                passenger_car_transport_ice:
+                passenger_car_transport_ev:
+                passenger_car_transport_fcev:
+                passenger_car_ev_battery:
+                demand_passenger_car_transport:
+            HRV.techs:
+                passenger_car_transport_ice:
+                passenger_car_transport_ev:
+                passenger_car_transport_fcev:
+                passenger_car_ev_battery:
+                demand_passenger_car_transport:
+            HUN.techs:
+                passenger_car_transport_ice:
+                passenger_car_transport_ev:
+                passenger_car_transport_fcev:
+                passenger_car_ev_battery:
+                demand_passenger_car_transport:
+            IRL.techs:
+                passenger_car_transport_ice:
+                passenger_car_transport_ev:
+                passenger_car_transport_fcev:
+                passenger_car_ev_battery:
+                demand_passenger_car_transport:
+            ISL.techs:
+                passenger_car_transport_ice:
+                passenger_car_transport_ev:
+                passenger_car_transport_fcev:
+                passenger_car_ev_battery:
+                demand_passenger_car_transport:
+            ITA.techs:
+                passenger_car_transport_ice:
+                passenger_car_transport_ev:
+                passenger_car_transport_fcev:
+                passenger_car_ev_battery:
+                demand_passenger_car_transport:
+            LTU.techs:
+                passenger_car_transport_ice:
+                passenger_car_transport_ev:
+                passenger_car_transport_fcev:
+                passenger_car_ev_battery:
+                demand_passenger_car_transport:
+            LUX.techs:
+                passenger_car_transport_ice:
+                passenger_car_transport_ev:
+                passenger_car_transport_fcev:
+                passenger_car_ev_battery:
+                demand_passenger_car_transport:
+            LVA.techs:
+                passenger_car_transport_ice:
+                passenger_car_transport_ev:
+                passenger_car_transport_fcev:
+                passenger_car_ev_battery:
+                demand_passenger_car_transport:
+            MKD.techs:
+                passenger_car_transport_ice:
+                passenger_car_transport_ev:
+                passenger_car_transport_fcev:
+                passenger_car_ev_battery:
+                demand_passenger_car_transport:
+            MNE.techs:
+                passenger_car_transport_ice:
+                passenger_car_transport_ev:
+                passenger_car_transport_fcev:
+                passenger_car_ev_battery:
+                demand_passenger_car_transport:
+            NLD.techs:
+                passenger_car_transport_ice:
+                passenger_car_transport_ev:
+                passenger_car_transport_fcev:
+                passenger_car_ev_battery:
+                demand_passenger_car_transport:
+            NOR.techs:
+                passenger_car_transport_ice:
+                passenger_car_transport_ev:
+                passenger_car_transport_fcev:
+                passenger_car_ev_battery:
+                demand_passenger_car_transport:
+            POL.techs:
+                passenger_car_transport_ice:
+                passenger_car_transport_ev:
+                passenger_car_transport_fcev:
+                passenger_car_ev_battery:
+                demand_passenger_car_transport:
+            PRT.techs:
+                passenger_car_transport_ice:
+                passenger_car_transport_ev:
+                passenger_car_transport_fcev:
+                passenger_car_ev_battery:
+                demand_passenger_car_transport:
+            ROU.techs:
+                passenger_car_transport_ice:
+                passenger_car_transport_ev:
+                passenger_car_transport_fcev:
+                passenger_car_ev_battery:
+                demand_passenger_car_transport:
+            SRB.techs:
+                passenger_car_transport_ice:
+                passenger_car_transport_ev:
+                passenger_car_transport_fcev:
+                passenger_car_ev_battery:
+                demand_passenger_car_transport:
+            SVK.techs:
+                passenger_car_transport_ice:
+                passenger_car_transport_ev:
+                passenger_car_transport_fcev:
+                passenger_car_ev_battery:
+                demand_passenger_car_transport:
+            SVN.techs:
+                passenger_car_transport_ice:
+                passenger_car_transport_ev:
+                passenger_car_transport_fcev:
+                passenger_car_ev_battery:
+                demand_passenger_car_transport:
+            SWE.techs:
+                passenger_car_transport_ice:
+                passenger_car_transport_ev:
+                passenger_car_transport_fcev:
+                passenger_car_ev_battery:
+                demand_passenger_car_transport:
+                
+    light_duty_techs:    
+        techs:
+            light_duty_transport_ice:
+                exists: true
+                constraints:
+                    energy_eff: 2.0792723  # (0.001 Miokm/MWh)            
+            light_duty_transport_ev:
+                exists: true
+                constraints:
+                    energy_eff: 3.7037037 # (0.001 Miokm/MWh) 
+            light_duty_transport_fcev:
+                exists: true
+                constraints:
+                    energy_eff: 2.6481481  # (0.001 Miokm/MWh)same ratio between passenger_car_ev and light_duty_ev 
+        locations:
+            ALB.techs:            
+                light_duty_transport_ice:
+                light_duty_transport_ev:
+                light_duty_transport_fcev:
+                light_duty_ev_battery:
+                demand_light_duty_transport:          
+            AUT.techs:              
+                light_duty_transport_ice:
+                light_duty_transport_ev:
+                light_duty_transport_fcev:
+                light_duty_ev_battery:
+                demand_light_duty_transport:
+            BEL.techs:              
+                light_duty_transport_ice:
+                light_duty_transport_ev:
+                light_duty_transport_fcev:
+                light_duty_ev_battery:
+                demand_light_duty_transport:
+            BGR.techs:
+                light_duty_transport_ice:
+                light_duty_transport_ev:
+                light_duty_transport_fcev:
+                light_duty_ev_battery:
+                demand_light_duty_transport:
+            BIH.techs:
+                light_duty_transport_ice:
+                light_duty_transport_ev:
+                light_duty_transport_fcev:
+                light_duty_ev_battery:
+                demand_light_duty_transport:             
+            CHE.techs:               
+                light_duty_transport_ice:
+                light_duty_transport_ev:
+                light_duty_transport_fcev:
+                light_duty_ev_battery:
+                demand_light_duty_transport:
+            CYP.techs:
+                light_duty_transport_ice:
+                light_duty_transport_ev:
+                light_duty_transport_fcev:
+                light_duty_ev_battery:
+                demand_light_duty_transport:            
+            CZE.techs:
+                light_duty_transport_ice:
+                light_duty_transport_ev:
+                light_duty_transport_fcev:
+                light_duty_ev_battery:
+                demand_light_duty_transport:             
+            DEU.techs:
+                light_duty_transport_ice:
+                light_duty_transport_ev:
+                light_duty_transport_fcev:
+                light_duty_ev_battery:
+                demand_light_duty_transport:                     
+            DNK.techs:
+                light_duty_transport_ice:
+                light_duty_transport_ev:
+                light_duty_transport_fcev:
+                light_duty_ev_battery:
+                demand_light_duty_transport:             
+            ESP.techs:
+                light_duty_transport_ice:
+                light_duty_transport_ev:
+                light_duty_transport_fcev:
+                light_duty_ev_battery:
+                demand_light_duty_transport:             
+            EST.techs:
+                light_duty_transport_ice:
+                light_duty_transport_ev:
+                light_duty_transport_fcev:
+                light_duty_ev_battery:
+                demand_light_duty_transport:             
+            FIN.techs:                
+                light_duty_transport_ice:
+                light_duty_transport_ev:
+                light_duty_transport_fcev:
+                light_duty_ev_battery:
+                demand_light_duty_transport:             
+            FRA.techs:                
+                light_duty_transport_ice:
+                light_duty_transport_ev:
+                light_duty_transport_fcev:
+                light_duty_ev_battery:
+                demand_light_duty_transport:             
+            GBR.techs:                
+                light_duty_transport_ice:
+                light_duty_transport_ev:
+                light_duty_transport_fcev:
+                light_duty_ev_battery:
+                demand_light_duty_transport:             
+            GRC.techs:                
+                light_duty_transport_ice:
+                light_duty_transport_ev:
+                light_duty_transport_fcev:
+                light_duty_ev_battery:
+                demand_light_duty_transport:             
+            HRV.techs:                
+                light_duty_transport_ice:
+                light_duty_transport_ev:
+                light_duty_transport_fcev:
+                light_duty_ev_battery:
+                demand_light_duty_transport:             
+            HUN.techs:               
+                light_duty_transport_ice:
+                light_duty_transport_ev:
+                light_duty_transport_fcev:
+                light_duty_ev_battery:
+                demand_light_duty_transport:             
+            IRL.techs:                
+                light_duty_transport_ice:
+                light_duty_transport_ev:
+                light_duty_transport_fcev:
+                light_duty_ev_battery:
+                demand_light_duty_transport:             
+            ISL.techs:                
+                light_duty_transport_ice:
+                light_duty_transport_ev:
+                light_duty_transport_fcev:
+                light_duty_ev_battery:
+                demand_light_duty_transport:             
+            ITA.techs:                
+                light_duty_transport_ice:
+                light_duty_transport_ev:
+                light_duty_transport_fcev:
+                light_duty_ev_battery:
+                demand_light_duty_transport:             
+            LTU.techs:     
+                light_duty_transport_ice:
+                light_duty_transport_ev:
+                light_duty_transport_fcev:
+                light_duty_ev_battery:
+                demand_light_duty_transport:             
+            LUX.techs:                
+                light_duty_transport_ice:
+                light_duty_transport_ev:
+                light_duty_transport_fcev:
+                light_duty_ev_battery:
+                demand_light_duty_transport:             
+            LVA.techs:                
+                light_duty_transport_ice:
+                light_duty_transport_ev:
+                light_duty_transport_fcev:
+                light_duty_ev_battery:
+                demand_light_duty_transport:             
+            MKD.techs:                
+                light_duty_transport_ice:
+                light_duty_transport_ev:
+                light_duty_transport_fcev:
+                light_duty_ev_battery:
+                demand_light_duty_transport:             
+            MNE.techs:                
+                light_duty_transport_ice:
+                light_duty_transport_ev:
+                light_duty_transport_fcev:
+                light_duty_ev_battery:
+                demand_light_duty_transport:             
+            NLD.techs:                
+                light_duty_transport_ice:
+                light_duty_transport_ev:
+                light_duty_transport_fcev:
+                light_duty_ev_battery:
+                demand_light_duty_transport:             
+            NOR.techs:                
+                light_duty_transport_ice:
+                light_duty_transport_ev:
+                light_duty_transport_fcev:
+                light_duty_ev_battery:
+                demand_light_duty_transport:             
+            POL.techs:                
+                light_duty_transport_ice:
+                light_duty_transport_ev:
+                light_duty_transport_fcev:
+                light_duty_ev_battery:
+                demand_light_duty_transport:             
+            PRT.techs:                
+                light_duty_transport_ice:
+                light_duty_transport_ev:
+                light_duty_transport_fcev:
+                light_duty_ev_battery:
+                demand_light_duty_transport:             
+            ROU.techs:                
+                light_duty_transport_ice:
+                light_duty_transport_ev:
+                light_duty_transport_fcev:
+                light_duty_ev_battery:
+                demand_light_duty_transport:             
+            SRB.techs: 
+                light_duty_transport_ice:
+                light_duty_transport_ev:
+                light_duty_transport_fcev:
+                light_duty_ev_battery:
+                demand_light_duty_transport: 
+            SVK.techs:
+                light_duty_transport_ice:
+                light_duty_transport_ev:
+                light_duty_transport_fcev:
+                light_duty_ev_battery:
+                demand_light_duty_transport:             
+            SVN.techs:                
+                light_duty_transport_ice:
+                light_duty_transport_ev:
+                light_duty_transport_fcev:
+                light_duty_ev_battery:
+                demand_light_duty_transport:             
+            SWE.techs:            
+                light_duty_transport_ice:
+                light_duty_transport_ev:
+                light_duty_transport_fcev:
+                light_duty_ev_battery:
+                demand_light_duty_transport:             
+            
+    heavy_duty_techs:
+        techs:
+            heavy_duty_transport_ice:
+                exists: true
+                constraints:
+                    energy_eff: 0.3510592  # (0.001 Miokm/MWh)
+            heavy_duty_transport_ev:
+                exists: true
+                constraints:
+                    energy_eff: 0.5555556  # (0.001 Miokm/MWh)
+            heavy_duty_transport_fcev:
+                exists: true
+                constraints:
+                    energy_eff: 0.3972222 # (0.001 Miokm/MWh)                    
+        locations:
+            ALB.techs:            
+                heavy_duty_transport_ice:
+                heavy_duty_transport_ev:
+                heavy_duty_transport_fcev:
+                heavy_duty_ev_battery:
+                demand_heavy_duty_transport:          
+            AUT.techs:              
+                heavy_duty_transport_ice:
+                heavy_duty_transport_ev:
+                heavy_duty_transport_fcev:
+                heavy_duty_ev_battery:
+                demand_heavy_duty_transport:
+            BEL.techs:              
+                heavy_duty_transport_ice:
+                heavy_duty_transport_ev:
+                heavy_duty_transport_fcev:
+                heavy_duty_ev_battery:
+                demand_heavy_duty_transport:
+            BGR.techs:
+                heavy_duty_transport_ice:
+                heavy_duty_transport_ev:
+                heavy_duty_transport_fcev:
+                heavy_duty_ev_battery:
+                demand_heavy_duty_transport:
+            BIH.techs:
+                heavy_duty_transport_ice:
+                heavy_duty_transport_ev:
+                heavy_duty_transport_fcev:
+                heavy_duty_ev_battery:
+                demand_heavy_duty_transport:             
+            CHE.techs:               
+                heavy_duty_transport_ice:
+                heavy_duty_transport_ev:
+                heavy_duty_transport_fcev:
+                heavy_duty_ev_battery:
+                demand_heavy_duty_transport:
+            CYP.techs:
+                heavy_duty_transport_ice:
+                heavy_duty_transport_ev:
+                heavy_duty_transport_fcev:
+                heavy_duty_ev_battery:
+                demand_heavy_duty_transport:            
+            CZE.techs:
+                heavy_duty_transport_ice:
+                heavy_duty_transport_ev:
+                heavy_duty_transport_fcev:
+                heavy_duty_ev_battery:
+                demand_heavy_duty_transport:             
+            DEU.techs:
+                heavy_duty_transport_ice:
+                heavy_duty_transport_ev:
+                heavy_duty_transport_fcev:
+                heavy_duty_ev_battery:
+                demand_heavy_duty_transport:                     
+            DNK.techs:
+                heavy_duty_transport_ice:
+                heavy_duty_transport_ev:
+                heavy_duty_transport_fcev:
+                heavy_duty_ev_battery:
+                demand_heavy_duty_transport:             
+            ESP.techs:
+                heavy_duty_transport_ice:
+                heavy_duty_transport_ev:
+                heavy_duty_transport_fcev:
+                heavy_duty_ev_battery:
+                demand_heavy_duty_transport:             
+            EST.techs:
+                heavy_duty_transport_ice:
+                heavy_duty_transport_ev:
+                heavy_duty_transport_fcev:
+                heavy_duty_ev_battery:
+                demand_heavy_duty_transport:             
+            FIN.techs:                
+                heavy_duty_transport_ice:
+                heavy_duty_transport_ev:
+                heavy_duty_transport_fcev:
+                heavy_duty_ev_battery:
+                demand_heavy_duty_transport:             
+            FRA.techs:                
+                heavy_duty_transport_ice:
+                heavy_duty_transport_ev:
+                heavy_duty_transport_fcev:
+                heavy_duty_ev_battery:
+                demand_heavy_duty_transport:             
+            GBR.techs:                
+                heavy_duty_transport_ice:
+                heavy_duty_transport_ev:
+                heavy_duty_transport_fcev:
+                heavy_duty_ev_battery:
+                demand_heavy_duty_transport:             
+            GRC.techs:                
+                heavy_duty_transport_ice:
+                heavy_duty_transport_ev:
+                heavy_duty_transport_fcev:
+                heavy_duty_ev_battery:
+                demand_heavy_duty_transport:             
+            HRV.techs:                
+                heavy_duty_transport_ice:
+                heavy_duty_transport_ev:
+                heavy_duty_transport_fcev:
+                heavy_duty_ev_battery:
+                demand_heavy_duty_transport:             
+            HUN.techs:               
+                heavy_duty_transport_ice:
+                heavy_duty_transport_ev:
+                heavy_duty_transport_fcev:
+                heavy_duty_ev_battery:
+                demand_heavy_duty_transport:             
+            IRL.techs:                
+                heavy_duty_transport_ice:
+                heavy_duty_transport_ev:
+                heavy_duty_transport_fcev:
+                heavy_duty_ev_battery:
+                demand_heavy_duty_transport:             
+            ISL.techs:                
+                heavy_duty_transport_ice:
+                heavy_duty_transport_ev:
+                heavy_duty_transport_fcev:
+                heavy_duty_ev_battery:
+                demand_heavy_duty_transport:             
+            ITA.techs:                
+                heavy_duty_transport_ice:
+                heavy_duty_transport_ev:
+                heavy_duty_transport_fcev:
+                heavy_duty_ev_battery:
+                demand_heavy_duty_transport:             
+            LTU.techs:     
+                heavy_duty_transport_ice:
+                heavy_duty_transport_ev:
+                heavy_duty_transport_fcev:
+                heavy_duty_ev_battery:
+                demand_heavy_duty_transport:             
+            LUX.techs:                
+                heavy_duty_transport_ice:
+                heavy_duty_transport_ev:
+                heavy_duty_transport_fcev:
+                heavy_duty_ev_battery:
+                demand_heavy_duty_transport:             
+            LVA.techs:                
+                heavy_duty_transport_ice:
+                heavy_duty_transport_ev:
+                heavy_duty_transport_fcev:
+                heavy_duty_ev_battery:
+                demand_heavy_duty_transport:             
+            MKD.techs:                
+                heavy_duty_transport_ice:
+                heavy_duty_transport_ev:
+                heavy_duty_transport_fcev:
+                heavy_duty_ev_battery:
+                demand_heavy_duty_transport:             
+            MNE.techs:                
+                heavy_duty_transport_ice:
+                heavy_duty_transport_ev:
+                heavy_duty_transport_fcev:
+                heavy_duty_ev_battery:
+                demand_heavy_duty_transport:             
+            NLD.techs:                
+                heavy_duty_transport_ice:
+                heavy_duty_transport_ev:
+                heavy_duty_transport_fcev:
+                heavy_duty_ev_battery:
+                demand_heavy_duty_transport:             
+            NOR.techs:                
+                heavy_duty_transport_ice:
+                heavy_duty_transport_ev:
+                heavy_duty_transport_fcev:
+                heavy_duty_ev_battery:
+                demand_heavy_duty_transport:             
+            POL.techs:                
+                heavy_duty_transport_ice:
+                heavy_duty_transport_ev:
+                heavy_duty_transport_fcev:
+                heavy_duty_ev_battery:
+                demand_heavy_duty_transport:             
+            PRT.techs:                
+                heavy_duty_transport_ice:
+                heavy_duty_transport_ev:
+                heavy_duty_transport_fcev:
+                heavy_duty_ev_battery:
+                demand_heavy_duty_transport:             
+            ROU.techs:                
+                heavy_duty_transport_ice:
+                heavy_duty_transport_ev:
+                heavy_duty_transport_fcev:
+                heavy_duty_ev_battery:
+                demand_heavy_duty_transport:             
+            SRB.techs: 
+                heavy_duty_transport_ice:
+                heavy_duty_transport_ev:
+                heavy_duty_transport_fcev:
+                heavy_duty_ev_battery:
+                demand_heavy_duty_transport: 
+            SVK.techs:
+                heavy_duty_transport_ice:
+                heavy_duty_transport_ev:
+                heavy_duty_transport_fcev:
+                heavy_duty_ev_battery:
+                demand_heavy_duty_transport:             
+            SVN.techs:                
+                heavy_duty_transport_ice:
+                heavy_duty_transport_ev:
+                heavy_duty_transport_fcev:
+                heavy_duty_ev_battery:
+                demand_heavy_duty_transport:             
+            SWE.techs:            
+                heavy_duty_transport_ice:
+                heavy_duty_transport_ev:
+                heavy_duty_transport_fcev:
+                heavy_duty_ev_battery:
+                demand_heavy_duty_transport:  
+                
+    motorcycle_techs:         
+        techs:  
+            motorcycle_transport_ice:
+                exists: true      
+                constraints:
+                    energy_eff: 6.6295412 # (0.001 Miokm/MWh)        
+            motorcycle_transport_ev:
+                exists: true      
+                constraints:
+                    energy_eff: 13.8888889 # (0.001 Miokm/MWh)     
+        locations:
+            ALB.techs:
+                motorcycle_transport_ice:
+                motorcycle_transport_ev:
+                demand_motorcycle_transport:
+            AUT.techs:       
+                motorcycle_transport_ev:
+                motorcycle_transport_ice:
+                demand_motorcycle_transport:
+            BEL.techs:
+                motorcycle_transport_ev:
+                motorcycle_transport_ice:
+                demand_motorcycle_transport:   
+            BGR.techs:               
+                motorcycle_transport_ev:
+                motorcycle_transport_ice:
+                demand_motorcycle_transport:
+            BIH.techs:
+                motorcycle_transport_ev:
+                motorcycle_transport_ice:
+                demand_motorcycle_transport: 
+            CHE.techs:              
+                motorcycle_transport_ev:
+                motorcycle_transport_ice:
+                demand_motorcycle_transport:                
+            CYP.techs:  
+                motorcycle_transport_ev:
+                motorcycle_transport_ice:
+                demand_motorcycle_transport:  
+            CZE.techs:
+                motorcycle_transport_ev:
+                motorcycle_transport_ice:
+                demand_motorcycle_transport:            
+            DEU.techs:
+                motorcycle_transport_ev:
+                motorcycle_transport_ice:
+                demand_motorcycle_transport:            
+            DNK.techs:
+                motorcycle_transport_ev:
+                motorcycle_transport_ice:
+                demand_motorcycle_transport:            
+            ESP.techs:
+                motorcycle_transport_ev:
+                motorcycle_transport_ice:
+                demand_motorcycle_transport:            
+            EST.techs:
+                motorcycle_transport_ev:
+                motorcycle_transport_ice:
+                demand_motorcycle_transport:            
+            FIN.techs:                
+                motorcycle_transport_ev:
+                motorcycle_transport_ice:
+                demand_motorcycle_transport:            
+            FRA.techs:                
+                motorcycle_transport_ev:
+                motorcycle_transport_ice:
+                demand_motorcycle_transport:            
+            GBR.techs:                
+                motorcycle_transport_ev:
+                motorcycle_transport_ice:
+                demand_motorcycle_transport:            
+            GRC.techs:                
+                motorcycle_transport_ev:
+                motorcycle_transport_ice:
+                demand_motorcycle_transport:            
+            HRV.techs:                
+                motorcycle_transport_ev:
+                motorcycle_transport_ice:
+                demand_motorcycle_transport:            
+            HUN.techs:               
+                motorcycle_transport_ev:
+                motorcycle_transport_ice:
+                demand_motorcycle_transport:            
+            IRL.techs:                
+                motorcycle_transport_ev:
+                motorcycle_transport_ice:
+                demand_motorcycle_transport:            
+            ISL.techs:                
+                motorcycle_transport_ev:
+                motorcycle_transport_ice:
+                demand_motorcycle_transport:            
+            ITA.techs:                
+                motorcycle_transport_ev:
+                motorcycle_transport_ice:
+                demand_motorcycle_transport:            
+            LTU.techs:     
+                motorcycle_transport_ev:
+                motorcycle_transport_ice:
+                demand_motorcycle_transport:            
+            LUX.techs:                
+                motorcycle_transport_ev:
+                motorcycle_transport_ice:
+                demand_motorcycle_transport:            
+            LVA.techs:                
+                motorcycle_transport_ev:
+                motorcycle_transport_ice:
+                demand_motorcycle_transport:            
+            MKD.techs:                
+                motorcycle_transport_ev:
+                motorcycle_transport_ice:
+                demand_motorcycle_transport:            
+            MNE.techs:                
+                motorcycle_transport_ev:
+                motorcycle_transport_ice:
+                demand_motorcycle_transport:            
+            NLD.techs:                
+                motorcycle_transport_ev:
+                motorcycle_transport_ice:
+                demand_motorcycle_transport:            
+            NOR.techs:                
+                motorcycle_transport_ev:
+                motorcycle_transport_ice:
+                demand_motorcycle_transport:            
+            POL.techs:                
+                motorcycle_transport_ev:
+                motorcycle_transport_ice:
+                demand_motorcycle_transport:            
+            PRT.techs:                
+                motorcycle_transport_ev:
+                motorcycle_transport_ice:
+                demand_motorcycle_transport:            
+            ROU.techs:                
+                motorcycle_transport_ev:
+                motorcycle_transport_ice:
+                demand_motorcycle_transport:            
+            SRB.techs:                
+                motorcycle_transport_ev:
+                motorcycle_transport_ice:
+                demand_motorcycle_transport:            
+            SVK.techs:
+                motorcycle_transport_ev:
+                motorcycle_transport_ice:
+                demand_motorcycle_transport:            
+            SVN.techs:                
+                motorcycle_transport_ev:
+                motorcycle_transport_ice:
+                demand_motorcycle_transport:            
+            SWE.techs:
+                motorcycle_transport_ev:
+                motorcycle_transport_ice:
+                demand_motorcycle_transport:
+
+    bus_techs:
+        techs:  
+            bus_transport_ice:
+                exists: true      
+                constraints:
+                    energy_eff: 0.3310118 # (0.001 Miokm/MWh)        
+            bus_transport_ev:
+                exists: true      
+                constraints:
+                    energy_eff: 0.6172840 # (0.001 Miokm/MWh)              
+            bus_transport_fcev:
+                exists: true      
+                constraints:
+                    energy_eff: 0.4413580 # (0.001 Miokm/MWh) 
+                    
+        locations:
+            ALB.techs:            
+                bus_transport_ice:
+                bus_transport_ev:
+                bus_transport_fcev:
+                bus_ev_battery:
+                demand_bus_transport:          
+            AUT.techs:              
+                bus_transport_ice:
+                bus_transport_ev:
+                bus_transport_fcev:
+                bus_ev_battery:
+                demand_bus_transport:
+            BEL.techs:              
+                bus_transport_ice:
+                bus_transport_ev:
+                bus_transport_fcev:
+                bus_ev_battery:
+                demand_bus_transport:
+            BGR.techs:
+                bus_transport_ice:
+                bus_transport_ev:
+                bus_transport_fcev:
+                bus_ev_battery:
+                demand_bus_transport:
+            BIH.techs:
+                bus_transport_ice:
+                bus_transport_ev:
+                bus_transport_fcev:
+                bus_ev_battery:
+                demand_bus_transport:             
+            CHE.techs:               
+                bus_transport_ice:
+                bus_transport_ev:
+                bus_transport_fcev:
+                bus_ev_battery:
+                demand_bus_transport:
+            CYP.techs:
+                bus_transport_ice:
+                bus_transport_ev:
+                bus_transport_fcev:
+                bus_ev_battery:
+                demand_bus_transport:            
+            CZE.techs:
+                bus_transport_ice:
+                bus_transport_ev:
+                bus_transport_fcev:
+                bus_ev_battery:
+                demand_bus_transport:             
+            DEU.techs:
+                bus_transport_ice:
+                bus_transport_ev:
+                bus_transport_fcev:
+                bus_ev_battery:
+                demand_bus_transport:                     
+            DNK.techs:
+                bus_transport_ice:
+                bus_transport_ev:
+                bus_transport_fcev:
+                bus_ev_battery:
+                demand_bus_transport:             
+            ESP.techs:
+                bus_transport_ice:
+                bus_transport_ev:
+                bus_transport_fcev:
+                bus_ev_battery:
+                demand_bus_transport:             
+            EST.techs:
+                bus_transport_ice:
+                bus_transport_ev:
+                bus_transport_fcev:
+                bus_ev_battery:
+                demand_bus_transport:             
+            FIN.techs:                
+                bus_transport_ice:
+                bus_transport_ev:
+                bus_transport_fcev:
+                bus_ev_battery:
+                demand_bus_transport:             
+            FRA.techs:                
+                bus_transport_ice:
+                bus_transport_ev:
+                bus_transport_fcev:
+                bus_ev_battery:
+                demand_bus_transport:             
+            GBR.techs:                
+                bus_transport_ice:
+                bus_transport_ev:
+                bus_transport_fcev:
+                bus_ev_battery:
+                demand_bus_transport:             
+            GRC.techs:                
+                bus_transport_ice:
+                bus_transport_ev:
+                bus_transport_fcev:
+                bus_ev_battery:
+                demand_bus_transport:             
+            HRV.techs:                
+                bus_transport_ice:
+                bus_transport_ev:
+                bus_transport_fcev:
+                bus_ev_battery:
+                demand_bus_transport:             
+            HUN.techs:               
+                bus_transport_ice:
+                bus_transport_ev:
+                bus_transport_fcev:
+                bus_ev_battery:
+                demand_bus_transport:             
+            IRL.techs:                
+                bus_transport_ice:
+                bus_transport_ev:
+                bus_transport_fcev:
+                bus_ev_battery:
+                demand_bus_transport:             
+            ISL.techs:                
+                bus_transport_ice:
+                bus_transport_ev:
+                bus_transport_fcev:
+                bus_ev_battery:
+                demand_bus_transport:             
+            ITA.techs:                
+                bus_transport_ice:
+                bus_transport_ev:
+                bus_transport_fcev:
+                bus_ev_battery:
+                demand_bus_transport:             
+            LTU.techs:     
+                bus_transport_ice:
+                bus_transport_ev:
+                bus_transport_fcev:
+                bus_ev_battery:
+                demand_bus_transport:             
+            LUX.techs:                
+                bus_transport_ice:
+                bus_transport_ev:
+                bus_transport_fcev:
+                bus_ev_battery:
+                demand_bus_transport:             
+            LVA.techs:                
+                bus_transport_ice:
+                bus_transport_ev:
+                bus_transport_fcev:
+                bus_ev_battery:
+                demand_bus_transport:             
+            MKD.techs:                
+                bus_transport_ice:
+                bus_transport_ev:
+                bus_transport_fcev:
+                bus_ev_battery:
+                demand_bus_transport:             
+            MNE.techs:                
+                bus_transport_ice:
+                bus_transport_ev:
+                bus_transport_fcev:
+                bus_ev_battery:
+                demand_bus_transport:             
+            NLD.techs:                
+                bus_transport_ice:
+                bus_transport_ev:
+                bus_transport_fcev:
+                bus_ev_battery:
+                demand_bus_transport:             
+            NOR.techs:                
+                bus_transport_ice:
+                bus_transport_ev:
+                bus_transport_fcev:
+                bus_ev_battery:
+                demand_bus_transport:             
+            POL.techs:                
+                bus_transport_ice:
+                bus_transport_ev:
+                bus_transport_fcev:
+                bus_ev_battery:
+                demand_bus_transport:             
+            PRT.techs:                
+                bus_transport_ice:
+                bus_transport_ev:
+                bus_transport_fcev:
+                bus_ev_battery:
+                demand_bus_transport:             
+            ROU.techs:                
+                bus_transport_ice:
+                bus_transport_ev:
+                bus_transport_fcev:
+                bus_ev_battery:
+                demand_bus_transport:             
+            SRB.techs: 
+                bus_transport_ice:
+                bus_transport_ev:
+                bus_transport_fcev:
+                bus_ev_battery:
+                demand_bus_transport: 
+            SVK.techs:
+                bus_transport_ice:
+                bus_transport_ev:
+                bus_transport_fcev:
+                bus_ev_battery:
+                demand_bus_transport:             
+            SVN.techs:                
+                bus_transport_ice:
+                bus_transport_ev:
+                bus_transport_fcev:
+                bus_ev_battery:
+                demand_bus_transport:             
+            SWE.techs:            
+                bus_transport_ice:
+                bus_transport_ev:
+                bus_transport_fcev:
+                bus_ev_battery:
+                demand_bus_transport:  
+
+ 
+
+    
+    monthly_transport_demand_equality:
+        techs:
+            heavy_duty_transport_ev:
+                constraints:
+                    carrier_prod_per_month_equals_time_varying: file=demand-equals-heavy-ev.csv
+            light_duty_transport_ev:
+                constraints:
+                    carrier_prod_per_month_equals_time_varying: file=demand-equals-light-ev.csv  
+            motorcycle_transport_ev:
+                constraints:
+                    carrier_prod_per_month_equals_time_varying: file=demand-equals-light-ev.csv  
+
+    demand_share_passenger_car_transport:
+        group_constraints:
+            ALB_demand_share_passenger_car_transport:
+                techs: [passenger_car_transport_ev, passenger_car_transport_fcev, passenger_car_transport_ice]
+                locs: [ALB]
+                demand_share_per_timestep_decision.passenger_car_transport: .inf
+                
+            AUT_demand_share_passenger_car_transport:
+                techs: [passenger_car_transport_ev, passenger_car_transport_fcev, passenger_car_transport_ice]
+                locs: [AUT]
+                demand_share_per_timestep_decision.passenger_car_transport: .inf
+                
+            BEL_demand_share_passenger_car_transport:
+                techs: [passenger_car_transport_ev, passenger_car_transport_fcev, passenger_car_transport_ice]
+                locs: [BEL]
+                demand_share_per_timestep_decision.passenger_car_transport: .inf     
+
+            BGR_demand_share_passenger_car_transport:
+                techs: [passenger_car_transport_ev, passenger_car_transport_fcev, passenger_car_transport_ice]
+                locs: [BGR]
+                demand_share_per_timestep_decision.passenger_car_transport: .inf  
+
+            BIH_demand_share_passenger_car_transport:
+                techs: [passenger_car_transport_ev, passenger_car_transport_fcev, passenger_car_transport_ice]
+                locs: [BIH]
+                demand_share_per_timestep_decision.passenger_car_transport: .inf  
+
+            CHE_demand_share_passenger_car_transport:
+                techs: [passenger_car_transport_ev, passenger_car_transport_fcev, passenger_car_transport_ice]
+                locs: [CHE]
+                demand_share_per_timestep_decision.passenger_car_transport: .inf  
+
+            CYP_demand_share_passenger_car_transport:
+                techs: [passenger_car_transport_ev, passenger_car_transport_fcev, passenger_car_transport_ice]
+                locs: [CYP]
+                demand_share_per_timestep_decision.passenger_car_transport: .inf  
+
+            CZE_demand_share_passenger_car_transport:
+                techs: [passenger_car_transport_ev, passenger_car_transport_fcev, passenger_car_transport_ice]
+                locs: [CZE]
+                demand_share_per_timestep_decision.passenger_car_transport: .inf  
+
+            DEU_demand_share_passenger_car_transport:
+                techs: [passenger_car_transport_ev, passenger_car_transport_fcev, passenger_car_transport_ice]
+                locs: [DEU]
+                demand_share_per_timestep_decision.passenger_car_transport: .inf  
+
+            DNK_demand_share_passenger_car_transport:
+                techs: [passenger_car_transport_ev, passenger_car_transport_fcev, passenger_car_transport_ice]
+                locs: [DNK]
+                demand_share_per_timestep_decision.passenger_car_transport: .inf  
+
+            ESP_demand_share_passenger_car_transport:
+                techs: [passenger_car_transport_ev, passenger_car_transport_fcev, passenger_car_transport_ice]
+                locs: [ESP]
+                demand_share_per_timestep_decision.passenger_car_transport: .inf  
+
+            EST_demand_share_passenger_car_transport:
+                techs: [passenger_car_transport_ev, passenger_car_transport_fcev, passenger_car_transport_ice]
+                locs: [EST]
+                demand_share_per_timestep_decision.passenger_car_transport: .inf  
+
+            FIN_demand_share_passenger_car_transport:
+                techs: [passenger_car_transport_ev, passenger_car_transport_fcev, passenger_car_transport_ice]
+                locs: [FIN]
+                demand_share_per_timestep_decision.passenger_car_transport: .inf  
+
+            FRA_demand_share_passenger_car_transport:
+                techs: [passenger_car_transport_ev, passenger_car_transport_fcev, passenger_car_transport_ice]
+                locs: [FRA]
+                demand_share_per_timestep_decision.passenger_car_transport: .inf     
+
+            GBR_demand_share_passenger_car_transport:
+                techs: [passenger_car_transport_ev, passenger_car_transport_fcev, passenger_car_transport_ice]
+                locs: [GBR]
+                demand_share_per_timestep_decision.passenger_car_transport: .inf   
+
+            GRC_demand_share_passenger_car_transport:
+                techs: [passenger_car_transport_ev, passenger_car_transport_fcev, passenger_car_transport_ice]
+                locs: [GRC]
+                demand_share_per_timestep_decision.passenger_car_transport: .inf   
+
+            HRV_demand_share_passenger_car_transport:
+                techs: [passenger_car_transport_ev, passenger_car_transport_fcev, passenger_car_transport_ice]
+                locs: [HRV]
+                demand_share_per_timestep_decision.passenger_car_transport: .inf   
+
+            HUN_demand_share_passenger_car_transport:
+                techs: [passenger_car_transport_ev, passenger_car_transport_fcev, passenger_car_transport_ice]
+                locs: [HUN]
+                demand_share_per_timestep_decision.passenger_car_transport: .inf   
+
+            IRL_demand_share_passenger_car_transport:
+                techs: [passenger_car_transport_ev, passenger_car_transport_fcev, passenger_car_transport_ice]
+                locs: [IRL]
+                demand_share_per_timestep_decision.passenger_car_transport: .inf   
+
+            ISL_demand_share_passenger_car_transport:
+                techs: [passenger_car_transport_ev, passenger_car_transport_fcev, passenger_car_transport_ice]
+                locs: [ISL]
+                demand_share_per_timestep_decision.passenger_car_transport: .inf   
+
+            ITA_demand_share_passenger_car_transport:
+                techs: [passenger_car_transport_ev, passenger_car_transport_fcev, passenger_car_transport_ice]
+                locs: [ITA]
+                demand_share_per_timestep_decision.passenger_car_transport: .inf
+                
+            LTU_demand_share_passenger_car_transport:
+                techs: [passenger_car_transport_ev, passenger_car_transport_fcev, passenger_car_transport_ice]
+                locs: [LTU]
+                demand_share_per_timestep_decision.passenger_car_transport: .inf
+                
+            LUX_demand_share_passenger_car_transport:
+                techs: [passenger_car_transport_ev, passenger_car_transport_fcev, passenger_car_transport_ice]
+                locs: [LUX]
+                demand_share_per_timestep_decision.passenger_car_transport: .inf     
+
+            LVA_demand_share_passenger_car_transport:
+                techs: [passenger_car_transport_ev, passenger_car_transport_fcev, passenger_car_transport_ice]
+                locs: [LVA]
+                demand_share_per_timestep_decision.passenger_car_transport: .inf  
+
+            MKD_demand_share_passenger_car_transport:
+                techs: [passenger_car_transport_ev, passenger_car_transport_fcev, passenger_car_transport_ice]
+                locs: [MKD]
+                demand_share_per_timestep_decision.passenger_car_transport: .inf  
+
+            MNE_demand_share_passenger_car_transport:
+                techs: [passenger_car_transport_ev, passenger_car_transport_fcev, passenger_car_transport_ice]
+                locs: [MNE]
+                demand_share_per_timestep_decision.passenger_car_transport: .inf  
+
+            NLD_demand_share_passenger_car_transport:
+                techs: [passenger_car_transport_ev, passenger_car_transport_fcev, passenger_car_transport_ice]
+                locs: [NLD]
+                demand_share_per_timestep_decision.passenger_car_transport: .inf  
+
+            NOR_demand_share_passenger_car_transport:
+                techs: [passenger_car_transport_ev, passenger_car_transport_fcev, passenger_car_transport_ice]
+                locs: [NOR]
+                demand_share_per_timestep_decision.passenger_car_transport: .inf  
+
+            POL_demand_share_passenger_car_transport:
+                techs: [passenger_car_transport_ev, passenger_car_transport_fcev, passenger_car_transport_ice]
+                locs: [POL]
+                demand_share_per_timestep_decision.passenger_car_transport: .inf  
+
+            PRT_demand_share_passenger_car_transport:
+                techs: [passenger_car_transport_ev, passenger_car_transport_fcev, passenger_car_transport_ice]
+                locs: [PRT]
+                demand_share_per_timestep_decision.passenger_car_transport: .inf  
+
+            ROU_demand_share_passenger_car_transport:
+                techs: [passenger_car_transport_ev, passenger_car_transport_fcev, passenger_car_transport_ice]
+                locs: [ROU]
+                demand_share_per_timestep_decision.passenger_car_transport: .inf  
+
+            SRB_demand_share_passenger_car_transport:
+                techs: [passenger_car_transport_ev, passenger_car_transport_fcev, passenger_car_transport_ice]
+                locs: [SRB]
+                demand_share_per_timestep_decision.passenger_car_transport: .inf  
+
+            SVK_demand_share_passenger_car_transport:
+                techs: [passenger_car_transport_ev, passenger_car_transport_fcev, passenger_car_transport_ice]
+                locs: [SVK]
+                demand_share_per_timestep_decision.passenger_car_transport: .inf  
+
+            SVN_demand_share_passenger_car_transport:
+                techs: [passenger_car_transport_ev, passenger_car_transport_fcev, passenger_car_transport_ice]
+                locs: [SVN]
+                demand_share_per_timestep_decision.passenger_car_transport: .inf     
+
+            SWE_demand_share_passenger_car_transport:
+                techs: [passenger_car_transport_ev, passenger_car_transport_fcev, passenger_car_transport_ice]
+                locs: [SWE]
+                demand_share_per_timestep_decision.passenger_car_transport: .inf
+
+    demand_share_light_duty_transport:
+        group_constraints:
+            ALB_demand_share_light_duty_transport:
+                techs: [light_duty_transport_ev, light_duty_transport_fcev, light_duty_transport_ice]
+                locs: [ALB]
+                demand_share_per_timestep_decision.light_duty_transport: .inf
+                
+            AUT_demand_share_light_duty_transport:
+                techs: [light_duty_transport_ev, light_duty_transport_fcev, light_duty_transport_ice]
+                locs: [AUT]
+                demand_share_per_timestep_decision.light_duty_transport: .inf
+                
+            BEL_demand_share_light_duty_transport:
+                techs: [light_duty_transport_ev, light_duty_transport_fcev, light_duty_transport_ice]
+                locs: [BEL]
+                demand_share_per_timestep_decision.light_duty_transport: .inf     
+
+            BGR_demand_share_light_duty_transport:
+                techs: [light_duty_transport_ev, light_duty_transport_fcev, light_duty_transport_ice]
+                locs: [BGR]
+                demand_share_per_timestep_decision.light_duty_transport: .inf  
+
+            BIH_demand_share_light_duty_transport:
+                techs: [light_duty_transport_ev, light_duty_transport_fcev, light_duty_transport_ice]
+                locs: [BIH]
+                demand_share_per_timestep_decision.light_duty_transport: .inf  
+
+            CHE_demand_share_light_duty_transport:
+                techs: [light_duty_transport_ev, light_duty_transport_fcev, light_duty_transport_ice]
+                locs: [CHE]
+                demand_share_per_timestep_decision.light_duty_transport: .inf  
+
+            CYP_demand_share_light_duty_transport:
+                techs: [light_duty_transport_ev, light_duty_transport_fcev, light_duty_transport_ice]
+                locs: [CYP]
+                demand_share_per_timestep_decision.light_duty_transport: .inf  
+
+            CZE_demand_share_light_duty_transport:
+                techs: [light_duty_transport_ev, light_duty_transport_fcev, light_duty_transport_ice]
+                locs: [CZE]
+                demand_share_per_timestep_decision.light_duty_transport: .inf  
+
+            DEU_demand_share_light_duty_transport:
+                techs: [light_duty_transport_ev, light_duty_transport_fcev, light_duty_transport_ice]
+                locs: [DEU]
+                demand_share_per_timestep_decision.light_duty_transport: .inf  
+
+            DNK_demand_share_light_duty_transport:
+                techs: [light_duty_transport_ev, light_duty_transport_fcev, light_duty_transport_ice]
+                locs: [DNK]
+                demand_share_per_timestep_decision.light_duty_transport: .inf  
+
+            ESP_demand_share_light_duty_transport:
+                techs: [light_duty_transport_ev, light_duty_transport_fcev, light_duty_transport_ice]
+                locs: [ESP]
+                demand_share_per_timestep_decision.light_duty_transport: .inf  
+
+            EST_demand_share_light_duty_transport:
+                techs: [light_duty_transport_ev, light_duty_transport_fcev, light_duty_transport_ice]
+                locs: [EST]
+                demand_share_per_timestep_decision.light_duty_transport: .inf  
+
+            FIN_demand_share_light_duty_transport:
+                techs: [light_duty_transport_ev, light_duty_transport_fcev, light_duty_transport_ice]
+                locs: [FIN]
+                demand_share_per_timestep_decision.light_duty_transport: .inf  
+
+            FRA_demand_share_light_duty_transport:
+                techs: [light_duty_transport_ev, light_duty_transport_fcev, light_duty_transport_ice]
+                locs: [FRA]
+                demand_share_per_timestep_decision.light_duty_transport: .inf     
+
+            GBR_demand_share_light_duty_transport:
+                techs: [light_duty_transport_ev, light_duty_transport_fcev, light_duty_transport_ice]
+                locs: [GBR]
+                demand_share_per_timestep_decision.light_duty_transport: .inf   
+
+            GRC_demand_share_light_duty_transport:
+                techs: [light_duty_transport_ev, light_duty_transport_fcev, light_duty_transport_ice]
+                locs: [GRC]
+                demand_share_per_timestep_decision.light_duty_transport: .inf   
+
+            HRV_demand_share_light_duty_transport:
+                techs: [light_duty_transport_ev, light_duty_transport_fcev, light_duty_transport_ice]
+                locs: [HRV]
+                demand_share_per_timestep_decision.light_duty_transport: .inf   
+
+            HUN_demand_share_light_duty_transport:
+                techs: [light_duty_transport_ev, light_duty_transport_fcev, light_duty_transport_ice]
+                locs: [HUN]
+                demand_share_per_timestep_decision.light_duty_transport: .inf   
+
+            IRL_demand_share_light_duty_transport:
+                techs: [light_duty_transport_ev, light_duty_transport_fcev, light_duty_transport_ice]
+                locs: [IRL]
+                demand_share_per_timestep_decision.light_duty_transport: .inf   
+
+            ISL_demand_share_light_duty_transport:
+                techs: [light_duty_transport_ev, light_duty_transport_fcev, light_duty_transport_ice]
+                locs: [ISL]
+                demand_share_per_timestep_decision.light_duty_transport: .inf   
+
+            ITA_demand_share_light_duty_transport:
+                techs: [light_duty_transport_ev, light_duty_transport_fcev, light_duty_transport_ice]
+                locs: [ITA]
+                demand_share_per_timestep_decision.light_duty_transport: .inf
+                
+            LTU_demand_share_light_duty_transport:
+                techs: [light_duty_transport_ev, light_duty_transport_fcev, light_duty_transport_ice]
+                locs: [LTU]
+                demand_share_per_timestep_decision.light_duty_transport: .inf
+                
+            LUX_demand_share_light_duty_transport:
+                techs: [light_duty_transport_ev, light_duty_transport_fcev, light_duty_transport_ice]
+                locs: [LUX]
+                demand_share_per_timestep_decision.light_duty_transport: .inf     
+
+            LVA_demand_share_light_duty_transport:
+                techs: [light_duty_transport_ev, light_duty_transport_fcev, light_duty_transport_ice]
+                locs: [LVA]
+                demand_share_per_timestep_decision.light_duty_transport: .inf  
+
+            MKD_demand_share_light_duty_transport:
+                techs: [light_duty_transport_ev, light_duty_transport_fcev, light_duty_transport_ice]
+                locs: [MKD]
+                demand_share_per_timestep_decision.light_duty_transport: .inf  
+
+            MNE_demand_share_light_duty_transport:
+                techs: [light_duty_transport_ev, light_duty_transport_fcev, light_duty_transport_ice]
+                locs: [MNE]
+                demand_share_per_timestep_decision.light_duty_transport: .inf  
+
+            NLD_demand_share_light_duty_transport:
+                techs: [light_duty_transport_ev, light_duty_transport_fcev, light_duty_transport_ice]
+                locs: [NLD]
+                demand_share_per_timestep_decision.light_duty_transport: .inf  
+
+            NOR_demand_share_light_duty_transport:
+                techs: [light_duty_transport_ev, light_duty_transport_fcev, light_duty_transport_ice]
+                locs: [NOR]
+                demand_share_per_timestep_decision.light_duty_transport: .inf  
+
+            POL_demand_share_light_duty_transport:
+                techs: [light_duty_transport_ev, light_duty_transport_fcev, light_duty_transport_ice]
+                locs: [POL]
+                demand_share_per_timestep_decision.light_duty_transport: .inf  
+
+            PRT_demand_share_light_duty_transport:
+                techs: [light_duty_transport_ev, light_duty_transport_fcev, light_duty_transport_ice]
+                locs: [PRT]
+                demand_share_per_timestep_decision.light_duty_transport: .inf  
+
+            ROU_demand_share_light_duty_transport:
+                techs: [light_duty_transport_ev, light_duty_transport_fcev, light_duty_transport_ice]
+                locs: [ROU]
+                demand_share_per_timestep_decision.light_duty_transport: .inf  
+
+            SRB_demand_share_light_duty_transport:
+                techs: [light_duty_transport_ev, light_duty_transport_fcev, light_duty_transport_ice]
+                locs: [SRB]
+                demand_share_per_timestep_decision.light_duty_transport: .inf  
+
+            SVK_demand_share_light_duty_transport:
+                techs: [light_duty_transport_ev, light_duty_transport_fcev, light_duty_transport_ice]
+                locs: [SVK]
+                demand_share_per_timestep_decision.light_duty_transport: .inf  
+
+            SVN_demand_share_light_duty_transport:
+                techs: [light_duty_transport_ev, light_duty_transport_fcev, light_duty_transport_ice]
+                locs: [SVN]
+                demand_share_per_timestep_decision.light_duty_transport: .inf     
+
+            SWE_demand_share_light_duty_transport:
+                techs: [light_duty_transport_ev, light_duty_transport_fcev, light_duty_transport_ice]
+                locs: [SWE]
+                demand_share_per_timestep_decision.light_duty_transport: .inf
+
+    demand_share_heavy_duty_transport:
+        group_constraints:
+            ALB_demand_share_heavy_duty_transport:
+                techs: [heavy_duty_transport_ev, heavy_duty_transport_fcev, heavy_duty_transport_ice]
+                locs: [ALB]
+                demand_share_per_timestep_decision.heavy_duty_transport: .inf
+                
+            AUT_demand_share_heavy_duty_transport:
+                techs: [heavy_duty_transport_ev, heavy_duty_transport_fcev, heavy_duty_transport_ice]
+                locs: [AUT]
+                demand_share_per_timestep_decision.heavy_duty_transport: .inf
+                
+            BEL_demand_share_heavy_duty_transport:
+                techs: [heavy_duty_transport_ev, heavy_duty_transport_fcev, heavy_duty_transport_ice]
+                locs: [BEL]
+                demand_share_per_timestep_decision.heavy_duty_transport: .inf     
+
+            BGR_demand_share_heavy_duty_transport:
+                techs: [heavy_duty_transport_ev, heavy_duty_transport_fcev, heavy_duty_transport_ice]
+                locs: [BGR]
+                demand_share_per_timestep_decision.heavy_duty_transport: .inf  
+
+            BIH_demand_share_heavy_duty_transport:
+                techs: [heavy_duty_transport_ev, heavy_duty_transport_fcev, heavy_duty_transport_ice]
+                locs: [BIH]
+                demand_share_per_timestep_decision.heavy_duty_transport: .inf  
+
+            CHE_demand_share_heavy_duty_transport:
+                techs: [heavy_duty_transport_ev, heavy_duty_transport_fcev, heavy_duty_transport_ice]
+                locs: [CHE]
+                demand_share_per_timestep_decision.heavy_duty_transport: .inf  
+
+            CYP_demand_share_heavy_duty_transport:
+                techs: [heavy_duty_transport_ev, heavy_duty_transport_fcev, heavy_duty_transport_ice]
+                locs: [CYP]
+                demand_share_per_timestep_decision.heavy_duty_transport: .inf  
+
+            CZE_demand_share_heavy_duty_transport:
+                techs: [heavy_duty_transport_ev, heavy_duty_transport_fcev, heavy_duty_transport_ice]
+                locs: [CZE]
+                demand_share_per_timestep_decision.heavy_duty_transport: .inf  
+
+            DEU_demand_share_heavy_duty_transport:
+                techs: [heavy_duty_transport_ev, heavy_duty_transport_fcev, heavy_duty_transport_ice]
+                locs: [DEU]
+                demand_share_per_timestep_decision.heavy_duty_transport: .inf  
+
+            DNK_demand_share_heavy_duty_transport:
+                techs: [heavy_duty_transport_ev, heavy_duty_transport_fcev, heavy_duty_transport_ice]
+                locs: [DNK]
+                demand_share_per_timestep_decision.heavy_duty_transport: .inf  
+
+            ESP_demand_share_heavy_duty_transport:
+                techs: [heavy_duty_transport_ev, heavy_duty_transport_fcev, heavy_duty_transport_ice]
+                locs: [ESP]
+                demand_share_per_timestep_decision.heavy_duty_transport: .inf  
+
+            EST_demand_share_heavy_duty_transport:
+                techs: [heavy_duty_transport_ev, heavy_duty_transport_fcev, heavy_duty_transport_ice]
+                locs: [EST]
+                demand_share_per_timestep_decision.heavy_duty_transport: .inf  
+
+            FIN_demand_share_heavy_duty_transport:
+                techs: [heavy_duty_transport_ev, heavy_duty_transport_fcev, heavy_duty_transport_ice]
+                locs: [FIN]
+                demand_share_per_timestep_decision.heavy_duty_transport: .inf  
+
+            FRA_demand_share_heavy_duty_transport:
+                techs: [heavy_duty_transport_ev, heavy_duty_transport_fcev, heavy_duty_transport_ice]
+                locs: [FRA]
+                demand_share_per_timestep_decision.heavy_duty_transport: .inf     
+
+            GBR_demand_share_heavy_duty_transport:
+                techs: [heavy_duty_transport_ev, heavy_duty_transport_fcev, heavy_duty_transport_ice]
+                locs: [GBR]
+                demand_share_per_timestep_decision.heavy_duty_transport: .inf   
+
+            GRC_demand_share_heavy_duty_transport:
+                techs: [heavy_duty_transport_ev, heavy_duty_transport_fcev, heavy_duty_transport_ice]
+                locs: [GRC]
+                demand_share_per_timestep_decision.heavy_duty_transport: .inf   
+
+            HRV_demand_share_heavy_duty_transport:
+                techs: [heavy_duty_transport_ev, heavy_duty_transport_fcev, heavy_duty_transport_ice]
+                locs: [HRV]
+                demand_share_per_timestep_decision.heavy_duty_transport: .inf   
+
+            HUN_demand_share_heavy_duty_transport:
+                techs: [heavy_duty_transport_ev, heavy_duty_transport_fcev, heavy_duty_transport_ice]
+                locs: [HUN]
+                demand_share_per_timestep_decision.heavy_duty_transport: .inf   
+
+            IRL_demand_share_heavy_duty_transport:
+                techs: [heavy_duty_transport_ev, heavy_duty_transport_fcev, heavy_duty_transport_ice]
+                locs: [IRL]
+                demand_share_per_timestep_decision.heavy_duty_transport: .inf   
+
+            ISL_demand_share_heavy_duty_transport:
+                techs: [heavy_duty_transport_ev, heavy_duty_transport_fcev, heavy_duty_transport_ice]
+                locs: [ISL]
+                demand_share_per_timestep_decision.heavy_duty_transport: .inf   
+
+            ITA_demand_share_heavy_duty_transport:
+                techs: [heavy_duty_transport_ev, heavy_duty_transport_fcev, heavy_duty_transport_ice]
+                locs: [ITA]
+                demand_share_per_timestep_decision.heavy_duty_transport: .inf
+                
+            LTU_demand_share_heavy_duty_transport:
+                techs: [heavy_duty_transport_ev, heavy_duty_transport_fcev, heavy_duty_transport_ice]
+                locs: [LTU]
+                demand_share_per_timestep_decision.heavy_duty_transport: .inf
+                
+            LUX_demand_share_heavy_duty_transport:
+                techs: [heavy_duty_transport_ev, heavy_duty_transport_fcev, heavy_duty_transport_ice]
+                locs: [LUX]
+                demand_share_per_timestep_decision.heavy_duty_transport: .inf     
+
+            LVA_demand_share_heavy_duty_transport:
+                techs: [heavy_duty_transport_ev, heavy_duty_transport_fcev, heavy_duty_transport_ice]
+                locs: [LVA]
+                demand_share_per_timestep_decision.heavy_duty_transport: .inf  
+
+            MKD_demand_share_heavy_duty_transport:
+                techs: [heavy_duty_transport_ev, heavy_duty_transport_fcev, heavy_duty_transport_ice]
+                locs: [MKD]
+                demand_share_per_timestep_decision.heavy_duty_transport: .inf  
+
+            MNE_demand_share_heavy_duty_transport:
+                techs: [heavy_duty_transport_ev, heavy_duty_transport_fcev, heavy_duty_transport_ice]
+                locs: [MNE]
+                demand_share_per_timestep_decision.heavy_duty_transport: .inf  
+
+            NLD_demand_share_heavy_duty_transport:
+                techs: [heavy_duty_transport_ev, heavy_duty_transport_fcev, heavy_duty_transport_ice]
+                locs: [NLD]
+                demand_share_per_timestep_decision.heavy_duty_transport: .inf  
+
+            NOR_demand_share_heavy_duty_transport:
+                techs: [heavy_duty_transport_ev, heavy_duty_transport_fcev, heavy_duty_transport_ice]
+                locs: [NOR]
+                demand_share_per_timestep_decision.heavy_duty_transport: .inf  
+
+            POL_demand_share_heavy_duty_transport:
+                techs: [heavy_duty_transport_ev, heavy_duty_transport_fcev, heavy_duty_transport_ice]
+                locs: [POL]
+                demand_share_per_timestep_decision.heavy_duty_transport: .inf  
+
+            PRT_demand_share_heavy_duty_transport:
+                techs: [heavy_duty_transport_ev, heavy_duty_transport_fcev, heavy_duty_transport_ice]
+                locs: [PRT]
+                demand_share_per_timestep_decision.heavy_duty_transport: .inf  
+
+            ROU_demand_share_heavy_duty_transport:
+                techs: [heavy_duty_transport_ev, heavy_duty_transport_fcev, heavy_duty_transport_ice]
+                locs: [ROU]
+                demand_share_per_timestep_decision.heavy_duty_transport: .inf  
+
+            SRB_demand_share_heavy_duty_transport:
+                techs: [heavy_duty_transport_ev, heavy_duty_transport_fcev, heavy_duty_transport_ice]
+                locs: [SRB]
+                demand_share_per_timestep_decision.heavy_duty_transport: .inf  
+
+            SVK_demand_share_heavy_duty_transport:
+                techs: [heavy_duty_transport_ev, heavy_duty_transport_fcev, heavy_duty_transport_ice]
+                locs: [SVK]
+                demand_share_per_timestep_decision.heavy_duty_transport: .inf  
+
+            SVN_demand_share_heavy_duty_transport:
+                techs: [heavy_duty_transport_ev, heavy_duty_transport_fcev, heavy_duty_transport_ice]
+                locs: [SVN]
+                demand_share_per_timestep_decision.heavy_duty_transport: .inf     
+
+            SWE_demand_share_heavy_duty_transport:
+                techs: [heavy_duty_transport_ev, heavy_duty_transport_fcev, heavy_duty_transport_ice]
+                locs: [SWE]
+                demand_share_per_timestep_decision.heavy_duty_transport: .inf
+
+    demand_share_bus_transport:
+        group_constraints:
+            ALB_demand_share_bus_transport:
+                techs: [bus_transport_ev, bus_transport_fcev, bus_transport_ice]
+                locs: [ALB]
+                demand_share_per_timestep_decision.bus_transport: .inf
+                
+            AUT_demand_share_bus_transport:
+                techs: [bus_transport_ev, bus_transport_fcev, bus_transport_ice]
+                locs: [AUT]
+                demand_share_per_timestep_decision.bus_transport: .inf
+                
+            BEL_demand_share_bus_transport:
+                techs: [bus_transport_ev, bus_transport_fcev, bus_transport_ice]
+                locs: [BEL]
+                demand_share_per_timestep_decision.bus_transport: .inf     
+
+            BGR_demand_share_bus_transport:
+                techs: [bus_transport_ev, bus_transport_fcev, bus_transport_ice]
+                locs: [BGR]
+                demand_share_per_timestep_decision.bus_transport: .inf  
+
+            BIH_demand_share_bus_transport:
+                techs: [bus_transport_ev, bus_transport_fcev, bus_transport_ice]
+                locs: [BIH]
+                demand_share_per_timestep_decision.bus_transport: .inf  
+
+            CHE_demand_share_bus_transport:
+                techs: [bus_transport_ev, bus_transport_fcev, bus_transport_ice]
+                locs: [CHE]
+                demand_share_per_timestep_decision.bus_transport: .inf  
+
+            CYP_demand_share_bus_transport:
+                techs: [bus_transport_ev, bus_transport_fcev, bus_transport_ice]
+                locs: [CYP]
+                demand_share_per_timestep_decision.bus_transport: .inf  
+
+            CZE_demand_share_bus_transport:
+                techs: [bus_transport_ev, bus_transport_fcev, bus_transport_ice]
+                locs: [CZE]
+                demand_share_per_timestep_decision.bus_transport: .inf  
+
+            DEU_demand_share_bus_transport:
+                techs: [bus_transport_ev, bus_transport_fcev, bus_transport_ice]
+                locs: [DEU]
+                demand_share_per_timestep_decision.bus_transport: .inf  
+
+            DNK_demand_share_bus_transport:
+                techs: [bus_transport_ev, bus_transport_fcev, bus_transport_ice]
+                locs: [DNK]
+                demand_share_per_timestep_decision.bus_transport: .inf  
+
+            ESP_demand_share_bus_transport:
+                techs: [bus_transport_ev, bus_transport_fcev, bus_transport_ice]
+                locs: [ESP]
+                demand_share_per_timestep_decision.bus_transport: .inf  
+
+            EST_demand_share_bus_transport:
+                techs: [bus_transport_ev, bus_transport_fcev, bus_transport_ice]
+                locs: [EST]
+                demand_share_per_timestep_decision.bus_transport: .inf  
+
+            FIN_demand_share_bus_transport:
+                techs: [bus_transport_ev, bus_transport_fcev, bus_transport_ice]
+                locs: [FIN]
+                demand_share_per_timestep_decision.bus_transport: .inf  
+
+            FRA_demand_share_bus_transport:
+                techs: [bus_transport_ev, bus_transport_fcev, bus_transport_ice]
+                locs: [FRA]
+                demand_share_per_timestep_decision.bus_transport: .inf     
+
+            GBR_demand_share_bus_transport:
+                techs: [bus_transport_ev, bus_transport_fcev, bus_transport_ice]
+                locs: [GBR]
+                demand_share_per_timestep_decision.bus_transport: .inf   
+
+            GRC_demand_share_bus_transport:
+                techs: [bus_transport_ev, bus_transport_fcev, bus_transport_ice]
+                locs: [GRC]
+                demand_share_per_timestep_decision.bus_transport: .inf   
+
+            HRV_demand_share_bus_transport:
+                techs: [bus_transport_ev, bus_transport_fcev, bus_transport_ice]
+                locs: [HRV]
+                demand_share_per_timestep_decision.bus_transport: .inf   
+
+            HUN_demand_share_bus_transport:
+                techs: [bus_transport_ev, bus_transport_fcev, bus_transport_ice]
+                locs: [HUN]
+                demand_share_per_timestep_decision.bus_transport: .inf   
+
+            IRL_demand_share_bus_transport:
+                techs: [bus_transport_ev, bus_transport_fcev, bus_transport_ice]
+                locs: [IRL]
+                demand_share_per_timestep_decision.bus_transport: .inf   
+
+            ISL_demand_share_bus_transport:
+                techs: [bus_transport_ev, bus_transport_fcev, bus_transport_ice]
+                locs: [ISL]
+                demand_share_per_timestep_decision.bus_transport: .inf   
+
+            ITA_demand_share_bus_transport:
+                techs: [bus_transport_ev, bus_transport_fcev, bus_transport_ice]
+                locs: [ITA]
+                demand_share_per_timestep_decision.bus_transport: .inf
+                
+            LTU_demand_share_bus_transport:
+                techs: [bus_transport_ev, bus_transport_fcev, bus_transport_ice]
+                locs: [LTU]
+                demand_share_per_timestep_decision.bus_transport: .inf
+                
+            LUX_demand_share_bus_transport:
+                techs: [bus_transport_ev, bus_transport_fcev, bus_transport_ice]
+                locs: [LUX]
+                demand_share_per_timestep_decision.bus_transport: .inf     
+
+            LVA_demand_share_bus_transport:
+                techs: [bus_transport_ev, bus_transport_fcev, bus_transport_ice]
+                locs: [LVA]
+                demand_share_per_timestep_decision.bus_transport: .inf  
+
+            MKD_demand_share_bus_transport:
+                techs: [bus_transport_ev, bus_transport_fcev, bus_transport_ice]
+                locs: [MKD]
+                demand_share_per_timestep_decision.bus_transport: .inf  
+
+            MNE_demand_share_bus_transport:
+                techs: [bus_transport_ev, bus_transport_fcev, bus_transport_ice]
+                locs: [MNE]
+                demand_share_per_timestep_decision.bus_transport: .inf  
+
+            NLD_demand_share_bus_transport:
+                techs: [bus_transport_ev, bus_transport_fcev, bus_transport_ice]
+                locs: [NLD]
+                demand_share_per_timestep_decision.bus_transport: .inf  
+
+            NOR_demand_share_bus_transport:
+                techs: [bus_transport_ev, bus_transport_fcev, bus_transport_ice]
+                locs: [NOR]
+                demand_share_per_timestep_decision.bus_transport: .inf  
+
+            POL_demand_share_bus_transport:
+                techs: [bus_transport_ev, bus_transport_fcev, bus_transport_ice]
+                locs: [POL]
+                demand_share_per_timestep_decision.bus_transport: .inf  
+
+            PRT_demand_share_bus_transport:
+                techs: [bus_transport_ev, bus_transport_fcev, bus_transport_ice]
+                locs: [PRT]
+                demand_share_per_timestep_decision.bus_transport: .inf  
+
+            ROU_demand_share_bus_transport:
+                techs: [bus_transport_ev, bus_transport_fcev, bus_transport_ice]
+                locs: [ROU]
+                demand_share_per_timestep_decision.bus_transport: .inf  
+
+            SRB_demand_share_bus_transport:
+                techs: [bus_transport_ev, bus_transport_fcev, bus_transport_ice]
+                locs: [SRB]
+                demand_share_per_timestep_decision.bus_transport: .inf  
+
+            SVK_demand_share_bus_transport:
+                techs: [bus_transport_ev, bus_transport_fcev, bus_transport_ice]
+                locs: [SVK]
+                demand_share_per_timestep_decision.bus_transport: .inf  
+
+            SVN_demand_share_bus_transport:
+                techs: [bus_transport_ev, bus_transport_fcev, bus_transport_ice]
+                locs: [SVN]
+                demand_share_per_timestep_decision.bus_transport: .inf     
+
+            SWE_demand_share_bus_transport:
+                techs: [bus_transport_ev, bus_transport_fcev, bus_transport_ice]
+                locs: [SWE]
+                demand_share_per_timestep_decision.bus_transport: .inf
+
+    demand_share_motorcycle_transport:
+        group_constraints:
+            ALB_demand_share_motorcycle_transport:
+                techs: [motorcycle_transport_ev, motorcycle_transport_ice]
+                locs: [ALB]
+                demand_share_per_timestep_decision.motorcycle_transport: .inf
+                
+            AUT_demand_share_motorcycle_transport:
+                techs: [motorcycle_transport_ev, motorcycle_transport_ice]
+                locs: [AUT]
+                demand_share_per_timestep_decision.motorcycle_transport: .inf
+                
+            BEL_demand_share_motorcycle_transport:
+                techs: [motorcycle_transport_ev, motorcycle_transport_ice]
+                locs: [BEL]
+                demand_share_per_timestep_decision.motorcycle_transport: .inf     
+
+            BGR_demand_share_motorcycle_transport:
+                techs: [motorcycle_transport_ev, motorcycle_transport_ice]
+                locs: [BGR]
+                demand_share_per_timestep_decision.motorcycle_transport: .inf  
+
+            BIH_demand_share_motorcycle_transport:
+                techs: [motorcycle_transport_ev, motorcycle_transport_ice]
+                locs: [BIH]
+                demand_share_per_timestep_decision.motorcycle_transport: .inf  
+
+            CHE_demand_share_motorcycle_transport:
+                techs: [motorcycle_transport_ev, motorcycle_transport_ice]
+                locs: [CHE]
+                demand_share_per_timestep_decision.motorcycle_transport: .inf  
+
+            CYP_demand_share_motorcycle_transport:
+                techs: [motorcycle_transport_ev, motorcycle_transport_ice]
+                locs: [CYP]
+                demand_share_per_timestep_decision.motorcycle_transport: .inf  
+
+            CZE_demand_share_motorcycle_transport:
+                techs: [motorcycle_transport_ev, motorcycle_transport_ice]
+                locs: [CZE]
+                demand_share_per_timestep_decision.motorcycle_transport: .inf  
+
+            DEU_demand_share_motorcycle_transport:
+                techs: [motorcycle_transport_ev, motorcycle_transport_ice]
+                locs: [DEU]
+                demand_share_per_timestep_decision.motorcycle_transport: .inf  
+
+            DNK_demand_share_motorcycle_transport:
+                techs: [motorcycle_transport_ev, motorcycle_transport_ice]
+                locs: [DNK]
+                demand_share_per_timestep_decision.motorcycle_transport: .inf  
+
+            ESP_demand_share_motorcycle_transport:
+                techs: [motorcycle_transport_ev, motorcycle_transport_ice]
+                locs: [ESP]
+                demand_share_per_timestep_decision.motorcycle_transport: .inf  
+
+            EST_demand_share_motorcycle_transport:
+                techs: [motorcycle_transport_ev, motorcycle_transport_ice]
+                locs: [EST]
+                demand_share_per_timestep_decision.motorcycle_transport: .inf  
+
+            FIN_demand_share_motorcycle_transport:
+                techs: [motorcycle_transport_ev, motorcycle_transport_ice]
+                locs: [FIN]
+                demand_share_per_timestep_decision.motorcycle_transport: .inf  
+
+            FRA_demand_share_motorcycle_transport:
+                techs: [motorcycle_transport_ev, motorcycle_transport_ice]
+                locs: [FRA]
+                demand_share_per_timestep_decision.motorcycle_transport: .inf     
+
+            GBR_demand_share_motorcycle_transport:
+                techs: [motorcycle_transport_ev, motorcycle_transport_ice]
+                locs: [GBR]
+                demand_share_per_timestep_decision.motorcycle_transport: .inf   
+
+            GRC_demand_share_motorcycle_transport:
+                techs: [motorcycle_transport_ev, motorcycle_transport_ice]
+                locs: [GRC]
+                demand_share_per_timestep_decision.motorcycle_transport: .inf   
+
+            HRV_demand_share_motorcycle_transport:
+                techs: [motorcycle_transport_ev, motorcycle_transport_ice]
+                locs: [HRV]
+                demand_share_per_timestep_decision.motorcycle_transport: .inf   
+
+            HUN_demand_share_motorcycle_transport:
+                techs: [motorcycle_transport_ev, motorcycle_transport_ice]
+                locs: [HUN]
+                demand_share_per_timestep_decision.motorcycle_transport: .inf   
+
+            IRL_demand_share_motorcycle_transport:
+                techs: [motorcycle_transport_ev, motorcycle_transport_ice]
+                locs: [IRL]
+                demand_share_per_timestep_decision.motorcycle_transport: .inf   
+
+            ISL_demand_share_motorcycle_transport:
+                techs: [motorcycle_transport_ev, motorcycle_transport_ice]
+                locs: [ISL]
+                demand_share_per_timestep_decision.motorcycle_transport: .inf   
+
+            ITA_demand_share_motorcycle_transport:
+                techs: [motorcycle_transport_ev, motorcycle_transport_ice]
+                locs: [ITA]
+                demand_share_per_timestep_decision.motorcycle_transport: .inf
+                
+            LTU_demand_share_motorcycle_transport:
+                techs: [motorcycle_transport_ev, motorcycle_transport_ice]
+                locs: [LTU]
+                demand_share_per_timestep_decision.motorcycle_transport: .inf
+                
+            LUX_demand_share_motorcycle_transport:
+                techs: [motorcycle_transport_ev, motorcycle_transport_ice]
+                locs: [LUX]
+                demand_share_per_timestep_decision.motorcycle_transport: .inf     
+
+            LVA_demand_share_motorcycle_transport:
+                techs: [motorcycle_transport_ev, motorcycle_transport_ice]
+                locs: [LVA]
+                demand_share_per_timestep_decision.motorcycle_transport: .inf  
+
+            MKD_demand_share_motorcycle_transport:
+                techs: [motorcycle_transport_ev, motorcycle_transport_ice]
+                locs: [MKD]
+                demand_share_per_timestep_decision.motorcycle_transport: .inf  
+
+            MNE_demand_share_motorcycle_transport:
+                techs: [motorcycle_transport_ev, motorcycle_transport_ice]
+                locs: [MNE]
+                demand_share_per_timestep_decision.motorcycle_transport: .inf  
+
+            NLD_demand_share_motorcycle_transport:
+                techs: [motorcycle_transport_ev, motorcycle_transport_ice]
+                locs: [NLD]
+                demand_share_per_timestep_decision.motorcycle_transport: .inf  
+
+            NOR_demand_share_motorcycle_transport:
+                techs: [motorcycle_transport_ev, motorcycle_transport_ice]
+                locs: [NOR]
+                demand_share_per_timestep_decision.motorcycle_transport: .inf  
+
+            POL_demand_share_motorcycle_transport:
+                techs: [motorcycle_transport_ev, motorcycle_transport_ice]
+                locs: [POL]
+                demand_share_per_timestep_decision.motorcycle_transport: .inf  
+
+            PRT_demand_share_motorcycle_transport:
+                techs: [motorcycle_transport_ev, motorcycle_transport_ice]
+                locs: [PRT]
+                demand_share_per_timestep_decision.motorcycle_transport: .inf  
+
+            ROU_demand_share_motorcycle_transport:
+                techs: [motorcycle_transport_ev, motorcycle_transport_ice]
+                locs: [ROU]
+                demand_share_per_timestep_decision.motorcycle_transport: .inf  
+
+            SRB_demand_share_motorcycle_transport:
+                techs: [motorcycle_transport_ev, motorcycle_transport_ice]
+                locs: [SRB]
+                demand_share_per_timestep_decision.motorcycle_transport: .inf  
+
+            SVK_demand_share_motorcycle_transport:
+                techs: [motorcycle_transport_ev, motorcycle_transport_ice]
+                locs: [SVK]
+                demand_share_per_timestep_decision.motorcycle_transport: .inf  
+
+            SVN_demand_share_motorcycle_transport:
+                techs: [motorcycle_transport_ev, motorcycle_transport_ice]
+                locs: [SVN]
+                demand_share_per_timestep_decision.motorcycle_transport: .inf     
+
+            SWE_demand_share_motorcycle_transport:
+                techs: [motorcycle_transport_ev, motorcycle_transport_ice]
+                locs: [SWE]
+                demand_share_per_timestep_decision.motorcycle_transport: .inf
+                
+    demand_rail_exists:
+        locations:
+            ALB,AUT, BEL, BGR, BIH, CHE, HRV, CYP, CZE, DNK, EST, FIN, FRA, DEU, GRC, HUN, IRL, ISL, ITA, LVA, MKD, LTU, LUX, MNE, NLD, NOR, POL, PRT, ROU, SRB, SVK, SVN, ESP, SWE, GBR:
+                techs.demand_rail:
+                
+scenarios:
+    share-transport: [demand_rail_exists,passenger_car_techs, transport_demand_exists, light_duty_techs, heavy_duty_techs, motorcycle_techs, bus_techs, demand_share_passenger_car_transport, demand_share_light_duty_transport, demand_share_heavy_duty_transport, demand_share_bus_transport, demand_share_motorcycle_transport]    

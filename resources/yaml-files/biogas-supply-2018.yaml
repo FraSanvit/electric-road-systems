@@ -1,0 +1,252 @@
+
+overrides:
+    biogas-supply:      
+        techs:
+            biogas_supply: # [Danish energy agency, renewable fuels, 81 Biogas Plant, Add. Org Waste, 2050]
+                essentials:
+                    name: Biogas
+                    parent: supply
+                    carrier: biogas
+                constraints:
+                    energy_eff: 0.6135 # 1
+                    lifetime: 20  # arbritrarily chosen to avoid Calliope errors
+                costs:
+                    monetary:
+                        energy_cap: 26.2905  #  (10,000 EUR2015/MW_biogas)
+                        om_annual: 5.0602  #  (10,000 EUR2015/MW_biogas/year)
+                        om_prod: 0.003596817 # (10,000 EUR/MWh) biodigester medium (prod and con equal since eff=1)# IEA https://www.iea.org/data-and-statistics/charts/average-costs-of-biogas-production-technologies-per-unit-of-energy-produced-excluding-feedstock-2018
+                        om_con: 0.0001435 # (10,000 EUR/MWh) [manure] # JRC2015 - Bioenergy potentials for EU and neighbouring countries
+                    co2:
+                        om_prod: 0.00 # (10 tCO2/MWh) -0.013248000 JRC 2017 - Solid and gaseous bioenergy pathways   # (10 tCO2/MWh)
+        
+            biogas_upgrading: # [Danish energy agency, renewable fuels, 82 Biogas upgrading, 2050]
+                essentials:
+                    name: Biogas to Biomethane converter
+                    parent: conversion_plus
+                    carrier_in: biogas
+                    carrier_out: methane
+                    #carrier_out_2: district_heat  # ignoring for now
+                constraints:
+                    energy_eff: 0.968
+                    lifetime: 15
+                costs:
+                    monetary:  # source gives in terms of carrier_in, so these are scaled by the methane production efficiency
+                        energy_cap: 33.7466 #  (10,000 EUR2015/MW_biomethane)
+                        om_annual: 0.8543  #  (10,000 EUR2015/MW_biomethane/year)
+                        om_prod: 0.000361275  #  (10,000 EUR2015/MWh_biogas) 
+                    co2:
+                        om_prod: 0.0
+
+            chp_biogas:  # [Danish energy agency, electricity and district heating, 06 Gas engines, biogas, 2050]
+                essentials:
+                    name: Centralised biogas engine combined heat and power
+                    parent: conversion_plus
+                    carrier_in: biogas
+                    carrier_out: electricity
+                    carrier_out_2: chp_biogas_heat
+                    primary_carrier_out: electricity
+                constraints:
+                    energy_eff: 0.45
+                    cb: 0.5384615  # (0.65 heat - 0.35 electricity) https://link.springer.com/article/10.1007/s13762-021-03301-6 - back pressure
+                    lifetime: 25
+                costs:
+                    monetary:
+                        energy_cap: 85.0000 # (10,000 EUR2015/MW_electricity)
+                        om_annual: 0.8500  # (10,000 EUR2015/MW_electricity/year)
+                        om_prod: 0.0006 # (10,000 EUR2015/MWh_electricity)
+            chp_biogas_heat_storage_big:
+                essentials.parent: heat_storage_big
+                essentials.carrier: chp_biogas_heat
+            chp_biogas_tech_heat_to_demand:
+                essentials.parent: tech_heat_to_demand
+                essentials.carrier_in: chp_biogas_heat              
+            
+        locations:
+            ALB_1,AUT_1,AUT_2,AUT_3,BEL_1,BGR_1,BIH_1,CHE_1,CHE_2,CYP_1,CZE_1,CZE_2,DEU_1,DEU_2,DEU_3,DEU_4,DEU_5,DEU_6,DEU_7,DNK_1,DNK_2,ESP_1,ESP_10,ESP_11,ESP_2,ESP_3,ESP_4,ESP_5,ESP_6,ESP_7,ESP_8,ESP_9,EST_1,FIN_1,FIN_2,FRA_1,FRA_10,FRA_11,FRA_12,FRA_13,FRA_14,FRA_15,FRA_2,FRA_3,FRA_4,FRA_5,FRA_6,FRA_7,FRA_8,FRA_9,GBR_1,GBR_2,GBR_3,GBR_4,GBR_5,GBR_6,GRC_1,GRC_2,HRV_1,HUN_1,IRL_1,ISL_1,ITA_1,ITA_2,ITA_3,ITA_4,ITA_5,ITA_6,LTU_1,LUX_1,LVA_1,MKD_1,MNE_1,NLD_1,NOR_1,NOR_2,NOR_3,NOR_4,NOR_5,NOR_6,NOR_7,POL_1,POL_2,POL_3,POL_4,POL_5,PRT_1,PRT_2,ROU_1,ROU_2,ROU_3,SRB_1,SVK_1,SVN_1,SWE_1,SWE_2,SWE_3,SWE_4:
+                techs:
+                    biogas_supply:
+                    biogas_upgrading:
+                    chp_biogas:
+                    chp_biogas_heat_storage_big:
+                    chp_biogas_tech_heat_to_demand:   
+
+    biogas_maximum:
+        group_constraints: # JRC 2015 - Bioenergy potentials for EU and neighbouring countries
+            biogas_ALB:
+                locs: [ALB]
+                techs: [biogas_supply]
+                carrier_prod_max:
+                    biogas: 7.777778 # (100,000 MW)
+            biogas_AUT:
+                locs: [AUT]
+                techs: [biogas_supply]
+                carrier_prod_max:
+                    biogas: 25.000000 # (100,000 MW)
+            biogas_BEL:
+                locs: [BEL]
+                techs: [biogas_supply]
+                carrier_prod_max:
+                    biogas: 161.666667 # (100,000 MW)
+            biogas_BGR:
+                locs: [BGR]
+                techs: [biogas_supply]
+                carrier_prod_max:
+                    biogas: 15.833333 # (100,000 MW)
+            biogas_BIH:
+                locs: [BIH]
+                techs: [biogas_supply]
+                carrier_prod_max:
+                    biogas: 4.444444 # (100,000 MW)
+            biogas_CHE:
+                locs: [CHE]
+                techs: [biogas_supply]
+                carrier_prod_max:
+                    biogas: 18.61 # (100,000 MW) 
+            biogas_CYP:
+                locs: [CYP]
+                techs: [biogas_supply]
+                carrier_prod_max:
+                    biogas: 12.500000 # (100,000 MW)
+            biogas_CZE:
+                locs: [CZE]
+                techs: [biogas_supply]
+                carrier_prod_max:
+                    biogas: 118.888889 # (100,000 MW)
+            biogas_DEU:
+                locs: [DEU]
+                techs: [biogas_supply]
+                carrier_prod_max:
+                    biogas: 324.444444 # (100,000 MW)
+            biogas_DNK:
+                locs: [DNK]
+                techs: [biogas_supply]
+                carrier_prod_max:
+                    biogas: 121.388889 # (100,000 MW)
+            biogas_ESP:
+                locs: [ESP]
+                techs: [biogas_supply]
+                carrier_prod_max:
+                    biogas: 310.555556 # (100,000 MW)
+            biogas_EST:
+                locs: [EST]
+                techs: [biogas_supply]
+                carrier_prod_max:
+                    biogas: 23.055556 # (100,000 MW)
+            biogas_FIN:
+                locs: [FIN]
+                techs: [biogas_supply]
+                carrier_prod_max:
+                    biogas: 22.500000 # (100,000 MW)
+            biogas_FRA:
+                locs: [FRA]
+                techs: [biogas_supply]
+                carrier_prod_max:
+                    biogas: 717.777778 # (100,000 MW)
+            biogas_GBR:
+                locs: [GBR]
+                techs: [biogas_supply]
+                carrier_prod_max:
+                    biogas: 450.000000 # (100,000 MW)
+            biogas_GRC:
+                locs: [GRC]
+                techs: [biogas_supply]
+                carrier_prod_max:
+                    biogas: 23.333333 # (100,000 MW)
+            biogas_HRV:
+                locs: [HRV]
+                techs: [biogas_supply]
+                carrier_prod_max:
+                    biogas: 9.444444 # (100,000 MW)
+            biogas_HUN:
+                locs: [HUN]
+                techs: [biogas_supply]
+                carrier_prod_max:
+                    biogas: 178.055556 # (100,000 MW)
+            biogas_IRL:
+                locs: [IRL]
+                techs: [biogas_supply]
+                carrier_prod_max:
+                    biogas: 51.111111 # (100,000 MW)
+            biogas_ISL:
+                locs: [ISL]
+                techs: [biogas_supply]
+                carrier_prod_max:
+                    biogas: 1.111111 # (100,000 MW)
+            biogas_ITA:
+                locs: [ITA]
+                techs: [biogas_supply]
+                carrier_prod_max:
+                    biogas: 322.222222 # (100,000 MW)
+            biogas_LTU:
+                locs: [LTU]
+                techs: [biogas_supply]
+                carrier_prod_max:
+                    biogas: 46.944444 # (100,000 MW)
+            biogas_LUX:
+                locs: [LUX]
+                techs: [biogas_supply]
+                carrier_prod_max:
+                    biogas: 4.166667 # (100,000 MW)
+            biogas_LVA:
+                locs: [LVA]
+                techs: [biogas_supply]
+                carrier_prod_max:
+                    biogas: 23.611111 # (100,000 MW)
+            biogas_MKD:
+                locs: [MKD]
+                techs: [biogas_supply]
+                carrier_prod_max:
+                    biogas: 2.222222 # (100,000 MW)
+            biogas_MNE:
+                locs: [MNE]
+                techs: [biogas_supply]
+                carrier_prod_max:
+                    biogas: 0.555556 # (100,000 MW)
+            biogas_NLD:
+                locs: [NLD]
+                techs: [biogas_supply]
+                carrier_prod_max:
+                    biogas: 136.944444 # (100,000 MW)
+            biogas_NOR:
+                locs: [NOR]
+                techs: [biogas_supply]
+                carrier_prod_max:
+                    biogas: 12.222222 # (100,000 MW)
+            biogas_POL:
+                locs: [POL]
+                techs: [biogas_supply]
+                carrier_prod_max:
+                    biogas: 266.111111 # (100,000 MW)
+            biogas_PRT:
+                locs: [PRT]
+                techs: [biogas_supply]
+                carrier_prod_max:
+                    biogas: 68.055556 # (100,000 MW)
+            biogas_ROU:
+                locs: [ROU]
+                techs: [biogas_supply]
+                carrier_prod_max:
+                    biogas: 58.611111 # (100,000 MW)
+            biogas_SRB:
+                locs: [SRB]
+                techs: [biogas_supply]
+                carrier_prod_max:
+                    biogas: 29.166667 # (100,000 MW)
+            biogas_SVK:
+                locs: [SVK]
+                techs: [biogas_supply]
+                carrier_prod_max:
+                    biogas: 34.444444 # (100,000 MW)
+            biogas_SVN:
+                locs: [SVN]
+                techs: [biogas_supply]
+                carrier_prod_max:
+                    biogas: 4.444444 # (100,000 MW)
+            biogas_SWE:
+                locs: [SWE]
+                techs: [biogas_supply]
+                carrier_prod_max:
+                    biogas: 55.277778 # (100,000 MW)           
+
+scenarios:
+    add-biogas: [biogas-supply, biogas_maximum]

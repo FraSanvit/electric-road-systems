@@ -1,0 +1,563 @@
+overrides:
+    ev_battery_limits:
+        locations:
+            AUT.techs:
+                light_duty_ev_battery:
+                    constraints:
+                        storage_cap_max: 0.6341175 # 100'000 MWh
+                heavy_duty_ev_battery:
+                    constraints:
+                        storage_cap_max: 0.53582 # 100'000 MWh
+                passenger_car_ev_battery:
+                    constraints:
+                        storage_cap_max: 3.9830816 # 100'000 MWh
+                motorcycle_ev_battery:
+                    constraints:
+                        storage_cap_max: 0.0805446 # 100'000 MWh
+                bus_ev_battery:
+                    constraints:
+                        storage_cap_max: 0.050185 # 100'000 MWh
+            ALB.techs:
+                light_duty_ev_battery:
+                    constraints:
+                        storage_cap_max: 0.090054 # 100'000 MWh
+                heavy_duty_ev_battery:
+                    constraints:
+                        storage_cap_max: 0.10864 # 100'000 MWh
+                passenger_car_ev_battery:
+                    constraints:
+                        storage_cap_max: 0.3680216 # 100'000 MWh
+                motorcycle_ev_battery:
+                    constraints:
+                        storage_cap_max: 0.0036747 # 100'000 MWh
+                bus_ev_battery:
+                    constraints:
+                        storage_cap_max: 0.03573 # 100'000 MWh
+            BEL.techs:
+                light_duty_ev_battery:
+                    constraints:
+                        storage_cap_max: 1.139109 # 100'000 MWh
+                heavy_duty_ev_battery:
+                    constraints:
+                        storage_cap_max: 0.9669 # 100'000 MWh
+                passenger_car_ev_battery:
+                    constraints:
+                        storage_cap_max: 4.6830256 # 100'000 MWh
+                motorcycle_ev_battery:
+                    constraints:
+                        storage_cap_max: 0.07357425 # 100'000 MWh
+                bus_ev_battery:
+                    constraints:
+                        storage_cap_max: 0.080625 # 100'000 MWh
+            BGR.techs:
+                light_duty_ev_battery:
+                    constraints:
+                        storage_cap_max: 0.5230005 # 100'000 MWh
+                heavy_duty_ev_battery:
+                    constraints:
+                        storage_cap_max: 0.38519 # 100'000 MWh
+                passenger_car_ev_battery:
+                    constraints:
+                        storage_cap_max: 2.21866 # 100'000 MWh
+                motorcycle_ev_battery:
+                    constraints:
+                        storage_cap_max: 0.0168582 # 100'000 MWh
+                bus_ev_battery:
+                    constraints:
+                        storage_cap_max: 0.10409 # 100'000 MWh
+            CHE.techs:
+                light_duty_ev_battery:
+                    constraints:
+                        storage_cap_max: 0.5622285 # 100'000 MWh
+                heavy_duty_ev_battery:
+                    constraints:
+                        storage_cap_max: 0.42174 # 100'000 MWh
+                passenger_car_ev_battery:
+                    constraints:
+                        storage_cap_max: 3.7330224 # 100'000 MWh
+                motorcycle_ev_battery:
+                    constraints:
+                        storage_cap_max: 0.1109016 # 100'000 MWh
+                bus_ev_battery:
+                    constraints:
+                        storage_cap_max: 0.071975 # 100'000 MWh
+            CYP.techs:
+                light_duty_ev_battery:
+                    constraints:
+                        storage_cap_max: 0.1477995 # 100'000 MWh
+                heavy_duty_ev_battery:
+                    constraints:
+                        storage_cap_max: 0.10511 # 100'000 MWh
+                passenger_car_ev_battery:
+                    constraints:
+                        storage_cap_max: 0.440556 # 100'000 MWh
+                motorcycle_ev_battery:
+                    constraints:
+                        storage_cap_max: 0.00422745 # 100'000 MWh
+                bus_ev_battery:
+                    constraints:
+                        storage_cap_max: 0.01542 # 100'000 MWh
+            CZE.techs:
+                light_duty_ev_battery:
+                    constraints:
+                        storage_cap_max: 0.6619545 # 100'000 MWh
+                heavy_duty_ev_battery:
+                    constraints:
+                        storage_cap_max: 2.64959 # 100'000 MWh
+                passenger_car_ev_battery:
+                    constraints:
+                        storage_cap_max: 4.5983304 # 100'000 MWh
+                motorcycle_ev_battery:
+                    constraints:
+                        storage_cap_max: 0.16981275 # 100'000 MWh
+                bus_ev_battery:
+                    constraints:
+                        storage_cap_max: 0.110135 # 100'000 MWh
+            DEU.techs:
+                light_duty_ev_battery:
+                    constraints:
+                        storage_cap_max: 3.924177 # 100'000 MWh
+                heavy_duty_ev_battery:
+                    constraints:
+                        storage_cap_max: 5.31849 # 100'000 MWh
+                passenger_car_ev_battery:
+                    constraints:
+                        storage_cap_max: 37.6766272 # 100'000 MWh
+                motorcycle_ev_battery:
+                    constraints:
+                        storage_cap_max: 0.6427377 # 100'000 MWh
+                bus_ev_battery:
+                    constraints:
+                        storage_cap_max: 0.402595 # 100'000 MWh
+            DNK.techs:
+                light_duty_ev_battery:
+                    constraints:
+                        storage_cap_max: 0.5841915 # 100'000 MWh
+                heavy_duty_ev_battery:
+                    constraints:
+                        storage_cap_max: 0.28124 # 100'000 MWh
+                passenger_car_ev_battery:
+                    constraints:
+                        storage_cap_max: 2.0755856 # 100'000 MWh
+                motorcycle_ev_battery:
+                    constraints:
+                        storage_cap_max: 0.02412345 # 100'000 MWh
+                bus_ev_battery:
+                    constraints:
+                        storage_cap_max: 0.06579 # 100'000 MWh
+            ESP.techs:
+                light_duty_ev_battery:
+                    constraints:
+                        storage_cap_max: 5.1997185 # 100'000 MWh
+                heavy_duty_ev_battery:
+                    constraints:
+                        storage_cap_max: 3.51702 # 100'000 MWh
+                passenger_car_ev_battery:
+                    constraints:
+                        storage_cap_max: 20.243352 # 100'000 MWh
+                motorcycle_ev_battery:
+                    constraints:
+                        storage_cap_max: 0.52800075 # 100'000 MWh
+                bus_ev_battery:
+                    constraints:
+                        storage_cap_max: 0.327995 # 100'000 MWh
+            EST.techs:
+                light_duty_ev_battery:
+                    constraints:
+                        storage_cap_max: 0.1249695 # 100'000 MWh
+                heavy_duty_ev_battery:
+                    constraints:
+                        storage_cap_max: 0.26102 # 100'000 MWh
+                passenger_car_ev_battery:
+                    constraints:
+                        storage_cap_max: 0.5971712 # 100'000 MWh
+                motorcycle_ev_battery:
+                    constraints:
+                        storage_cap_max: 0.00519435 # 100'000 MWh
+                bus_ev_battery:
+                    constraints:
+                        storage_cap_max: 0.02513 # 100'000 MWh
+            FIN.techs:
+                light_duty_ev_battery:
+                    constraints:
+                        storage_cap_max: 0.697536 # 100'000 MWh
+                heavy_duty_ev_battery:
+                    constraints:
+                        storage_cap_max: 1.55868 # 100'000 MWh
+                passenger_car_ev_battery:
+                    constraints:
+                        storage_cap_max: 2.7764056 # 100'000 MWh
+                motorcycle_ev_battery:
+                    constraints:
+                        storage_cap_max: 0.0408252 # 100'000 MWh
+                bus_ev_battery:
+                    constraints:
+                        storage_cap_max: 0.092335 # 100'000 MWh
+            FRA.techs:
+                light_duty_ev_battery:
+                    constraints:
+                        storage_cap_max: 7.282017 # 100'000 MWh
+                heavy_duty_ev_battery:
+                    constraints:
+                        storage_cap_max: 3.06298 # 100'000 MWh
+                passenger_car_ev_battery:
+                    constraints:
+                        storage_cap_max: 30.583444 # 100'000 MWh
+                motorcycle_ev_battery:
+                    constraints:
+                        storage_cap_max: 0.3308367 # 100'000 MWh
+                bus_ev_battery:
+                    constraints:
+                        storage_cap_max: 0.454035 # 100'000 MWh
+            GBR.techs:
+                light_duty_ev_battery:
+                    constraints:
+                        storage_cap_max: 6.0056715 # 100'000 MWh
+                heavy_duty_ev_battery:
+                    constraints:
+                        storage_cap_max: 3.64877 # 100'000 MWh
+                passenger_car_ev_battery:
+                    constraints:
+                        storage_cap_max: 25.2140776 # 100'000 MWh
+                motorcycle_ev_battery:
+                    constraints:
+                        storage_cap_max: 0.17907615 # 100'000 MWh
+                bus_ev_battery:
+                    constraints:
+                        storage_cap_max: 0.77495 # 100'000 MWh
+            GRC.techs:
+                light_duty_ev_battery:
+                    constraints:
+                        storage_cap_max: 1.72653 # 100'000 MWh
+                heavy_duty_ev_battery:
+                    constraints:
+                        storage_cap_max: 2.0828 # 100'000 MWh
+                passenger_car_ev_battery:
+                    constraints:
+                        storage_cap_max: 4.226156 # 100'000 MWh
+                motorcycle_ev_battery:
+                    constraints:
+                        storage_cap_max: 0.23752365 # 100'000 MWh
+                bus_ev_battery:
+                    constraints:
+                        storage_cap_max: 0.133715 # 100'000 MWh
+            HRV.techs:
+                light_duty_ev_battery:
+                    constraints:
+                        storage_cap_max: 0.2055735 # 100'000 MWh
+                heavy_duty_ev_battery:
+                    constraints:
+                        storage_cap_max: 0.32126 # 100'000 MWh
+                passenger_car_ev_battery:
+                    constraints:
+                        storage_cap_max: 1.3331304 # 100'000 MWh
+                motorcycle_ev_battery:
+                    constraints:
+                        storage_cap_max: 0.01109955 # 100'000 MWh
+                bus_ev_battery:
+                    constraints:
+                        storage_cap_max: 0.029385 # 100'000 MWh
+            HUN.techs:
+                light_duty_ev_battery:
+                    constraints:
+                        storage_cap_max: 0.666882 # 100'000 MWh
+                heavy_duty_ev_battery:
+                    constraints:
+                        storage_cap_max: 0.49017 # 100'000 MWh
+                passenger_car_ev_battery:
+                    constraints:
+                        storage_cap_max: 2.9134584 # 100'000 MWh
+                motorcycle_ev_battery:
+                    constraints:
+                        storage_cap_max: 0.0264105 # 100'000 MWh
+                bus_ev_battery:
+                    constraints:
+                        storage_cap_max: 0.09567 # 100'000 MWh
+            IRL.techs:
+                light_duty_ev_battery:
+                    constraints:
+                        storage_cap_max: 0.476697 # 100'000 MWh
+                heavy_duty_ev_battery:
+                    constraints:
+                        storage_cap_max: 0.23526 # 100'000 MWh
+                passenger_car_ev_battery:
+                    constraints:
+                        storage_cap_max: 1.746336 # 100'000 MWh
+                motorcycle_ev_battery:
+                    constraints:
+                        storage_cap_max: 0.005739 # 100'000 MWh
+                bus_ev_battery:
+                    constraints:
+                        storage_cap_max: 0.0625 # 100'000 MWh
+            ISL.techs:
+                light_duty_ev_battery:
+                    constraints:
+                        storage_cap_max: 0.0420975 # 100'000 MWh
+                heavy_duty_ev_battery:
+                    constraints:
+                        storage_cap_max: 0.12484 # 100'000 MWh
+                passenger_car_ev_battery:
+                    constraints:
+                        storage_cap_max: 0.2139736 # 100'000 MWh
+                motorcycle_ev_battery:
+                    constraints:
+                        storage_cap_max: 0.0016248 # 100'000 MWh
+                bus_ev_battery:
+                    constraints:
+                        storage_cap_max: 0.01573 # 100'000 MWh
+            ITA.techs:
+                light_duty_ev_battery:
+                    constraints:
+                        storage_cap_max: 5.335224 # 100'000 MWh
+                heavy_duty_ev_battery:
+                    constraints:
+                        storage_cap_max: 5.73475 # 100'000 MWh
+                passenger_car_ev_battery:
+                    constraints:
+                        storage_cap_max: 31.214536 # 100'000 MWh
+                motorcycle_ev_battery:
+                    constraints:
+                        storage_cap_max: 1.01710995 # 100'000 MWh
+                bus_ev_battery:
+                    constraints:
+                        storage_cap_max: 0.50021 # 100'000 MWh
+            LTU.techs:
+                light_duty_ev_battery:
+                    constraints:
+                        storage_cap_max: 0.0965175 # 100'000 MWh
+                heavy_duty_ev_battery:
+                    constraints:
+                        storage_cap_max: 0.25409 # 100'000 MWh
+                passenger_car_ev_battery:
+                    constraints:
+                        storage_cap_max: 1.144416 # 100'000 MWh
+                motorcycle_ev_battery:
+                    constraints:
+                        storage_cap_max: 0.0050499 # 100'000 MWh
+                bus_ev_battery:
+                    constraints:
+                        storage_cap_max: 0.039625 # 100'000 MWh
+            LUX.techs:
+                light_duty_ev_battery:
+                    constraints:
+                        storage_cap_max: 0.0522495 # 100'000 MWh
+                heavy_duty_ev_battery:
+                    constraints:
+                        storage_cap_max: 0.05348 # 100'000 MWh
+                passenger_car_ev_battery:
+                    constraints:
+                        storage_cap_max: 0.332116 # 100'000 MWh
+                motorcycle_ev_battery:
+                    constraints:
+                        storage_cap_max: 0.0036081 # 100'000 MWh
+                bus_ev_battery:
+                    constraints:
+                        storage_cap_max: 0.01021 # 100'000 MWh
+            LVA.techs:
+                light_duty_ev_battery:
+                    constraints:
+                        storage_cap_max: 0.085719 # 100'000 MWh
+                heavy_duty_ev_battery:
+                    constraints:
+                        storage_cap_max: 0.17283 # 100'000 MWh
+                passenger_car_ev_battery:
+                    constraints:
+                        storage_cap_max: 0.5662728 # 100'000 MWh
+                motorcycle_ev_battery:
+                    constraints:
+                        storage_cap_max: 0.00355695 # 100'000 MWh
+                bus_ev_battery:
+                    constraints:
+                        storage_cap_max: 0.024425 # 100'000 MWh
+            MNE.techs:
+                light_duty_ev_battery:
+                    constraints:
+                        storage_cap_max: 0.02016 # 100'000 MWh
+                heavy_duty_ev_battery:
+                    constraints:
+                        storage_cap_max: 0.02718 # 100'000 MWh
+                passenger_car_ev_battery:
+                    constraints:
+                        storage_cap_max: 0.1651624 # 100'000 MWh
+                motorcycle_ev_battery:
+                    constraints:
+                        storage_cap_max: 0.00084825 # 100'000 MWh
+                bus_ev_battery:
+                    constraints:
+                        storage_cap_max: 0.007295 # 100'000 MWh
+            MKD.techs:
+                light_duty_ev_battery:
+                    constraints:
+                        storage_cap_max: 0.0470085 # 100'000 MWh
+                heavy_duty_ev_battery:
+                    constraints:
+                        storage_cap_max: 0.05671 # 100'000 MWh
+                passenger_car_ev_battery:
+                    constraints:
+                        storage_cap_max: 0.3320496 # 100'000 MWh
+                motorcycle_ev_battery:
+                    constraints:
+                        storage_cap_max: 0.00200145 # 100'000 MWh
+                bus_ev_battery:
+                    constraints:
+                        storage_cap_max: 0.016005 # 100'000 MWh
+            NLD.techs:
+                light_duty_ev_battery:
+                    constraints:
+                        storage_cap_max: 1.3545075 # 100'000 MWh
+                heavy_duty_ev_battery:
+                    constraints:
+                        storage_cap_max: 0.61652 # 100'000 MWh
+                passenger_car_ev_battery:
+                    constraints:
+                        storage_cap_max: 6.7543856 # 100'000 MWh
+                motorcycle_ev_battery:
+                    constraints:
+                        storage_cap_max: 0.0969069 # 100'000 MWh
+                bus_ev_battery:
+                    constraints:
+                        storage_cap_max: 0.047565 # 100'000 MWh
+            NOR.techs:
+                light_duty_ev_battery:
+                    constraints:
+                        storage_cap_max: 0.7374735 # 100'000 MWh
+                heavy_duty_ev_battery:
+                    constraints:
+                        storage_cap_max: 0.64365 # 100'000 MWh
+                passenger_car_ev_battery:
+                    constraints:
+                        storage_cap_max: 2.2015592 # 100'000 MWh
+                motorcycle_ev_battery:
+                    constraints:
+                        storage_cap_max: 0.0288804 # 100'000 MWh
+                bus_ev_battery:
+                    constraints:
+                        storage_cap_max: 0.07817 # 100'000 MWh
+            POL.techs:
+                light_duty_ev_battery:
+                    constraints:
+                        storage_cap_max: 3.973797 # 100'000 MWh
+                heavy_duty_ev_battery:
+                    constraints:
+                        storage_cap_max: 6.88968 # 100'000 MWh
+                passenger_car_ev_battery:
+                    constraints:
+                        storage_cap_max: 15.9288856 # 100'000 MWh
+                motorcycle_ev_battery:
+                    constraints:
+                        storage_cap_max: 0.2254332 # 100'000 MWh
+                bus_ev_battery:
+                    constraints:
+                        storage_cap_max: 0.449525 # 100'000 MWh
+            PRT.techs:
+                light_duty_ev_battery:
+                    constraints:
+                        storage_cap_max: 1.9014705 # 100'000 MWh
+                heavy_duty_ev_battery:
+                    constraints:
+                        storage_cap_max: 0.51908 # 100'000 MWh
+                passenger_car_ev_battery:
+                    constraints:
+                        storage_cap_max: 4.226376 # 100'000 MWh
+                motorcycle_ev_battery:
+                    constraints:
+                        storage_cap_max: 0.0671814 # 100'000 MWh
+                bus_ev_battery:
+                    constraints:
+                        storage_cap_max: 0.077465 # 100'000 MWh
+            ROU.techs:
+                light_duty_ev_battery:
+                    constraints:
+                        storage_cap_max: 1.1295435 # 100'000 MWh
+                heavy_duty_ev_battery:
+                    constraints:
+                        storage_cap_max: 1.42414 # 100'000 MWh
+                passenger_car_ev_battery:
+                    constraints:
+                        storage_cap_max: 5.1620288 # 100'000 MWh
+                motorcycle_ev_battery:
+                    constraints:
+                        storage_cap_max: 0.01944855 # 100'000 MWh
+                bus_ev_battery:
+                    constraints:
+                        storage_cap_max: 0.25901 # 100'000 MWh
+            SRB.techs:
+                light_duty_ev_battery:
+                    constraints:
+                        storage_cap_max: 0.2907405 # 100'000 MWh
+                heavy_duty_ev_battery:
+                    constraints:
+                        storage_cap_max: 0.35073 # 100'000 MWh
+                passenger_car_ev_battery:
+                    constraints:
+                        storage_cap_max: 1.5998168 # 100'000 MWh
+                motorcycle_ev_battery:
+                    constraints:
+                        storage_cap_max: 0.00610425 # 100'000 MWh
+                bus_ev_battery:
+                    constraints:
+                        storage_cap_max: 0.0494 # 100'000 MWh
+            SWE.techs:
+                light_duty_ev_battery:
+                    constraints:
+                        storage_cap_max: 0.855378 # 100'000 MWh
+                heavy_duty_ev_battery:
+                    constraints:
+                        storage_cap_max: 0.70617 # 100'000 MWh
+                passenger_car_ev_battery:
+                    constraints:
+                        storage_cap_max: 3.8959832 # 100'000 MWh
+                motorcycle_ev_battery:
+                    constraints:
+                        storage_cap_max: 0.0450534 # 100'000 MWh
+                bus_ev_battery:
+                    constraints:
+                        storage_cap_max: 0.071885 # 100'000 MWh
+            SVN.techs:
+                light_duty_ev_battery:
+                    constraints:
+                        storage_cap_max: 0.140226 # 100'000 MWh
+                heavy_duty_ev_battery:
+                    constraints:
+                        storage_cap_max: 0.16916 # 100'000 MWh
+                passenger_car_ev_battery:
+                    constraints:
+                        storage_cap_max: 0.91452 # 100'000 MWh
+                motorcycle_ev_battery:
+                    constraints:
+                        storage_cap_max: 0.01007175 # 100'000 MWh
+                bus_ev_battery:
+                    constraints:
+                        storage_cap_max: 0.01417 # 100'000 MWh
+            SVK.techs:
+                light_duty_ev_battery:
+                    constraints:
+                        storage_cap_max: 0.3733095 # 100'000 MWh
+                heavy_duty_ev_battery:
+                    constraints:
+                        storage_cap_max: 0.45034 # 100'000 MWh
+                passenger_car_ev_battery:
+                    constraints:
+                        storage_cap_max: 1.8572864 # 100'000 MWh
+                motorcycle_ev_battery:
+                    constraints:
+                        storage_cap_max: 0.01652115 # 100'000 MWh
+                bus_ev_battery:
+                    constraints:
+                        storage_cap_max: 0.046815 # 100'000 MWh
+            BIH.techs:
+                light_duty_ev_battery:
+                    constraints:
+                        storage_cap_max: 0.0867075 # 100'000 MWh
+                heavy_duty_ev_battery:
+                    constraints:
+                        storage_cap_max: 0.21268 # 100'000 MWh
+                passenger_car_ev_battery:
+                    constraints:
+                        storage_cap_max: 0.7353808 # 100'000 MWh
+                motorcycle_ev_battery:
+                    constraints:
+                        storage_cap_max: 0.0015828 # 100'000 MWh
+                bus_ev_battery:
+                    constraints:
+                        storage_cap_max: 0.02606 # 100'000 MWh
