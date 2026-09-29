@@ -44,7 +44,7 @@ plot_two_dfs_side_by_side_hatched_vertical_national(df_agg, df_allocated, label1
 
 #%% disaggregated vkm freight transport
 
-yaml_file = "D:\\transfer\\ERS\\2030\\model\\eurospores\\vehicle_group_constraints_2018.yaml"
+yaml_file = cnf.PROJECT_ROOT / "resources/yaml-files/vehicle_group_constraints_2018.yaml"
 
 country_totals = defaultdict(lambda: {"heavy": 0.0, "light": 0.0})
 
@@ -97,132 +97,132 @@ for country in sorted(country_totals):
 
 # %% ERS temporary
 
-input_path = "C:\\Users\\sanvi\\OneDrive - Delft University of Technology\\Research Projects\\ERS\\ERS inputs"
-file_name = "250KW_HGV_DYN_STAT_FULL.csv"
+# input_path = "C:\\Users\\sanvi\\OneDrive - Delft University of Technology\\Research Projects\\ERS\\ERS inputs"
+# file_name = "250KW_HGV_DYN_STAT_FULL.csv"
 
-def generate_ers_constraint(input_path, file_name):
-    def _split_harmonise_file(input_path, file_name):
-        """Split dynamics fro stationary."""
-        df_in = pd.read_csv(os.path.join(input_path, file_name), index_col=False)
+# def generate_ers_constraint(input_path, file_name):
+#     def _split_harmonise_file(input_path, file_name):
+#         """Split dynamics fro stationary."""
+#         df_in = pd.read_csv(os.path.join(input_path, file_name), index_col=False)
 
-        # 1. Keep only columns containing "Dynamic"
-        for charge_type in ["Dynamic", "Stationary"]:
-            df = df_in.loc[:, df_in.columns.str.contains(charge_type)].copy()
+#         # 1. Keep only columns containing "Dynamic"
+#         for charge_type in ["Dynamic", "Stationary"]:
+#             df = df_in.loc[:, df_in.columns.str.contains(charge_type)].copy()
 
-            # 2. Create new timestamp
-            start_time = pd.Timestamp("2018-01-01 00:00:00")
-            freq = "h"  # adjust if needed
+#             # 2. Create new timestamp
+#             start_time = pd.Timestamp("2018-01-01 00:00:00")
+#             freq = "h"  # adjust if needed
 
-            new_time = pd.date_range(start=start_time, periods=len(df), freq=freq)
+#             new_time = pd.date_range(start=start_time, periods=len(df), freq=freq)
 
-            # Optional trimming (example: one year hourly)
-            max_periods = 8760
-            if len(df) > max_periods:
-                df = df.iloc[:max_periods]
-                new_time = new_time[:max_periods]
+#             # Optional trimming (example: one year hourly)
+#             max_periods = 8760
+#             if len(df) > max_periods:
+#                 df = df.iloc[:max_periods]
+#                 new_time = new_time[:max_periods]
 
-            # 3. Insert timestamp as first column
-            df.insert(0, "timestep", new_time)
+#             # 3. Insert timestamp as first column
+#             df.insert(0, "timestep", new_time)
 
-            # 4. Truncate column names after second "_"
-            def truncate_after_second_underscore(col):
-                if col == "timestep":
-                    return col
-                parts = col.split("_")
-                if len(parts) >= 2:
-                    return "_".join(parts[:2])
-                return col
+#             # 4. Truncate column names after second "_"
+#             def truncate_after_second_underscore(col):
+#                 if col == "timestep":
+#                     return col
+#                 parts = col.split("_")
+#                 if len(parts) >= 2:
+#                     return "_".join(parts[:2])
+#                 return col
 
-            numeric_cols = df.select_dtypes(include="number").columns
-            df[numeric_cols] = df[numeric_cols] / 100_000_000  # from kWh to 100 GWh
+#             numeric_cols = df.select_dtypes(include="number").columns
+#             df[numeric_cols] = df[numeric_cols] / 100_000_000  # from kWh to 100 GWh
 
-            df.columns = [truncate_after_second_underscore(c) for c in df.columns]
-            df.to_csv(
-                os.path.join(input_path, f"heavy-duty-{charge_type.lower()}-charging.csv"), index=False
-            )
+#             df.columns = [truncate_after_second_underscore(c) for c in df.columns]
+#             df.to_csv(
+#                 os.path.join(input_path, f"heavy-duty-{charge_type.lower()}-charging.csv"), index=False
+#             )
 
-            # Time-varying constraints
+#             # Time-varying constraints
 
-            df_normalized = df.copy()
-            cols = df_normalized.columns.drop("timestep")
+#             df_normalized = df.copy()
+#             cols = df_normalized.columns.drop("timestep")
 
-            df_normalized[cols] = df[cols] / df[cols].max()
-            df_normalized.to_csv(
-                os.path.join(input_path, f"ers-charging-{charge_type.lower()}-rate.csv"), index=False
-            )
+#             df_normalized[cols] = df[cols] / df[cols].max()
+#             df_normalized.to_csv(
+#                 os.path.join(input_path, f"ers-charging-{charge_type.lower()}-rate.csv"), index=False
+#             )
 
-            return df
+#             return df
         
-    def compute_max_cap(df):
-        df_max = (
-            df.drop(columns="timestep")
-            .max()
-            .rename("max_cap_ers_100gw")
-            .reset_index()
-            .rename(columns={"index": "locs"})
-        )
-        return df_max
+#     def compute_max_cap(df):
+#         df_max = (
+#             df.drop(columns="timestep")
+#             .max()
+#             .rename("max_cap_ers_100gw")
+#             .reset_index()
+#             .rename(columns={"index": "locs"})
+#         )
+#         return df_max
     
-    def save_ers_yaml(df_max, folder_path, filename="ers_overrides.yaml"):
-        """
-        Create a YAML file for ers_max_cap and ers_charging_fixed overrides.
+#     def save_ers_yaml(df_max, folder_path, filename="ers_overrides.yaml"):
+#         """
+#         Create a YAML file for ers_max_cap and ers_charging_fixed overrides.
         
-        Parameters:
-        - df_max: DataFrame with columns ['locs', 'max_cap_ers_100gw']
-        - folder_path: str or Path where the YAML will be saved
-        - filename: name of the YAML file (default: 'ers_overrides.yaml')
-        """
+#         Parameters:
+#         - df_max: DataFrame with columns ['locs', 'max_cap_ers_100gw']
+#         - folder_path: str or Path where the YAML will be saved
+#         - filename: name of the YAML file (default: 'ers_overrides.yaml')
+#         """
         
-        # Ensure folder exists
-        folder = Path(folder_path)
-        folder.mkdir(parents=True, exist_ok=True)
+#         # Ensure folder exists
+#         folder = Path(folder_path)
+#         folder.mkdir(parents=True, exist_ok=True)
         
-        # Base structure
-        overrides = {
-            "overrides": {
-                "ers_charging_fixed": {
-                    "techs": {
-                        "electric_road_system": {
-                            "constraints": {
-                                "energy_cap_equals_time_varying": "file=heavy-duty-dynamic-charging-ratio.csv"
-                            }
-                        }
-                    }
-                },
-                "ers_max_cap": {
-                    "locations": {}
-                }
-            }
-        }
+#         # Base structure
+#         overrides = {
+#             "overrides": {
+#                 "ers_charging_fixed": {
+#                     "techs": {
+#                         "electric_road_system": {
+#                             "constraints": {
+#                                 "energy_cap_equals_time_varying": "file=heavy-duty-dynamic-charging-ratio.csv"
+#                             }
+#                         }
+#                     }
+#                 },
+#                 "ers_max_cap": {
+#                     "locations": {}
+#                 }
+#             }
+#         }
         
-        # Fill in ers_max_cap from df_max
-        for _, row in df_max.iterrows():
-            loc = row["locs"]
-            max_cap = row["max_cap_ers_100gw"]
-            overrides["overrides"]["ers_max_cap"]["locations"][f"{loc}.techs"] = {
-                "electric_road_system": {
-                    "constraints": {
-                        "energy_cap_max": max_cap
-                    }
-                }
-            }
+#         # Fill in ers_max_cap from df_max
+#         for _, row in df_max.iterrows():
+#             loc = row["locs"]
+#             max_cap = row["max_cap_ers_100gw"]
+#             overrides["overrides"]["ers_max_cap"]["locations"][f"{loc}.techs"] = {
+#                 "electric_road_system": {
+#                     "constraints": {
+#                         "energy_cap_max": max_cap
+#                     }
+#                 }
+#             }
         
-        # Save YAML
-        yaml_file = folder / filename
-        with open(yaml_file, "w") as f:
-            yaml.dump(
-                overrides,
-                f,
-                sort_keys=False,
-                default_flow_style=False,
-                indent=4
-            )
+#         # Save YAML
+#         yaml_file = folder / filename
+#         with open(yaml_file, "w") as f:
+#             yaml.dump(
+#                 overrides,
+#                 f,
+#                 sort_keys=False,
+#                 default_flow_style=False,
+#                 indent=4
+#             )
         
-        print(f"YAML saved to: {yaml_file}")
+#         print(f"YAML saved to: {yaml_file}")
 
-    df_max = compute_max_cap(_split_harmonise_file(input_path, file_name))
+#     df_max = compute_max_cap(_split_harmonise_file(input_path, file_name))
 
-    return
+#     return
 
 
 
@@ -578,9 +578,9 @@ for year, df in ers_battery_limit_dict.items():
 
 #%% Links
 
-map_path = "C:\\Users\\sanvi\\GitHub\\friendly-maritime-shapes\\results\\ehighways\\ehighways.parquet"
+map_path = cnf.PROJECT_ROOT / "resources/ehighways/ehighways.parquet"
 gdf = gpd.read_parquet(map_path)
-yaml_path = "D:\\transfer\\ERS\\2030\\links.yaml"
+yaml_path = cnf.PROJECT_ROOT / "resources/ehighways/links.yaml"
 
 def plot_grid_from_yaml(yaml_path, gdf, linewidth_scale=10):
     import yaml
@@ -912,9 +912,9 @@ def plot_randomized_grid(
 
     return fig, ax, random_values
 
-map_path = "C:\\Users\\sanvi\\GitHub\\friendly-maritime-shapes\\results\\ehighways\\ehighways.parquet"
+map_path = cnf.PROJECT_ROOT / "resources/ehighways/ehighways.parquet"
 gdf = gpd.read_parquet(map_path)
-yaml_path = "D:\\transfer\\ERS\\2030\\links.yaml"
+yaml_path = cnf.PROJECT_ROOT / "resources/ehighways/links.yaml"
 
 plot_heavy_transport_mix_map(gdf, scenario="2030-1x-250-3h")
 plot_electricity_mix_map(gdf, yaml_path, scenario="2030-1x-250-3h")

@@ -209,3 +209,4 @@ __marimo__/
 /model_results
 /src/*.csv
 /src/*.yaml
+/resources/*/*.csv
