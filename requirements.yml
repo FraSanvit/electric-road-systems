@@ -1,18 +1,22 @@
 name: ers
 channels:
   - conda-forge
-  - defaults
 dependencies:
   - python=3.11
   - numpy>=1.26
   - pandas>=2.1
   - matplotlib>=3.8
   - scipy>=1.11
-  - geopandas>=1.3
+  - geopandas>=1.1
   - shapely>=2.1
   - fiona
   - pyproj
   - rtree
+  - pyarrow
+  - ruamel.yaml
+  - pyyaml
+  - pycountry
+  - pytz
   - jupyterlab
   - ipykernel
   - tqdm
